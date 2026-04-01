@@ -22,6 +22,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from models.statement import Statement, StatementType, StatementStatus
 from models.five_factor import FiveFactorModel
+from core.bayesian_updater import BayesianReversalUpdater, STATEMENT_TYPE_PRIORS
 
 
 # Reversal signal patterns and their probability impacts
@@ -75,56 +76,6 @@ SEARCH_PATTERNS = {
     "will never": "counterparty_hard_rejection",
     "no deal possible": "trump_says_no_deal_possible",
 }
-
-
-class BayesianUpdater:
-    """
-    Bayesian probability updater for reversal signals.
-    Uses likelihood ratios to update probability.
-    """
-
-    # Likelihood ratios: P(signal | reversal occurs) / P(signal | reversal doesn't occur)
-    LIKELIHOOD_RATIOS = {
-        "trump_says_great_progress": 8.5,
-        "trump_says_they_called_me": 12.0,
-        "third_party_mediator_announces": 5.0,
-        "vix_drops_10pct_no_news": 4.2,
-        "counterparty_symbolic_concession": 6.5,
-        "trump_extends_deadline": 3.8,
-        "military_action_confirmed": 0.05,
-        "counterparty_hard_rejection": 0.20,
-        "new_harder_statement": 0.15,
-        "trump_says_no_deal_possible": 0.10,
-    }
-
-    def __init__(self, prior_probability: float):
-        self.prior = prior_probability
-        self.history = []
-
-    def update(self, signal: str) -> tuple[float, float]:
-        """
-        Update probability based on signal.
-        Returns (new_probability, delta)
-        """
-        lr = self.LIKELIHOOD_RATIOS.get(signal, 1.0)
-
-        # Bayesian update: posterior = lr * prior / (lr * prior + (1 - prior))
-        posterior = (lr * self.prior) / (lr * self.prior + (1 - self.prior))
-        posterior = min(max(posterior, 0.01), 0.99)
-
-        delta = posterior - self.prior
-        self.prior = posterior
-
-        self.history.append({
-            "signal": signal,
-            "lr": lr,
-            "prior_before": posterior - delta,
-            "posterior": posterior,
-            "delta": delta,
-            "timestamp": datetime.now().isoformat(),
-        })
-
-        return posterior, delta
 
 
 class StatementMonitor:
@@ -193,36 +144,52 @@ class StatementMonitor:
     ) -> dict:
         """
         Update probability based on detected signals.
-        Returns updated probability and history.
+
+        Uses BayesianReversalUpdater from core.bayesian_updater.
+        Signals dict is converted to (time, signal) sequence.
         """
-        updater = BayesianUpdater(current_prob)
+        updater = BayesianReversalUpdater()
+
+        # Build signal sequence from dict
+        # Signals dict keys ending with "_source" are metadata, skip those
+        signal_sequence = []
+        for signal, is_detected in signals.items():
+            if is_detected and not signal.endswith("_source"):
+                if signal in REVERSAL_SIGNALS or signal in ANTI_TACO_SIGNALS:
+                    signal_sequence.append(("signal", signal))
+
+        if not signal_sequence:
+            return {
+                "final_probability": current_prob,
+                "updates": [],
+                "history": [],
+            }
+
+        # Run Bayesian update sequence
+        trajectory = updater.update_sequence(current_prob, signal_sequence)
+
+        # Build updates list from trajectory
         updates = []
-
-        for signal, is_detected in signals.items():
-            if is_detected and signal in REVERSAL_SIGNALS:
-                new_prob, delta = updater.update(signal)
-                updates.append({
-                    "signal": signal,
-                    "new_probability": new_prob,
-                    "delta": delta,
-                    "timestamp": datetime.now().isoformat(),
-                })
-
-        for signal, is_detected in signals.items():
-            if is_detected and signal in ANTI_TACO_SIGNALS:
-                new_prob, delta = updater.update(signal)
-                updates.append({
-                    "signal": signal,
-                    "new_probability": new_prob,
-                    "delta": delta,
-                    "timestamp": datetime.now().isoformat(),
-                    "is_anti_taco": True,
-                })
+        for r in trajectory[1:]:  # Skip t0 initial_estimate
+            is_anti = r.signal in ANTI_TACO_SIGNALS
+            updates.append({
+                "signal": r.signal,
+                "new_probability": r.posterior,
+                "delta": r.delta,
+                "lr_applied": r.lr_applied,
+                "timestamp": datetime.now().isoformat(),
+                "is_anti_taco": is_anti,
+            })
 
         return {
-            "final_probability": updater.prior,
+            "final_probability": trajectory[-1].posterior,
+            "p0_initial_prior": trajectory[0].prior,
             "updates": updates,
-            "history": updater.history,
+            "trajectory": [
+                {"time": r.time, "signal": r.signal, "posterior": r.posterior,
+                 "delta": r.delta, "lr_applied": r.lr_applied}
+                for r in trajectory
+            ],
         }
 
     def generate_alert(
@@ -278,11 +245,11 @@ class StatementMonitor:
         results = []
 
         for statement in active:
-            # Get current probability (from previous monitoring or default)
+            # Get current probability (from previous monitoring or default from statement type prior)
             prob_key = f"{statement.id}_prob"
             current_prob = state.get("probability_history", {}).get(
                 statement.id,
-                0.38 if statement.statement_type == StatementType.MILITARY else 0.50
+                STATEMENT_TYPE_PRIORS.get(statement.statement_type.value, 0.38)
             )
 
             # Check for signals
@@ -335,6 +302,15 @@ def main():
                         help="Check specific text for signals")
     parser.add_argument("--statement-id", type=str,
                         help="Statement ID to monitor")
+    parser.add_argument(
+        "--inject-signal", action="append", dest="signals",
+        help="Inject a named signal (e.g. trump_extends_deadline). "
+             "Can be specified multiple times.",
+    )
+    parser.add_argument(
+        "--p0", type=float,
+        help="Initial prior P₀ (default: from statement type prior)",
+    )
 
     args = parser.parse_args()
 
@@ -358,6 +334,44 @@ def main():
 
         except KeyboardInterrupt:
             print("\nMonitor stopped.")
+
+    elif args.signals:
+        # Direct signal injection (no text analysis)
+        if args.statement_id:
+            active = monitor.get_active_statements()
+            statement = next((s for s in active if s.id == args.statement_id), None)
+            if not statement:
+                print(f"Statement {args.statement_id} not found or not active")
+                sys.exit(1)
+        else:
+            print("Error: --statement-id required when using --inject-signal")
+            sys.exit(1)
+
+        # Build signals dict
+        signals = {sig: True for sig in args.signals}
+
+        # Determine P₀
+        p0 = args.p0
+        if p0 is None:
+            p0 = STATEMENT_TYPE_PRIORS.get(statement.statement_type.value, 0.38)
+
+        print(f"Statement: {statement.id} ({statement.statement_type.value})")
+        print(f"P₀ (initial prior): {p0:.1%}")
+        print(f"Injecting {len(signals)} signals: {list(signals.keys())}")
+
+        prob_update = monitor.update_probability(statement.id, p0, signals)
+
+        print(f"\nBayesian Update Result:")
+        print(f"  P_t (final posterior): {prob_update['final_probability']:.1%}")
+        print(f"  Delta: {(prob_update['final_probability'] - p0) * 100:+.1f}pp")
+        print(f"\nTrajectory:")
+        for r in prob_update.get("trajectory", []):
+            arrow = "↑" if r["delta"] >= 0 else "↓"
+            print(f"  {r['time']:>8}: {r['signal']:<40} → {r['posterior']*100:6.1f}%  ({arrow}{abs(r['delta'])*100:5.1f}pp, LR={r['lr_applied']:.2f})")
+
+        alert = monitor.generate_alert(statement, prob_update)
+        if alert:
+            print(alert)
 
     elif args.check_signals:
         # Check text for signals
@@ -383,6 +397,11 @@ def main():
                 has_deadline=False,
             )
 
+        # Determine P₀
+        p0 = args.p0
+        if p0 is None:
+            p0 = STATEMENT_TYPE_PRIORS.get(statement.statement_type.value, 0.38)
+
         print(f"Checking text for signals...")
         print(f"Text: {text[:200]}...")
 
@@ -395,13 +414,11 @@ def main():
                     print(f"  - {signal}: {detected}")
 
             # Update probability
-            prob_update = monitor.update_probability(
-                statement.id,
-                0.38,  # Default military base
-                signals
-            )
+            prob_update = monitor.update_probability(statement.id, p0, signals)
 
-            print(f"\nProbability update: {prob_update['final_probability']:.1%}")
+            print(f"\nP₀ (initial prior): {p0:.1%}")
+            print(f"P_t (final posterior): {prob_update['final_probability']:.1%}")
+            print(f"Delta: {(prob_update['final_probability'] - p0) * 100:+.1f}pp")
             for update in prob_update["updates"]:
                 print(f"  - {update['signal']}: {update['delta']:+.1%}")
 

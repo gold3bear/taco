@@ -26,6 +26,7 @@ from models.statement import (
 )
 from models.five_factor import FiveFactorModel
 from models.position_calculator import TwoPhasePositionCalculator
+from core.bayesian_updater import BayesianReversalUpdater, get_initial_prior
 
 
 BASE_DIR = Path(__file__).parent.parent
@@ -157,6 +158,87 @@ def run_five_factor_analysis(
     return result.to_dict()
 
 
+def run_bayesian_analysis(
+    statement: Statement,
+    five_factor_probability: float,
+    market_context: dict,
+    signals: Optional[list[tuple[str, str]]] = None,
+) -> dict:
+    """
+    Run Bayesian Reversal Updater on top of Five-Factor P₀.
+
+    Architecture:
+        Five-Factor Model → P₀ (initial prior, static)
+        Bayesian Updater  → P_t (posterior, updated with signals)
+
+    Args:
+        statement: Statement being analyzed
+        five_factor_probability: P₀ from Five-Factor Model
+        market_context: Market context (oil_price, gas_price)
+        signals: Optional list of (timestamp, signal_name) tuples
+
+    Returns:
+        dict with P₀, P_t, trajectory, and calibration check
+    """
+    updater = BayesianReversalUpdater()
+
+    # Build context for LR modifiers
+    context = {
+        "oil_price": market_context.get("oil_price", 0),
+        "gas_price": market_context.get("gas_price", 0),
+    }
+
+    # Use statement type prior as P₀ baseline, then apply Five-Factor adjustments
+    # Five-Factor probability is already the refined P₀
+    initial_prior = five_factor_probability
+
+    # Default monitoring signals if none provided
+    if signals is None:
+        signals = [
+            ("Day 3", "trump_extends_deadline"),
+            ("Day 5", "counterparty_hard_rejection"),
+        ]
+
+    # Run Bayesian trajectory
+    trajectory = updater.update_sequence(initial_prior, signals, context=context)
+
+    # Polymarket calibration check
+    pm_data = market_context.get("polymarket_data", {})
+    polymarket_backdown = pm_data.get("trump_backdown_prob") or pm_data.get("polymarket_trump_backdown_prob")
+    polymarket_calibration_signal = None
+    if polymarket_backdown is not None:
+        polymarket_calibration_signal = updater.check_polymarket_calibration(
+            initial_prior, polymarket_backdown
+        )
+
+    # Get current posterior (last entry in trajectory)
+    current_posterior = trajectory[-1].posterior if trajectory else initial_prior
+
+    return {
+        "p0_initial_prior": initial_prior,
+        "p_t_current_posterior": current_posterior,
+        "trajectory": [
+            {
+                "time": r.time,
+                "signal": r.signal,
+                "prior": r.prior,
+                "posterior": r.posterior,
+                "delta_pp": round(r.delta * 100, 1),
+                "lr_applied": r.lr_applied,
+                "context_adjusted": r.context_adjusted,
+            }
+            for r in trajectory
+        ],
+        "polymarket_calibration": (
+            {"signal": polymarket_calibration_signal[0], "lr": polymarket_calibration_signal[1]}
+            if polymarket_calibration_signal else None
+        ),
+        "bayesian_formatted": updater.format_trajectory(
+            trajectory, statement.statement_type.value
+        ),
+    }
+
+
 def run_two_phase_analysis(
     statement: Statement,
     reversal_probability: float,
@@ -190,6 +272,7 @@ def analyze_statement(
     statement: Statement,
     market_context: dict,
     polymarket_data: Optional[dict] = None,
+    signals: Optional[list[tuple[str, str]]] = None,
 ) -> dict:
     """Run complete 5-agent analysis on a single statement."""
 
@@ -211,6 +294,18 @@ def analyze_statement(
         market_context,
     )
 
+    # Bayesian Reversal Updater (new architecture)
+    # Five-Factor P₀ → Bayesian → P_t (real-time posterior)
+    market_context_with_pm = dict(market_context)
+    market_context_with_pm["polymarket_data"] = polymarket_data or {}
+
+    bayesian = run_bayesian_analysis(
+        statement,
+        five_factor["probability"],
+        market_context_with_pm,
+        signals=signals,
+    )
+
     return {
         "statement_id": statement.id,
         "statement_summary": {
@@ -223,6 +318,7 @@ def analyze_statement(
             "status": statement.status.value,
         },
         "five_factor": five_factor,
+        "bayesian_updater": bayesian,
         "two_phase_trading": two_phase,
         "market_context": market_context,
         "analyzed_at": datetime.now().isoformat(),
@@ -235,9 +331,11 @@ def generate_report(analysis: dict) -> str:
     summary = analysis["statement_summary"]
     ff = analysis["five_factor"]
     tp = analysis["two_phase_trading"]
+    mc = analysis.get("market_context", {})
+    bayesian = analysis.get("bayesian_updater", {})
 
-    # Determine TACO verdict
-    prob = ff["probability"]
+    # Determine TACO verdict — use Bayesian posterior if available, else Five-Factor
+    prob = bayesian.get("p_t_current_posterior", ff["probability"])
     if prob >= 0.70:
         verdict = "HIGH TACO PROBABILITY"
         color = "🟢"
@@ -247,6 +345,8 @@ def generate_report(analysis: dict) -> str:
     else:
         verdict = "LOW TACO PROBABILITY"
         color = "🔴"
+
+    p0 = bayesian.get("p0_initial_prior", ff["probability"])
 
     report = f"""
 # TACO Statement Analysis: {analysis['statement_id']}
@@ -261,21 +361,40 @@ def generate_report(analysis: dict) -> str:
 
 ## {verdict} {color}
 
-**Reversal Probability: {prob:.1%}**
+**> Reversal Probability (P_t): {prob:.1%}**  ← Bayesian posterior
+*(Five-Factor P₀: {p0:.1%} | delta: {(prob - p0) * 100:+.1f}pp)*
 
 ### Five-Factor Breakdown
 
 | Factor | Value | Contribution |
 |--------|-------|--------------|
 | Base Rate ({summary['type']}) | {ff['factors']['factor_1_base_rate']['value']:.0%} | {ff['factors']['factor_1_base_rate']['value']:.0%} |
-| Market Pain (VIX={market_context.get('vix', 'N/A')}) | {ff['factors']['factor_2_market_pain']['value']:.1f} | +{ff['factors']['factor_2_market_pain']['boost_pp']:.0f}pp |
+| Market Pain (VIX={mc.get('vix', 'N/A')}) | {ff['factors']['factor_2_market_pain']['value']:.1f} | +{ff['factors']['factor_2_market_pain']['boost_pp']:.0f}pp |
 | Counterparty Signal | {ff['factors']['factor_3_counterparty']['value']:+.0f} | {ff['factors']['factor_3_counterparty']['value']*100:.0f}pp |
 | Domestic Pressure | {ff['factors']['factor_4_domestic']['value']:+.0f} | {ff['factors']['factor_4_domestic']['value']*100:.0f}pp |
 | Polymarket Calibration | {ff['factors']['factor_5_polymarket']['value']:+.2f} | {ff['factors']['factor_5_polymarket']['value']*100:.1f}pp |
 
 **Confidence:** {ff['confidence']:.0%}
 
-### Time Decay Forecast
+### Bayesian Reversal Trajectory (New Architecture)
+
+| Time | Signal | Posterior | Delta | LR |
+|------|--------|-----------|-------|----|
+"""
+
+    # Add trajectory rows
+    for entry in bayesian.get("trajectory", []):
+        arrow = "↑" if entry["delta_pp"] >= 0 else "↓"
+        ctx = " *" if entry["context_adjusted"] else ""
+        report += f"| {entry['time']} | {entry['signal']} | {entry['posterior']*100:.1f}% | {arrow}{abs(entry['delta_pp']):.1f}pp | {entry['lr_applied']:.2f}{ctx} |\n"
+
+    # Polymarket calibration note
+    pm_cal = bayesian.get("polymarket_calibration")
+    if pm_cal:
+        report += f"\n**Polymarket divergence signal:** {pm_cal['signal']} (LR={pm_cal['lr']:.2f})\n"
+
+    report += f"""
+### Time Decay Forecast (Five-Factor P₀ baseline)
 
 | Day | Probability |
 |-----|-------------|
@@ -354,8 +473,23 @@ def main():
     parser.add_argument("--statement-id", type=str, help="Statement ID to analyze")
     parser.add_argument("--batch", action="store_true", help="Analyze all active statements")
     parser.add_argument("--output", type=str, help="Output JSON file (optional)")
+    parser.add_argument(
+        "--signals", type=str,
+        help="Comma-separated signals to inject into Bayesian updater, "
+             "e.g. 'Day2:trump_extends_deadline,Day3:counterparty_hard_rejection'",
+    )
 
     args = parser.parse_args()
+
+    # Parse signals if provided
+    signals = None
+    if args.signals:
+        signals = []
+        for item in args.signals.split(","):
+            item = item.strip()
+            if ":" in item:
+                time, signal = item.split(":", 1)
+                signals.append((time.strip(), signal.strip()))
 
     # Load data
     print("Loading statements...")
@@ -391,7 +525,9 @@ def main():
     results = []
     for stmt in target:
         print(f"\nAnalyzing {stmt.id}: {stmt.statement_type.value} targeting {stmt.target_entity}")
-        analysis = analyze_statement(stmt, market_context, polymarket_data)
+        if signals:
+            print(f"  Injecting {len(signals)} signals into Bayesian updater")
+        analysis = analyze_statement(stmt, market_context, polymarket_data, signals=signals)
         results.append(analysis)
 
         # Generate and print report
