@@ -1,0 +1,499 @@
+[
+  {
+    "id": "TACO-001",
+    "raw_text": "Trump announced sweeping 'Liberation Day' tariffs on all imports. Markets crashed. Within 7 days Trump announced 90-day pause for all countries except China.",
+    "source": "news_report",
+    "published_at": "2025-04-02T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "hard",
+    "target_entity": "China",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-04-09T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.633,
+      "nasdaq_return": 0.73,
+      "oil_return": 0.856,
+      "btc_return": -3.151,
+      "vix_change": -1.194
+    },
+    "reversal_info": {
+      "reversal_date": "2025-04-09T00:00:00",
+      "reversal_type": "90-day pause",
+      "days_to_reversal": 7,
+      "rebound_magnitude": 9.869
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-002",
+    "raw_text": "After brief re-escalation of China tariffs to 145%, Trump team negotiated Geneva truce: 90-day reduction to 30% tariffs. Described as 'substantial progress'.",
+    "source": "news_report",
+    "published_at": "2025-05-01T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "China",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-05-12T00:00:00",
+    "nth_similar_threat": 2,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.709,
+      "nasdaq_return": 1.306,
+      "oil_return": 1.51,
+      "btc_return": 2.426,
+      "vix_change": -0.405
+    },
+    "reversal_info": {
+      "reversal_date": "2025-05-12T00:00:00",
+      "reversal_type": "tariff reduction + 90-day truce",
+      "days_to_reversal": 11,
+      "rebound_magnitude": 2.596
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-003",
+    "raw_text": "Trump threatened 50% auto tariffs on Canada. Auto industry lobbied; Trump granted 1-month reprieve within 48 hours.",
+    "source": "news_report",
+    "published_at": "2025-03-04T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "Canada",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-03-06T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": -1.184,
+      "nasdaq_return": -0.302,
+      "oil_return": -0.014,
+      "btc_return": 1.344,
+      "vix_change": 3.205
+    },
+    "reversal_info": {
+      "reversal_date": "2025-03-06T00:00:00",
+      "reversal_type": "1-month reprieve",
+      "days_to_reversal": 2,
+      "rebound_magnitude": -0.591
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-004",
+    "raw_text": "Trump threatened 25% tariffs on Mexico over border/fentanyl. Mexico pledged cooperation; Trump paused tariffs within 48 hours.",
+    "source": "news_report",
+    "published_at": "2025-02-01T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "Mexico",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-02-03T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": -0.673,
+      "nasdaq_return": -0.8,
+      "oil_return": -0.256,
+      "btc_return": -1.708,
+      "vix_change": 13.329
+    },
+    "reversal_info": {
+      "reversal_date": "2025-02-03T00:00:00",
+      "reversal_type": "pause pending cooperation",
+      "days_to_reversal": 2,
+      "rebound_magnitude": 0.0
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-005",
+    "raw_text": "TikTok ban law took effect. Trump extended deadline by 75 days via executive order, allowing TikTok to keep operating.",
+    "source": "news_report",
+    "published_at": "2025-01-19T00:00:00",
+    "statement_type": "personnel",
+    "rhetoric_intensity": "medium",
+    "target_entity": "TikTok",
+    "target_assets": [
+      "SPY",
+      "XLB",
+      "XLF"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-01-20T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.915,
+      "nasdaq_return": 0.587,
+      "oil_return": -1.709,
+      "btc_return": -3.178,
+      "vix_change": -5.698
+    },
+    "reversal_info": {
+      "reversal_date": "2025-01-20T00:00:00",
+      "reversal_type": "75-day executive order extension",
+      "days_to_reversal": 1,
+      "rebound_magnitude": 0.0
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-007",
+    "raw_text": "Trump threatened to 'take back' Panama Canal. After diplomatic pressure and Panama's assurances on Chinese influence, rhetoric softened significantly.",
+    "source": "news_report",
+    "published_at": "2025-01-20T00:00:00",
+    "statement_type": "military",
+    "rhetoric_intensity": "soft",
+    "target_entity": "China",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "USO",
+      "XLE",
+      "GLD"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-02-15T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.915,
+      "nasdaq_return": 0.587,
+      "oil_return": -1.709,
+      "btc_return": 0.917,
+      "vix_change": -5.698
+    },
+    "reversal_info": {
+      "reversal_date": "2025-02-15T00:00:00",
+      "reversal_type": "rhetoric softened, no action taken",
+      "days_to_reversal": 26,
+      "rebound_magnitude": -0.621
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-008",
+    "raw_text": "Trump threatened military/economic coercion to acquire Greenland from Denmark. Gradually dropped from news cycle without action.",
+    "source": "news_report",
+    "published_at": "2025-01-07T00:00:00",
+    "statement_type": "territorial",
+    "rhetoric_intensity": "soft",
+    "target_entity": "Greenland",
+    "target_assets": [
+      "SPY",
+      "EFA",
+      "EEM"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-02-28T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": -1.13,
+      "nasdaq_return": -1.784,
+      "oil_return": 1.125,
+      "btc_return": -5.05,
+      "vix_change": 11.097
+    },
+    "reversal_info": {
+      "reversal_date": "2025-02-28T00:00:00",
+      "reversal_type": "dropped from agenda",
+      "days_to_reversal": 52,
+      "rebound_magnitude": 2.691
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-009",
+    "raw_text": "EU was explicitly excluded from 90-day TACO pause; faced 20% tariffs. Negotiations began; partial deals reached by summer 2025.",
+    "source": "news_report",
+    "published_at": "2025-04-08T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "EU",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": false,
+    "deadline_date": null,
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": -1.566,
+      "nasdaq_return": -1.801,
+      "oil_return": -4.001,
+      "btc_return": -3.74,
+      "vix_change": 11.388
+    },
+    "reversal_info": {
+      "reversal_date": "2025-04-09T00:00:00",
+      "reversal_type": "negotiated partial deal",
+      "days_to_reversal": 1,
+      "rebound_magnitude": 12.068
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-010",
+    "raw_text": "After 90-day pause for others, China tariffs were raised to 145%. Markets priced in sustained China decoupling. Geneva deal resolved at 30%.",
+    "source": "news_report",
+    "published_at": "2025-05-01T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "China",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-06-03T00:00:00",
+    "nth_similar_threat": 2,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.709,
+      "nasdaq_return": 1.306,
+      "oil_return": 1.51,
+      "btc_return": 2.426,
+      "vix_change": -0.405
+    },
+    "reversal_info": {
+      "reversal_date": "2025-05-12T00:00:00",
+      "reversal_type": "Geneva deal — 90-day reduction to 30%",
+      "days_to_reversal": 11,
+      "rebound_magnitude": 2.596
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-011",
+    "raw_text": "Trump issued ultimatum to Iran over nuclear program. Threatened direct military strikes if no deal within 60 days. As of 2026-03-31, unresolved.",
+    "source": "news_report",
+    "published_at": "2026-03-30T00:00:00",
+    "statement_type": "military",
+    "rhetoric_intensity": "extreme",
+    "target_entity": "Iran",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "USO",
+      "XLE",
+      "GLD"
+    ],
+    "has_deadline": false,
+    "deadline_date": null,
+    "nth_similar_threat": 1,
+    "status": "active",
+    "initial_reaction": {
+      "sp500_return": -0.334,
+      "nasdaq_return": -0.764,
+      "oil_return": 4.533,
+      "btc_return": 1.117,
+      "vix_change": -1.417
+    },
+    "reversal_info": null,
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-012",
+    "raw_text": "25% steel/aluminum tariffs threatened on all countries. Allies (UK, Japan, South Korea) received exemptions after bilateral negotiations.",
+    "source": "news_report",
+    "published_at": "2025-03-12T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "Global Steel/Aluminum",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-03-28T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.531,
+      "nasdaq_return": 1.128,
+      "oil_return": 1.889,
+      "btc_return": 1.038,
+      "vix_change": -9.993
+    },
+    "reversal_info": {
+      "reversal_date": "2025-03-28T00:00:00",
+      "reversal_type": "selective exemptions for allies",
+      "days_to_reversal": 16,
+      "rebound_magnitude": -2.545
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-013",
+    "raw_text": "Trump publicly threatened to fire Fed Chair Powell. Treasury yields spiked, dollar fell. Trump walked back within 5 days saying he had 'no intention' of firing Powell.",
+    "source": "news_report",
+    "published_at": "2025-04-17T00:00:00",
+    "statement_type": "policy",
+    "rhetoric_intensity": "medium",
+    "target_entity": "Federal Reserve",
+    "target_assets": [
+      "TLT",
+      "DXY",
+      "SPY"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-04-22T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.143,
+      "nasdaq_return": -0.018,
+      "oil_return": 2.554,
+      "btc_return": 1.026,
+      "vix_change": -9.161
+    },
+    "reversal_info": {
+      "reversal_date": "2025-04-22T00:00:00",
+      "reversal_type": "explicit walkback statement",
+      "days_to_reversal": 5,
+      "rebound_magnitude": 2.459
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-014",
+    "raw_text": "Trump threatened 100% tariffs on pharmaceutical imports. Drug makers lobbied; threatened to move manufacturing abroad. Tariff paused.",
+    "source": "news_report",
+    "published_at": "2025-05-05T00:00:00",
+    "statement_type": "trade_tariff",
+    "rhetoric_intensity": "medium",
+    "target_entity": "Pharmaceutical",
+    "target_assets": [
+      "SPY",
+      "QQQ",
+      "XRT",
+      "DBA"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-05-20T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": -0.573,
+      "nasdaq_return": -0.593,
+      "oil_return": -2.562,
+      "btc_return": 0.458,
+      "vix_change": 4.233
+    },
+    "reversal_info": {
+      "reversal_date": "2025-05-20T00:00:00",
+      "reversal_type": "implementation delayed",
+      "days_to_reversal": 15,
+      "rebound_magnitude": 0.237
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  },
+  {
+    "id": "TACO-015",
+    "raw_text": "Trump threatened to withdraw all US support from Ukraine unless ceasefire negotiations began. Ukraine/Europe resisted; US eventually maintained support with conditions.",
+    "source": "news_report",
+    "published_at": "2025-02-10T00:00:00",
+    "statement_type": "territorial",
+    "rhetoric_intensity": "medium",
+    "target_entity": "EU",
+    "target_assets": [
+      "SPY",
+      "EFA",
+      "EEM"
+    ],
+    "has_deadline": true,
+    "deadline_date": "2025-03-15T00:00:00",
+    "nth_similar_threat": 1,
+    "status": "reversed",
+    "initial_reaction": {
+      "sp500_return": 0.679,
+      "nasdaq_return": 1.211,
+      "oil_return": 2.03,
+      "btc_return": 0.971,
+      "vix_change": -4.414
+    },
+    "reversal_info": {
+      "reversal_date": "2025-03-15T00:00:00",
+      "reversal_type": "modified position, support maintained",
+      "days_to_reversal": 33,
+      "rebound_magnitude": 0.092
+    },
+    "predicted_reversal_prob": null,
+    "predicted_initial_return": null,
+    "desensitized_return": null,
+    "confidence": 1.0
+  }
+]
