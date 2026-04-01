@@ -1,3 +1,5 @@
 [    2146ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://gamma-api.polymarket.com/is-logged-in:0
 [    3243ms] [INFO] [LaunchDarkly] LaunchDarkly client initialized @ https://auth.magic.link/_next/static/chunks/5225292341aa438b.js:0
 [    4715ms] [WARNING] @next/third-parties: GA has not been initialized @ https://polymarket.com/_next/static/chunks/0mp-i~jor6d7k.js?dpl=dpl_ECanUmanTeVTwNhkA9EAfw7g5HgS:5
+[   12546ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://polymarket.com/monitoring?o=462071&p=5464845:0
+[   13524ms] [INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions @ https://js.intercomcdn.com/frame-modern.e5264b11.js:0
