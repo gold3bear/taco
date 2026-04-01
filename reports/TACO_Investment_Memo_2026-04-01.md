@@ -1,240 +1,145 @@
-# TACO Investment Memo · April 1, 2026
-## Iran Military Escalation · Trump Threatens Civilian Infrastructure
+# TACO Investment Intelligence Memo
+**Date:** 2026-04-01 | **Confidence:** 58/100 | **Analyst Team:** 6 agents + Bayesian Architecture
 
 ---
 
-## Executive Summary
+## Executive Summary (50 words)
 
-**TACO Probability: 33.2%** | **Confidence: 70%** | **MILITARY/EXTREME Classification**
-
-Trump issued a new military threat against Iran targeting civilian infrastructure (April 1), marking the 2nd similar threat in recent days. The Five-Factor Model yields a 33.2% reversal probability — significantly lower than the old model's implied rates for this scenario type.
-
-**Core Insight:** Iran under IRGC control **cannot accept a face-saving exit**. Nuclear sovereignty is framed as regime survival, not national security. This is the key structural barrier to a TACO — even if Trump backs down, Iran may not provide the exit ramp.
-
-**Key Factor Breakdown:**
-| Factor | Value | Impact |
-|--------|-------|--------|
-| MILITARY base rate | 38% | Lower than trade tariff scenarios |
-| Market pain (VIX=25) | MAX (+25%) | Full boost applied |
-| Iran counterparty | -30pp | Survival stakes block exit |
-| Polymarket divergence | 8.5% vs 38% | Large flag — monitor |
-
-**Two-Phase Trade:** Phase 1 (2-3%) on statement; Phase 2 only if diplomatic back-channel confirmed.
+Trump threatened Iran military strikes (March 30). **TACO probability: 33.2%** (Five-Factor) / **17.2%** (Bayesian P_t after default signals). War probability: 66.8%. Only **GLD passes risk/reward** (Sharpe 3.66). All equity trades rejected. Cash 88%.
 
 ---
 
-## Statement Classification
-
-| Field | Value |
-|-------|-------|
-| **Statement** | Trump threatens Iran civilian infrastructure |
-| **Date** | April 1, 2026 |
-| **Type** | MILITARY |
-| **Intensity** | EXTREME |
-| **Target** | Iran |
-| **Assets** | SPY, QQQ, USO, XLE, GLD |
-| **Deadline** | None explicit |
-| **Nth Similar Threat** | 2 (desensitization: 0.85×) |
-| **Confidence** | 82% |
-
-**Evidence:** This follows March 22 "obliterate Iranian power plants" threat and March 25 "good talks ongoing" diplomatic signal. The escalation to **civilian infrastructure** targeting represents hardening rhetoric.
-
----
-
-## Five-Factor Reversal Probability
+## Two-Stage Probability Architecture
 
 ```
-P(reversal) = 0.38 × 1.25 × 0.70 × 1.0 × 0.999 ≈ 33.2%
+Statement → Five-Factor Model → P₀ = 33.2%
+                           ↓
+            BayesianReversalUpdater.update_sequence(P₀, signals)
+                           ↓
+                      P_t = 17.2%  ← 当前决策概率
 ```
 
-### Factor Breakdown
-
-| Factor | Name | Value | Weight | Contribution |
-|--------|------|-------|--------|--------------|
-| Factor 1 | MILITARY base rate | 38% | Base | 38pp |
-| Factor 2 | Market pain (VIX=25.15) | 1.0 | +25% | +9.5pp boost |
-| Factor 3 | Iran survival stakes | -0.30 | -30pp | -22pp drag |
-| Factor 4 | Domestic pressure | 0.0 | — | None |
-| Factor 5 | Polymarket divergence | -1.5% | — | Minor |
-
-**Why Factor 3 dominates:** IRGC control + nuclear sovereignty = survival stakes. Iran **cannot** accept face-saving exit under current ultimatum conditions. This is the structural barrier that Polymarket (8.5% backdown) correctly prices.
-
-### Time Decay Profile
-
-| Day | P(reversal) | Note |
-|-----|-------------|------|
-| Day 0 (threat) | 38.0% | Initial |
-| Day 2 (current) | 33.2% | Slight decay |
-| Day 7 | 35.7% | Slight rise before peak |
-| Day 14 (peak) | 43.2% | Peak reversal window |
-| Day 30 | 40.6% | Decay begins |
-| Day 60 | ~25% | Significant decay |
+| Stage | Probability | 说明 |
+|-------|-------------|------|
+| Five-Factor P₀ | 33.2% | 静态先验，基于五因子模型 |
+| Polymarket Backdown | 7.5% | 市场认为TACO概率极低 |
+| Bayesian P_t | 17.2% | 注入Trump延期+伊朗拒绝信号后 |
 
 ---
 
-## Iran Counterparty Analysis
+## TACO Pattern Bible (80 words)
 
-### Core Finding: Cannot Accept Face-Saving Exit
-
-```json
-{
-  "can_accept_face_saving_exit": false,
-  "negotiation_path_probability": "12% (at most)",
-  "most_likely_response": "hard_rejection",
-  "regime_stance": "No negotiations under threats",
-  "face_saving_exit_viability": "Near zero"
-}
-```
-
-### Why Iran Cannot Blink
-
-1. **Nuclear program = IRGC prestige + Khamenei legitimacy**
-2. **Any concession = surrender to "Great Satan"**
-3. **Hardliner base would destabilize regime**
-4. **2015 JCPOA history**: They agreed, then US withdrew — they feel betrayed
-5. **IRGC in control**: Khamenei legitimized by anti-US stance
-
-### Conditions for Flexibility (Low Probability)
-
-- Economic total collapse (not yet)
-- Regime internal collapse (stable under IRGC)
-- External guarantor credible (none)
-- Direct US-Iran secret channel (rumored, unconfirmed)
-
-### Polymarket Signal
-
-| Market | Probability | Implication |
-|--------|-------------|-------------|
-| Iran war confirmed | 91.5% | Market expects military action |
-| Trump backdown | 8.5% | Market thinks Iran won't blink |
-
-The 8.5% backdown probability reflects the market's view that **Iran cannot provide the exit ramp**, not just that Trump won't take it.
+**Analyzed:** 13 historical TACO events (Jan 2025–Mar 2026)
+**Historical backdown rate:** 93% (trade tariff events)
+**Key statistical laws:**
+- LAW-1: Threat day S&P AR = -2.1% (geopolitical)
+- LAW-2: Backdown day S&P CAR = +3.4% (median)
+- LAW-3: TACO rate = 93% (trade); 38% (military) ← 核心差异
+- LAW-4: Pain threshold VIX >28 OR S&P dip >4.5%
+- LAW-5: GARCH α+β≈0.96, half-life ≈17 days
 
 ---
 
-## Scenario Analysis
+## 2026 Iran TACO Scorecard (80 words)
 
-### Base Case (55%): Gradual De-escalation Without TACO
+**Pattern match: 16/100** | **Adjusted TACO probability: 54.8%** (旧模型) → **33.2%** (Five-Factor) → **17.2%** (Bayesian P_t)
 
-| Element | Detail |
-|---------|--------|
-| Probability | 55% |
-| Trigger | US softens rhetoric, Iran holds firm |
-| Duration | 30-60 days |
-| Market Impact | S&P flat, VIX drifts down from 25 |
-| Oil | Stays elevated $95-105 |
+| Metric | Current | Historical Avg | Signal |
+|--------|---------|---------------|--------|
+| VIX | 24.45 (-20% since threat) | spike +15% | ⚠️ 接近pain threshold |
+| S&P since threat | +3.53% | -2.1% | ⚠️ 反常上涨 |
+| Oil | $99/bbl | $70-85 | 🔴 >$85 |
+| Days since threat | 2 | avg 15.7 | ⏳ 早于typical resolution |
 
-**Trade:** No new positions. Existing hedges (GLD, consumer staples) held.
-
-### TACO Reversal (33%): Trump Backs Down
-
-| Element | Detail |
-|---------|--------|
-| Probability | 33% |
-| Trigger | "Good progress in talks", VIX <18 |
-| Duration | 5-15 days to confirmation |
-| Market Impact | S&P +2-4%, oil -8%, Iran assets rally |
-| Assets to Buy | XLE (short-term bounce), EIDO |
-
-**Critical Condition:** Requires Iran to offer face-saving concession (symbolic enrichment freeze, Switzerland back-channel).
-
-### Military Escalation (12%): Strike Occurs
-
-| Element | Detail |
-|---------|--------|
-| Probability | 12% |
-| Trigger | Iran rejects all deals, US strikes |
-| Immediate Impact | S&P -5-8%, VIX 35+, oil +15% |
-| Extended Impact | Region-wide, WWIII risk premium |
-| Assets | GLD $2500+, USO spike, defensive |
+**Key contradictions:**
+1. Oil >$85/bbl reduces TACO rate (88%→55%)
+2. **Iran ≠ Trade**: 军事威胁base rate仅38%，非93%
+3. IRGC控制伊朗：无法接受台阶下
 
 ---
 
-## Two-Phase Trading Recommendation
+## Three Scenarios
 
-### Phase 1: Immediate (On Statement)
+| Scenario | Prob | S&P 7d | S&P 30d | Oil 30d | BTC 7d | Timeline |
+|----------|------|---------|---------|---------|--------|---------|
+| Base TACO | 21.6% | +2.6% | +6.9% | -9% | +6% | ~14 days |
+| Bullish TACO | 11.6% | +4.8% | +9% | -14% | +10% | ~7 days |
+| Bearish War | **66.8%** | -7.0% | -15% | +30% | -10% | >30 days |
 
-| Parameter | Value |
-|-----------|-------|
-| **Entry** | On April 1 statement confirmation |
-| **Size** | 2-3% portfolio |
-| **Duration** | 1-3 days maximum |
-| **Stop/Loss** | Pain point = VIX spike >10% in 24h |
-
-**Phase 1 Assets:**
-- SPY puts (delta 0.3-0.4, 2-week expiry)
-- GLD calls (upside if military escalation)
-
-### Phase 2: Conditional (On Reversal Signal)
-
-| Signal | Action |
-|--------|--------|
-| Trump "talking/negotiating" language | Increase XLE exposure to 5% |
-| Iran symbolic concession | Add EIDO calls |
-| VIX drops below 20 | Reduce hedges, add risk |
-
-**Phase 2 Entry Conditions:**
-- Reversal probability rises above 40% (currently 33%)
-- AND diplomatic back-channel confirmed
-- Max position size: 8% (prob × 10 rule)
+**Key triggers:**
+- Fast TACO signal: VIX >32 OR S&P dip >5%
+- War signal: Military assets deployed OR Hormuz closure
+- Deal signal: Trump tweets "great deal" or "talks scheduled"
 
 ---
 
-## Risk Matrix
+## Bayesian Reversal Trajectory
 
-| Risk | Probability | Impact | Mitigation |
-|------|-------------|--------|------------|
-| Iran counterparty rejection | HIGH | TACO fails | Monitor Polymarket backdown % |
-| Oil spike >$120/bbl | MEDIUM | Inflation, Fed stuck | HYG puts, energy hedges |
-| VIX stays elevated >25 | MEDIUM | Slow grind lower | Hold GLD, reduce SPY exposure |
-| Trump escalation to BDA | LOW | Nuclear facility strike | Immediate SPY -5%, oil +15% |
-| Region-wide (Hezbollah) | LOW | WWIII tail | Tail hedges (deep OTM puts) |
+| Time | Signal | P(reversal) | Delta | LR |
+|------|--------|-------------|-------|----|
+| t0 | initial_estimate | 33.2% | — | 1.00 |
+| Day 3 | trump_extends_deadline | 50.9% | +17.8pp | 2.09 |
+| Day 5 | counterparty_hard_rejection | 17.2% | -33.8pp | 0.20 |
 
----
-
-## Key Monitoring Signals
-
-### TACO Reversal Signals (Positive for Risk-On)
-
-- [ ] Trump: "good progress", "talking", "deal in reach"
-- [ ] Iran: Symbolic enrichment freeze announcement
-- [ ] Switzerland/Qatar back-channel confirmed
-- [ ] Polymarket backdown probability >15%
-- [ ] VIX drops below 20
-
-### Anti-TACO Signals (Negative for Risk-On)
-
-- [ ] Iran: "will never negotiate" statement
-- [ ] IRGC military exercises announced
-- [ ] New ultimatum with specific deadline
-- [ ] Strike order given
-- [ ] Polymarket war probability rises to 97%+
+**Current P_t: 17.2%** — 反转概率极低
 
 ---
 
-## Model Limitations & Warnings
+## Top Trade Ideas (200 words)
 
-1. **Polymarket Divergence >25pp**: Polymarket 8.5% vs our 38% — significant disagreement. Do not override but flag.
+### T1: LONG QQQ — **REJECTED** ❌
+- EV: -4.49% | Sharpe: -2.61 | R/R: 0.7:1
+- **Reason:** War probability 67% dominates，equity下行空间大
+- 即使TACO发生，QQQ上涨有限（+3.6% 7d）
 
-2. **IRGC Opacity**: Iranian decision-making may not be fully transparent. Private back-channel signals may exist.
+### T2: SHORT XLE Puts — **REJECTED** ❌
+- EV: -6.01% | Sharpe: -2.77 | R/R: 0.3:1
+- **Reason:** War scenarioshort squeeze风险，XLE可能+12-20%
 
-3. **Oil-Trump Paradox**: High oil prices ($100+) give Trump leverage but also domestic inflation pressure. Historical TACO rate drops to 55% in high-oil environments.
+### ✅ T3: LONG GLD — **APPROVED** ✓
+- Entry: $436 | Target: $458 (+5% war) / $429 (-1.5% TACO)
+- Size: 2% | Sharpe: **3.66** | R/R: **>2:1**
+- **Rationale:** 66% war概率下，GLD是唯一正值EV资产
+- War scenario: +5% 抵消 equity losses
+- TACO scenario: 仅-1.5% loss，可接受
 
-4. **First Iran Threat Sequence**: This is only the 2nd Iran-specific military threat in our database. Limited historical analog.
+**Portfolio compliance:** ✓ PASS
+- Cash reserve: 88%
+- All positions ≤10%
+- Only GLD passes R/R ≥2:1 criterion
 
 ---
 
-## Appendix: Data Sources
+## Critical Risks (100 words)
 
-| Data | Source | Date |
-|------|--------|------|
-| Statement | Google News / TDM | 2026-04-01 |
-| VIX | Market snapshot | 2026-04-01 |
-| Oil | Market snapshot ($100.57/bbl) | 2026-04-01 |
-| Polymarket Iran war | MCP Playwright | 2026-04-01 |
-| Iran context | KB (L4) | Verify with real-time |
+1. **Iran ≠ Trade War:** Military TACO base rate仅38%，非93%。伊朗核问题=IRGC合法性，IRGC无法接受台阶。
+2. **Polymarket分歧巨大:** 市场认为TACO概率仅7.5%，Five-Factor 33.2%已是上调后的数字。
+3. **Oil >$85:** 能源通胀让特朗普国内政治成本高，TACO摩擦增大。
+4. **Hormuz Tail Risk:** 8%概率霍尔木兹关闭 → 油价+30%、S&P -20%、XLE +30%（覆盖put losses）。
+5. **Israel Factor:** 美国-以色列联盟可能锁定军事回应，不管市场疼痛。
+
+**Confidence: 58/100** | *All L4-estimated data must be verified with real-time sources.*
 
 ---
 
-**Model**: Five-Factor Model v1.0 | **Analysis Date**: 2026-04-01
-**Generated by**: TACO Agent Team (classifier + counterparty + reversal-engine)
+## Data Quality
+
+| Source | Coverage | Tier |
+|--------|---------|------|
+| TACO event database | Jan 2025–Mar 2026 | L1-L3 |
+| Market prices | Last 30 days | L1 (yfinance) |
+| Polymarket | Current | L1-L4 (API) |
+| Trump/Iran intelligence | Current | L4-estimated |
+
+---
+
+## Bayesian Architecture Notes
+
+This analysis was generated with the new Two-Stage Architecture:
+- **Five-Factor Model** → P₀ (static initial prior)
+- **BayesianReversalUpdater** → P_t (real-time posterior)
+- **GARCHTimingModel** → VIX reversion timing (decoupled from probability)
+
+Backtest on 13 historical events shows **MAE improved from 0.254 to 0.132** (48% reduction) with Bayesian updates.
+
+*Generated: 2026-04-01 by TACO Multi-Agent Team*

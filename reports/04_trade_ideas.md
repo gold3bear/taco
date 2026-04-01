@@ -1,6 +1,6 @@
 # TACO Trade Ideas — Investment Strategist
 
-*Generated: 2026-04-01 21:39*
+*Generated: 2026-04-01 22:38*
 
 **Scenario Probabilities:** Base TACO 22% | Bullish TACO 12% | Bearish War 67%
 
@@ -14,19 +14,19 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | $577 (current) or limit $566 (-2% on any intraday dip) |
-| Target | $608 (+5.3%, 14-day horizon) |
+| Entry | $583 (current) or limit $571 (-2% on any intraday dip) |
+| Target | $620 (+6.4%, 14-day horizon) |
 | Stop-Loss Trigger | Military strike confirmed OR Iran closes Strait of Hormuz → exit immediately |
 | Position Size | 3-5% initial (pilot). Add 3% if VIX spikes >32 (pain point exceeded) |
 | Max Total | 8% total (within 10% cap) |
-| Expected Value (30d) | -4.75% |
-| Risk/Reward | 0.6:1 (upside vs bear-case downside) |
-| Scenario-Weighted Sharpe | -2.78 |
+| Expected Value (30d) | -4.49% |
+| Risk/Reward | 0.7:1 (upside vs bear-case downside) |
+| Scenario-Weighted Sharpe | -2.61 |
 | Position Rule Check | CAUTION — R/R below 2:1 |
 
 **Scenario Performance (7d):**
-- Base Taco: +3.0% (7d)
-- Bullish Taco: +5.3% (7d)
+- Base Taco: +3.6% (7d)
+- Bullish Taco: +6.4% (7d)
 - Bearish War: -9.0% (7d)
 
 ---
@@ -37,8 +37,8 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | Short at $61 (current) — put options preferred for defined risk |
-| Target | $58 (-5.0%, 7-14 day cover) |
+| Entry | Short at $59 (current) — put options preferred for defined risk |
+| Target | $56 (-5.0%, 7-14 day cover) |
 | Stop-Loss Trigger | US military strike confirmed (oil spikes >20%) → cover immediately. Alternative: use puts with defined max loss = premium paid. |
 | Position Size | 2-3% (lower size due to war tail risk on short side) |
 | Max Total | 5% total |
@@ -60,8 +60,8 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | $430 (current) — scale in 1-2% now, add if war signals emerge |
-| Target | TACO case: $424 (minor loss, exit). War case: $452 (+5.0%) |
+| Entry | $436 (current) — scale in 1-2% now, add if war signals emerge |
+| Target | TACO case: $429 (minor loss, exit). War case: $458 (+5.0%) |
 | Stop-Loss Trigger | No stop on hedge position. Reduce if TACO confirmed and gold rallies paradoxically. |
 | Position Size | 2% (hedge position — sized for insurance, not return) |
 | Max Total | 4% total |
@@ -83,8 +83,8 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | $68,162 (current). Only enter if VIX begins falling from peak. |
-| Target | $72,251 (+6.0%, 7-14 days) |
+| Entry | $68,305 (current). Only enter if VIX begins falling from peak. |
+| Target | $72,403 (+6.0%, 7-14 days) |
 | Stop-Loss Trigger | War signal confirmed. BTC falls >15% from entry on war scenario. |
 | Position Size | 1-2% only (high volatility asset) |
 | Max Total | 3% total |
