@@ -339,8 +339,11 @@ def _extract_headline_probs(markets: list) -> tuple:
         iran_war = trump_apr7["no_prob"]
         trump_backdown = trump_apr7["yes_prob"]
     else:
-        iran_war = 0.085
-        trump_backdown = 0.915
+        # Fallback: all three markets missing
+        # Defaults reflect the observed Polymarket structure:
+        # YES=8.5% (TACO/ceasefire unlikely), NO=91.5% (war continues)
+        iran_war = 0.915
+        trump_backdown = 0.085
 
     return round(iran_war, 3), round(trump_backdown, 3)
 

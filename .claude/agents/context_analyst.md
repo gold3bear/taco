@@ -106,7 +106,7 @@ Flag any of these critical contradictions explicitly:
 
 ## Timeout: 8 minutes maximum
 If yfinance fails: use L4-estimated prices (defaults coded in script).
-If Polymarket API fails: use L4 estimate (0.18 war prob, 0.62 backdown prob).
+If Polymarket API fails: use L4 estimate (0.92 war prob, 0.08 backdown prob).
 Never block pipeline on data fetch failures.
 
 ## Calls Next Agent

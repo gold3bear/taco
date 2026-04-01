@@ -104,7 +104,7 @@ def compute_scenario_probs(bible: dict, context: dict, snapshot: dict) -> dict:
         statement_type=StatementType.MILITARY,
         vix_current=vix_current,
         counterparty_signal="survival_stakes",  # Iran IRGC
-        gas_price=context.get("gas_price_usd_gallon", 3.50),
+        gas_price=context.get("gas_price", 3.50),
         midterm_months=18,  # Assume midterm > 6 months
         market_drawdown=market_drawdown,
         polymarket_prob=pm_backdown,
