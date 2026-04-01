@@ -1,0 +1,381 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link "Polymarket Logo" [ref=e8] [cursor=pointer]:
+            - /url: /zh
+            - img "Polymarket" [ref=e9]
+          - generic [ref=e13]:
+            - generic [ref=e15]:
+              - button "登陆" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 登陆
+              - button "注册" [ref=e18] [cursor=pointer]:
+                - generic [ref=e19]: 注册
+            - button "Open user menu" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - img [ref=e23]
+                - img [ref=e28]
+        - generic [ref=e33]:
+          - link "热门" [ref=e34] [cursor=pointer]:
+            - /url: /zh
+            - img [ref=e35]
+            - generic [ref=e38]: 热门
+          - link "突发" [ref=e39] [cursor=pointer]:
+            - /url: /zh/breaking
+          - link "最新" [ref=e40] [cursor=pointer]:
+            - /url: /zh/new
+          - link "政治" [ref=e41] [cursor=pointer]:
+            - /url: /zh/politics
+          - link "体育" [ref=e42] [cursor=pointer]:
+            - /url: /zh/sports/live
+          - link "加密" [ref=e43] [cursor=pointer]:
+            - /url: /zh/crypto
+          - link "电竞" [ref=e44] [cursor=pointer]:
+            - /url: /zh/esports/live
+          - link "伊朗" [ref=e45] [cursor=pointer]:
+            - /url: /zh/iran
+          - link "财务" [ref=e46] [cursor=pointer]:
+            - /url: /zh/finance
+          - link "地缘政治" [ref=e47] [cursor=pointer]:
+            - /url: /zh/geopolitics
+          - link "科技" [ref=e48] [cursor=pointer]:
+            - /url: /zh/tech
+          - link "文化" [ref=e49] [cursor=pointer]:
+            - /url: /zh/pop-culture
+          - link "经济" [ref=e50] [cursor=pointer]:
+            - /url: /zh/economy
+          - link "天气" [ref=e51] [cursor=pointer]:
+            - /url: /zh/weather
+          - link "提及" [ref=e52] [cursor=pointer]:
+            - /url: /zh/mentions
+          - link "选举" [ref=e53] [cursor=pointer]:
+            - /url: /zh/elections
+      - generic [ref=e54]:
+        - main [ref=e57]:
+          - generic [ref=e59]:
+            - navigation [ref=e61]:
+              - link "选举" [ref=e62] [cursor=pointer]:
+                - /url: /zh/dashboards/global-elections
+                - img [ref=e64]
+                - paragraph [ref=e67]: 选举
+              - link "初选" [ref=e68] [cursor=pointer]:
+                - /url: /zh/dashboards/primaries
+                - img [ref=e70]
+                - paragraph [ref=e75]: 初选
+              - link "宏观" [ref=e76] [cursor=pointer]:
+                - /url: /zh/dashboards/macro
+                - img [ref=e78]
+                - paragraph [ref=e80]: 宏观
+              - link "美联储利率" [ref=e81] [cursor=pointer]:
+                - /url: /zh/dashboards/fed-rates
+                - img [ref=e83]
+                - paragraph [ref=e88]: 美联储利率
+              - link "特朗普" [ref=e89] [cursor=pointer]:
+                - /url: /zh/dashboards/trump
+                - img [ref=e91]
+                - paragraph [ref=e93]: 特朗普
+              - link "中期选举" [ref=e95] [cursor=pointer]:
+                - /url: /zh/predictions/midterms
+                - img [ref=e97]
+                - paragraph [ref=e100]: 中期选举
+              - link "财报" [ref=e101] [cursor=pointer]:
+                - /url: /zh/earnings
+                - img [ref=e103]
+                - paragraph [ref=e106]: 财报
+              - link "体育" [ref=e107] [cursor=pointer]:
+                - /url: /zh/sports/futures/nba
+                - img [ref=e109]
+                - paragraph [ref=e115]: 体育
+              - link "奥斯卡" [ref=e116] [cursor=pointer]:
+                - /url: /zh/predictions/oscars/2026
+                - img [ref=e118]
+                - paragraph [ref=e121]: 奥斯卡
+            - generic [ref=e123]:
+              - generic [ref=e126]:
+                - heading "特朗普赢了，接下来会怎样？" [level=1] [ref=e128]
+                - img "Trump and crew" [ref=e131]
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - paragraph [ref=e136]: 承诺与政策
+                  - img "Polymarket" [ref=e137]
+                - generic [ref=e141]:
+                  - link "俄罗斯与乌克兰的停火将于2026年3月31日前达成吗？ 0% 概率 0.1%" [ref=e142] [cursor=pointer]:
+                    - /url: /zh/market/russia-x-ukraine-ceasefire-by-march-31-2026
+                    - generic [ref=e149]: 俄罗斯与乌克兰的停火将于2026年3月31日前达成吗？
+                    - generic [ref=e151]:
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: 0%
+                        - generic [ref=e154]: 概率
+                      - generic [ref=e155]:
+                        - img [ref=e156]
+                        - generic [ref=e158]: 0.1%
+                  - link "12月31日 到2026年12月31日，美国会正式对伊朗宣战吗？ 10% 概率 1%" [ref=e161] [cursor=pointer]:
+                    - /url: /zh/market/will-the-us-officially-declare-war-on-iran-by-december-31-2026-746
+                    - generic [ref=e162]:
+                      - img "12月31日" [ref=e167]
+                      - generic [ref=e169]: 到2026年12月31日，美国会正式对伊朗宣战吗？
+                    - generic [ref=e171]:
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: 10%
+                        - generic [ref=e174]: 概率
+                      - generic [ref=e175]:
+                        - img [ref=e176]
+                        - generic [ref=e178]: 1%
+                  - link "白俄罗斯 特朗普和普京会在白俄罗斯下次会面吗？ 1% 概率 0.3%" [ref=e182] [cursor=pointer]:
+                    - /url: /zh/market/will-trump-and-putin-meet-next-in-belarus-572
+                    - generic [ref=e183]:
+                      - img "白俄罗斯" [ref=e188]
+                      - generic [ref=e190]: 特朗普和普京会在白俄罗斯下次会面吗？
+                    - generic [ref=e192]:
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: 1%
+                        - generic [ref=e195]: 概率
+                      - generic [ref=e196]:
+                        - img [ref=e197]
+                        - generic [ref=e199]: 0.3%
+                  - link "到2026年底特朗普会被弹劾吗？ 14% 概率 1%" [ref=e203] [cursor=pointer]:
+                    - /url: /zh/market/will-trump-be-impeached-by-december-31-2026
+                    - generic [ref=e210]: 到2026年底特朗普会被弹劾吗？
+                    - generic [ref=e212]:
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: 14%
+                        - generic [ref=e215]: 概率
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - generic [ref=e219]: 1%
+                  - link "6月30日 美国军队将在2026年6月30日前再次进入委内瑞拉吗？ 14% 概率 3.5%" [ref=e223] [cursor=pointer]:
+                    - /url: /zh/market/us-forces-in-venezuela-again-by-june-30-2026-624
+                    - generic [ref=e224]:
+                      - img "6月30日" [ref=e229]
+                      - generic [ref=e231]: 美国军队将在2026年6月30日前再次进入委内瑞拉吗？
+                    - generic [ref=e233]:
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: 14%
+                        - generic [ref=e236]: 概率
+                      - generic [ref=e237]:
+                        - img [ref=e238]
+                        - generic [ref=e240]: 3.5%
+                  - link "法院会强制特朗普退还关税吗？ 47% 概率 0.5%" [ref=e244] [cursor=pointer]:
+                    - /url: /zh/market/will-the-court-force-trump-to-refund-tariffs-2026-06-30
+                    - generic [ref=e251]: 法院会强制特朗普退还关税吗？
+                    - generic [ref=e253]:
+                      - generic [ref=e254]:
+                        - generic [ref=e255]: 47%
+                        - generic [ref=e256]: 概率
+                      - generic [ref=e257]:
+                        - img [ref=e258]
+                        - generic [ref=e260]: 0.5%
+                  - link "问题：特朗普会在2026年12月31日前辞职吗？ 7% 概率 0%" [ref=e264] [cursor=pointer]:
+                    - /url: /zh/market/will-trump-resign-by-december-31-2026
+                    - generic [ref=e271]: 问题：特朗普会在2026年12月31日前辞职吗？
+                    - generic [ref=e273]:
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: 7%
+                        - generic [ref=e276]: 概率
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - generic [ref=e280]: 0%
+                  - link "肯·帕克斯顿 - 德州参议院 特朗普是否会在2026年11月2日美东时间之前背书肯·帕克斯顿竞选德州参议院？ 66% 概率 0.2%" [ref=e284] [cursor=pointer]:
+                    - /url: /zh/market/will-trump-endorse-ken-paxton-for-tx-sen-by-nov-2-2026-et
+                    - generic [ref=e285]:
+                      - img "肯·帕克斯顿 - 德州参议院" [ref=e290]
+                      - generic [ref=e292]: 特朗普是否会在2026年11月2日美东时间之前背书肯·帕克斯顿竞选德州参议院？
+                    - generic [ref=e294]:
+                      - generic [ref=e295]:
+                        - generic [ref=e296]: 66%
+                        - generic [ref=e297]: 概率
+                      - generic [ref=e298]:
+                        - img [ref=e299]
+                        - generic [ref=e301]: 0.2%
+                  - link "↑ 44% 特朗普的支持率将在2026年达到44%吗？ 13% 概率 3%" [ref=e305] [cursor=pointer]:
+                    - /url: /zh/market/will-trumps-approval-rating-hit-44-in-2026
+                    - generic [ref=e306]:
+                      - img "↑ 44%" [ref=e311]
+                      - generic [ref=e313]: 特朗普的支持率将在2026年达到44%吗？
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - generic [ref=e317]: 13%
+                        - generic [ref=e318]: 概率
+                      - generic [ref=e319]:
+                        - img [ref=e320]
+                        - generic [ref=e322]: 3%
+        - contentinfo [ref=e326]:
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - link "Polymarket" [ref=e330] [cursor=pointer]:
+                - /url: /zh
+                - img "Polymarket" [ref=e331]
+              - paragraph [ref=e332]: 全球最大预测市场™
+            - generic [ref=e333]:
+              - generic [ref=e334]:
+                - heading "按分类和话题浏览盘口" [level=3] [ref=e335]
+                - generic [ref=e336]:
+                  - link "乌克兰 预测" [ref=e337] [cursor=pointer]:
+                    - /url: /zh/predictions/ukraine
+                    - text: 乌克兰
+                    - generic [ref=e338]: 预测
+                  - link "电影 预测" [ref=e339] [cursor=pointer]:
+                    - /url: /zh/predictions/movies
+                    - text: 电影
+                    - generic [ref=e340]: 预测
+                  - link "Parlays 预测" [ref=e341] [cursor=pointer]:
+                    - /url: /zh/predictions/parlays
+                    - text: Parlays
+                    - generic [ref=e342]: 预测
+                  - link "加密货币价格 预测" [ref=e343] [cursor=pointer]:
+                    - /url: /zh/predictions/crypto-prices
+                    - text: 加密货币价格
+                    - generic [ref=e344]: 预测
+                  - link "商品 预测" [ref=e345] [cursor=pointer]:
+                    - /url: /zh/predictions/commodities
+                    - text: 商品
+                    - generic [ref=e346]: 预测
+                  - link "特朗普 预测" [ref=e347] [cursor=pointer]:
+                    - /url: /zh/predictions/trump
+                    - text: 特朗普
+                    - generic [ref=e348]: 预测
+                  - link "NCAA篮球 预测" [ref=e349] [cursor=pointer]:
+                    - /url: /zh/predictions/ncaa-basketball
+                    - text: NCAA篮球
+                    - generic [ref=e350]: 预测
+                  - link "伊朗 预测" [ref=e351] [cursor=pointer]:
+                    - /url: /zh/predictions/iran
+                    - text: 伊朗
+                    - generic [ref=e352]: 预测
+                  - link "油 预测" [ref=e353] [cursor=pointer]:
+                    - /url: /zh/predictions/oil
+                    - text: 油
+                    - generic [ref=e354]: 预测
+                  - link "伊朗停火 预测" [ref=e355] [cursor=pointer]:
+                    - /url: /zh/predictions/diplomacy-ceasefire
+                    - text: 伊朗停火
+                    - generic [ref=e356]: 预测
+                  - link "政府关闭 预测" [ref=e357] [cursor=pointer]:
+                    - /url: /zh/predictions/gov-shutdown
+                    - text: 政府关闭
+                    - generic [ref=e358]: 预测
+                  - link "IPL 预测" [ref=e359] [cursor=pointer]:
+                    - /url: /zh/predictions/ipl
+                    - text: IPL
+                    - generic [ref=e360]: 预测
+                  - link "MLB 预测" [ref=e361] [cursor=pointer]:
+                    - /url: /zh/predictions/mlb
+                    - text: MLB
+                    - generic [ref=e362]: 预测
+                  - link "霍尔木兹海峡 预测" [ref=e363] [cursor=pointer]:
+                    - /url: /zh/predictions/strait-of-hormuz
+                    - text: 霍尔木兹海峡
+                    - generic [ref=e364]: 预测
+                  - button "查看更多" [ref=e365] [cursor=pointer]:
+                    - generic [ref=e366]: 查看更多
+                    - img [ref=e367]
+              - generic [ref=e369]:
+                - heading "支持与社交" [level=3] [ref=e370]
+                - generic [ref=e371]:
+                  - link "了解更多" [ref=e372] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com/concepts
+                  - link "𝕏 (Twitter)" [ref=e373] [cursor=pointer]:
+                    - /url: https://x.com/Polymarket
+                  - link "Instagram" [ref=e374] [cursor=pointer]:
+                    - /url: https://www.instagram.com/polymarket
+                  - link "Discord" [ref=e375] [cursor=pointer]:
+                    - /url: https://discord.gg/Polymarket
+                  - link "TikTok" [ref=e376] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@polymarket
+                  - link "新闻" [ref=e377] [cursor=pointer]:
+                    - /url: https://news.polymarket.com
+                  - link "联系我们" [ref=e378] [cursor=pointer]:
+                    - /url: mailto:hello@polymarket.com
+                  - link "帮助中心" [ref=e379] [cursor=pointer]:
+                    - /url: https://help.polymarket.com
+              - generic [ref=e380]:
+                - heading "Polymarket" [level=3] [ref=e381]
+                - generic [ref=e382]:
+                  - link "奖励" [ref=e383] [cursor=pointer]:
+                    - /url: /zh/rewards
+                  - link "API 接口" [ref=e384] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com/api-reference
+                  - link "排行榜" [ref=e385] [cursor=pointer]:
+                    - /url: /zh/leaderboard
+                  - link "准确率" [ref=e386] [cursor=pointer]:
+                    - /url: /zh/accuracy
+                  - link "品牌" [ref=e387] [cursor=pointer]:
+                    - /url: /zh/brand
+                  - link "动态" [ref=e388] [cursor=pointer]:
+                    - /url: /zh/activity
+                  - link "招聘" [ref=e389] [cursor=pointer]:
+                    - /url: /zh/careers
+                  - link "媒体" [ref=e390] [cursor=pointer]:
+                    - /url: mailto:press@polymarket.com
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - link "Email" [ref=e394] [cursor=pointer]:
+                    - /url: mailto:hello@polymarket.com
+                    - img [ref=e395]
+                  - link "X (Twitter)" [ref=e399] [cursor=pointer]:
+                    - /url: https://x.com/Polymarket
+                    - img [ref=e400]
+                  - link "Instagram" [ref=e402] [cursor=pointer]:
+                    - /url: https://www.instagram.com/polymarket
+                    - img [ref=e403]
+                  - link "Discord" [ref=e408] [cursor=pointer]:
+                    - /url: https://discord.gg/Polymarket
+                    - img [ref=e409]
+                  - link "TikTok" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@polymarket
+                    - img [ref=e412]
+                - generic [ref=e414]:
+                  - generic [ref=e415]: Adventure One QSS Inc. © 2026
+                  - generic [ref=e416]: ·
+                  - link "隐私" [ref=e417] [cursor=pointer]:
+                    - /url: /zh/privacy
+                  - generic [ref=e418]: ·
+                  - link "使用条款" [ref=e419] [cursor=pointer]:
+                    - /url: https://polymarket.com/tos
+                  - generic [ref=e420]: ·
+                  - link "市场诚信" [ref=e421] [cursor=pointer]:
+                    - /url: /zh/market-integrity
+                  - generic [ref=e422]: ·
+                  - link "帮助中心" [ref=e423] [cursor=pointer]:
+                    - /url: https://help.polymarket.com
+                  - generic [ref=e424]: ·
+                  - link "文档" [ref=e425] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com
+                - button "中文" [ref=e426] [cursor=pointer]:
+                  - img [ref=e427]
+                  - generic [ref=e430]: 中文
+                  - img [ref=e431]
+              - paragraph [ref=e433]:
+                - text: Polymarket通过独立法律实体在全球运营。
+                - link "Polymarket US" [ref=e434] [cursor=pointer]:
+                  - /url: https://polymarket.us/
+                - text: 由QCX LLC d/b/a Polymarket US运营，其为受CFTC监管的Designated Contract Market。本国际平台不受CFTC监管，并独立运营。交易存在重大亏损风险。请参阅我们的《
+                - link "服务条款" [ref=e435] [cursor=pointer]:
+                  - /url: https://polymarket.com/tos
+                - text: 》和《
+                - link "隐私政策" [ref=e436] [cursor=pointer]:
+                  - /url: https://polymarket.com/privacy
+                - text: 》。本翻译仅供参考。如英文文本与本翻译之间存在任何差异，以英文版本为准。
+    - navigation "Primary navigation" [ref=e438]:
+      - generic [ref=e440]:
+        - link "首页" [ref=e442] [cursor=pointer]:
+          - /url: /zh
+          - generic [ref=e443]:
+            - img [ref=e444]
+            - paragraph [ref=e446]: 首页
+        - button "Search" [ref=e448]:
+          - img [ref=e449]
+          - paragraph [ref=e452]: 搜索
+        - link "突发" [ref=e454] [cursor=pointer]:
+          - /url: /zh/breaking
+          - generic [ref=e455]:
+            - img [ref=e456]
+            - paragraph [ref=e459]: 突发
+        - button "More menu" [ref=e461]:
+          - img [ref=e462]
+          - paragraph [ref=e463]: 更多
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=e464]

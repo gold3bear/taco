@@ -1,0 +1,2443 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link "Polymarket Logo" [ref=e8] [cursor=pointer]:
+            - /url: /zh
+            - img "Polymarket" [ref=e9]
+          - generic [ref=e13]:
+            - generic [ref=e15]:
+              - button "登陆" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 登陆
+              - button "注册" [ref=e18] [cursor=pointer]:
+                - generic [ref=e19]: 注册
+            - button "Open user menu" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - img [ref=e23]
+                - img [ref=e28]
+        - generic [ref=e33]:
+          - link "热门" [ref=e34] [cursor=pointer]:
+            - /url: /zh
+            - img [ref=e35]
+            - generic [ref=e38]: 热门
+          - link "突发" [ref=e39] [cursor=pointer]:
+            - /url: /zh/breaking
+          - link "最新" [ref=e40] [cursor=pointer]:
+            - /url: /zh/new
+          - link "政治" [ref=e41] [cursor=pointer]:
+            - /url: /zh/politics
+          - link "体育" [ref=e42] [cursor=pointer]:
+            - /url: /zh/sports/live
+          - link "加密" [ref=e43] [cursor=pointer]:
+            - /url: /zh/crypto
+          - link "电竞" [ref=e44] [cursor=pointer]:
+            - /url: /zh/esports/live
+          - link "伊朗" [ref=e45] [cursor=pointer]:
+            - /url: /zh/iran
+          - link "财务" [ref=e46] [cursor=pointer]:
+            - /url: /zh/finance
+          - link "地缘政治" [ref=e47] [cursor=pointer]:
+            - /url: /zh/geopolitics
+          - link "科技" [ref=e48] [cursor=pointer]:
+            - /url: /zh/tech
+          - link "文化" [ref=e49] [cursor=pointer]:
+            - /url: /zh/pop-culture
+          - link "经济" [ref=e50] [cursor=pointer]:
+            - /url: /zh/economy
+          - link "天气" [ref=e51] [cursor=pointer]:
+            - /url: /zh/weather
+          - link "提及" [ref=e52] [cursor=pointer]:
+            - /url: /zh/mentions
+          - link "选举" [ref=e53] [cursor=pointer]:
+            - /url: /zh/elections
+      - generic [ref=e54]:
+        - main [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Polymarket | 全球最大预测市场" [level=1] [ref=e59]
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - generic [ref=e63]:
+                  - generic [ref=e66]:
+                    - textbox "搜索" [ref=e67]
+                    - generic:
+                      - img
+                  - generic [ref=e68]:
+                    - button "Toggle filters" [ref=e69] [cursor=pointer]:
+                      - img "sliders" [ref=e71]
+                    - button "Toggle watchlist" [ref=e75] [cursor=pointer]
+                - navigation "Market tabs" [ref=e81]:
+                  - button "全部" [ref=e82] [cursor=pointer]:
+                    - generic [ref=e83]: 全部
+                  - button "特朗普" [ref=e84] [cursor=pointer]:
+                    - generic [ref=e85]: 特朗普
+                  - button "NCAA篮球" [ref=e86] [cursor=pointer]:
+                    - generic [ref=e87]: NCAA篮球
+                  - button "伊朗" [ref=e88] [cursor=pointer]:
+                    - generic [ref=e89]: 伊朗
+                  - button "油" [ref=e90] [cursor=pointer]:
+                    - generic [ref=e91]: 油
+                  - button "伊朗停火" [ref=e92] [cursor=pointer]:
+                    - generic [ref=e93]: 伊朗停火
+                  - button "政府关闭" [ref=e94] [cursor=pointer]:
+                    - generic [ref=e95]: 政府关闭
+                  - button "IPL" [ref=e96] [cursor=pointer]:
+                    - generic [ref=e97]: IPL
+                  - button "MLB" [ref=e98] [cursor=pointer]:
+                    - generic [ref=e99]: MLB
+                  - button "霍尔木兹海峡" [ref=e100] [cursor=pointer]:
+                    - generic [ref=e101]: 霍尔木兹海峡
+                  - button "胡塞武装分子" [ref=e102] [cursor=pointer]:
+                    - generic [ref=e103]: 胡塞武装分子
+                  - button "SpaceX" [ref=e104] [cursor=pointer]:
+                    - generic [ref=e105]: SpaceX
+                  - button "匈牙利选举" [ref=e106] [cursor=pointer]:
+                    - generic [ref=e107]: 匈牙利选举
+                  - button "每日温度" [ref=e108] [cursor=pointer]:
+                    - generic [ref=e109]: 每日温度
+                  - button "Tweet Markets" [ref=e110] [cursor=pointer]:
+                    - generic [ref=e111]: Tweet Markets
+                  - button "全球选举" [ref=e112] [cursor=pointer]:
+                    - generic [ref=e113]: 全球选举
+                  - button "外星人" [ref=e114] [cursor=pointer]:
+                    - generic [ref=e115]: 外星人
+                  - button "古巴" [ref=e116] [cursor=pointer]:
+                    - generic [ref=e117]: 古巴
+                  - button "中国" [ref=e118] [cursor=pointer]:
+                    - generic [ref=e119]: 中国
+                  - button "中期" [ref=e120] [cursor=pointer]:
+                    - generic [ref=e121]: 中期
+                  - button "主要" [ref=e122] [cursor=pointer]:
+                    - generic [ref=e123]: 主要
+                  - button "黎巴嫩" [ref=e124] [cursor=pointer]:
+                    - generic [ref=e125]: 黎巴嫩
+                  - button "爱泼斯坦" [ref=e126] [cursor=pointer]:
+                    - generic [ref=e127]: 爱泼斯坦
+                  - button "AI" [ref=e128] [cursor=pointer]:
+                    - generic [ref=e129]: AI
+                  - button "IPO" [ref=e130] [cursor=pointer]:
+                    - generic [ref=e131]: IPO
+                  - button "收入" [ref=e132] [cursor=pointer]:
+                    - generic [ref=e133]: 收入
+                  - button "美联储" [ref=e134] [cursor=pointer]:
+                    - generic [ref=e135]: 美联储
+                  - button "委内瑞拉" [ref=e136] [cursor=pointer]:
+                    - generic [ref=e137]: 委内瑞拉
+                  - button "乌克兰" [ref=e138] [cursor=pointer]:
+                    - generic [ref=e139]: 乌克兰
+                  - button "电影" [ref=e140] [cursor=pointer]:
+                    - generic [ref=e141]: 电影
+                  - button "Parlays" [ref=e142] [cursor=pointer]:
+                    - generic [ref=e143]: Parlays
+                  - button "加密货币价格" [ref=e144] [cursor=pointer]:
+                    - generic [ref=e145]: 加密货币价格
+                  - button "商品" [ref=e146] [cursor=pointer]:
+                    - generic [ref=e147]: 商品
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]:
+                      - img "美军进入伊朗的方式是.. ？ card icon" [ref=e155]
+                      - link "美军进入伊朗的方式是.. ？" [ref=e157] [cursor=pointer]:
+                        - /url: /zh/event/us-forces-enter-iran-by
+                        - heading "美军进入伊朗的方式是.. ？" [level=2] [ref=e159]
+                    - generic [ref=e160]:
+                      - generic [ref=e165]:
+                        - generic [ref=e168]:
+                          - link "12月31日" [ref=e170] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262
+                            - paragraph [ref=e171]: 12月31日
+                          - generic [ref=e172]:
+                            - paragraph [ref=e173]: 63%
+                            - link "是. 63%" [ref=e174] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262&outcomeIndex=0
+                              - generic [ref=e175]: 是.
+                              - generic [ref=e176]: 63%
+                            - link "否. 37%" [ref=e177] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262&outcomeIndex=1
+                              - generic [ref=e178]: 否.
+                              - generic [ref=e179]: 37%
+                        - generic [ref=e182]:
+                          - link "4月30日" [ref=e184] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-april-30-899
+                            - paragraph [ref=e185]: 4月30日
+                          - generic [ref=e186]:
+                            - paragraph [ref=e187]: 57%
+                            - link "是. 57%" [ref=e188] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-april-30-899&outcomeIndex=0
+                              - generic [ref=e189]: 是.
+                              - generic [ref=e190]: 57%
+                            - link "否. 43%" [ref=e191] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-april-30-899&outcomeIndex=1
+                              - generic [ref=e192]: 否.
+                              - generic [ref=e193]: 43%
+                        - generic [ref=e196]:
+                          - link "3月31日" [ref=e198] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519
+                            - paragraph [ref=e199]: 3月31日
+                          - generic [ref=e200]:
+                            - paragraph [ref=e201]: 1%
+                            - link "是. 1%" [ref=e202] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519&outcomeIndex=0
+                              - generic [ref=e203]: 是.
+                              - generic [ref=e204]: 1%
+                            - link "否. 99%" [ref=e205] [cursor=pointer]:
+                              - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519&outcomeIndex=1
+                              - generic [ref=e206]: 否.
+                              - generic [ref=e207]: 99%
+                      - generic [ref=e209]:
+                        - paragraph [ref=e211]:
+                          - generic [ref=e212]: $71M
+                          - text: 交易量
+                        - generic [ref=e214]:
+                          - button "奖励" [ref=e216] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e217] [cursor=pointer]
+                  - generic [ref=e220]:
+                    - generic [ref=e221]:
+                      - img "BTC 5分钟涨跌 card icon" [ref=e223]
+                      - generic [ref=e224]:
+                        - link "BTC 5分钟涨跌" [ref=e225] [cursor=pointer]:
+                          - /url: /zh/event/btc-updown-5m-1775026200
+                          - heading "BTC 5分钟涨跌" [level=2] [ref=e227]
+                        - generic [ref=e229]:
+                          - img [ref=e231]
+                          - generic [ref=e234]:
+                            - paragraph [ref=e235]: 48%
+                            - paragraph [ref=e236]: 涨
+                    - generic [ref=e237]:
+                      - generic [ref=e238]:
+                        - link "涨" [ref=e239] [cursor=pointer]:
+                          - /url: /zh/event/btc-updown-5m-1775026200?outcomeIndex=0
+                          - paragraph [ref=e240]: 涨
+                        - link "跌" [ref=e241] [cursor=pointer]:
+                          - /url: /zh/event/btc-updown-5m-1775026200?outcomeIndex=1
+                          - paragraph [ref=e242]: 跌
+                      - generic [ref=e244]:
+                        - paragraph [ref=e250]: 实时
+                        - button "Add to favorites" [ref=e253] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic: + $2
+                      - generic:
+                        - generic: + $13
+                      - generic:
+                        - generic: + $3
+                      - generic:
+                        - generic: + $60
+                      - generic:
+                        - generic: + $3
+                    - generic:
+                      - generic:
+                        - generic: + $2
+                      - generic:
+                        - generic: + $2
+                      - generic:
+                        - generic: + $2
+                  - link "NCAA锦标赛" [ref=e256] [cursor=pointer]:
+                    - /url: /zh/sports/cbb/bracket
+                    - img [ref=e258]
+                    - heading "NCAA锦标赛" [level=2] [ref=e273]
+                  - generic [ref=e275]:
+                    - generic [ref=e276]:
+                      - img "2026年NCAA锦标赛冠军 card icon" [ref=e278]
+                      - link "2026年NCAA锦标赛冠军" [ref=e280] [cursor=pointer]:
+                        - /url: /zh/event/2026-ncaa-tournament-winner
+                        - heading "2026年NCAA锦标赛冠军" [level=2] [ref=e282]
+                    - generic [ref=e283]:
+                      - generic [ref=e288]:
+                        - generic [ref=e291]:
+                          - link "密歇根" [ref=e293] [cursor=pointer]:
+                            - /url: /zh/event/2026-ncaa-tournament-winner/will-michigan-win-the-2026-ncaa-tournament
+                            - paragraph [ref=e294]: 密歇根
+                          - generic [ref=e295]:
+                            - paragraph [ref=e296]: 35%
+                            - link "是. 35%" [ref=e297] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-michigan-win-the-2026-ncaa-tournament&outcomeIndex=0
+                              - generic [ref=e298]: 是.
+                              - generic [ref=e299]: 35%
+                            - link "否. 65%" [ref=e300] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-michigan-win-the-2026-ncaa-tournament&outcomeIndex=1
+                              - generic [ref=e301]: 否.
+                              - generic [ref=e302]: 65%
+                        - generic [ref=e305]:
+                          - link "亚利桑那" [ref=e307] [cursor=pointer]:
+                            - /url: /zh/event/2026-ncaa-tournament-winner/will-arizona-win-the-2026-ncaa-tournament
+                            - paragraph [ref=e308]: 亚利桑那
+                          - generic [ref=e309]:
+                            - paragraph [ref=e310]: 34%
+                            - link "是. 34%" [ref=e311] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-arizona-win-the-2026-ncaa-tournament&outcomeIndex=0
+                              - generic [ref=e312]: 是.
+                              - generic [ref=e313]: 34%
+                            - link "否. 66%" [ref=e314] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-arizona-win-the-2026-ncaa-tournament&outcomeIndex=1
+                              - generic [ref=e315]: 否.
+                              - generic [ref=e316]: 66%
+                        - generic [ref=e319]:
+                          - link "伊利诺伊" [ref=e321] [cursor=pointer]:
+                            - /url: /zh/event/2026-ncaa-tournament-winner/will-illinois-win-the-2026-ncaa-tournament
+                            - paragraph [ref=e322]: 伊利诺伊
+                          - generic [ref=e323]:
+                            - paragraph [ref=e324]: 17%
+                            - link "是. 17%" [ref=e325] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-illinois-win-the-2026-ncaa-tournament&outcomeIndex=0
+                              - generic [ref=e326]: 是.
+                              - generic [ref=e327]: 17%
+                            - link "否. 83%" [ref=e328] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-illinois-win-the-2026-ncaa-tournament&outcomeIndex=1
+                              - generic [ref=e329]: 否.
+                              - generic [ref=e330]: 83%
+                        - generic [ref=e333]:
+                          - link "康涅狄格" [ref=e335] [cursor=pointer]:
+                            - /url: /zh/event/2026-ncaa-tournament-winner/will-connecticut-win-the-2026-ncaa-tournament
+                            - paragraph [ref=e336]: 康涅狄格
+                          - generic [ref=e337]:
+                            - paragraph [ref=e338]: 14%
+                            - link "是. 14%" [ref=e339] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-connecticut-win-the-2026-ncaa-tournament&outcomeIndex=0
+                              - generic [ref=e340]: 是.
+                              - generic [ref=e341]: 14%
+                            - link "否. 86%" [ref=e342] [cursor=pointer]:
+                              - /url: /zh/event/2026-ncaa-tournament-winner?marketSlug=will-connecticut-win-the-2026-ncaa-tournament&outcomeIndex=1
+                              - generic [ref=e343]: 否.
+                              - generic [ref=e344]: 86%
+                      - generic [ref=e346]:
+                        - paragraph [ref=e348]:
+                          - generic [ref=e349]: $24M
+                          - text: 交易量
+                        - generic [ref=e351]:
+                          - button "奖励" [ref=e353] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e354] [cursor=pointer]
+                  - generic [ref=e357]:
+                    - generic [ref=e358]:
+                      - img "美国x伊朗在……之前停火？ card icon" [ref=e360]
+                      - link "美国x伊朗在……之前停火？" [ref=e362] [cursor=pointer]:
+                        - /url: /zh/event/us-x-iran-ceasefire-by
+                        - heading "美国x伊朗在……之前停火？" [level=2] [ref=e364]
+                    - generic [ref=e365]:
+                      - generic [ref=e370]:
+                        - generic [ref=e373]:
+                          - link "12月31日" [ref=e375] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-december-31-969-392
+                            - paragraph [ref=e376]: 12月31日
+                          - generic [ref=e377]:
+                            - paragraph [ref=e378]: 74%
+                            - link "是. 74%" [ref=e379] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-december-31-969-392&outcomeIndex=0
+                              - generic [ref=e380]: 是.
+                              - generic [ref=e381]: 74%
+                            - link "否. 26%" [ref=e382] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-december-31-969-392&outcomeIndex=1
+                              - generic [ref=e383]: 否.
+                              - generic [ref=e384]: 26%
+                        - generic [ref=e387]:
+                          - link "6月30日" [ref=e389] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-june-30-752-741-257
+                            - paragraph [ref=e390]: 6月30日
+                          - generic [ref=e391]:
+                            - paragraph [ref=e392]: 66%
+                            - link "是. 66%" [ref=e393] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-june-30-752-741-257&outcomeIndex=0
+                              - generic [ref=e394]: 是.
+                              - generic [ref=e395]: 66%
+                            - link "否. 34%" [ref=e396] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-june-30-752-741-257&outcomeIndex=1
+                              - generic [ref=e397]: 否.
+                              - generic [ref=e398]: 34%
+                        - generic [ref=e401]:
+                          - link "5月31日" [ref=e403] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-may-31-313-373-916
+                            - paragraph [ref=e404]: 5月31日
+                          - generic [ref=e405]:
+                            - paragraph [ref=e406]: 52%
+                            - link "是. 52%" [ref=e407] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-may-31-313-373-916&outcomeIndex=0
+                              - generic [ref=e408]: 是.
+                              - generic [ref=e409]: 52%
+                            - link "否. 48%" [ref=e410] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-may-31-313-373-916&outcomeIndex=1
+                              - generic [ref=e411]: 否.
+                              - generic [ref=e412]: 48%
+                        - generic [ref=e415]:
+                          - link "4月30日" [ref=e417] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-april-30-194-679-389
+                            - paragraph [ref=e418]: 4月30日
+                          - generic [ref=e419]:
+                            - paragraph [ref=e420]: 38%
+                            - link "是. 38%" [ref=e421] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-30-194-679-389&outcomeIndex=0
+                              - generic [ref=e422]: 是.
+                              - generic [ref=e423]: 38%
+                            - link "否. 62%" [ref=e424] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-30-194-679-389&outcomeIndex=1
+                              - generic [ref=e425]: 否.
+                              - generic [ref=e426]: 62%
+                        - generic [ref=e429]:
+                          - link "4月15日" [ref=e431] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-april-15-182-528-637
+                            - paragraph [ref=e432]: 4月15日
+                          - generic [ref=e433]:
+                            - paragraph [ref=e434]: 20%
+                            - link "是. 20%" [ref=e435] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-15-182-528-637&outcomeIndex=0
+                              - generic [ref=e436]: 是.
+                              - generic [ref=e437]: 20%
+                            - link "否. 80%" [ref=e438] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-15-182-528-637&outcomeIndex=1
+                              - generic [ref=e439]: 否.
+                              - generic [ref=e440]: 80%
+                      - generic [ref=e442]:
+                        - paragraph [ref=e444]:
+                          - generic [ref=e445]: $72M
+                          - text: 交易量
+                        - generic [ref=e447]:
+                          - button "奖励" [ref=e449] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e450] [cursor=pointer]
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - img "edgeX FDV在发布后一天高于___ ？ card icon" [ref=e456]
+                      - link "edgeX FDV在发布后一天高于___ ？" [ref=e458] [cursor=pointer]:
+                        - /url: /zh/event/edgex-fdv-above-one-day-after-launch
+                        - heading "edgeX FDV在发布后一天高于___ ？" [level=2] [ref=e460]
+                    - generic [ref=e461]:
+                      - generic [ref=e466]:
+                        - generic [ref=e469]:
+                          - link "3亿美元" [ref=e471] [cursor=pointer]:
+                            - /url: /zh/event/edgex-fdv-above-one-day-after-launch/edgex-fdv-above-300m-one-day-after-launch-839
+                            - paragraph [ref=e472]: 3亿美元
+                          - generic [ref=e473]:
+                            - paragraph [ref=e474]: 100%
+                            - link "是. 100%" [ref=e475] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-300m-one-day-after-launch-839&outcomeIndex=0
+                              - generic [ref=e476]: 是.
+                              - generic [ref=e477]: 100%
+                            - link "否. <1%" [ref=e478] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-300m-one-day-after-launch-839&outcomeIndex=1
+                              - generic [ref=e479]: 否.
+                              - generic [ref=e480]: <1%
+                        - generic [ref=e483]:
+                          - link "4亿美元" [ref=e485] [cursor=pointer]:
+                            - /url: /zh/event/edgex-fdv-above-one-day-after-launch/edgex-fdv-above-400m-one-day-after-launch-261
+                            - paragraph [ref=e486]: 4亿美元
+                          - generic [ref=e487]:
+                            - paragraph [ref=e488]: 98%
+                            - link "是. 98%" [ref=e489] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-400m-one-day-after-launch-261&outcomeIndex=0
+                              - generic [ref=e490]: 是.
+                              - generic [ref=e491]: 98%
+                            - link "否. 2%" [ref=e492] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-400m-one-day-after-launch-261&outcomeIndex=1
+                              - generic [ref=e493]: 否.
+                              - generic [ref=e494]: 2%
+                        - generic [ref=e497]:
+                          - link "5亿美元" [ref=e499] [cursor=pointer]:
+                            - /url: /zh/event/edgex-fdv-above-one-day-after-launch/edgex-fdv-above-500m-one-day-after-launch-467-696-465
+                            - paragraph [ref=e500]: 5亿美元
+                          - generic [ref=e501]:
+                            - paragraph [ref=e502]: 94%
+                            - link "是. 94%" [ref=e503] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-500m-one-day-after-launch-467-696-465&outcomeIndex=0
+                              - generic [ref=e504]: 是.
+                              - generic [ref=e505]: 94%
+                            - link "否. 6%" [ref=e506] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-500m-one-day-after-launch-467-696-465&outcomeIndex=1
+                              - generic [ref=e507]: 否.
+                              - generic [ref=e508]: 6%
+                        - generic [ref=e511]:
+                          - link "6亿美元" [ref=e513] [cursor=pointer]:
+                            - /url: /zh/event/edgex-fdv-above-one-day-after-launch/edgex-fdv-above-600m-one-day-after-launch-816
+                            - paragraph [ref=e514]: 6亿美元
+                          - generic [ref=e515]:
+                            - paragraph [ref=e516]: 61%
+                            - link "是. 61%" [ref=e517] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-600m-one-day-after-launch-816&outcomeIndex=0
+                              - generic [ref=e518]: 是.
+                              - generic [ref=e519]: 61%
+                            - link "否. 39%" [ref=e520] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-600m-one-day-after-launch-816&outcomeIndex=1
+                              - generic [ref=e521]: 否.
+                              - generic [ref=e522]: 39%
+                        - generic [ref=e525]:
+                          - link "7亿美元" [ref=e527] [cursor=pointer]:
+                            - /url: /zh/event/edgex-fdv-above-one-day-after-launch/edgex-fdv-above-700m-one-day-after-launch-588-327-781-534-369
+                            - paragraph [ref=e528]: 7亿美元
+                          - generic [ref=e529]:
+                            - paragraph [ref=e530]: 11%
+                            - link "是. 11%" [ref=e531] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-700m-one-day-after-launch-588-327-781-534-369&outcomeIndex=0
+                              - generic [ref=e532]: 是.
+                              - generic [ref=e533]: 11%
+                            - link "否. 89%" [ref=e534] [cursor=pointer]:
+                              - /url: /zh/event/edgex-fdv-above-one-day-after-launch?marketSlug=edgex-fdv-above-700m-one-day-after-launch-588-327-781-534-369&outcomeIndex=1
+                              - generic [ref=e535]: 否.
+                              - generic [ref=e536]: 89%
+                      - generic [ref=e538]:
+                        - paragraph [ref=e540]:
+                          - generic [ref=e541]: $13M
+                          - text: 交易量
+                        - generic [ref=e543]:
+                          - button "奖励" [ref=e545] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e546] [cursor=pointer]
+                  - generic [ref=e549]:
+                    - link "Hanwha Life Esports 91% HANJIN BRION 10%" [ref=e550] [cursor=pointer]:
+                      - /url: /zh/event/lol-hle1-bro2-2026-04-01
+                      - generic [ref=e551]:
+                        - paragraph [ref=e554]: Hanwha Life Esports
+                        - paragraph [ref=e555]: 91%
+                      - generic [ref=e556]:
+                        - paragraph [ref=e559]: HANJIN BRION
+                        - paragraph [ref=e560]: 10%
+                    - generic [ref=e561]:
+                      - generic [ref=e562]:
+                        - link "Hanwha Life" [ref=e563] [cursor=pointer]:
+                          - /url: /zh/event/lol-hle1-bro2-2026-04-01?outcomeIndex=0
+                          - paragraph [ref=e565]: Hanwha Life
+                        - link "HANJIN" [ref=e567] [cursor=pointer]:
+                          - /url: /zh/event/lol-hle1-bro2-2026-04-01?outcomeIndex=1
+                          - paragraph [ref=e569]: HANJIN
+                      - generic [ref=e572]:
+                        - generic [ref=e573]:
+                          - paragraph [ref=e574]:
+                            - generic [ref=e575]: $672K
+                            - text: 交易量
+                          - generic [ref=e576]: ·
+                          - link "LoL" [ref=e577] [cursor=pointer]:
+                            - /url: /zh/esports/league-of-legends/games/week/1
+                          - generic [ref=e578]: ·
+                          - text: 下午 4:00
+                        - button "Add to favorites" [ref=e581] [cursor=pointer]
+                  - generic [ref=e584]:
+                    - generic [ref=e585]:
+                      - img "2026年世界杯足球赛冠军 card icon" [ref=e587]
+                      - link "2026年世界杯足球赛冠军" [ref=e589] [cursor=pointer]:
+                        - /url: /zh/event/2026-fifa-world-cup-winner-595
+                        - heading "2026年世界杯足球赛冠军" [level=2] [ref=e591]
+                    - generic [ref=e592]:
+                      - generic [ref=e597]:
+                        - generic [ref=e600]:
+                          - link "西班牙" [ref=e602] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-winner-595/will-spain-win-the-2026-fifa-world-cup-963
+                            - paragraph [ref=e603]: 西班牙
+                          - generic [ref=e604]:
+                            - paragraph [ref=e605]: 16%
+                            - link "是. 16%" [ref=e606] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-spain-win-the-2026-fifa-world-cup-963&outcomeIndex=0
+                              - generic [ref=e607]: 是.
+                              - generic [ref=e608]: 16%
+                            - link "否. 84%" [ref=e609] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-spain-win-the-2026-fifa-world-cup-963&outcomeIndex=1
+                              - generic [ref=e610]: 否.
+                              - generic [ref=e611]: 84%
+                        - generic [ref=e614]:
+                          - link "英格兰" [ref=e616] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-winner-595/will-england-win-the-2026-fifa-world-cup-937
+                            - paragraph [ref=e617]: 英格兰
+                          - generic [ref=e618]:
+                            - paragraph [ref=e619]: 13%
+                            - link "是. 13%" [ref=e620] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-england-win-the-2026-fifa-world-cup-937&outcomeIndex=0
+                              - generic [ref=e621]: 是.
+                              - generic [ref=e622]: 13%
+                            - link "否. 87%" [ref=e623] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-england-win-the-2026-fifa-world-cup-937&outcomeIndex=1
+                              - generic [ref=e624]: 否.
+                              - generic [ref=e625]: 87%
+                        - generic [ref=e628]:
+                          - link "法国" [ref=e630] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-winner-595/will-france-win-the-2026-fifa-world-cup-924
+                            - paragraph [ref=e631]: 法国
+                          - generic [ref=e632]:
+                            - paragraph [ref=e633]: 13%
+                            - link "是. 13%" [ref=e634] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-france-win-the-2026-fifa-world-cup-924&outcomeIndex=0
+                              - generic [ref=e635]: 是.
+                              - generic [ref=e636]: 13%
+                            - link "否. 87%" [ref=e637] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-france-win-the-2026-fifa-world-cup-924&outcomeIndex=1
+                              - generic [ref=e638]: 否.
+                              - generic [ref=e639]: 87%
+                        - generic [ref=e642]:
+                          - link "阿根廷" [ref=e644] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-winner-595/will-argentina-win-the-2026-fifa-world-cup-245
+                            - paragraph [ref=e645]: 阿根廷
+                          - generic [ref=e646]:
+                            - paragraph [ref=e647]: 9%
+                            - link "是. 9%" [ref=e648] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-argentina-win-the-2026-fifa-world-cup-245&outcomeIndex=0
+                              - generic [ref=e649]: 是.
+                              - generic [ref=e650]: 9%
+                            - link "否. 91%" [ref=e651] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-argentina-win-the-2026-fifa-world-cup-245&outcomeIndex=1
+                              - generic [ref=e652]: 否.
+                              - generic [ref=e653]: 91%
+                        - generic [ref=e656]:
+                          - link "巴西" [ref=e658] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-winner-595/will-brazil-win-the-2026-fifa-world-cup-183
+                            - paragraph [ref=e659]: 巴西
+                          - generic [ref=e660]:
+                            - paragraph [ref=e661]: 9%
+                            - link "是. 9%" [ref=e662] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-brazil-win-the-2026-fifa-world-cup-183&outcomeIndex=0
+                              - generic [ref=e663]: 是.
+                              - generic [ref=e664]: 9%
+                            - link "否. 91%" [ref=e665] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-winner-595?marketSlug=will-brazil-win-the-2026-fifa-world-cup-183&outcomeIndex=1
+                              - generic [ref=e666]: 否.
+                              - generic [ref=e667]: 91%
+                      - generic [ref=e669]:
+                        - paragraph [ref=e671]:
+                          - generic [ref=e672]: $450M
+                          - text: 交易量
+                        - generic [ref=e674]:
+                          - button "持仓赚 4% 奖励" [ref=e675] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e677] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e678] [cursor=pointer]
+                  - generic [ref=e681]:
+                    - generic [ref=e682]:
+                      - img "2026年世界杯足球赛：哪些国家有资格参赛？ card icon" [ref=e684]
+                      - link "2026年世界杯足球赛：哪些国家有资格参赛？" [ref=e686] [cursor=pointer]:
+                        - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify
+                        - heading "2026年世界杯足球赛：哪些国家有资格参赛？" [level=2] [ref=e688]
+                    - generic [ref=e689]:
+                      - generic [ref=e694]:
+                        - generic [ref=e697]:
+                          - link "伊拉克" [ref=e699] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify/will-iraq-qualify-for-the-2026-fifa-world-cup
+                            - paragraph [ref=e700]: 伊拉克
+                          - generic [ref=e701]:
+                            - paragraph [ref=e702]: 100%
+                            - link "是. 100%" [ref=e703] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify?marketSlug=will-iraq-qualify-for-the-2026-fifa-world-cup&outcomeIndex=0
+                              - generic [ref=e704]: 是.
+                              - generic [ref=e705]: 100%
+                            - link "否. <1%" [ref=e706] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify?marketSlug=will-iraq-qualify-for-the-2026-fifa-world-cup&outcomeIndex=1
+                              - generic [ref=e707]: 否.
+                              - generic [ref=e708]: <1%
+                        - generic [ref=e711]:
+                          - link "玻利维亚" [ref=e713] [cursor=pointer]:
+                            - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify/will-bolivia-qualify-for-the-2026-fifa-world-cup
+                            - paragraph [ref=e714]: 玻利维亚
+                          - generic [ref=e715]:
+                            - paragraph [ref=e716]: <1%
+                            - link "是. <1%" [ref=e717] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify?marketSlug=will-bolivia-qualify-for-the-2026-fifa-world-cup&outcomeIndex=0
+                              - generic [ref=e718]: 是.
+                              - generic [ref=e719]: <1%
+                            - link "否. 100%" [ref=e720] [cursor=pointer]:
+                              - /url: /zh/event/2026-fifa-world-cup-which-countries-qualify?marketSlug=will-bolivia-qualify-for-the-2026-fifa-world-cup&outcomeIndex=1
+                              - generic [ref=e721]: 否.
+                              - generic [ref=e722]: 100%
+                      - generic [ref=e724]:
+                        - paragraph [ref=e726]:
+                          - generic [ref=e727]: $2M
+                          - text: 交易量
+                        - generic [ref=e729]:
+                          - button "奖励" [ref=e731] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e732] [cursor=pointer]
+                  - generic [ref=e735]:
+                    - generic [ref=e736]:
+                      - img "美国护送商船通过霍尔木兹…… ？ card icon" [ref=e738]
+                      - link "美国护送商船通过霍尔木兹…… ？" [ref=e740] [cursor=pointer]:
+                        - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31
+                        - heading "美国护送商船通过霍尔木兹…… ？" [level=2] [ref=e742]
+                    - generic [ref=e743]:
+                      - generic [ref=e748]:
+                        - generic [ref=e751]:
+                          - link "4月30日" [ref=e753] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31/us-escorts-commercial-ship-through-hormuz-by-april-30-894
+                            - paragraph [ref=e754]: 4月30日
+                          - generic [ref=e755]:
+                            - paragraph [ref=e756]: 18%
+                            - link "是. 18%" [ref=e757] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-30-894&outcomeIndex=0
+                              - generic [ref=e758]: 是.
+                              - generic [ref=e759]: 18%
+                            - link "否. 82%" [ref=e760] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-30-894&outcomeIndex=1
+                              - generic [ref=e761]: 否.
+                              - generic [ref=e762]: 82%
+                        - generic [ref=e765]:
+                          - link "4月15日" [ref=e767] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31/us-escorts-commercial-ship-through-hormuz-by-april-15
+                            - paragraph [ref=e768]: 4月15日
+                          - generic [ref=e769]:
+                            - paragraph [ref=e770]: 6%
+                            - link "是. 6%" [ref=e771] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-15&outcomeIndex=0
+                              - generic [ref=e772]: 是.
+                              - generic [ref=e773]: 6%
+                            - link "否. 94%" [ref=e774] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-15&outcomeIndex=1
+                              - generic [ref=e775]: 否.
+                              - generic [ref=e776]: 94%
+                        - generic [ref=e779]:
+                          - link "3月31日" [ref=e781] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31/us-escorts-commercial-ship-through-hormuz-by-march-31
+                            - paragraph [ref=e782]: 3月31日
+                          - generic [ref=e783]:
+                            - paragraph [ref=e784]: <1%
+                            - link "是. <1%" [ref=e785] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-march-31&outcomeIndex=0
+                              - generic [ref=e786]: 是.
+                              - generic [ref=e787]: <1%
+                            - link "否. 100%" [ref=e788] [cursor=pointer]:
+                              - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-march-31&outcomeIndex=1
+                              - generic [ref=e789]: 否.
+                              - generic [ref=e790]: 100%
+                      - generic [ref=e792]:
+                        - paragraph [ref=e794]:
+                          - generic [ref=e795]: $2M
+                          - text: 交易量
+                        - generic [ref=e797]:
+                          - button "奖励" [ref=e799] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e800] [cursor=pointer]
+                  - generic [ref=e803]:
+                    - generic [ref=e804]:
+                      - img "哈格岛不再被伊朗控制…… ？ card icon" [ref=e806]
+                      - link "哈格岛不再被伊朗控制…… ？" [ref=e808] [cursor=pointer]:
+                        - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31
+                        - heading "哈格岛不再被伊朗控制…… ？" [level=2] [ref=e810]
+                    - generic [ref=e811]:
+                      - generic [ref=e816]:
+                        - generic [ref=e819]:
+                          - link "6月30日" [ref=e821] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-june-30-561-854
+                            - paragraph [ref=e822]: 6月30日
+                          - generic [ref=e823]:
+                            - paragraph [ref=e824]: 32%
+                            - link "是. 32%" [ref=e825] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-june-30-561-854&outcomeIndex=0
+                              - generic [ref=e826]: 是.
+                              - generic [ref=e827]: 32%
+                            - link "否. 68%" [ref=e828] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-june-30-561-854&outcomeIndex=1
+                              - generic [ref=e829]: 否.
+                              - generic [ref=e830]: 68%
+                        - generic [ref=e833]:
+                          - link "5月31日" [ref=e835] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-may-31-689
+                            - paragraph [ref=e836]: 5月31日
+                          - generic [ref=e837]:
+                            - paragraph [ref=e838]: 30%
+                            - link "是. 30%" [ref=e839] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-may-31-689&outcomeIndex=0
+                              - generic [ref=e840]: 是.
+                              - generic [ref=e841]: 30%
+                            - link "否. 70%" [ref=e842] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-may-31-689&outcomeIndex=1
+                              - generic [ref=e843]: 否.
+                              - generic [ref=e844]: 70%
+                        - generic [ref=e847]:
+                          - link "4月30日" [ref=e849] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-april-30-912
+                            - paragraph [ref=e850]: 4月30日
+                          - generic [ref=e851]:
+                            - paragraph [ref=e852]: 23%
+                            - link "是. 23%" [ref=e853] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-30-912&outcomeIndex=0
+                              - generic [ref=e854]: 是.
+                              - generic [ref=e855]: 23%
+                            - link "否. 77%" [ref=e856] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-30-912&outcomeIndex=1
+                              - generic [ref=e857]: 否.
+                              - generic [ref=e858]: 77%
+                        - generic [ref=e861]:
+                          - link "4月15日" [ref=e863] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-april-15
+                            - paragraph [ref=e864]: 4月15日
+                          - generic [ref=e865]:
+                            - paragraph [ref=e866]: 11%
+                            - link "是. 11%" [ref=e867] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-15&outcomeIndex=0
+                              - generic [ref=e868]: 是.
+                              - generic [ref=e869]: 11%
+                            - link "否. 89%" [ref=e870] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-15&outcomeIndex=1
+                              - generic [ref=e871]: 否.
+                              - generic [ref=e872]: 89%
+                        - generic [ref=e875]:
+                          - link "3月31日" [ref=e877] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-march-31
+                            - paragraph [ref=e878]: 3月31日
+                          - generic [ref=e879]:
+                            - paragraph [ref=e880]: <1%
+                            - link "是. <1%" [ref=e881] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-march-31&outcomeIndex=0
+                              - generic [ref=e882]: 是.
+                              - generic [ref=e883]: <1%
+                            - link "否. 100%" [ref=e884] [cursor=pointer]:
+                              - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-march-31&outcomeIndex=1
+                              - generic [ref=e885]: 否.
+                              - generic [ref=e886]: 100%
+                      - generic [ref=e888]:
+                        - paragraph [ref=e890]:
+                          - generic [ref=e891]: $11M
+                          - text: 交易量
+                        - generic [ref=e893]:
+                          - button "奖励" [ref=e895] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e896] [cursor=pointer]
+                  - generic [ref=e899]:
+                    - generic [ref=e900]:
+                      - img "霍尔木兹海峡的交通在4月底恢复正常？ card icon" [ref=e902]
+                      - generic [ref=e903]:
+                        - link "霍尔木兹海峡航运将在四月底前恢复正常？" [ref=e904] [cursor=pointer]:
+                          - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30
+                          - heading "霍尔木兹海峡航运将在四月底前恢复正常？" [level=2] [ref=e906]
+                        - generic [ref=e908]:
+                          - img [ref=e910]
+                          - generic [ref=e913]:
+                            - paragraph [ref=e914]: 24%
+                            - paragraph [ref=e915]: 是
+                    - generic [ref=e916]:
+                      - generic [ref=e917]:
+                        - link "是" [ref=e918] [cursor=pointer]:
+                          - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30?outcomeIndex=0
+                          - paragraph [ref=e919]: 是
+                        - link "否" [ref=e920] [cursor=pointer]:
+                          - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30?outcomeIndex=1
+                          - paragraph [ref=e921]: 否
+                      - generic [ref=e923]:
+                        - generic [ref=e924]:
+                          - paragraph [ref=e925]:
+                            - generic [ref=e926]: $2M
+                            - text: 交易量
+                          - img [ref=e928]
+                        - generic [ref=e934]:
+                          - button "奖励" [ref=e936] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e937] [cursor=pointer]
+                  - generic [ref=e940]:
+                    - generic [ref=e941]:
+                      - img "匈牙利下任总理 card icon" [ref=e943]
+                      - link "匈牙利下任总理" [ref=e945] [cursor=pointer]:
+                        - /url: /zh/event/next-prime-minister-of-hungary
+                        - heading "匈牙利下任总理" [level=2] [ref=e947]
+                    - generic [ref=e948]:
+                      - generic [ref=e953]:
+                        - generic [ref=e956]:
+                          - link "Péter Magyar" [ref=e958] [cursor=pointer]:
+                            - /url: /zh/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-pter-magyar
+                            - paragraph [ref=e959]: Péter Magyar
+                          - generic [ref=e960]:
+                            - paragraph [ref=e961]: 64%
+                            - link "是. 64%" [ref=e962] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-pter-magyar&outcomeIndex=0
+                              - generic [ref=e963]: 是.
+                              - generic [ref=e964]: 64%
+                            - link "否. 36%" [ref=e965] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-pter-magyar&outcomeIndex=1
+                              - generic [ref=e966]: 否.
+                              - generic [ref=e967]: 36%
+                        - generic [ref=e970]:
+                          - link "Viktor Orbán" [ref=e972] [cursor=pointer]:
+                            - /url: /zh/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-viktor-orbn
+                            - paragraph [ref=e973]: Viktor Orbán
+                          - generic [ref=e974]:
+                            - paragraph [ref=e975]: 37%
+                            - link "是. 37%" [ref=e976] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-viktor-orbn&outcomeIndex=0
+                              - generic [ref=e977]: 是.
+                              - generic [ref=e978]: 37%
+                            - link "否. 63%" [ref=e979] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-viktor-orbn&outcomeIndex=1
+                              - generic [ref=e980]: 否.
+                              - generic [ref=e981]: 63%
+                        - generic [ref=e984]:
+                          - link "伊什特万·卡皮塔尼" [ref=e986] [cursor=pointer]:
+                            - /url: /zh/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-istvn-kapitny
+                            - paragraph [ref=e987]: 伊什特万·卡皮塔尼
+                          - generic [ref=e988]:
+                            - paragraph [ref=e989]: <1%
+                            - link "是. <1%" [ref=e990] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-istvn-kapitny&outcomeIndex=0
+                              - generic [ref=e991]: 是.
+                              - generic [ref=e992]: <1%
+                            - link "否. 100%" [ref=e993] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-istvn-kapitny&outcomeIndex=1
+                              - generic [ref=e994]: 否.
+                              - generic [ref=e995]: 100%
+                        - generic [ref=e998]:
+                          - link "拉斯洛·托罗茨凯" [ref=e1000] [cursor=pointer]:
+                            - /url: /zh/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-lszl-toroczkai
+                            - paragraph [ref=e1001]: 拉斯洛·托罗茨凯
+                          - generic [ref=e1002]:
+                            - paragraph [ref=e1003]: <1%
+                            - link "是. <1%" [ref=e1004] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-lszl-toroczkai&outcomeIndex=0
+                              - generic [ref=e1005]: 是.
+                              - generic [ref=e1006]: <1%
+                            - link "否. 100%" [ref=e1007] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-lszl-toroczkai&outcomeIndex=1
+                              - generic [ref=e1008]: 否.
+                              - generic [ref=e1009]: 100%
+                        - generic [ref=e1012]:
+                          - link "雅诺什·拉扎尔" [ref=e1014] [cursor=pointer]:
+                            - /url: /zh/event/next-prime-minister-of-hungary/will-the-next-prime-minister-of-hungary-be-jnos-lzr
+                            - paragraph [ref=e1015]: 雅诺什·拉扎尔
+                          - generic [ref=e1016]:
+                            - paragraph [ref=e1017]: <1%
+                            - link "是. <1%" [ref=e1018] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-jnos-lzr&outcomeIndex=0
+                              - generic [ref=e1019]: 是.
+                              - generic [ref=e1020]: <1%
+                            - link "否. 100%" [ref=e1021] [cursor=pointer]:
+                              - /url: /zh/event/next-prime-minister-of-hungary?marketSlug=will-the-next-prime-minister-of-hungary-be-jnos-lzr&outcomeIndex=1
+                              - generic [ref=e1022]: 否.
+                              - generic [ref=e1023]: 100%
+                      - generic [ref=e1025]:
+                        - paragraph [ref=e1027]:
+                          - generic [ref=e1028]: $42M
+                          - text: 交易量
+                        - generic [ref=e1030]:
+                          - button "奖励" [ref=e1032] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1033] [cursor=pointer]
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - img "秘鲁总统选举获胜者 card icon" [ref=e1039]
+                      - link "秘鲁总统选举获胜者" [ref=e1041] [cursor=pointer]:
+                        - /url: /zh/event/peru-presidential-election-winner
+                        - heading "秘鲁总统选举获胜者" [level=2] [ref=e1043]
+                    - generic [ref=e1044]:
+                      - generic [ref=e1049]:
+                        - generic [ref=e1052]:
+                          - link "拉斐尔·洛佩斯·阿利亚加" [ref=e1054] [cursor=pointer]:
+                            - /url: /zh/event/peru-presidential-election-winner/will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election
+                            - paragraph [ref=e1055]: 拉斐尔·洛佩斯·阿利亚加
+                          - generic [ref=e1056]:
+                            - paragraph [ref=e1057]: 32%
+                            - link "是. 32%" [ref=e1058] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election&outcomeIndex=0
+                              - generic [ref=e1059]: 是.
+                              - generic [ref=e1060]: 32%
+                            - link "否. 68%" [ref=e1061] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election&outcomeIndex=1
+                              - generic [ref=e1062]: 否.
+                              - generic [ref=e1063]: 68%
+                        - generic [ref=e1066]:
+                          - link "凯科·藤森" [ref=e1068] [cursor=pointer]:
+                            - /url: /zh/event/peru-presidential-election-winner/will-keiko-fujimori-win-the-2026-peruvian-presidential-election
+                            - paragraph [ref=e1069]: 凯科·藤森
+                          - generic [ref=e1070]:
+                            - paragraph [ref=e1071]: 22%
+                            - link "是. 22%" [ref=e1072] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-keiko-fujimori-win-the-2026-peruvian-presidential-election&outcomeIndex=0
+                              - generic [ref=e1073]: 是.
+                              - generic [ref=e1074]: 22%
+                            - link "否. 78%" [ref=e1075] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-keiko-fujimori-win-the-2026-peruvian-presidential-election&outcomeIndex=1
+                              - generic [ref=e1076]: 否.
+                              - generic [ref=e1077]: 78%
+                        - generic [ref=e1080]:
+                          - link "卡洛斯·阿尔瓦雷斯" [ref=e1082] [cursor=pointer]:
+                            - /url: /zh/event/peru-presidential-election-winner/will-carlos-lvarez-win-the-2026-peruvian-presidential-election
+                            - paragraph [ref=e1083]: 卡洛斯·阿尔瓦雷斯
+                          - generic [ref=e1084]:
+                            - paragraph [ref=e1085]: 17%
+                            - link "是. 17%" [ref=e1086] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-carlos-lvarez-win-the-2026-peruvian-presidential-election&outcomeIndex=0
+                              - generic [ref=e1087]: 是.
+                              - generic [ref=e1088]: 17%
+                            - link "否. 83%" [ref=e1089] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-carlos-lvarez-win-the-2026-peruvian-presidential-election&outcomeIndex=1
+                              - generic [ref=e1090]: 否.
+                              - generic [ref=e1091]: 83%
+                        - generic [ref=e1094]:
+                          - link "罗伯托·桑切斯·帕洛米诺" [ref=e1096] [cursor=pointer]:
+                            - /url: /zh/event/peru-presidential-election-winner/will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election
+                            - paragraph [ref=e1097]: 罗伯托·桑切斯·帕洛米诺
+                          - generic [ref=e1098]:
+                            - paragraph [ref=e1099]: 9%
+                            - link "是. 9%" [ref=e1100] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election&outcomeIndex=0
+                              - generic [ref=e1101]: 是.
+                              - generic [ref=e1102]: 9%
+                            - link "否. 91%" [ref=e1103] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election&outcomeIndex=1
+                              - generic [ref=e1104]: 否.
+                              - generic [ref=e1105]: 91%
+                        - generic [ref=e1108]:
+                          - link "阿方索·洛佩斯·查乌" [ref=e1110] [cursor=pointer]:
+                            - /url: /zh/event/peru-presidential-election-winner/will-alfonso-lpez-chau-win-the-2026-peruvian-presidential-election
+                            - paragraph [ref=e1111]: 阿方索·洛佩斯·查乌
+                          - generic [ref=e1112]:
+                            - paragraph [ref=e1113]: 7%
+                            - link "是. 7%" [ref=e1114] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-alfonso-lpez-chau-win-the-2026-peruvian-presidential-election&outcomeIndex=0
+                              - generic [ref=e1115]: 是.
+                              - generic [ref=e1116]: 7%
+                            - link "否. 93%" [ref=e1117] [cursor=pointer]:
+                              - /url: /zh/event/peru-presidential-election-winner?marketSlug=will-alfonso-lpez-chau-win-the-2026-peruvian-presidential-election&outcomeIndex=1
+                              - generic [ref=e1118]: 否.
+                              - generic [ref=e1119]: 93%
+                      - generic [ref=e1121]:
+                        - paragraph [ref=e1123]:
+                          - generic [ref=e1124]: $5M
+                          - text: 交易量
+                        - generic [ref=e1126]:
+                          - button "奖励" [ref=e1128] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1129] [cursor=pointer]
+                  - generic [ref=e1132]:
+                    - generic [ref=e1133]:
+                      - img "2026年欧洲电视网冠军 card icon" [ref=e1135]
+                      - link "2026年欧洲电视网冠军" [ref=e1137] [cursor=pointer]:
+                        - /url: /zh/event/eurovision-winner-2026
+                        - heading "2026年欧洲电视网冠军" [level=2] [ref=e1139]
+                    - generic [ref=e1140]:
+                      - generic [ref=e1145]:
+                        - generic [ref=e1148]:
+                          - link "芬兰" [ref=e1150] [cursor=pointer]:
+                            - /url: /zh/event/eurovision-winner-2026/will-finland-win-eurovision-2026
+                            - paragraph [ref=e1151]: 芬兰
+                          - generic [ref=e1152]:
+                            - paragraph [ref=e1153]: 36%
+                            - link "是. 36%" [ref=e1154] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-finland-win-eurovision-2026&outcomeIndex=0
+                              - generic [ref=e1155]: 是.
+                              - generic [ref=e1156]: 36%
+                            - link "否. 64%" [ref=e1157] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-finland-win-eurovision-2026&outcomeIndex=1
+                              - generic [ref=e1158]: 否.
+                              - generic [ref=e1159]: 64%
+                        - generic [ref=e1162]:
+                          - link "法国" [ref=e1164] [cursor=pointer]:
+                            - /url: /zh/event/eurovision-winner-2026/will-france-win-eurovision-2026
+                            - paragraph [ref=e1165]: 法国
+                          - generic [ref=e1166]:
+                            - paragraph [ref=e1167]: 14%
+                            - link "是. 14%" [ref=e1168] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-france-win-eurovision-2026&outcomeIndex=0
+                              - generic [ref=e1169]: 是.
+                              - generic [ref=e1170]: 14%
+                            - link "否. 86%" [ref=e1171] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-france-win-eurovision-2026&outcomeIndex=1
+                              - generic [ref=e1172]: 否.
+                              - generic [ref=e1173]: 86%
+                        - generic [ref=e1176]:
+                          - link "丹麦" [ref=e1178] [cursor=pointer]:
+                            - /url: /zh/event/eurovision-winner-2026/will-denmark-win-eurovision-2026
+                            - paragraph [ref=e1179]: 丹麦
+                          - generic [ref=e1180]:
+                            - paragraph [ref=e1181]: 10%
+                            - link "是. 10%" [ref=e1182] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-denmark-win-eurovision-2026&outcomeIndex=0
+                              - generic [ref=e1183]: 是.
+                              - generic [ref=e1184]: 10%
+                            - link "否. 90%" [ref=e1185] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-denmark-win-eurovision-2026&outcomeIndex=1
+                              - generic [ref=e1186]: 否.
+                              - generic [ref=e1187]: 90%
+                        - generic [ref=e1190]:
+                          - link "澳大利亚" [ref=e1192] [cursor=pointer]:
+                            - /url: /zh/event/eurovision-winner-2026/will-australia-win-eurovision-2026
+                            - paragraph [ref=e1193]: 澳大利亚
+                          - generic [ref=e1194]:
+                            - paragraph [ref=e1195]: 7%
+                            - link "是. 7%" [ref=e1196] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-australia-win-eurovision-2026&outcomeIndex=0
+                              - generic [ref=e1197]: 是.
+                              - generic [ref=e1198]: 7%
+                            - link "否. 93%" [ref=e1199] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-australia-win-eurovision-2026&outcomeIndex=1
+                              - generic [ref=e1200]: 否.
+                              - generic [ref=e1201]: 93%
+                        - generic [ref=e1204]:
+                          - link "希腊" [ref=e1206] [cursor=pointer]:
+                            - /url: /zh/event/eurovision-winner-2026/will-greece-win-eurovision-2026
+                            - paragraph [ref=e1207]: 希腊
+                          - generic [ref=e1208]:
+                            - paragraph [ref=e1209]: 6%
+                            - link "是. 6%" [ref=e1210] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-greece-win-eurovision-2026&outcomeIndex=0
+                              - generic [ref=e1211]: 是.
+                              - generic [ref=e1212]: 6%
+                            - link "否. 94%" [ref=e1213] [cursor=pointer]:
+                              - /url: /zh/event/eurovision-winner-2026?marketSlug=will-greece-win-eurovision-2026&outcomeIndex=1
+                              - generic [ref=e1214]: 否.
+                              - generic [ref=e1215]: 94%
+                      - generic [ref=e1217]:
+                        - paragraph [ref=e1219]:
+                          - generic [ref=e1220]: $54M
+                          - text: 交易量
+                        - generic [ref=e1222]:
+                          - button "奖励" [ref=e1224] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1225] [cursor=pointer]
+                  - generic [ref=e1228]:
+                    - generic [ref=e1229]:
+                      - img "中国会在2026年底入侵台湾吗？ card icon" [ref=e1231]
+                      - generic [ref=e1232]:
+                        - link "问题：到2026年底，中国会入侵台湾吗？" [ref=e1233] [cursor=pointer]:
+                          - /url: /zh/event/will-china-invade-taiwan-before-2027
+                          - heading "问题：到2026年底，中国会入侵台湾吗？" [level=2] [ref=e1235]
+                        - generic [ref=e1237]:
+                          - img [ref=e1239]
+                          - generic [ref=e1242]:
+                            - paragraph [ref=e1243]: 10%
+                            - paragraph [ref=e1244]: 是
+                    - generic [ref=e1245]:
+                      - generic [ref=e1246]:
+                        - link "是" [ref=e1247] [cursor=pointer]:
+                          - /url: /zh/event/will-china-invade-taiwan-before-2027?outcomeIndex=0
+                          - paragraph [ref=e1248]: 是
+                        - link "否" [ref=e1249] [cursor=pointer]:
+                          - /url: /zh/event/will-china-invade-taiwan-before-2027?outcomeIndex=1
+                          - paragraph [ref=e1250]: 否
+                      - generic [ref=e1252]:
+                        - generic [ref=e1253]:
+                          - paragraph [ref=e1254]:
+                            - generic [ref=e1255]: $15M
+                            - text: 交易量
+                          - img [ref=e1257]
+                        - generic [ref=e1263]:
+                          - button "持仓赚 4% 奖励" [ref=e1264] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e1266] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1267] [cursor=pointer]
+                  - generic [ref=e1270]:
+                    - generic [ref=e1271]:
+                      - img "哪个政党将在2026年赢得参议院？ card icon" [ref=e1273]
+                      - link "哪个政党将在2026年赢得参议院？" [ref=e1275] [cursor=pointer]:
+                        - /url: /zh/event/which-party-will-win-the-senate-in-2026
+                        - heading "哪个政党将在2026年赢得参议院？" [level=2] [ref=e1277]
+                    - generic [ref=e1278]:
+                      - generic [ref=e1283]:
+                        - generic [ref=e1286]:
+                          - link "分组项标题：民主党" [ref=e1288] [cursor=pointer]:
+                            - /url: /zh/event/which-party-will-win-the-senate-in-2026/will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections
+                            - paragraph [ref=e1289]: 分组项标题：民主党
+                          - generic [ref=e1290]:
+                            - paragraph [ref=e1291]: 52%
+                            - link "是. 52%" [ref=e1292] [cursor=pointer]:
+                              - /url: /zh/event/which-party-will-win-the-senate-in-2026?marketSlug=will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections&outcomeIndex=0
+                              - generic [ref=e1293]: 是.
+                              - generic [ref=e1294]: 52%
+                            - link "否. 48%" [ref=e1295] [cursor=pointer]:
+                              - /url: /zh/event/which-party-will-win-the-senate-in-2026?marketSlug=will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections&outcomeIndex=1
+                              - generic [ref=e1296]: 否.
+                              - generic [ref=e1297]: 48%
+                        - generic [ref=e1300]:
+                          - link "共和党" [ref=e1302] [cursor=pointer]:
+                            - /url: /zh/event/which-party-will-win-the-senate-in-2026/will-the-republican-party-control-the-senate-after-the-2026-midterm-elections
+                            - paragraph [ref=e1303]: 共和党
+                          - generic [ref=e1304]:
+                            - paragraph [ref=e1305]: 49%
+                            - link "是. 49%" [ref=e1306] [cursor=pointer]:
+                              - /url: /zh/event/which-party-will-win-the-senate-in-2026?marketSlug=will-the-republican-party-control-the-senate-after-the-2026-midterm-elections&outcomeIndex=0
+                              - generic [ref=e1307]: 是.
+                              - generic [ref=e1308]: 49%
+                            - link "否. 51%" [ref=e1309] [cursor=pointer]:
+                              - /url: /zh/event/which-party-will-win-the-senate-in-2026?marketSlug=will-the-republican-party-control-the-senate-after-the-2026-midterm-elections&outcomeIndex=1
+                              - generic [ref=e1310]: 否.
+                              - generic [ref=e1311]: 51%
+                      - generic [ref=e1313]:
+                        - paragraph [ref=e1315]:
+                          - generic [ref=e1316]: $1M
+                          - text: 交易量
+                        - generic [ref=e1318]:
+                          - button "持仓赚 4% 奖励" [ref=e1319] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e1321] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1322] [cursor=pointer]
+                  - generic [ref=e1325]:
+                    - generic [ref=e1326]:
+                      - img "2028年民主党总统候选人 card icon" [ref=e1328]
+                      - link "2028年民主党总统候选人" [ref=e1330] [cursor=pointer]:
+                        - /url: /zh/event/democratic-presidential-nominee-2028
+                        - heading "2028年民主党总统候选人" [level=2] [ref=e1332]
+                    - generic [ref=e1333]:
+                      - generic [ref=e1338]:
+                        - generic [ref=e1341]:
+                          - link "加文·纽瑟姆" [ref=e1343] [cursor=pointer]:
+                            - /url: /zh/event/democratic-presidential-nominee-2028/will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568
+                            - paragraph [ref=e1344]: 加文·纽瑟姆
+                          - generic [ref=e1345]:
+                            - paragraph [ref=e1346]: 24%
+                            - link "是. 24%" [ref=e1347] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568&outcomeIndex=0
+                              - generic [ref=e1348]: 是.
+                              - generic [ref=e1349]: 24%
+                            - link "否. 76%" [ref=e1350] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568&outcomeIndex=1
+                              - generic [ref=e1351]: 否.
+                              - generic [ref=e1352]: 76%
+                        - generic [ref=e1355]:
+                          - link "分组项标题：亚历山德里亚·奥卡西奥-科尔特斯" [ref=e1357] [cursor=pointer]:
+                            - /url: /zh/event/democratic-presidential-nominee-2028/will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653
+                            - paragraph [ref=e1358]: 分组项标题：亚历山德里亚·奥卡西奥-科尔特斯
+                          - generic [ref=e1359]:
+                            - paragraph [ref=e1360]: 8%
+                            - link "是. 8%" [ref=e1361] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653&outcomeIndex=0
+                              - generic [ref=e1362]: 是.
+                              - generic [ref=e1363]: 8%
+                            - link "否. 92%" [ref=e1364] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653&outcomeIndex=1
+                              - generic [ref=e1365]: 否.
+                              - generic [ref=e1366]: 92%
+                        - generic [ref=e1369]:
+                          - link "乔恩·奥索夫" [ref=e1371] [cursor=pointer]:
+                            - /url: /zh/event/democratic-presidential-nominee-2028/will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885
+                            - paragraph [ref=e1372]: 乔恩·奥索夫
+                          - generic [ref=e1373]:
+                            - paragraph [ref=e1374]: 5%
+                            - link "是. 5%" [ref=e1375] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885&outcomeIndex=0
+                              - generic [ref=e1376]: 是.
+                              - generic [ref=e1377]: 5%
+                            - link "否. 95%" [ref=e1378] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885&outcomeIndex=1
+                              - generic [ref=e1379]: 否.
+                              - generic [ref=e1380]: 95%
+                        - generic [ref=e1383]:
+                          - link "分组项标题：卡马拉·哈里斯" [ref=e1385] [cursor=pointer]:
+                            - /url: /zh/event/democratic-presidential-nominee-2028/will-kamala-harris-win-the-2028-democratic-presidential-nomination-641
+                            - paragraph [ref=e1386]: 分组项标题：卡马拉·哈里斯
+                          - generic [ref=e1387]:
+                            - paragraph [ref=e1388]: 4%
+                            - link "是. 4%" [ref=e1389] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-kamala-harris-win-the-2028-democratic-presidential-nomination-641&outcomeIndex=0
+                              - generic [ref=e1390]: 是.
+                              - generic [ref=e1391]: 4%
+                            - link "否. 96%" [ref=e1392] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-kamala-harris-win-the-2028-democratic-presidential-nomination-641&outcomeIndex=1
+                              - generic [ref=e1393]: 否.
+                              - generic [ref=e1394]: 96%
+                        - generic [ref=e1397]:
+                          - link "乔什·沙皮罗" [ref=e1399] [cursor=pointer]:
+                            - /url: /zh/event/democratic-presidential-nominee-2028/will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977
+                            - paragraph [ref=e1400]: 乔什·沙皮罗
+                          - generic [ref=e1401]:
+                            - paragraph [ref=e1402]: 4%
+                            - link "是. 4%" [ref=e1403] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977&outcomeIndex=0
+                              - generic [ref=e1404]: 是.
+                              - generic [ref=e1405]: 4%
+                            - link "否. 96%" [ref=e1406] [cursor=pointer]:
+                              - /url: /zh/event/democratic-presidential-nominee-2028?marketSlug=will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977&outcomeIndex=1
+                              - generic [ref=e1407]: 否.
+                              - generic [ref=e1408]: 96%
+                      - generic [ref=e1410]:
+                        - paragraph [ref=e1412]:
+                          - generic [ref=e1413]: $955M
+                          - text: 交易量
+                        - generic [ref=e1415]:
+                          - button "持仓赚 4% 奖励" [ref=e1416] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e1418] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1419] [cursor=pointer]
+                  - generic [ref=e1422]:
+                    - generic [ref=e1423]:
+                      - img "2028年共和党总统候选人 card icon" [ref=e1425]
+                      - link "2028年共和党总统候选人" [ref=e1427] [cursor=pointer]:
+                        - /url: /zh/event/republican-presidential-nominee-2028
+                        - heading "2028年共和党总统候选人" [level=2] [ref=e1429]
+                    - generic [ref=e1430]:
+                      - generic [ref=e1435]:
+                        - generic [ref=e1438]:
+                          - link "J.D. Vance" [ref=e1440] [cursor=pointer]:
+                            - /url: /zh/event/republican-presidential-nominee-2028/will-jd-vance-win-the-2028-republican-presidential-nomination
+                            - paragraph [ref=e1441]: J.D. Vance
+                          - generic [ref=e1442]:
+                            - paragraph [ref=e1443]: 37%
+                            - link "是. 37%" [ref=e1444] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-jd-vance-win-the-2028-republican-presidential-nomination&outcomeIndex=0
+                              - generic [ref=e1445]: 是.
+                              - generic [ref=e1446]: 37%
+                            - link "否. 63%" [ref=e1447] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-jd-vance-win-the-2028-republican-presidential-nomination&outcomeIndex=1
+                              - generic [ref=e1448]: 否.
+                              - generic [ref=e1449]: 63%
+                        - generic [ref=e1452]:
+                          - link "分组项标题：马科·鲁比奥" [ref=e1454] [cursor=pointer]:
+                            - /url: /zh/event/republican-presidential-nominee-2028/will-marco-rubio-win-the-2028-republican-presidential-nomination
+                            - paragraph [ref=e1455]: 分组项标题：马科·鲁比奥
+                          - generic [ref=e1456]:
+                            - paragraph [ref=e1457]: 22%
+                            - link "是. 22%" [ref=e1458] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-marco-rubio-win-the-2028-republican-presidential-nomination&outcomeIndex=0
+                              - generic [ref=e1459]: 是.
+                              - generic [ref=e1460]: 22%
+                            - link "否. 78%" [ref=e1461] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-marco-rubio-win-the-2028-republican-presidential-nomination&outcomeIndex=1
+                              - generic [ref=e1462]: 否.
+                              - generic [ref=e1463]: 78%
+                        - generic [ref=e1466]:
+                          - link "塔克·卡尔森" [ref=e1468] [cursor=pointer]:
+                            - /url: /zh/event/republican-presidential-nominee-2028/will-tucker-carlson-win-the-2028-republican-presidential-nomination
+                            - paragraph [ref=e1469]: 塔克·卡尔森
+                          - generic [ref=e1470]:
+                            - paragraph [ref=e1471]: 5%
+                            - link "是. 5%" [ref=e1472] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-tucker-carlson-win-the-2028-republican-presidential-nomination&outcomeIndex=0
+                              - generic [ref=e1473]: 是.
+                              - generic [ref=e1474]: 5%
+                            - link "否. 95%" [ref=e1475] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-tucker-carlson-win-the-2028-republican-presidential-nomination&outcomeIndex=1
+                              - generic [ref=e1476]: 否.
+                              - generic [ref=e1477]: 95%
+                        - generic [ref=e1480]:
+                          - link "罗恩·德桑蒂斯" [ref=e1482] [cursor=pointer]:
+                            - /url: /zh/event/republican-presidential-nominee-2028/will-ron-desantis-win-the-2028-republican-presidential-nomination
+                            - paragraph [ref=e1483]: 罗恩·德桑蒂斯
+                          - generic [ref=e1484]:
+                            - paragraph [ref=e1485]: 3%
+                            - link "是. 3%" [ref=e1486] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-ron-desantis-win-the-2028-republican-presidential-nomination&outcomeIndex=0
+                              - generic [ref=e1487]: 是.
+                              - generic [ref=e1488]: 3%
+                            - link "否. 97%" [ref=e1489] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-ron-desantis-win-the-2028-republican-presidential-nomination&outcomeIndex=1
+                              - generic [ref=e1490]: 否.
+                              - generic [ref=e1491]: 97%
+                        - generic [ref=e1494]:
+                          - link "唐纳德·特朗普" [ref=e1496] [cursor=pointer]:
+                            - /url: /zh/event/republican-presidential-nominee-2028/will-donald-trump-win-the-2028-republican-presidential-nomination
+                            - paragraph [ref=e1497]: 唐纳德·特朗普
+                          - generic [ref=e1498]:
+                            - paragraph [ref=e1499]: 2%
+                            - link "是. 2%" [ref=e1500] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-donald-trump-win-the-2028-republican-presidential-nomination&outcomeIndex=0
+                              - generic [ref=e1501]: 是.
+                              - generic [ref=e1502]: 2%
+                            - link "否. 98%" [ref=e1503] [cursor=pointer]:
+                              - /url: /zh/event/republican-presidential-nominee-2028?marketSlug=will-donald-trump-win-the-2028-republican-presidential-nomination&outcomeIndex=1
+                              - generic [ref=e1504]: 否.
+                              - generic [ref=e1505]: 98%
+                      - generic [ref=e1507]:
+                        - paragraph [ref=e1509]:
+                          - generic [ref=e1510]: $504M
+                          - text: 交易量
+                        - generic [ref=e1512]:
+                          - button "持仓赚 4% 奖励" [ref=e1513] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e1515] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1516] [cursor=pointer]
+                  - generic [ref=e1519]:
+                    - generic [ref=e1520]:
+                      - img "2026年FIDE候选人锦标赛：获胜者 card icon" [ref=e1522]
+                      - link "2026年FIDE候选人锦标赛：获胜者" [ref=e1524] [cursor=pointer]:
+                        - /url: /zh/event/2026-fide-candidates-tournament-winner
+                        - heading "2026年FIDE候选人锦标赛：获胜者" [level=2] [ref=e1526]
+                    - generic [ref=e1527]:
+                      - generic [ref=e1532]:
+                        - generic [ref=e1535]:
+                          - link "法比亚诺·卡鲁阿纳" [ref=e1537] [cursor=pointer]:
+                            - /url: /zh/event/2026-fide-candidates-tournament-winner/will-fabiano-caruana-win-the-2026-fide-candidates-tournament
+                            - paragraph [ref=e1538]: 法比亚诺·卡鲁阿纳
+                          - generic [ref=e1539]:
+                            - paragraph [ref=e1540]: 54%
+                            - link "是. 54%" [ref=e1541] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-fabiano-caruana-win-the-2026-fide-candidates-tournament&outcomeIndex=0
+                              - generic [ref=e1542]: 是.
+                              - generic [ref=e1543]: 54%
+                            - link "否. 46%" [ref=e1544] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-fabiano-caruana-win-the-2026-fide-candidates-tournament&outcomeIndex=1
+                              - generic [ref=e1545]: 否.
+                              - generic [ref=e1546]: 46%
+                        - generic [ref=e1549]:
+                          - link "贾沃希尔·辛达罗夫" [ref=e1551] [cursor=pointer]:
+                            - /url: /zh/event/2026-fide-candidates-tournament-winner/will-javokhir-sindarov-win-the-2026-fide-candidates-tournament
+                            - paragraph [ref=e1552]: 贾沃希尔·辛达罗夫
+                          - generic [ref=e1553]:
+                            - paragraph [ref=e1554]: 28%
+                            - link "是. 28%" [ref=e1555] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-javokhir-sindarov-win-the-2026-fide-candidates-tournament&outcomeIndex=0
+                              - generic [ref=e1556]: 是.
+                              - generic [ref=e1557]: 28%
+                            - link "否. 72%" [ref=e1558] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-javokhir-sindarov-win-the-2026-fide-candidates-tournament&outcomeIndex=1
+                              - generic [ref=e1559]: 否.
+                              - generic [ref=e1560]: 72%
+                        - generic [ref=e1563]:
+                          - link "广濑中村" [ref=e1565] [cursor=pointer]:
+                            - /url: /zh/event/2026-fide-candidates-tournament-winner/will-hikaru-nakamura-win-the-2026-fide-candidates-tournament
+                            - paragraph [ref=e1566]: 广濑中村
+                          - generic [ref=e1567]:
+                            - paragraph [ref=e1568]: 7%
+                            - link "是. 7%" [ref=e1569] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-hikaru-nakamura-win-the-2026-fide-candidates-tournament&outcomeIndex=0
+                              - generic [ref=e1570]: 是.
+                              - generic [ref=e1571]: 7%
+                            - link "否. 93%" [ref=e1572] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-hikaru-nakamura-win-the-2026-fide-candidates-tournament&outcomeIndex=1
+                              - generic [ref=e1573]: 否.
+                              - generic [ref=e1574]: 93%
+                        - generic [ref=e1577]:
+                          - link "普拉格南南达·R" [ref=e1579] [cursor=pointer]:
+                            - /url: /zh/event/2026-fide-candidates-tournament-winner/will-praggnanandhaa-r-win-the-2026-fide-candidates-tournament
+                            - paragraph [ref=e1580]: 普拉格南南达·R
+                          - generic [ref=e1581]:
+                            - paragraph [ref=e1582]: 7%
+                            - link "是. 7%" [ref=e1583] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-praggnanandhaa-r-win-the-2026-fide-candidates-tournament&outcomeIndex=0
+                              - generic [ref=e1584]: 是.
+                              - generic [ref=e1585]: 7%
+                            - link "否. 93%" [ref=e1586] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-praggnanandhaa-r-win-the-2026-fide-candidates-tournament&outcomeIndex=1
+                              - generic [ref=e1587]: 否.
+                              - generic [ref=e1588]: 93%
+                        - generic [ref=e1591]:
+                          - link "韦奕" [ref=e1593] [cursor=pointer]:
+                            - /url: /zh/event/2026-fide-candidates-tournament-winner/will-wei-yi-win-the-2026-fide-candidates-tournament
+                            - paragraph [ref=e1594]: 韦奕
+                          - generic [ref=e1595]:
+                            - paragraph [ref=e1596]: 2%
+                            - link "是. 2%" [ref=e1597] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-wei-yi-win-the-2026-fide-candidates-tournament&outcomeIndex=0
+                              - generic [ref=e1598]: 是.
+                              - generic [ref=e1599]: 2%
+                            - link "否. 98%" [ref=e1600] [cursor=pointer]:
+                              - /url: /zh/event/2026-fide-candidates-tournament-winner?marketSlug=will-wei-yi-win-the-2026-fide-candidates-tournament&outcomeIndex=1
+                              - generic [ref=e1601]: 否.
+                              - generic [ref=e1602]: 98%
+                      - generic [ref=e1604]:
+                        - paragraph [ref=e1606]:
+                          - generic [ref=e1607]: $2M
+                          - text: 交易量
+                        - generic [ref=e1609]:
+                          - button "奖励" [ref=e1611] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1612] [cursor=pointer]
+                  - generic [ref=e1615]:
+                    - generic [ref=e1616]:
+                      - img "F1车手冠军 card icon" [ref=e1618]
+                      - link "F1车手冠军" [ref=e1620] [cursor=pointer]:
+                        - /url: /zh/event/2026-f1-drivers-champion
+                        - heading "F1车手冠军" [level=2] [ref=e1622]
+                    - generic [ref=e1623]:
+                      - generic [ref=e1628]:
+                        - generic [ref=e1631]:
+                          - link "分组项标题：乔治·罗素" [ref=e1633] [cursor=pointer]:
+                            - /url: /zh/event/2026-f1-drivers-champion/will-george-russell-be-the-2026-f1-drivers-champion
+                            - paragraph [ref=e1634]: 分组项标题：乔治·罗素
+                          - generic [ref=e1635]:
+                            - paragraph [ref=e1636]: 47%
+                            - link "是. 47%" [ref=e1637] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-george-russell-be-the-2026-f1-drivers-champion&outcomeIndex=0
+                              - generic [ref=e1638]: 是.
+                              - generic [ref=e1639]: 47%
+                            - link "否. 53%" [ref=e1640] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-george-russell-be-the-2026-f1-drivers-champion&outcomeIndex=1
+                              - generic [ref=e1641]: 否.
+                              - generic [ref=e1642]: 53%
+                        - generic [ref=e1645]:
+                          - link "基米·安托内利" [ref=e1647] [cursor=pointer]:
+                            - /url: /zh/event/2026-f1-drivers-champion/will-kimi-antonelli-be-the-2026-f1-drivers-champion
+                            - paragraph [ref=e1648]: 基米·安托内利
+                          - generic [ref=e1649]:
+                            - paragraph [ref=e1650]: 32%
+                            - link "是. 32%" [ref=e1651] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-kimi-antonelli-be-the-2026-f1-drivers-champion&outcomeIndex=0
+                              - generic [ref=e1652]: 是.
+                              - generic [ref=e1653]: 32%
+                            - link "否. 68%" [ref=e1654] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-kimi-antonelli-be-the-2026-f1-drivers-champion&outcomeIndex=1
+                              - generic [ref=e1655]: 否.
+                              - generic [ref=e1656]: 68%
+                        - generic [ref=e1659]:
+                          - link "夏尔·勒克莱尔" [ref=e1661] [cursor=pointer]:
+                            - /url: /zh/event/2026-f1-drivers-champion/will-charles-leclerc-be-the-2026-f1-drivers-champion
+                            - paragraph [ref=e1662]: 夏尔·勒克莱尔
+                          - generic [ref=e1663]:
+                            - paragraph [ref=e1664]: 5%
+                            - link "是. 5%" [ref=e1665] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-charles-leclerc-be-the-2026-f1-drivers-champion&outcomeIndex=0
+                              - generic [ref=e1666]: 是.
+                              - generic [ref=e1667]: 5%
+                            - link "否. 95%" [ref=e1668] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-charles-leclerc-be-the-2026-f1-drivers-champion&outcomeIndex=1
+                              - generic [ref=e1669]: 否.
+                              - generic [ref=e1670]: 95%
+                        - generic [ref=e1673]:
+                          - link "奥斯卡·皮亚斯特里" [ref=e1675] [cursor=pointer]:
+                            - /url: /zh/event/2026-f1-drivers-champion/will-oscar-piastri-be-the-2026-f1-drivers-champion
+                            - paragraph [ref=e1676]: 奥斯卡·皮亚斯特里
+                          - generic [ref=e1677]:
+                            - paragraph [ref=e1678]: 4%
+                            - link "是. 4%" [ref=e1679] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-oscar-piastri-be-the-2026-f1-drivers-champion&outcomeIndex=0
+                              - generic [ref=e1680]: 是.
+                              - generic [ref=e1681]: 4%
+                            - link "否. 96%" [ref=e1682] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-oscar-piastri-be-the-2026-f1-drivers-champion&outcomeIndex=1
+                              - generic [ref=e1683]: 否.
+                              - generic [ref=e1684]: 96%
+                        - generic [ref=e1687]:
+                          - link "路易斯·汉密尔顿" [ref=e1689] [cursor=pointer]:
+                            - /url: /zh/event/2026-f1-drivers-champion/will-lewis-hamilton-be-the-2026-f1-drivers-champion
+                            - paragraph [ref=e1690]: 路易斯·汉密尔顿
+                          - generic [ref=e1691]:
+                            - paragraph [ref=e1692]: 3%
+                            - link "是. 3%" [ref=e1693] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-lewis-hamilton-be-the-2026-f1-drivers-champion&outcomeIndex=0
+                              - generic [ref=e1694]: 是.
+                              - generic [ref=e1695]: 3%
+                            - link "否. 97%" [ref=e1696] [cursor=pointer]:
+                              - /url: /zh/event/2026-f1-drivers-champion?marketSlug=will-lewis-hamilton-be-the-2026-f1-drivers-champion&outcomeIndex=1
+                              - generic [ref=e1697]: 否.
+                              - generic [ref=e1698]: 97%
+                      - generic [ref=e1700]:
+                        - paragraph [ref=e1702]:
+                          - generic [ref=e1703]: $72M
+                          - text: 交易量
+                        - generic [ref=e1705]:
+                          - button "奖励" [ref=e1707] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1708] [cursor=pointer]
+                  - generic [ref=e1711]:
+                    - generic [ref=e1712]:
+                      - img "美国与伊朗的外交会议在... ？ card icon" [ref=e1714]
+                      - link "美国与伊朗的外交会议在... ？" [ref=e1716] [cursor=pointer]:
+                        - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833
+                        - heading "美国与伊朗的外交会议在... ？" [level=2] [ref=e1718]
+                    - generic [ref=e1719]:
+                      - generic [ref=e1724]:
+                        - generic [ref=e1727]:
+                          - link "6月30日" [ref=e1729] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-june-30-2026-195-186
+                            - paragraph [ref=e1730]: 6月30日
+                          - generic [ref=e1731]:
+                            - paragraph [ref=e1732]: 68%
+                            - link "是. 68%" [ref=e1733] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-june-30-2026-195-186&outcomeIndex=0
+                              - generic [ref=e1734]: 是.
+                              - generic [ref=e1735]: 68%
+                            - link "否. 32%" [ref=e1736] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-june-30-2026-195-186&outcomeIndex=1
+                              - generic [ref=e1737]: 否.
+                              - generic [ref=e1738]: 32%
+                        - generic [ref=e1741]:
+                          - link "4月30日" [ref=e1743] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-april-30-2026-392-855
+                            - paragraph [ref=e1744]: 4月30日
+                          - generic [ref=e1745]:
+                            - paragraph [ref=e1746]: 33%
+                            - link "是. 33%" [ref=e1747] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-30-2026-392-855&outcomeIndex=0
+                              - generic [ref=e1748]: 是.
+                              - generic [ref=e1749]: 33%
+                            - link "否. 67%" [ref=e1750] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-30-2026-392-855&outcomeIndex=1
+                              - generic [ref=e1751]: 否.
+                              - generic [ref=e1752]: 67%
+                        - generic [ref=e1755]:
+                          - link "4月10日" [ref=e1757] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-april-10-2026-895
+                            - paragraph [ref=e1758]: 4月10日
+                          - generic [ref=e1759]:
+                            - paragraph [ref=e1760]: 16%
+                            - link "是. 16%" [ref=e1761] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-10-2026-895&outcomeIndex=0
+                              - generic [ref=e1762]: 是.
+                              - generic [ref=e1763]: 16%
+                            - link "否. 84%" [ref=e1764] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-10-2026-895&outcomeIndex=1
+                              - generic [ref=e1765]: 否.
+                              - generic [ref=e1766]: 84%
+                        - generic [ref=e1769]:
+                          - link "3月31日" [ref=e1771] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-march-31-2026-363
+                            - paragraph [ref=e1772]: 3月31日
+                          - generic [ref=e1773]:
+                            - paragraph [ref=e1774]: <1%
+                            - link "是. <1%" [ref=e1775] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-march-31-2026-363&outcomeIndex=0
+                              - generic [ref=e1776]: 是.
+                              - generic [ref=e1777]: <1%
+                            - link "否. 100%" [ref=e1778] [cursor=pointer]:
+                              - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-march-31-2026-363&outcomeIndex=1
+                              - generic [ref=e1779]: 否.
+                              - generic [ref=e1780]: 100%
+                      - generic [ref=e1782]:
+                        - generic [ref=e1783]:
+                          - paragraph [ref=e1784]:
+                            - generic [ref=e1785]: $1M
+                            - text: 交易量
+                          - img [ref=e1787]
+                        - generic [ref=e1793]:
+                          - button "奖励" [ref=e1795] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1796] [cursor=pointer]
+                  - generic [ref=e1799]:
+                    - generic [ref=e1800]:
+                      - img "美国会通过……确认外星人存在吗？ card icon" [ref=e1802]
+                      - link "美国会通过……确认外星人存在吗？" [ref=e1804] [cursor=pointer]:
+                        - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027
+                        - heading "美国会通过……确认外星人存在吗？" [level=2] [ref=e1806]
+                    - generic [ref=e1807]:
+                      - generic [ref=e1812]:
+                        - generic [ref=e1815]:
+                          - link "12月31日" [ref=e1817] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027/will-the-us-confirm-that-aliens-exist-before-2027-789
+                            - paragraph [ref=e1818]: 12月31日
+                          - generic [ref=e1819]:
+                            - paragraph [ref=e1820]: 17%
+                            - link "是. 17%" [ref=e1821] [cursor=pointer]:
+                              - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027?marketSlug=will-the-us-confirm-that-aliens-exist-before-2027-789&outcomeIndex=0
+                              - generic [ref=e1822]: 是.
+                              - generic [ref=e1823]: 17%
+                            - link "否. 83%" [ref=e1824] [cursor=pointer]:
+                              - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027?marketSlug=will-the-us-confirm-that-aliens-exist-before-2027-789&outcomeIndex=1
+                              - generic [ref=e1825]: 否.
+                              - generic [ref=e1826]: 83%
+                        - generic [ref=e1829]:
+                          - link "3月31日" [ref=e1831] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027/will-the-us-confirm-that-aliens-exist-by-march-31
+                            - paragraph [ref=e1832]: 3月31日
+                          - generic [ref=e1833]:
+                            - paragraph [ref=e1834]: <1%
+                            - link "是. <1%" [ref=e1835] [cursor=pointer]:
+                              - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027?marketSlug=will-the-us-confirm-that-aliens-exist-by-march-31&outcomeIndex=0
+                              - generic [ref=e1836]: 是.
+                              - generic [ref=e1837]: <1%
+                            - link "否. 100%" [ref=e1838] [cursor=pointer]:
+                              - /url: /zh/event/will-the-us-confirm-that-aliens-exist-before-2027?marketSlug=will-the-us-confirm-that-aliens-exist-by-march-31&outcomeIndex=1
+                              - generic [ref=e1839]: 否.
+                              - generic [ref=e1840]: 100%
+                      - generic [ref=e1842]:
+                        - paragraph [ref=e1844]:
+                          - generic [ref=e1845]: $23M
+                          - text: 交易量
+                        - generic [ref=e1847]:
+                          - button "奖励" [ref=e1849] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1850] [cursor=pointer]
+                  - generic [ref=e1853]:
+                    - generic [ref=e1854]:
+                      - img "内塔尼亚胡在... ？ card icon" [ref=e1856]
+                      - link "内塔尼亚胡在... ？" [ref=e1858] [cursor=pointer]:
+                        - /url: /zh/event/netanyahu-out-before-2027
+                        - heading "内塔尼亚胡在... ？" [level=2] [ref=e1860]
+                    - generic [ref=e1861]:
+                      - generic [ref=e1866]:
+                        - generic [ref=e1869]:
+                          - link "12月31日" [ref=e1871] [cursor=pointer]:
+                            - /url: /zh/event/netanyahu-out-before-2027/netanyahu-out-before-2027-684-719-226
+                            - paragraph [ref=e1872]: 12月31日
+                          - generic [ref=e1873]:
+                            - paragraph [ref=e1874]: 41%
+                            - link "是. 41%" [ref=e1875] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-before-2027-684-719-226&outcomeIndex=0
+                              - generic [ref=e1876]: 是.
+                              - generic [ref=e1877]: 41%
+                            - link "否. 59%" [ref=e1878] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-before-2027-684-719-226&outcomeIndex=1
+                              - generic [ref=e1879]: 否.
+                              - generic [ref=e1880]: 59%
+                        - generic [ref=e1883]:
+                          - link "6月30日" [ref=e1885] [cursor=pointer]:
+                            - /url: /zh/event/netanyahu-out-before-2027/netanyahu-out-by-june-30-383-244-575
+                            - paragraph [ref=e1886]: 6月30日
+                          - generic [ref=e1887]:
+                            - paragraph [ref=e1888]: 8%
+                            - link "是. 8%" [ref=e1889] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-june-30-383-244-575&outcomeIndex=0
+                              - generic [ref=e1890]: 是.
+                              - generic [ref=e1891]: 8%
+                            - link "否. 92%" [ref=e1892] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-june-30-383-244-575&outcomeIndex=1
+                              - generic [ref=e1893]: 否.
+                              - generic [ref=e1894]: 92%
+                        - generic [ref=e1897]:
+                          - link "4月30日" [ref=e1899] [cursor=pointer]:
+                            - /url: /zh/event/netanyahu-out-before-2027/netanyahu-out-by-april-30
+                            - paragraph [ref=e1900]: 4月30日
+                          - generic [ref=e1901]:
+                            - paragraph [ref=e1902]: 2%
+                            - link "是. 2%" [ref=e1903] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-april-30&outcomeIndex=0
+                              - generic [ref=e1904]: 是.
+                              - generic [ref=e1905]: 2%
+                            - link "否. 98%" [ref=e1906] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-april-30&outcomeIndex=1
+                              - generic [ref=e1907]: 否.
+                              - generic [ref=e1908]: 98%
+                        - generic [ref=e1911]:
+                          - link "3月31日" [ref=e1913] [cursor=pointer]:
+                            - /url: /zh/event/netanyahu-out-before-2027/netanyahu-out-by-march-31-854
+                            - paragraph [ref=e1914]: 3月31日
+                          - generic [ref=e1915]:
+                            - paragraph [ref=e1916]: <1%
+                            - link "是. <1%" [ref=e1917] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-march-31-854&outcomeIndex=0
+                              - generic [ref=e1918]: 是.
+                              - generic [ref=e1919]: <1%
+                            - link "否. 100%" [ref=e1920] [cursor=pointer]:
+                              - /url: /zh/event/netanyahu-out-before-2027?marketSlug=netanyahu-out-by-march-31-854&outcomeIndex=1
+                              - generic [ref=e1921]: 否.
+                              - generic [ref=e1922]: 100%
+                      - generic [ref=e1924]:
+                        - generic [ref=e1925]:
+                          - paragraph [ref=e1926]:
+                            - generic [ref=e1927]: $106M
+                            - text: 交易量
+                          - generic [ref=e1928]:
+                            - img [ref=e1929]
+                            - generic [ref=e1934]: 每月
+                        - generic [ref=e1936]:
+                          - button "奖励" [ref=e1938] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e1939] [cursor=pointer]
+                  - generic [ref=e1942]:
+                    - generic [ref=e1943]:
+                      - img "原油（ CL ）是否会在3月底前达到__ ？ card icon" [ref=e1945]
+                      - link "原油（ CL ）是否会在3月底前达到__ ？" [ref=e1947] [cursor=pointer]:
+                        - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march
+                        - heading "原油（ CL ）是否会在3月底前达到__ ？" [level=2] [ref=e1949]
+                    - generic [ref=e1950]:
+                      - generic [ref=e1955]:
+                        - generic [ref=e1958]:
+                          - link "↑ $120" [ref=e1960] [cursor=pointer]:
+                            - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march/will-crude-oil-cl-hit-high-120-by-end-of-march-766-813-597
+                            - paragraph [ref=e1961]: ↑ $120
+                          - generic [ref=e1962]:
+                            - paragraph [ref=e1963]: <1%
+                            - link "是. <1%" [ref=e1964] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-high-120-by-end-of-march-766-813-597&outcomeIndex=0
+                              - generic [ref=e1965]: 是.
+                              - generic [ref=e1966]: <1%
+                            - link "否. 100%" [ref=e1967] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-high-120-by-end-of-march-766-813-597&outcomeIndex=1
+                              - generic [ref=e1968]: 否.
+                              - generic [ref=e1969]: 100%
+                        - generic [ref=e1972]:
+                          - link "↑ $110" [ref=e1974] [cursor=pointer]:
+                            - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march/will-crude-oil-cl-hit-high-110-by-end-of-march-732-945-787-552
+                            - paragraph [ref=e1975]: ↑ $110
+                          - generic [ref=e1976]:
+                            - paragraph [ref=e1977]: <1%
+                            - link "是. <1%" [ref=e1978] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-high-110-by-end-of-march-732-945-787-552&outcomeIndex=0
+                              - generic [ref=e1979]: 是.
+                              - generic [ref=e1980]: <1%
+                            - link "否. 100%" [ref=e1981] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-high-110-by-end-of-march-732-945-787-552&outcomeIndex=1
+                              - generic [ref=e1982]: 否.
+                              - generic [ref=e1983]: 100%
+                        - generic [ref=e1986]:
+                          - link "↓ $40" [ref=e1988] [cursor=pointer]:
+                            - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march/will-crude-oil-cl-hit-low-40-by-end-of-march-777-183-974-725-949-716-258-533-859-313-659-847
+                            - paragraph [ref=e1989]: ↓ $40
+                          - generic [ref=e1990]:
+                            - paragraph [ref=e1991]: <1%
+                            - link "是. <1%" [ref=e1992] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-40-by-end-of-march-777-183-974-725-949-716-258-533-859-313-659-847&outcomeIndex=0
+                              - generic [ref=e1993]: 是.
+                              - generic [ref=e1994]: <1%
+                            - link "否. 100%" [ref=e1995] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-40-by-end-of-march-777-183-974-725-949-716-258-533-859-313-659-847&outcomeIndex=1
+                              - generic [ref=e1996]: 否.
+                              - generic [ref=e1997]: 100%
+                        - generic [ref=e2000]:
+                          - link "↓ $65" [ref=e2002] [cursor=pointer]:
+                            - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march/will-crude-oil-cl-hit-low-65-by-end-of-march-687-631-179-583-222-896-946-953-469-231-749
+                            - paragraph [ref=e2003]: ↓ $65
+                          - generic [ref=e2004]:
+                            - paragraph [ref=e2005]: <1%
+                            - link "是. <1%" [ref=e2006] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-65-by-end-of-march-687-631-179-583-222-896-946-953-469-231-749&outcomeIndex=0
+                              - generic [ref=e2007]: 是.
+                              - generic [ref=e2008]: <1%
+                            - link "否. 100%" [ref=e2009] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-65-by-end-of-march-687-631-179-583-222-896-946-953-469-231-749&outcomeIndex=1
+                              - generic [ref=e2010]: 否.
+                              - generic [ref=e2011]: 100%
+                        - generic [ref=e2014]:
+                          - link "↓ $50" [ref=e2016] [cursor=pointer]:
+                            - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march/will-crude-oil-cl-hit-low-50-by-end-of-march-969-293-176-621-832-316-288-934-812-659-162
+                            - paragraph [ref=e2017]: ↓ $50
+                          - generic [ref=e2018]:
+                            - paragraph [ref=e2019]: <1%
+                            - link "是. <1%" [ref=e2020] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-50-by-end-of-march-969-293-176-621-832-316-288-934-812-659-162&outcomeIndex=0
+                              - generic [ref=e2021]: 是.
+                              - generic [ref=e2022]: <1%
+                            - link "否. 100%" [ref=e2023] [cursor=pointer]:
+                              - /url: /zh/event/will-crude-oil-cl-hit-by-end-of-march?marketSlug=will-crude-oil-cl-hit-low-50-by-end-of-march-969-293-176-621-832-316-288-934-812-659-162&outcomeIndex=1
+                              - generic [ref=e2024]: 否.
+                              - generic [ref=e2025]: 100%
+                      - generic [ref=e2027]:
+                        - generic [ref=e2028]:
+                          - paragraph [ref=e2029]:
+                            - generic [ref=e2030]: $84M
+                            - text: 交易量
+                          - generic [ref=e2031]:
+                            - img [ref=e2032]
+                            - generic [ref=e2037]: 每月
+                        - button "Add to favorites" [ref=e2040] [cursor=pointer]
+                  - generic [ref=e2043]:
+                    - generic [ref=e2044]:
+                      - img "2028年总统选举获胜者 card icon" [ref=e2046]
+                      - link "2028年总统选举获胜者" [ref=e2048] [cursor=pointer]:
+                        - /url: /zh/event/presidential-election-winner-2028
+                        - heading "2028年总统选举获胜者" [level=2] [ref=e2050]
+                    - generic [ref=e2051]:
+                      - generic [ref=e2056]:
+                        - generic [ref=e2059]:
+                          - link "JD Vance" [ref=e2061] [cursor=pointer]:
+                            - /url: /zh/event/presidential-election-winner-2028/will-jd-vance-win-the-2028-us-presidential-election
+                            - paragraph [ref=e2062]: JD Vance
+                          - generic [ref=e2063]:
+                            - paragraph [ref=e2064]: 18%
+                            - link "是. 18%" [ref=e2065] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-jd-vance-win-the-2028-us-presidential-election&outcomeIndex=0
+                              - generic [ref=e2066]: 是.
+                              - generic [ref=e2067]: 18%
+                            - link "否. 82%" [ref=e2068] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-jd-vance-win-the-2028-us-presidential-election&outcomeIndex=1
+                              - generic [ref=e2069]: 否.
+                              - generic [ref=e2070]: 82%
+                        - generic [ref=e2073]:
+                          - link "加文·纽瑟姆" [ref=e2075] [cursor=pointer]:
+                            - /url: /zh/event/presidential-election-winner-2028/will-gavin-newsom-win-the-2028-us-presidential-election
+                            - paragraph [ref=e2076]: 加文·纽瑟姆
+                          - generic [ref=e2077]:
+                            - paragraph [ref=e2078]: 17%
+                            - link "是. 17%" [ref=e2079] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-gavin-newsom-win-the-2028-us-presidential-election&outcomeIndex=0
+                              - generic [ref=e2080]: 是.
+                              - generic [ref=e2081]: 17%
+                            - link "否. 83%" [ref=e2082] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-gavin-newsom-win-the-2028-us-presidential-election&outcomeIndex=1
+                              - generic [ref=e2083]: 否.
+                              - generic [ref=e2084]: 83%
+                        - generic [ref=e2087]:
+                          - link "马尔科·鲁比奥" [ref=e2089] [cursor=pointer]:
+                            - /url: /zh/event/presidential-election-winner-2028/will-marco-rubio-win-the-2028-us-presidential-election
+                            - paragraph [ref=e2090]: 马尔科·鲁比奥
+                          - generic [ref=e2091]:
+                            - paragraph [ref=e2092]: 11%
+                            - link "是. 11%" [ref=e2093] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-marco-rubio-win-the-2028-us-presidential-election&outcomeIndex=0
+                              - generic [ref=e2094]: 是.
+                              - generic [ref=e2095]: 11%
+                            - link "否. 89%" [ref=e2096] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-marco-rubio-win-the-2028-us-presidential-election&outcomeIndex=1
+                              - generic [ref=e2097]: 否.
+                              - generic [ref=e2098]: 89%
+                        - generic [ref=e2101]:
+                          - link "亚历山德里亚·奥卡西奥-科尔特斯" [ref=e2103] [cursor=pointer]:
+                            - /url: /zh/event/presidential-election-winner-2028/will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election
+                            - paragraph [ref=e2104]: 亚历山德里亚·奥卡西奥-科尔特斯
+                          - generic [ref=e2105]:
+                            - paragraph [ref=e2106]: 6%
+                            - link "是. 6%" [ref=e2107] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election&outcomeIndex=0
+                              - generic [ref=e2108]: 是.
+                              - generic [ref=e2109]: 6%
+                            - link "否. 94%" [ref=e2110] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election&outcomeIndex=1
+                              - generic [ref=e2111]: 否.
+                              - generic [ref=e2112]: 94%
+                        - generic [ref=e2115]:
+                          - link "乔恩·奥索夫" [ref=e2117] [cursor=pointer]:
+                            - /url: /zh/event/presidential-election-winner-2028/will-jon-ossoff-win-the-2028-us-presidential-election
+                            - paragraph [ref=e2118]: 乔恩·奥索夫
+                          - generic [ref=e2119]:
+                            - paragraph [ref=e2120]: 3%
+                            - link "是. 3%" [ref=e2121] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-jon-ossoff-win-the-2028-us-presidential-election&outcomeIndex=0
+                              - generic [ref=e2122]: 是.
+                              - generic [ref=e2123]: 3%
+                            - link "否. 97%" [ref=e2124] [cursor=pointer]:
+                              - /url: /zh/event/presidential-election-winner-2028?marketSlug=will-jon-ossoff-win-the-2028-us-presidential-election&outcomeIndex=1
+                              - generic [ref=e2125]: 否.
+                              - generic [ref=e2126]: 97%
+                      - generic [ref=e2128]:
+                        - paragraph [ref=e2130]:
+                          - generic [ref=e2131]: $480M
+                          - text: 交易量
+                        - generic [ref=e2133]:
+                          - button "持仓赚 4% 奖励" [ref=e2134] [cursor=pointer]:
+                            - img
+                          - button "奖励" [ref=e2136] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2137] [cursor=pointer]
+                  - generic [ref=e2140]:
+                    - generic [ref=e2141]:
+                      - img "2026年NBA冠军 card icon" [ref=e2143]
+                      - link "2026年NBA冠军" [ref=e2145] [cursor=pointer]:
+                        - /url: /zh/event/2026-nba-champion
+                        - heading "2026年NBA冠军" [level=2] [ref=e2147]
+                    - generic [ref=e2148]:
+                      - generic [ref=e2153]:
+                        - generic [ref=e2156]:
+                          - link "俄克拉荷马城雷霆队" [ref=e2158] [cursor=pointer]:
+                            - /url: /zh/event/2026-nba-champion/will-the-oklahoma-city-thunder-win-the-2026-nba-finals
+                            - paragraph [ref=e2159]: 俄克拉荷马城雷霆队
+                          - generic [ref=e2160]:
+                            - paragraph [ref=e2161]: 38%
+                            - link "是. 38%" [ref=e2162] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-oklahoma-city-thunder-win-the-2026-nba-finals&outcomeIndex=0
+                              - generic [ref=e2163]: 是.
+                              - generic [ref=e2164]: 38%
+                            - link "否. 62%" [ref=e2165] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-oklahoma-city-thunder-win-the-2026-nba-finals&outcomeIndex=1
+                              - generic [ref=e2166]: 否.
+                              - generic [ref=e2167]: 62%
+                        - generic [ref=e2170]:
+                          - link "圣安东尼奥马刺队" [ref=e2172] [cursor=pointer]:
+                            - /url: /zh/event/2026-nba-champion/will-the-san-antonio-spurs-win-the-2026-nba-finals
+                            - paragraph [ref=e2173]: 圣安东尼奥马刺队
+                          - generic [ref=e2174]:
+                            - paragraph [ref=e2175]: 18%
+                            - link "是. 18%" [ref=e2176] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-san-antonio-spurs-win-the-2026-nba-finals&outcomeIndex=0
+                              - generic [ref=e2177]: 是.
+                              - generic [ref=e2178]: 18%
+                            - link "否. 82%" [ref=e2179] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-san-antonio-spurs-win-the-2026-nba-finals&outcomeIndex=1
+                              - generic [ref=e2180]: 否.
+                              - generic [ref=e2181]: 82%
+                        - generic [ref=e2184]:
+                          - link "波士顿凯尔特人队" [ref=e2186] [cursor=pointer]:
+                            - /url: /zh/event/2026-nba-champion/will-the-boston-celtics-win-the-2026-nba-finals
+                            - paragraph [ref=e2187]: 波士顿凯尔特人队
+                          - generic [ref=e2188]:
+                            - paragraph [ref=e2189]: 10%
+                            - link "是. 10%" [ref=e2190] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-boston-celtics-win-the-2026-nba-finals&outcomeIndex=0
+                              - generic [ref=e2191]: 是.
+                              - generic [ref=e2192]: 10%
+                            - link "否. 90%" [ref=e2193] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-boston-celtics-win-the-2026-nba-finals&outcomeIndex=1
+                              - generic [ref=e2194]: 否.
+                              - generic [ref=e2195]: 90%
+                        - generic [ref=e2198]:
+                          - link "丹佛掘金队" [ref=e2200] [cursor=pointer]:
+                            - /url: /zh/event/2026-nba-champion/will-the-denver-nuggets-win-the-2026-nba-finals
+                            - paragraph [ref=e2201]: 丹佛掘金队
+                          - generic [ref=e2202]:
+                            - paragraph [ref=e2203]: 9%
+                            - link "是. 9%" [ref=e2204] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-denver-nuggets-win-the-2026-nba-finals&outcomeIndex=0
+                              - generic [ref=e2205]: 是.
+                              - generic [ref=e2206]: 9%
+                            - link "否. 91%" [ref=e2207] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-denver-nuggets-win-the-2026-nba-finals&outcomeIndex=1
+                              - generic [ref=e2208]: 否.
+                              - generic [ref=e2209]: 91%
+                        - generic [ref=e2212]:
+                          - link "克利夫兰骑士队" [ref=e2214] [cursor=pointer]:
+                            - /url: /zh/event/2026-nba-champion/will-the-cleveland-cavaliers-win-the-2026-nba-finals
+                            - paragraph [ref=e2215]: 克利夫兰骑士队
+                          - generic [ref=e2216]:
+                            - paragraph [ref=e2217]: 5%
+                            - link "是. 5%" [ref=e2218] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-cleveland-cavaliers-win-the-2026-nba-finals&outcomeIndex=0
+                              - generic [ref=e2219]: 是.
+                              - generic [ref=e2220]: 5%
+                            - link "否. 95%" [ref=e2221] [cursor=pointer]:
+                              - /url: /zh/event/2026-nba-champion?marketSlug=will-the-cleveland-cavaliers-win-the-2026-nba-finals&outcomeIndex=1
+                              - generic [ref=e2222]: 否.
+                              - generic [ref=e2223]: 95%
+                      - generic [ref=e2225]:
+                        - paragraph [ref=e2227]:
+                          - generic [ref=e2228]: $215M
+                          - text: 交易量
+                        - generic [ref=e2230]:
+                          - button "奖励" [ref=e2232] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2233] [cursor=pointer]
+                  - generic [ref=e2236]:
+                    - generic [ref=e2237]:
+                      - img "比特币在4月1日高于___ ？ card icon" [ref=e2239]
+                      - link "比特币在4月1日高于___ ？" [ref=e2241] [cursor=pointer]:
+                        - /url: /zh/event/bitcoin-above-on-april-1
+                        - heading "比特币在4月1日高于___ ？" [level=2] [ref=e2243]
+                    - generic [ref=e2244]:
+                      - generic [ref=e2249]:
+                        - generic [ref=e2252]:
+                          - link "60,000" [ref=e2254] [cursor=pointer]:
+                            - /url: /zh/event/bitcoin-above-on-april-1/bitcoin-above-60k-on-april-1
+                            - paragraph [ref=e2255]: 60,000
+                          - generic [ref=e2256]:
+                            - paragraph [ref=e2257]: 100%
+                            - link "是. 100%" [ref=e2258] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-60k-on-april-1&outcomeIndex=0
+                              - generic [ref=e2259]: 是.
+                              - generic [ref=e2260]: 100%
+                            - link "否. <1%" [ref=e2261] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-60k-on-april-1&outcomeIndex=1
+                              - generic [ref=e2262]: 否.
+                              - generic [ref=e2263]: <1%
+                        - generic [ref=e2266]:
+                          - link "62,000" [ref=e2268] [cursor=pointer]:
+                            - /url: /zh/event/bitcoin-above-on-april-1/bitcoin-above-62k-on-april-1
+                            - paragraph [ref=e2269]: 62,000
+                          - generic [ref=e2270]:
+                            - paragraph [ref=e2271]: 100%
+                            - link "是. 100%" [ref=e2272] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-62k-on-april-1&outcomeIndex=0
+                              - generic [ref=e2273]: 是.
+                              - generic [ref=e2274]: 100%
+                            - link "否. <1%" [ref=e2275] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-62k-on-april-1&outcomeIndex=1
+                              - generic [ref=e2276]: 否.
+                              - generic [ref=e2277]: <1%
+                        - generic [ref=e2280]:
+                          - link "64,000" [ref=e2282] [cursor=pointer]:
+                            - /url: /zh/event/bitcoin-above-on-april-1/bitcoin-above-64k-on-april-1
+                            - paragraph [ref=e2283]: 64,000
+                          - generic [ref=e2284]:
+                            - paragraph [ref=e2285]: 100%
+                            - link "是. 100%" [ref=e2286] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-64k-on-april-1&outcomeIndex=0
+                              - generic [ref=e2287]: 是.
+                              - generic [ref=e2288]: 100%
+                            - link "否. <1%" [ref=e2289] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-64k-on-april-1&outcomeIndex=1
+                              - generic [ref=e2290]: 否.
+                              - generic [ref=e2291]: <1%
+                        - generic [ref=e2294]:
+                          - link "66,000" [ref=e2296] [cursor=pointer]:
+                            - /url: /zh/event/bitcoin-above-on-april-1/bitcoin-above-66k-on-april-1
+                            - paragraph [ref=e2297]: 66,000
+                          - generic [ref=e2298]:
+                            - paragraph [ref=e2299]: 99%
+                            - link "是. 99%" [ref=e2300] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-66k-on-april-1&outcomeIndex=0
+                              - generic [ref=e2301]: 是.
+                              - generic [ref=e2302]: 99%
+                            - link "否. 1%" [ref=e2303] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-66k-on-april-1&outcomeIndex=1
+                              - generic [ref=e2304]: 否.
+                              - generic [ref=e2305]: 1%
+                        - generic [ref=e2308]:
+                          - link "68,000" [ref=e2310] [cursor=pointer]:
+                            - /url: /zh/event/bitcoin-above-on-april-1/bitcoin-above-68k-on-april-1
+                            - paragraph [ref=e2311]: 68,000
+                          - generic [ref=e2312]:
+                            - paragraph [ref=e2313]: 84%
+                            - link "是. 84%" [ref=e2314] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-68k-on-april-1&outcomeIndex=0
+                              - generic [ref=e2315]: 是.
+                              - generic [ref=e2316]: 84%
+                            - link "否. 16%" [ref=e2317] [cursor=pointer]:
+                              - /url: /zh/event/bitcoin-above-on-april-1?marketSlug=bitcoin-above-68k-on-april-1&outcomeIndex=1
+                              - generic [ref=e2318]: 否.
+                              - generic [ref=e2319]: 16%
+                      - generic [ref=e2321]:
+                        - generic [ref=e2322]:
+                          - paragraph [ref=e2323]:
+                            - generic [ref=e2324]: $3M
+                            - text: 交易量
+                          - generic [ref=e2325]:
+                            - img [ref=e2326]
+                            - generic [ref=e2331]: 每天
+                        - generic [ref=e2333]:
+                          - button "奖励" [ref=e2335] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2336] [cursor=pointer]
+                  - generic [ref=e2339]:
+                    - generic [ref=e2340]:
+                      - img "伊朗政权会在3月31日之前倒台吗？ card icon" [ref=e2342]
+                      - generic [ref=e2343]:
+                        - link "伊朗政权会在3月31日前垮台吗？" [ref=e2344] [cursor=pointer]:
+                          - /url: /zh/event/will-the-iranian-regime-fall-by-march-31
+                          - heading "伊朗政权会在3月31日前垮台吗？" [level=2] [ref=e2346]
+                        - generic [ref=e2348]:
+                          - img [ref=e2350]
+                          - generic [ref=e2353]:
+                            - paragraph [ref=e2354]: <1%
+                            - paragraph [ref=e2355]: 是
+                    - generic [ref=e2356]:
+                      - generic [ref=e2357]:
+                        - link "是" [ref=e2358] [cursor=pointer]:
+                          - /url: /zh/event/will-the-iranian-regime-fall-by-march-31?outcomeIndex=0
+                          - paragraph [ref=e2359]: 是
+                        - link "否" [ref=e2360] [cursor=pointer]:
+                          - /url: /zh/event/will-the-iranian-regime-fall-by-march-31?outcomeIndex=1
+                          - paragraph [ref=e2361]: 否
+                      - generic [ref=e2363]:
+                        - generic [ref=e2364]:
+                          - paragraph [ref=e2365]:
+                            - generic [ref=e2366]: $63M
+                            - text: 交易量
+                          - generic [ref=e2367]:
+                            - img [ref=e2368]
+                            - generic [ref=e2373]: 每月
+                        - button "Add to favorites" [ref=e2376] [cursor=pointer]
+                  - generic [ref=e2379]:
+                    - generic [ref=e2380]:
+                      - 'img "Elon Musk # tweets March 27 - April 3, 2026? card icon" [ref=e2382]'
+                      - 'link "Elon Musk # tweets March 27 - April 3, 2026?" [ref=e2384] [cursor=pointer]':
+                        - /url: /zh/event/elon-musk-of-tweets-march-27-april-3
+                        - 'heading "Elon Musk # tweets March 27 - April 3, 2026?" [level=2] [ref=e2386]'
+                    - generic [ref=e2387]:
+                      - generic [ref=e2392]:
+                        - generic [ref=e2395]:
+                          - link "240-259" [ref=e2397] [cursor=pointer]:
+                            - /url: /zh/event/elon-musk-of-tweets-march-27-april-3/elon-musk-of-tweets-march-27-april-3-240-259
+                            - paragraph [ref=e2398]: 240-259
+                          - generic [ref=e2399]:
+                            - paragraph [ref=e2400]: 34%
+                            - link "Yes 34%" [ref=e2401] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-240-259&outcomeIndex=0
+                              - generic [ref=e2402]: "Yes"
+                              - generic [ref=e2403]: 34%
+                            - link "No 66%" [ref=e2404] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-240-259&outcomeIndex=1
+                              - generic [ref=e2405]: "No"
+                              - generic [ref=e2406]: 66%
+                        - generic [ref=e2409]:
+                          - link "260-279" [ref=e2411] [cursor=pointer]:
+                            - /url: /zh/event/elon-musk-of-tweets-march-27-april-3/elon-musk-of-tweets-march-27-april-3-260-279
+                            - paragraph [ref=e2412]: 260-279
+                          - generic [ref=e2413]:
+                            - paragraph [ref=e2414]: 28%
+                            - link "Yes 28%" [ref=e2415] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-260-279&outcomeIndex=0
+                              - generic [ref=e2416]: "Yes"
+                              - generic [ref=e2417]: 28%
+                            - link "No 72%" [ref=e2418] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-260-279&outcomeIndex=1
+                              - generic [ref=e2419]: "No"
+                              - generic [ref=e2420]: 72%
+                        - generic [ref=e2423]:
+                          - link "220-239" [ref=e2425] [cursor=pointer]:
+                            - /url: /zh/event/elon-musk-of-tweets-march-27-april-3/elon-musk-of-tweets-march-27-april-3-220-239
+                            - paragraph [ref=e2426]: 220-239
+                          - generic [ref=e2427]:
+                            - paragraph [ref=e2428]: 15%
+                            - link "Yes 15%" [ref=e2429] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-220-239&outcomeIndex=0
+                              - generic [ref=e2430]: "Yes"
+                              - generic [ref=e2431]: 15%
+                            - link "No 85%" [ref=e2432] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-220-239&outcomeIndex=1
+                              - generic [ref=e2433]: "No"
+                              - generic [ref=e2434]: 85%
+                        - generic [ref=e2437]:
+                          - link "280-299" [ref=e2439] [cursor=pointer]:
+                            - /url: /zh/event/elon-musk-of-tweets-march-27-april-3/elon-musk-of-tweets-march-27-april-3-280-299
+                            - paragraph [ref=e2440]: 280-299
+                          - generic [ref=e2441]:
+                            - paragraph [ref=e2442]: 12%
+                            - link "Yes 12%" [ref=e2443] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-280-299&outcomeIndex=0
+                              - generic [ref=e2444]: "Yes"
+                              - generic [ref=e2445]: 12%
+                            - link "No 88%" [ref=e2446] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-280-299&outcomeIndex=1
+                              - generic [ref=e2447]: "No"
+                              - generic [ref=e2448]: 88%
+                        - generic [ref=e2451]:
+                          - link "300-319" [ref=e2453] [cursor=pointer]:
+                            - /url: /zh/event/elon-musk-of-tweets-march-27-april-3/elon-musk-of-tweets-march-27-april-3-300-319
+                            - paragraph [ref=e2454]: 300-319
+                          - generic [ref=e2455]:
+                            - paragraph [ref=e2456]: 4%
+                            - link "Yes 4%" [ref=e2457] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-300-319&outcomeIndex=0
+                              - generic [ref=e2458]: "Yes"
+                              - generic [ref=e2459]: 4%
+                            - link "No 96%" [ref=e2460] [cursor=pointer]:
+                              - /url: /zh/event/elon-musk-of-tweets-march-27-april-3?marketSlug=elon-musk-of-tweets-march-27-april-3-300-319&outcomeIndex=1
+                              - generic [ref=e2461]: "No"
+                              - generic [ref=e2462]: 96%
+                      - generic [ref=e2464]:
+                        - generic [ref=e2465]:
+                          - paragraph [ref=e2466]:
+                            - generic [ref=e2467]: $15M
+                            - text: 交易量
+                          - generic [ref=e2468]:
+                            - img [ref=e2469]
+                            - generic [ref=e2474]: 每周
+                        - generic [ref=e2476]:
+                          - button "奖励" [ref=e2478] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2479] [cursor=pointer]
+                  - generic [ref=e2482]:
+                    - link "Cavaliers 0% Lakers 100%" [ref=e2483] [cursor=pointer]:
+                      - /url: /zh/event/nba-cle-lal-2026-03-31
+                      - generic [ref=e2484]:
+                        - paragraph [ref=e2487]: Cavaliers
+                        - paragraph [ref=e2488]: 0%
+                      - generic [ref=e2489]:
+                        - paragraph [ref=e2492]: Lakers
+                        - paragraph [ref=e2493]: 100%
+                    - generic [ref=e2494]:
+                      - generic [ref=e2495]:
+                        - link "Cavaliers" [ref=e2496] [cursor=pointer]:
+                          - /url: /zh/event/nba-cle-lal-2026-03-31?outcomeIndex=0
+                          - paragraph [ref=e2498]: Cavaliers
+                        - link "Lakers" [ref=e2500] [cursor=pointer]:
+                          - /url: /zh/event/nba-cle-lal-2026-03-31?outcomeIndex=1
+                          - paragraph [ref=e2502]: Lakers
+                      - generic [ref=e2505]:
+                        - generic [ref=e2506]:
+                          - paragraph [ref=e2507]:
+                            - generic [ref=e2508]: $8M
+                            - text: 交易量
+                          - generic [ref=e2509]: ·
+                          - link "NBA" [ref=e2510] [cursor=pointer]:
+                            - /url: /zh/sports/nba/games/week/3
+                          - generic [ref=e2511]: ·
+                          - text: 上午 10:30
+                        - generic [ref=e2513]:
+                          - button "奖励" [ref=e2515] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2516] [cursor=pointer]
+                  - generic [ref=e2519]:
+                    - link "Trail Blazers 100% Clippers 0%" [ref=e2520] [cursor=pointer]:
+                      - /url: /zh/event/nba-por-lac-2026-03-31
+                      - generic [ref=e2521]:
+                        - paragraph [ref=e2524]: Trail Blazers
+                        - paragraph [ref=e2525]: 100%
+                      - generic [ref=e2526]:
+                        - paragraph [ref=e2529]: Clippers
+                        - paragraph [ref=e2530]: 0%
+                    - generic [ref=e2531]:
+                      - generic [ref=e2532]:
+                        - link "Trail" [ref=e2533] [cursor=pointer]:
+                          - /url: /zh/event/nba-por-lac-2026-03-31?outcomeIndex=0
+                          - paragraph [ref=e2535]: Trail
+                        - link "Clippers" [ref=e2537] [cursor=pointer]:
+                          - /url: /zh/event/nba-por-lac-2026-03-31?outcomeIndex=1
+                          - paragraph [ref=e2539]: Clippers
+                      - generic [ref=e2542]:
+                        - generic [ref=e2543]:
+                          - paragraph [ref=e2544]:
+                            - generic [ref=e2545]: $5M
+                            - text: 交易量
+                          - generic [ref=e2546]: ·
+                          - link "NBA" [ref=e2547] [cursor=pointer]:
+                            - /url: /zh/sports/nba/games/week/3
+                          - generic [ref=e2548]: ·
+                          - text: 上午 11:00
+                        - generic [ref=e2550]:
+                          - button "奖励" [ref=e2552] [cursor=pointer]:
+                            - img
+                          - button "Add to favorites" [ref=e2553] [cursor=pointer]
+                  - generic [ref=e2556]:
+                    - link "Raptors 0% Pistons 100%" [ref=e2557] [cursor=pointer]:
+                      - /url: /zh/event/nba-tor-det-2026-03-31
+                      - generic [ref=e2558]:
+                        - paragraph [ref=e2561]: Raptors
+                        - paragraph [ref=e2562]: 0%
+                      - generic [ref=e2563]:
+                        - paragraph [ref=e2566]: Pistons
+                        - paragraph [ref=e2567]: 100%
+                    - generic [ref=e2568]:
+                      - generic [ref=e2569]:
+                        - link "Raptors" [ref=e2570] [cursor=pointer]:
+                          - /url: /zh/event/nba-tor-det-2026-03-31?outcomeIndex=0
+                          - paragraph [ref=e2572]: Raptors
+                        - link "Pistons" [ref=e2574] [cursor=pointer]:
+                          - /url: /zh/event/nba-tor-det-2026-03-31?outcomeIndex=1
+                          - paragraph [ref=e2576]: Pistons
+                      - generic [ref=e2579]:
+                        - generic [ref=e2580]:
+                          - paragraph [ref=e2581]:
+                            - generic [ref=e2582]: $3M
+                            - text: 交易量
+                          - generic [ref=e2583]: ·
+                          - link "NBA" [ref=e2584] [cursor=pointer]:
+                            - /url: /zh/sports/nba/games/week/3
+                          - generic [ref=e2585]: ·
+                          - text: 上午 8:00
+                        - button "Add to favorites" [ref=e2588] [cursor=pointer]
+                - button "显示更多盘口" [ref=e2591] [cursor=pointer]
+        - contentinfo [ref=e2592]:
+          - generic [ref=e2594]:
+            - generic [ref=e2595]:
+              - link "Polymarket" [ref=e2596] [cursor=pointer]:
+                - /url: /zh
+                - img "Polymarket" [ref=e2597]
+              - paragraph [ref=e2598]: 全球最大预测市场™
+            - generic [ref=e2599]:
+              - generic [ref=e2600]:
+                - heading "按分类和话题浏览盘口" [level=3] [ref=e2601]
+                - generic [ref=e2602]:
+                  - link "乌克兰 预测" [ref=e2603] [cursor=pointer]:
+                    - /url: /zh/predictions/ukraine
+                    - text: 乌克兰
+                    - generic [ref=e2604]: 预测
+                  - link "电影 预测" [ref=e2605] [cursor=pointer]:
+                    - /url: /zh/predictions/movies
+                    - text: 电影
+                    - generic [ref=e2606]: 预测
+                  - link "Parlays 预测" [ref=e2607] [cursor=pointer]:
+                    - /url: /zh/predictions/parlays
+                    - text: Parlays
+                    - generic [ref=e2608]: 预测
+                  - link "加密货币价格 预测" [ref=e2609] [cursor=pointer]:
+                    - /url: /zh/predictions/crypto-prices
+                    - text: 加密货币价格
+                    - generic [ref=e2610]: 预测
+                  - link "商品 预测" [ref=e2611] [cursor=pointer]:
+                    - /url: /zh/predictions/commodities
+                    - text: 商品
+                    - generic [ref=e2612]: 预测
+                  - link "特朗普 预测" [ref=e2613] [cursor=pointer]:
+                    - /url: /zh/predictions/trump
+                    - text: 特朗普
+                    - generic [ref=e2614]: 预测
+                  - link "NCAA篮球 预测" [ref=e2615] [cursor=pointer]:
+                    - /url: /zh/predictions/ncaa-basketball
+                    - text: NCAA篮球
+                    - generic [ref=e2616]: 预测
+                  - link "伊朗 预测" [ref=e2617] [cursor=pointer]:
+                    - /url: /zh/predictions/iran
+                    - text: 伊朗
+                    - generic [ref=e2618]: 预测
+                  - link "油 预测" [ref=e2619] [cursor=pointer]:
+                    - /url: /zh/predictions/oil
+                    - text: 油
+                    - generic [ref=e2620]: 预测
+                  - link "伊朗停火 预测" [ref=e2621] [cursor=pointer]:
+                    - /url: /zh/predictions/diplomacy-ceasefire
+                    - text: 伊朗停火
+                    - generic [ref=e2622]: 预测
+                  - link "政府关闭 预测" [ref=e2623] [cursor=pointer]:
+                    - /url: /zh/predictions/gov-shutdown
+                    - text: 政府关闭
+                    - generic [ref=e2624]: 预测
+                  - link "IPL 预测" [ref=e2625] [cursor=pointer]:
+                    - /url: /zh/predictions/ipl
+                    - text: IPL
+                    - generic [ref=e2626]: 预测
+                  - link "MLB 预测" [ref=e2627] [cursor=pointer]:
+                    - /url: /zh/predictions/mlb
+                    - text: MLB
+                    - generic [ref=e2628]: 预测
+                  - link "霍尔木兹海峡 预测" [ref=e2629] [cursor=pointer]:
+                    - /url: /zh/predictions/strait-of-hormuz
+                    - text: 霍尔木兹海峡
+                    - generic [ref=e2630]: 预测
+                  - button "查看更多" [ref=e2631] [cursor=pointer]:
+                    - generic [ref=e2632]: 查看更多
+                    - img [ref=e2633]
+              - generic [ref=e2635]:
+                - heading "支持与社交" [level=3] [ref=e2636]
+                - generic [ref=e2637]:
+                  - link "了解更多" [ref=e2638] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com/concepts
+                  - link "𝕏 (Twitter)" [ref=e2639] [cursor=pointer]:
+                    - /url: https://x.com/Polymarket
+                  - link "Instagram" [ref=e2640] [cursor=pointer]:
+                    - /url: https://www.instagram.com/polymarket
+                  - link "Discord" [ref=e2641] [cursor=pointer]:
+                    - /url: https://discord.gg/Polymarket
+                  - link "TikTok" [ref=e2642] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@polymarket
+                  - link "新闻" [ref=e2643] [cursor=pointer]:
+                    - /url: https://news.polymarket.com
+                  - link "联系我们" [ref=e2644] [cursor=pointer]:
+                    - /url: mailto:hello@polymarket.com
+                  - link "帮助中心" [ref=e2645] [cursor=pointer]:
+                    - /url: https://help.polymarket.com
+              - generic [ref=e2646]:
+                - heading "Polymarket" [level=3] [ref=e2647]
+                - generic [ref=e2648]:
+                  - link "奖励" [ref=e2649] [cursor=pointer]:
+                    - /url: /zh/rewards
+                  - link "API 接口" [ref=e2650] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com/api-reference
+                  - link "排行榜" [ref=e2651] [cursor=pointer]:
+                    - /url: /zh/leaderboard
+                  - link "准确率" [ref=e2652] [cursor=pointer]:
+                    - /url: /zh/accuracy
+                  - link "品牌" [ref=e2653] [cursor=pointer]:
+                    - /url: /zh/brand
+                  - link "动态" [ref=e2654] [cursor=pointer]:
+                    - /url: /zh/activity
+                  - link "招聘" [ref=e2655] [cursor=pointer]:
+                    - /url: /zh/careers
+                  - link "媒体" [ref=e2656] [cursor=pointer]:
+                    - /url: mailto:press@polymarket.com
+            - generic [ref=e2657]:
+              - generic [ref=e2658]:
+                - generic [ref=e2659]:
+                  - link "Email" [ref=e2660] [cursor=pointer]:
+                    - /url: mailto:hello@polymarket.com
+                    - img [ref=e2661]
+                  - link "X (Twitter)" [ref=e2665] [cursor=pointer]:
+                    - /url: https://x.com/Polymarket
+                    - img [ref=e2666]
+                  - link "Instagram" [ref=e2668] [cursor=pointer]:
+                    - /url: https://www.instagram.com/polymarket
+                    - img [ref=e2669]
+                  - link "Discord" [ref=e2674] [cursor=pointer]:
+                    - /url: https://discord.gg/Polymarket
+                    - img [ref=e2675]
+                  - link "TikTok" [ref=e2677] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@polymarket
+                    - img [ref=e2678]
+                - generic [ref=e2680]:
+                  - generic [ref=e2681]: Adventure One QSS Inc. © 2026
+                  - generic [ref=e2682]: ·
+                  - link "隐私" [ref=e2683] [cursor=pointer]:
+                    - /url: /zh/privacy
+                  - generic [ref=e2684]: ·
+                  - link "使用条款" [ref=e2685] [cursor=pointer]:
+                    - /url: https://polymarket.com/tos
+                  - generic [ref=e2686]: ·
+                  - link "市场诚信" [ref=e2687] [cursor=pointer]:
+                    - /url: /zh/market-integrity
+                  - generic [ref=e2688]: ·
+                  - link "帮助中心" [ref=e2689] [cursor=pointer]:
+                    - /url: https://help.polymarket.com
+                  - generic [ref=e2690]: ·
+                  - link "文档" [ref=e2691] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com
+                - button "中文" [ref=e2692] [cursor=pointer]:
+                  - img [ref=e2693]
+                  - generic [ref=e2696]: 中文
+                  - img [ref=e2697]
+              - paragraph [ref=e2699]:
+                - text: Polymarket通过独立法律实体在全球运营。
+                - link "Polymarket US" [ref=e2700] [cursor=pointer]:
+                  - /url: https://polymarket.us/
+                - text: 由QCX LLC d/b/a Polymarket US运营，其为受CFTC监管的Designated Contract Market。本国际平台不受CFTC监管，并独立运营。交易存在重大亏损风险。请参阅我们的《
+                - link "服务条款" [ref=e2701] [cursor=pointer]:
+                  - /url: https://polymarket.com/tos
+                - text: 》和《
+                - link "隐私政策" [ref=e2702] [cursor=pointer]:
+                  - /url: https://polymarket.com/privacy
+                - text: 》。本翻译仅供参考。如英文文本与本翻译之间存在任何差异，以英文版本为准。
+    - navigation "Primary navigation" [ref=e2704]:
+      - generic [ref=e2705]:
+        - generic [ref=e2707]:
+          - button "玩法介绍" [ref=e2708] [cursor=pointer]:
+            - img [ref=e2709]
+            - generic [ref=e2711]: 玩法介绍
+          - button "Dismiss how it works button" [ref=e2712] [cursor=pointer]:
+            - img [ref=e2713]
+        - generic [ref=e2716]:
+          - link "首页" [ref=e2718] [cursor=pointer]:
+            - /url: /zh
+            - generic [ref=e2719]:
+              - img [ref=e2720]
+              - paragraph [ref=e2722]: 首页
+          - button "Search" [ref=e2724]:
+            - img [ref=e2725]
+            - paragraph [ref=e2728]: 搜索
+          - link "突发" [ref=e2730] [cursor=pointer]:
+            - /url: /zh/breaking
+            - generic [ref=e2731]:
+              - img [ref=e2732]
+              - paragraph [ref=e2735]: 突发
+          - button "More menu" [ref=e2737]:
+            - img [ref=e2738]
+            - paragraph [ref=e2739]: 更多
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=e2740]
