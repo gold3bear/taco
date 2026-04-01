@@ -1,0 +1,1002 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Google 新闻" [ref=e7] [cursor=pointer]:
+        - /url: ./?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+        - generic [ref=e9]: 新闻
+      - generic [ref=e10]:
+        - search [ref=e12]:
+          - combobox "搜索主题、地点和媒体" [ref=e19]: Trump Iran 2026
+          - button "高级搜索" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]:
+              - generic "高级搜索" [ref=e22]:
+                - img [ref=e23]
+              - tooltip [ref=e25]: 高级搜索
+          - button "清除搜索内容" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - button "搜索" [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+        - generic [ref=e34]:
+          - generic [ref=e39]:
+            - button "帮助" [ref=e40] [cursor=pointer]:
+              - img [ref=e42]
+            - tooltip [ref=e44]: 帮助
+          - generic [ref=e49]:
+            - button "设置" [ref=e50] [cursor=pointer]:
+              - img [ref=e52]
+            - tooltip [ref=e55]: 设置
+      - generic [ref=e57]:
+        - button "Google 应用" [ref=e61] [cursor=pointer]:
+          - img [ref=e62]
+        - link "登录" [ref=e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://news.google.com/search?q%3DTrump%2BIran%2B2026%26hl%3Dzh-CN%26gl%3DCN%26ceid%3DCN:zh-Hans&followup=https://news.google.com/search?q%3DTrump%2BIran%2B2026%26hl%3Dzh-CN%26gl%3DCN%26ceid%3DCN:zh-Hans&hl=zh-CN&ec=GAZAqgM
+    - navigation [ref=e68]:
+      - tablist [ref=e69]:
+        - tab "首页" [ref=e70] [cursor=pointer]:
+          - tab "首页" [ref=e71]
+        - tab "为您推荐" [ref=e72] [cursor=pointer]:
+          - tab "为您推荐" [ref=e73]
+        - tab "已关注" [ref=e74] [cursor=pointer]:
+          - tab "已关注" [ref=e75]
+        - tab "中国" [ref=e78] [cursor=pointer]:
+          - tab "中国" [ref=e79]
+        - tab "全球" [ref=e80] [cursor=pointer]:
+          - tab "全球" [ref=e81]
+        - tab "当地" [ref=e82] [cursor=pointer]:
+          - tab "当地" [ref=e83]
+        - tab "商业" [ref=e84] [cursor=pointer]:
+          - tab "商业" [ref=e85]
+        - tab "娱乐" [ref=e86] [cursor=pointer]:
+          - tab "娱乐" [ref=e87]
+        - tab "体育" [ref=e88] [cursor=pointer]:
+          - tab "体育" [ref=e89]
+  - main [ref=e93]:
+    - generic [ref=e95]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - link [ref=e101] [cursor=pointer]:
+            - /url: ./read/CBMigAFBVV95cUxOdzdGU1ctZGtXamJtOTVUYnVJNTlWZ3MxOWFfN2lINjg3djduTU95UkVlOVA2dWhSRjg5UkpnV1RYdy1DUVVsSXVEXzZ4aExYQ1ZyMUpWRXYxdkMyZ0lyc1k4MWlKeW1kN1NZVGR3VnJXd0FUX0c4eEQ1Y2o4SzJqcw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e107]: TDM
+              - generic [ref=e111]:
+                - generic:
+                  - button "展开 - Trump issues new threat to Iran’s civilian infrastructure" [ref=e112] [cursor=pointer]:
+                    - img [ref=e114]
+                  - tooltip [ref=e116]: 展开
+            - link "Trump issues new threat to Iran’s civilian infrastructure - TDM - 10 小时前" [ref=e117] [cursor=pointer]:
+              - /url: ./read/CBMigAFBVV95cUxOdzdGU1ctZGtXamJtOTVUYnVJNTlWZ3MxOWFfN2lINjg3djduTU95UkVlOVA2dWhSRjg5UkpnV1RYdy1DUVVsSXVEXzZ4aExYQ1ZyMUpWRXYxdkMyZ0lyc1k4MWlKeW1kN1NZVGR3VnJXd0FUX0c4eEQ1Y2o4SzJqcw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+              - text: Trump issues new threat to Iran’s civilian infrastructure
+        - time [ref=e119]: 10 小时前
+      - generic [ref=e120]:
+        - separator [ref=e122]
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - link [ref=e127] [cursor=pointer]:
+              - /url: ./read/CBMiowJBVV95cUxPaVBmc1NTdGNwMGxXRlFKS3BOeTQyS2FFOUF0T1lobEZPRHoyMVc3VEI5aWhnVzV1bFZyUTl0a2lrR1U5VmVGZGZHazU3WGVsTlZVQ04ycjFZYW9rLVExNHg0cXh0ckJFVUp1Q0VCSVBBaTZSaDJRRGQzR3k3Rnotd0E0OVJyWXZXLV8zRldiSFU5X3RnbmJvRDkwTkNCVkRUZkFpbUViWjZGSEpUOTIxQVZ2dkxHNm43SEs3ZnFCVDRsdFZhNU1XN0RjVUFrc3hMYlZJMmdQWU1lODhETmFDcWREcmFfLVM1cXhBdHFoUncwUzFMQlBNTl9CRUdsQWwwWUZEcFRvSDc3b1BHY1I4a1lNXzl1dTcwang1eTYwWm92bVE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - generic [ref=e133]: francaisfacile.rfi.fr
+                - generic [ref=e137]:
+                  - generic:
+                    - 'button "展开 - Iran: Trump souffle le chaud et le froid / Israël manque de soldats / La France perd moins d''argent que prévu..." [ref=e138] [cursor=pointer]':
+                      - img [ref=e140]
+                    - tooltip [ref=e142]: 展开
+              - 'link "Iran: Trump souffle le chaud et le froid / Israël manque de soldats / La France perd moins d''argent que prévu... - francaisfacile.rfi.fr - 5 天前 - 作者：Sophie Pouzeratte" [ref=e143] [cursor=pointer]':
+                - /url: ./read/CBMiowJBVV95cUxPaVBmc1NTdGNwMGxXRlFKS3BOeTQyS2FFOUF0T1lobEZPRHoyMVc3VEI5aWhnVzV1bFZyUTl0a2lrR1U5VmVGZGZHazU3WGVsTlZVQ04ycjFZYW9rLVExNHg0cXh0ckJFVUp1Q0VCSVBBaTZSaDJRRGQzR3k3Rnotd0E0OVJyWXZXLV8zRldiSFU5X3RnbmJvRDkwTkNCVkRUZkFpbUViWjZGSEpUOTIxQVZ2dkxHNm43SEs3ZnFCVDRsdFZhNU1XN0RjVUFrc3hMYlZJMmdQWU1lODhETmFDcWREcmFfLVM1cXhBdHFoUncwUzFMQlBNTl9CRUdsQWwwWUZEcFRvSDc3b1BHY1I4a1lNXzl1dTcwang1eTYwWm92bVE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: "Iran: Trump souffle le chaud et le froid / Israël manque de soldats / La France perd moins d'argent que prévu..."
+            - figure [ref=e144]
+          - generic [ref=e145]:
+            - time [ref=e146]: 5 天前
+            - separator [ref=e147]
+            - generic [ref=e148]: 作者：Sophie Pouzeratte
+      - generic [ref=e149]:
+        - separator [ref=e151]
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - link [ref=e156] [cursor=pointer]:
+              - /url: ./read/CBMiqwFBVV95cUxQRzVWODJTa0FwX0pnakFiaHVDdno2WkhfSDVqNDZyTGlMYW1NRmhSc2pYU1Y5a193RTVMdTNhM1YwSkdaRENETzJMWl9KaHF2S255ZWY5TEt0YXJxN1h4ZWE2YXk1NUxHUzJOdjh6UFdDa05HQUNqRi1fMTNOM1V3TkpHZmF3Smhla2pFUXAyNEJLaTVNbTRNemYxbEw5WHAxMDh0TmpYeWFYNWM?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e162]: Australian Broadcasting Corporation
+                - generic [ref=e166]:
+                  - generic:
+                    - button "展开 - 头条：特朗普称若伊朗拒绝结束战争协议 美将“摧毁”其石油与能源设施" [ref=e167] [cursor=pointer]:
+                      - img [ref=e169]
+                    - tooltip [ref=e171]: 展开
+              - link "头条：特朗普称若伊朗拒绝结束战争协议 美将“摧毁”其石油与能源设施 - Australian Broadcasting Corporation - 昨天 - 作者：宁·潘" [ref=e172] [cursor=pointer]:
+                - /url: ./read/CBMiqwFBVV95cUxQRzVWODJTa0FwX0pnakFiaHVDdno2WkhfSDVqNDZyTGlMYW1NRmhSc2pYU1Y5a193RTVMdTNhM1YwSkdaRENETzJMWl9KaHF2S255ZWY5TEt0YXJxN1h4ZWE2YXk1NUxHUzJOdjh6UFdDa05HQUNqRi1fMTNOM1V3TkpHZmF3Smhla2pFUXAyNEJLaTVNbTRNemYxbEw5WHAxMDh0TmpYeWFYNWM?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 头条：特朗普称若伊朗拒绝结束战争协议 美将“摧毁”其石油与能源设施
+            - figure [ref=e173]
+          - generic [ref=e174]:
+            - time [ref=e175]: 昨天
+            - separator [ref=e176]
+            - generic [ref=e177]: 作者：宁·潘
+      - generic [ref=e178]:
+        - separator [ref=e180]
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - link [ref=e185] [cursor=pointer]:
+              - /url: ./read/CBMiwwFBVV95cUxQU3M5TW5LNnl4S3ZOczhWZklmQzF2MlVZdEIzdVQxdG1HWFhfSEdCZWNpUmFpeFRxZlo5V2pXZVNCQUZ0RnVWeFhDcVhQLU5iVWQweTA5R0RkajlGekgyOGdkUUlQR1M2VVNuNHRIa2NES0NydS1URmRKNWVONWQ3d1VOWnZzc2tsR3FvWVo0Q2JnaEtDMFlhTmstTFFQQjdLdTdVc0ZZc2JyYTQ4VzNFbThfdG9mUXRGTGhJN2ZNMzM0dDg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - generic [ref=e191]: news.tvb.com
+                - generic [ref=e195]:
+                  - generic:
+                    - button "展开 - Donald Trump says he is confident of Iran \"regime change\"" [ref=e196] [cursor=pointer]:
+                      - img [ref=e198]
+                    - tooltip [ref=e200]: 展开
+              - link "Donald Trump says he is confident of Iran \"regime change\" - news.tvb.com - 2 天前" [ref=e201] [cursor=pointer]:
+                - /url: ./read/CBMiwwFBVV95cUxQU3M5TW5LNnl4S3ZOczhWZklmQzF2MlVZdEIzdVQxdG1HWFhfSEdCZWNpUmFpeFRxZlo5V2pXZVNCQUZ0RnVWeFhDcVhQLU5iVWQweTA5R0RkajlGekgyOGdkUUlQR1M2VVNuNHRIa2NES0NydS1URmRKNWVONWQ3d1VOWnZzc2tsR3FvWVo0Q2JnaEtDMFlhTmstTFFQQjdLdTdVc0ZZc2JyYTQ4VzNFbThfdG9mUXRGTGhJN2ZNMzM0dDg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Donald Trump says he is confident of Iran "regime change"
+            - figure [ref=e202]
+          - time [ref=e204]: 2 天前
+      - generic [ref=e205]:
+        - separator [ref=e207]
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - link [ref=e212] [cursor=pointer]:
+              - /url: ./read/CBMiuAFBVV95cUxNYjdtcVhGRVh4NXNFUDZUSmxuYjBxQUJGNkJGNXBHOE96MzlCSVBsbk9vVVFTNXFnT2dOQVB1alNrejBEbVpqaXl2enc5Rm5iWXM5X1A0WDFMemxMbGNzSEFMcTVHYmUzbG12RTJGMzFLVDFwZVJ5dlpTZ3V5QUV3RXpNSmZhTGZVTVlnaXJjNEUyWlYyamExdVE5ZGJTRDBBNkVUVGYwY0otTG8zQlJfdkYyVnZuTXZQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e218]: CoinDesk
+                - generic [ref=e222]:
+                  - generic:
+                    - button "展开 - 比特币（BTC）价格新闻：特朗普延长对伊朗的打击暂停，减缓价格下跌" [ref=e223] [cursor=pointer]:
+                      - img [ref=e225]
+                    - tooltip [ref=e227]: 展开
+              - link "比特币（BTC）价格新闻：特朗普延长对伊朗的打击暂停，减缓价格下跌 - CoinDesk - 6 天前 - 作者：Krisztian Sandor" [ref=e228] [cursor=pointer]:
+                - /url: ./read/CBMiuAFBVV95cUxNYjdtcVhGRVh4NXNFUDZUSmxuYjBxQUJGNkJGNXBHOE96MzlCSVBsbk9vVVFTNXFnT2dOQVB1alNrejBEbVpqaXl2enc5Rm5iWXM5X1A0WDFMemxMbGNzSEFMcTVHYmUzbG12RTJGMzFLVDFwZVJ5dlpTZ3V5QUV3RXpNSmZhTGZVTVlnaXJjNEUyWlYyamExdVE5ZGJTRDBBNkVUVGYwY0otTG8zQlJfdkYyVnZuTXZQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 比特币（BTC）价格新闻：特朗普延长对伊朗的打击暂停，减缓价格下跌
+            - figure [ref=e229]
+          - generic [ref=e230]:
+            - time [ref=e231]: 6 天前
+            - separator [ref=e232]
+            - generic [ref=e233]: 作者：Krisztian Sandor
+      - generic [ref=e234]:
+        - separator [ref=e236]
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - link [ref=e241] [cursor=pointer]:
+              - /url: ./read/CBMi9AFBVV95cUxQdWVUNU45eG1tQVZJTW05QjBhMHBUQm9JQ1dQQ2FuVmRuZmtFbUItVlRycEt6cWtmTGNLdWhsQUFnWWJBNDA0QzhKUlZ6MXVQV3BMYlRCS1kzdFZBcDByTGdNb2JPTWg0bDROVHBERGd2UFR4QjFZMzRpQURVc213U0lUcGFFSGd4Y1BCYktvdTlMbGQ0QlVFLVVETVJtcWVEYV9JSlpOei00bDZQTUFodmxLR2Q5cjBzdjA0ZDh0WmpZdDAxa00tc0UtZi1LdWU0SHJZRkJsZXh0YjdGbzRabWpuR1J6aHlSNlR0NDNaaDRkNWxX0gH3AUFVX3lxTE0tSnlPYXZROWlxdGxaQUhwYjQ0WENmUlJPaGRqM2hxSzJOR2VuWUYyTjFvdGNmYzhIZndYQmxCZUhKMnRDX0YySDQwNXNqX25qZ3dFVzFDenhXMGMwR2puanRQYlFpNHlkRkdVLXBUU1dWZkltQW1rSkpXWThWZGpnbGVoVlhQdlhIemo1SlFFMmMxWUtaLTRnR3E0MHB5ZGhhUFNGcVZJZEM0NFZUQm1UdWFzQWdLdmZMa1lNLWNFcEtBMUZYbkRjR2ZpM1ZPRDJhdFM2SnFMMnJwXzcxbnlOOTRJQ1pkWUVYWFVzN19VZFU1MUMyYUk?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - generic [ref=e247]: voachinese.com
+                - generic [ref=e251]:
+                  - generic:
+                    - button "展开 - 特朗普总统称作为谈判姿态，伊朗“新领导层”向美方送出与油气相关“礼物”" [ref=e252] [cursor=pointer]:
+                      - img [ref=e254]
+                    - tooltip [ref=e256]: 展开
+              - link "特朗普总统称作为谈判姿态，伊朗“新领导层”向美方送出与油气相关“礼物” - voachinese.com - 3月24日 - 作者：迈克尔·利平" [ref=e257] [cursor=pointer]:
+                - /url: ./read/CBMi9AFBVV95cUxQdWVUNU45eG1tQVZJTW05QjBhMHBUQm9JQ1dQQ2FuVmRuZmtFbUItVlRycEt6cWtmTGNLdWhsQUFnWWJBNDA0QzhKUlZ6MXVQV3BMYlRCS1kzdFZBcDByTGdNb2JPTWg0bDROVHBERGd2UFR4QjFZMzRpQURVc213U0lUcGFFSGd4Y1BCYktvdTlMbGQ0QlVFLVVETVJtcWVEYV9JSlpOei00bDZQTUFodmxLR2Q5cjBzdjA0ZDh0WmpZdDAxa00tc0UtZi1LdWU0SHJZRkJsZXh0YjdGbzRabWpuR1J6aHlSNlR0NDNaaDRkNWxX0gH3AUFVX3lxTE0tSnlPYXZROWlxdGxaQUhwYjQ0WENmUlJPaGRqM2hxSzJOR2VuWUYyTjFvdGNmYzhIZndYQmxCZUhKMnRDX0YySDQwNXNqX25qZ3dFVzFDenhXMGMwR2puanRQYlFpNHlkRkdVLXBUU1dWZkltQW1rSkpXWThWZGpnbGVoVlhQdlhIemo1SlFFMmMxWUtaLTRnR3E0MHB5ZGhhUFNGcVZJZEM0NFZUQm1UdWFzQWdLdmZMa1lNLWNFcEtBMUZYbkRjR2ZpM1ZPRDJhdFM2SnFMMnJwXzcxbnlOOTRJQ1pkWUVYWFVzN19VZFU1MUMyYUk?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统称作为谈判姿态，伊朗“新领导层”向美方送出与油气相关“礼物”
+            - figure [ref=e258]
+          - generic [ref=e259]:
+            - time [ref=e260]: 3月24日
+            - separator [ref=e261]
+            - generic [ref=e262]: 作者：迈克尔·利平
+      - generic [ref=e263]:
+        - separator [ref=e265]
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - link [ref=e270] [cursor=pointer]:
+              - /url: ./read/CBMiXEFVX3lxTE5iTUtWNGx6T0xpUU94eTlIU2ZpTm1VYkc4eFo5YnlfWFZsXzNMOVlQc01DTDBfY2hOUm44UF9yRThFU3lJQ2htT3dpVjVudk85WDVWX2U3Qkk1WmxN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - generic [ref=e276]: 清华大学战略与安全研究中心
+                - generic [ref=e280]:
+                  - generic:
+                    - button "展开 - 《美国观察》180 | 颠覆性变革还是幻想？特朗普2.0的对伊战略探析" [ref=e281] [cursor=pointer]:
+                      - img [ref=e283]
+                    - tooltip [ref=e285]: 展开
+              - link "《美国观察》180 | 颠覆性变革还是幻想？特朗普2.0的对伊战略探析 - 清华大学战略与安全研究中心 - 3月13日" [ref=e286] [cursor=pointer]:
+                - /url: ./read/CBMiXEFVX3lxTE5iTUtWNGx6T0xpUU94eTlIU2ZpTm1VYkc4eFo5YnlfWFZsXzNMOVlQc01DTDBfY2hOUm44UF9yRThFU3lJQ2htT3dpVjVudk85WDVWX2U3Qkk1WmxN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 《美国观察》180 | 颠覆性变革还是幻想？特朗普2.0的对伊战略探析
+            - figure [ref=e287]
+          - time [ref=e289]: 3月13日
+      - generic [ref=e290]:
+        - separator [ref=e292]
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - link [ref=e297] [cursor=pointer]:
+              - /url: ./read/CBMioAFBVV95cUxQNE1UTGMwblJIdEdRNy1CR0lCZ1hzMFFOX0IzR1NRY2U4REw5NnZoeEJfZ3BWdXVIZGVPbnNQakRSQlkyNWhKWUVlUVRRZUJaQVJDVnpiVVlsc3FyeTdBSENtVzVyenRSc2JJY0lLRGNWRDhGOUMxNklGUnhtdGxxRzlrSzdTSkZRdnlpWkgtY2tQWFF5S2RhejItLVlkcFhY?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - generic [ref=e303]: Australian Broadcasting Corporation
+                - generic [ref=e307]:
+                  - generic:
+                    - button "展开 - 头条：澳洲与德国签署太空防务协议 监视中俄动向" [ref=e308] [cursor=pointer]:
+                      - img [ref=e310]
+                    - tooltip [ref=e312]: 展开
+              - link "头条：澳洲与德国签署太空防务协议 监视中俄动向 - Australian Broadcasting Corporation - 6 天前 - 作者：宁·潘" [ref=e313] [cursor=pointer]:
+                - /url: ./read/CBMioAFBVV95cUxQNE1UTGMwblJIdEdRNy1CR0lCZ1hzMFFOX0IzR1NRY2U4REw5NnZoeEJfZ3BWdXVIZGVPbnNQakRSQlkyNWhKWUVlUVRRZUJaQVJDVnpiVVlsc3FyeTdBSENtVzVyenRSc2JJY0lLRGNWRDhGOUMxNklGUnhtdGxxRzlrSzdTSkZRdnlpWkgtY2tQWFF5S2RhejItLVlkcFhY?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 头条：澳洲与德国签署太空防务协议 监视中俄动向
+            - figure [ref=e314]
+          - generic [ref=e315]:
+            - time [ref=e316]: 6 天前
+            - separator [ref=e317]
+            - generic [ref=e318]: 作者：宁·潘
+      - generic [ref=e319]:
+        - separator [ref=e321]
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - link [ref=e326] [cursor=pointer]:
+              - /url: ./read/CBMiWEFVX3lxTE96WFZjZVBxT2EwTjFJVHkwbHZocE1vdjBBNUV4eEF1MzZrcE90dE0yQVdvUk9yak5jQm9YU3V2SFgzZVlVMWFyQ2NQb2tZTUNjV1pkUkFYeU0?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e332]: TDM
+                - generic [ref=e336]:
+                  - generic:
+                    - button "展开 - 澳廣視新聞｜Trump says ‘good talks ongoing with Iran’｜Trump says ‘good talks ongoing with Iran’" [ref=e337] [cursor=pointer]:
+                      - img [ref=e339]
+                    - tooltip [ref=e341]: 展开
+              - link "澳廣視新聞｜Trump says ‘good talks ongoing with Iran’｜Trump says ‘good talks ongoing with Iran’ - TDM - 3月25日" [ref=e342] [cursor=pointer]:
+                - /url: ./read/CBMiWEFVX3lxTE96WFZjZVBxT2EwTjFJVHkwbHZocE1vdjBBNUV4eEF1MzZrcE90dE0yQVdvUk9yak5jQm9YU3V2SFgzZVlVMWFyQ2NQb2tZTUNjV1pkUkFYeU0?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 澳廣視新聞｜Trump says ‘good talks ongoing with Iran’｜Trump says ‘good talks ongoing with Iran’
+            - figure [ref=e343]
+          - time [ref=e345]: 3月25日
+      - generic [ref=e346]:
+        - separator [ref=e348]
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - link [ref=e353] [cursor=pointer]:
+              - /url: ./read/CBMiuAFBVV95cUxOZngwOGF3NDYwbHJ2dkFaVlRkcnNzeEZQLWlBc1RDZ3lGc19VOGZORU55S2tXSTEwemh3TXd0WVJKQ0xQTXhLWnZPVk8yUDZTa21wdjFoZFAwYTRabXgxQXRYY1pTQlllRDJ3MTQ3bVlEaFRvWnJfNTZJUWRqRWMtR3IzTWZNdS1vTWlfRmNDeHF1ejAwOThxcERMcF9kdGN5NHU4OUctNFBBaE1nU2xYSU03c0UzUXpB?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - generic [ref=e359]: CoinDesk
+                - generic [ref=e363]:
+                  - generic:
+                    - button "展开 - 比特币分析：美国国债如何影响特朗普的伊朗战争及比特币" [ref=e364] [cursor=pointer]:
+                      - img [ref=e366]
+                    - tooltip [ref=e368]: 展开
+              - link "比特币分析：美国国债如何影响特朗普的伊朗战争及比特币 - CoinDesk - 3月24日 - 作者：奥姆卡尔·戈德博尔" [ref=e369] [cursor=pointer]:
+                - /url: ./read/CBMiuAFBVV95cUxOZngwOGF3NDYwbHJ2dkFaVlRkcnNzeEZQLWlBc1RDZ3lGc19VOGZORU55S2tXSTEwemh3TXd0WVJKQ0xQTXhLWnZPVk8yUDZTa21wdjFoZFAwYTRabXgxQXRYY1pTQlllRDJ3MTQ3bVlEaFRvWnJfNTZJUWRqRWMtR3IzTWZNdS1vTWlfRmNDeHF1ejAwOThxcERMcF9kdGN5NHU4OUctNFBBaE1nU2xYSU03c0UzUXpB?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 比特币分析：美国国债如何影响特朗普的伊朗战争及比特币
+            - figure [ref=e370]
+          - generic [ref=e371]:
+            - time [ref=e372]: 3月24日
+            - separator [ref=e373]
+            - generic [ref=e374]: 作者：奥姆卡尔·戈德博尔
+      - generic [ref=e375]:
+        - separator [ref=e377]
+        - generic [ref=e379]:
+          - generic [ref=e380]:
+            - link [ref=e382] [cursor=pointer]:
+              - /url: ./read/CBMijwJBVV95cUxQckg5VzNCbHFOODVxM0ZGT0hVeVRkWHFoU2tLUmdnVlI1Y1l2VkIwRlV1cDhHRFFMa3VGRmphR3FhNVdfQkVsMkctX1pHSnJSVUpMTWJvSUdfQk5jRE1MeGJQMU9LcHE4NXFVQlp3TUlyYWVBVUpSVGdiOUNsVV8tNHgzTFlpVGpfZXJoX0lXRjR6V2pqOWozZzlpRjhyUFhBVFA4bnh0VUhZcUFWUDNaQVNURWswaE1EUktJN3hfaEs3OVZjTW54cURROE5WR0UyWGRMWlQtT0JJVlRnQ1RGa0c1OHVTSW1iVXdoVVBIWWQ5QVRTT3ZKVXl0VVI3R3JWQzd0ZURfTWJudkRoNGJB0gGSAkFVX3lxTFBCMXpURVVudjNxd1laMnBnT1ZMektZNEFWczBCekJiS2hvWUgyLXc2V1E3VXhiQXdwYXk2c1hmZUl2SHlpa05LR3UwZ0ZBQUVYT0k1bklHRUZoR2JoRmlTSnVvWWdIY2k3dVhmN29QYllmdDBnTy1yd3dsSUZ4SGYxSmU0RmJmeDNzUVlQbXdaSFAwUFd3MWFYbWZSX2ZJYlZ5dXh4cUhUSTUyTEdCNDFHNTVlazMwbkQ0V0JJc0lyakw1SVlQZVdJRkRDT05qcUZpNDBrc3FfWUw2WXN2MFI0QktxX3EwekVrT21vaTkyLUdHcWZfZGdQeWYxS0stMEYzN25DS0EtWFQ4U3JtcXRjYWc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e384]:
+              - generic [ref=e385]:
+                - generic [ref=e388]: voachinese.com
+                - generic [ref=e392]:
+                  - generic:
+                    - button "展开 - 特朗普总统警告伊朗新领导层：若不“很快”与美国达成协议，其能源设施或被摧毁" [ref=e393] [cursor=pointer]:
+                      - img [ref=e395]
+                    - tooltip [ref=e397]: 展开
+              - link "特朗普总统警告伊朗新领导层：若不“很快”与美国达成协议，其能源设施或被摧毁 - voachinese.com - 2 天前 - 作者：迈克尔·利平" [ref=e398] [cursor=pointer]:
+                - /url: ./read/CBMijwJBVV95cUxQckg5VzNCbHFOODVxM0ZGT0hVeVRkWHFoU2tLUmdnVlI1Y1l2VkIwRlV1cDhHRFFMa3VGRmphR3FhNVdfQkVsMkctX1pHSnJSVUpMTWJvSUdfQk5jRE1MeGJQMU9LcHE4NXFVQlp3TUlyYWVBVUpSVGdiOUNsVV8tNHgzTFlpVGpfZXJoX0lXRjR6V2pqOWozZzlpRjhyUFhBVFA4bnh0VUhZcUFWUDNaQVNURWswaE1EUktJN3hfaEs3OVZjTW54cURROE5WR0UyWGRMWlQtT0JJVlRnQ1RGa0c1OHVTSW1iVXdoVVBIWWQ5QVRTT3ZKVXl0VVI3R3JWQzd0ZURfTWJudkRoNGJB0gGSAkFVX3lxTFBCMXpURVVudjNxd1laMnBnT1ZMektZNEFWczBCekJiS2hvWUgyLXc2V1E3VXhiQXdwYXk2c1hmZUl2SHlpa05LR3UwZ0ZBQUVYT0k1bklHRUZoR2JoRmlTSnVvWWdIY2k3dVhmN29QYllmdDBnTy1yd3dsSUZ4SGYxSmU0RmJmeDNzUVlQbXdaSFAwUFd3MWFYbWZSX2ZJYlZ5dXh4cUhUSTUyTEdCNDFHNTVlazMwbkQ0V0JJc0lyakw1SVlQZVdJRkRDT05qcUZpNDBrc3FfWUw2WXN2MFI0QktxX3EwekVrT21vaTkyLUdHcWZfZGdQeWYxS0stMEYzN25DS0EtWFQ4U3JtcXRjYWc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统警告伊朗新领导层：若不“很快”与美国达成协议，其能源设施或被摧毁
+            - figure [ref=e399]
+          - generic [ref=e400]:
+            - time [ref=e401]: 2 天前
+            - separator [ref=e402]
+            - generic [ref=e403]: 作者：迈克尔·利平
+      - generic [ref=e404]:
+        - separator [ref=e406]
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - link [ref=e411] [cursor=pointer]:
+              - /url: ./read/CBMiwAFBVV95cUxOc3JsR1dBZHYySnlpbWtjSDhoaENaeDh3TlFnc3YwcEFXTUFJejhYNnBORzRKR243V1pUU1BuaEpzWENKeHkxM09qUktnZFM2UnNWZkxWbmpHeDY0aFk1ZUllQmh0NzgycTBpSGRWdHp4bXJpa2s4MlpucnRvc25HR3NnR3RsNG5JdzJOYkdUaW5xUzI5cV9sS3lpdGhHeXZ1ZTQzZWNfdDdvZzRTS18wQlphR2RBd3otVW1uMkliQ2c?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e413]:
+              - generic [ref=e414]:
+                - generic [ref=e417]: news.tvb.com
+                - generic [ref=e421]:
+                  - generic:
+                    - button "展开 - First Houthi attack on Israel since start of Iran War" [ref=e422] [cursor=pointer]:
+                      - img [ref=e424]
+                    - tooltip [ref=e426]: 展开
+              - link "First Houthi attack on Israel since start of Iran War - news.tvb.com - 4 天前" [ref=e427] [cursor=pointer]:
+                - /url: ./read/CBMiwAFBVV95cUxOc3JsR1dBZHYySnlpbWtjSDhoaENaeDh3TlFnc3YwcEFXTUFJejhYNnBORzRKR243V1pUU1BuaEpzWENKeHkxM09qUktnZFM2UnNWZkxWbmpHeDY0aFk1ZUllQmh0NzgycTBpSGRWdHp4bXJpa2s4MlpucnRvc25HR3NnR3RsNG5JdzJOYkdUaW5xUzI5cV9sS3lpdGhHeXZ1ZTQzZWNfdDdvZzRTS18wQlphR2RBd3otVW1uMkliQ2c?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: First Houthi attack on Israel since start of Iran War
+            - figure [ref=e428]
+          - time [ref=e430]: 4 天前
+      - generic [ref=e431]:
+        - separator [ref=e433]
+        - generic [ref=e435]:
+          - generic [ref=e436]:
+            - link [ref=e438] [cursor=pointer]:
+              - /url: ./read/CBMilgFBVV95cUxNSmpUaFRiSXFKZzZtMTFCU0RDOGF0V3hSQVdXZUNlZzF0dVcwYWlyUjRvaWpkU21qdjZiZnJ0cVlBZDlxRmNlb0o3UDJkNlU3dTQ3bzh0ZWJ4eG1zRmpmRzdFSF9pMVVBUFhjX0JmRG11Q2NOVjI4R1dud3NaQWVPYk9TNEc2bU0yM2FQanQtTG5iQjhfOWc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e440]:
+              - generic [ref=e441]:
+                - generic [ref=e444]: Australian Broadcasting Corporation
+                - generic [ref=e448]:
+                  - generic:
+                    - button "展开 - 头条：特朗普获悉可以“斩首”伊朗高官后批准了对伊行动" [ref=e449] [cursor=pointer]:
+                      - img [ref=e451]
+                    - tooltip [ref=e453]: 展开
+              - link "头条：特朗普获悉可以“斩首”伊朗高官后批准了对伊行动 - Australian Broadcasting Corporation - 3月24日 - 作者：宁·潘和卡伊·冯" [ref=e454] [cursor=pointer]:
+                - /url: ./read/CBMilgFBVV95cUxNSmpUaFRiSXFKZzZtMTFCU0RDOGF0V3hSQVdXZUNlZzF0dVcwYWlyUjRvaWpkU21qdjZiZnJ0cVlBZDlxRmNlb0o3UDJkNlU3dTQ3bzh0ZWJ4eG1zRmpmRzdFSF9pMVVBUFhjX0JmRG11Q2NOVjI4R1dud3NaQWVPYk9TNEc2bU0yM2FQanQtTG5iQjhfOWc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 头条：特朗普获悉可以“斩首”伊朗高官后批准了对伊行动
+            - figure [ref=e455]
+          - generic [ref=e456]:
+            - time [ref=e457]: 3月24日
+            - separator [ref=e458]
+            - generic [ref=e459]: 作者：宁·潘和卡伊·冯
+      - generic [ref=e460]:
+        - separator [ref=e462]
+        - generic [ref=e464]:
+          - generic [ref=e465]:
+            - link [ref=e467] [cursor=pointer]:
+              - /url: ./read/CBMiuAFBVV95cUxPY0szdTFnNkFDWVFoZ21jVXl4aWdWSGRUdUtmb2Zwal9MWU54dW0yUUl1OFdkZGdhcE91SFhxOVR2bnFjNW95czFwXzZySjctNks5Z3NEVHRYR25MTUptSUYzQkxwSkRqcnBKaG1McnNweC1pbExWdjRaeWtLdjhqazFxZ2h3MWxxMUtlT0g1ckZfNE9Za0c1MDJCTnBmekpieDVHaEVoUkxpcHhzS3F0aER2Nnk3ZDdy0gG7AUFVX3lxTE8zLUhMbkticXBEUGxiNEFhcHlqZWZIdW5WUFFJWVpPYml3VXJ5eTVoQkRaelpzRnJQbWVySGVNZEd1cGVYdTRtbjlva3hheG41cnkydzZJTy1GaXA2YlhSNzhvMVZFcHNlSUpmR2dCYnRHS19DYVo5Sm5NME9uWGhOQkhjZkIxSlhSTy14Z2dUakJNTGo1Z24wcHpiNFExem5SMWpLRTZOOEx2VHJyYzRfLXhudFlvZjJzUzg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - generic [ref=e473]: voachinese.com
+                - generic [ref=e477]:
+                  - generic:
+                    - button "展开 - 特朗普：若伊朗不达成协议，“将会发生糟糕的事情”" [ref=e478] [cursor=pointer]:
+                      - img [ref=e480]
+                    - tooltip [ref=e482]: 展开
+              - link "特朗普：若伊朗不达成协议，“将会发生糟糕的事情” - voachinese.com - 2月20日" [ref=e483] [cursor=pointer]:
+                - /url: ./read/CBMiuAFBVV95cUxPY0szdTFnNkFDWVFoZ21jVXl4aWdWSGRUdUtmb2Zwal9MWU54dW0yUUl1OFdkZGdhcE91SFhxOVR2bnFjNW95czFwXzZySjctNks5Z3NEVHRYR25MTUptSUYzQkxwSkRqcnBKaG1McnNweC1pbExWdjRaeWtLdjhqazFxZ2h3MWxxMUtlT0g1ckZfNE9Za0c1MDJCTnBmekpieDVHaEVoUkxpcHhzS3F0aER2Nnk3ZDdy0gG7AUFVX3lxTE8zLUhMbkticXBEUGxiNEFhcHlqZWZIdW5WUFFJWVpPYml3VXJ5eTVoQkRaelpzRnJQbWVySGVNZEd1cGVYdTRtbjlva3hheG41cnkydzZJTy1GaXA2YlhSNzhvMVZFcHNlSUpmR2dCYnRHS19DYVo5Sm5NME9uWGhOQkhjZkIxSlhSTy14Z2dUakJNTGo1Z24wcHpiNFExem5SMWpLRTZOOEx2VHJyYzRfLXhudFlvZjJzUzg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普：若伊朗不达成协议，“将会发生糟糕的事情”
+            - figure [ref=e484]
+          - time [ref=e486]: 2月20日
+      - generic [ref=e487]:
+        - separator [ref=e489]
+        - generic [ref=e491]:
+          - generic [ref=e492]:
+            - link [ref=e494] [cursor=pointer]:
+              - /url: ./read/CBMiX0FVX3lxTE9qN1dlSXVtQWEzUXp2bThpeGVPTlBIWkU1cG1NWEdHNTBIc2FzckoydXJ0ZVRjaG91bGY2SHJBb3NRcWZuSUl2RGxSbzRYNllXR1NQUkVieDMxelRfSXVR?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e496]:
+              - generic [ref=e497]:
+                - generic [ref=e500]: TDM
+                - generic [ref=e504]:
+                  - generic:
+                    - button "展开 - Trump says Vance was ‘philosophically’ different on Iran" [ref=e505] [cursor=pointer]:
+                      - img [ref=e507]
+                    - tooltip [ref=e509]: 展开
+              - link "Trump says Vance was ‘philosophically’ different on Iran - TDM - 3月11日" [ref=e510] [cursor=pointer]:
+                - /url: ./read/CBMiX0FVX3lxTE9qN1dlSXVtQWEzUXp2bThpeGVPTlBIWkU1cG1NWEdHNTBIc2FzckoydXJ0ZVRjaG91bGY2SHJBb3NRcWZuSUl2RGxSbzRYNllXR1NQUkVieDMxelRfSXVR?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump says Vance was ‘philosophically’ different on Iran
+            - figure [ref=e511]
+          - time [ref=e513]: 3月11日
+      - generic [ref=e514]:
+        - separator [ref=e516]
+        - generic [ref=e518]:
+          - generic [ref=e519]:
+            - link [ref=e521] [cursor=pointer]:
+              - /url: ./read/CBMi0wFBVV95cUxORkFkblVqOWxpS2NfTGU1NGp4WEowWjQ3S2lMZHF4QzMzRTRTUm9mVGdTSE9mWUZDVnZNZHNnT3d5YXlLVkdjZG53Q3lyTGFLZ2trR2I3OEZSbi13V2dLb0xqT3VmQW1SOWt0bURfUTdnNElqcHhwX1RQT0l5a2trOGtLSXBkTnZ0QmZfalplREtzQWNRVXJRZk52a0hmZVhWbGlpakxiczVvQVhSUHZmN3RuTHJoa1NTS1NlWkdVVEhxQW51bmI0SzJBN2w0OGxER1JN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - generic [ref=e527]: news.tvb.com
+                - generic [ref=e531]:
+                  - generic:
+                    - button "展开 - Trump rules out talks with Iran calling for unconditional surrender" [ref=e532] [cursor=pointer]:
+                      - img [ref=e534]
+                    - tooltip [ref=e536]: 展开
+              - link "Trump rules out talks with Iran calling for unconditional surrender - news.tvb.com - 3月7日" [ref=e537] [cursor=pointer]:
+                - /url: ./read/CBMi0wFBVV95cUxORkFkblVqOWxpS2NfTGU1NGp4WEowWjQ3S2lMZHF4QzMzRTRTUm9mVGdTSE9mWUZDVnZNZHNnT3d5YXlLVkdjZG53Q3lyTGFLZ2trR2I3OEZSbi13V2dLb0xqT3VmQW1SOWt0bURfUTdnNElqcHhwX1RQT0l5a2trOGtLSXBkTnZ0QmZfalplREtzQWNRVXJRZk52a0hmZVhWbGlpakxiczVvQVhSUHZmN3RuTHJoa1NTS1NlWkdVVEhxQW51bmI0SzJBN2w0OGxER1JN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump rules out talks with Iran calling for unconditional surrender
+            - figure [ref=e538]
+          - time [ref=e540]: 3月7日
+      - generic [ref=e541]:
+        - separator [ref=e543]
+        - generic [ref=e545]:
+          - generic [ref=e546]:
+            - link [ref=e548] [cursor=pointer]:
+              - /url: ./read/CBMirgFBVV95cUxNVnZ4bjA0bFVJWUFxWi1VbzVIOExBZVFVYW5QY3dlWl9CZC1xOWJubHdLZnZhWDhUbVRrSVByYXlEUHk1Ulc1cmxJQllndHAtcnk1THFpN25neDhzOVl0cDBTWkY3S1NKbHlITlBGSHQzbnZRSllFVmNMUUliU0RzU0xzZ0N6bXhVWVZ3TnQ3NnJvTkVjUjhCNnlDN0VfeEVtbGNrTEhYbHlINHB2SnfSAbABQVVfeXFMTl8yZWh3eEVVUDNwQzBkY3YyWUtucHl5T21nY3hFYjZkdVlFM2wzajNsQWo3bWV3NHhrclRodmVHSEdqbHJpRWZzVkFpLXgwMFpIbGZqOEhKcWxkTUZmVUk1OXNiTy1xQXlac0lpVXJTbHluQkN1MTZpQmVLSzB1dDRpZGo2RUpjOUdmdTBaYUs2NzBWcFNyVEQwSDNoY2NaNkhkalFvdjBVYllvS2JSSmo?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e550]:
+              - generic [ref=e551]:
+                - generic [ref=e554]: voachinese.com
+                - generic [ref=e558]:
+                  - generic:
+                    - button "展开 - 特朗普总统宣布美军在伊朗开始重大作战行动(讲话全文)" [ref=e559] [cursor=pointer]:
+                      - img [ref=e561]
+                    - tooltip [ref=e563]: 展开
+              - link "特朗普总统宣布美军在伊朗开始重大作战行动(讲话全文) - voachinese.com - 2月28日" [ref=e564] [cursor=pointer]:
+                - /url: ./read/CBMirgFBVV95cUxNVnZ4bjA0bFVJWUFxWi1VbzVIOExBZVFVYW5QY3dlWl9CZC1xOWJubHdLZnZhWDhUbVRrSVByYXlEUHk1Ulc1cmxJQllndHAtcnk1THFpN25neDhzOVl0cDBTWkY3S1NKbHlITlBGSHQzbnZRSllFVmNMUUliU0RzU0xzZ0N6bXhVWVZ3TnQ3NnJvTkVjUjhCNnlDN0VfeEVtbGNrTEhYbHlINHB2SnfSAbABQVVfeXFMTl8yZWh3eEVVUDNwQzBkY3YyWUtucHl5T21nY3hFYjZkdVlFM2wzajNsQWo3bWV3NHhrclRodmVHSEdqbHJpRWZzVkFpLXgwMFpIbGZqOEhKcWxkTUZmVUk1OXNiTy1xQXlac0lpVXJTbHluQkN1MTZpQmVLSzB1dDRpZGo2RUpjOUdmdTBaYUs2NzBWcFNyVEQwSDNoY2NaNkhkalFvdjBVYllvS2JSSmo?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统宣布美军在伊朗开始重大作战行动(讲话全文)
+            - figure [ref=e565]
+          - time [ref=e567]: 2月28日
+      - generic [ref=e568]:
+        - separator [ref=e570]
+        - generic [ref=e572]:
+          - generic [ref=e573]:
+            - link [ref=e575] [cursor=pointer]:
+              - /url: ./read/CBMi4gFBVV95cUxQZmdhMDVyWmpNbGV4UFZBZ0NwQ05DYS1DZG9ZUVJfV1Q4VzZlQTRaMWF2cHBqOFo3Z1lsWEU0aktNenlVTmZjYXBSSTRydmNWZHI0LURpRGJqNHptTFR3dGc2NjI4SGMwdEtrc3dwbDlHTHhfaGhsWGlyMWNiVmZseU9QLWFpNkt5NkNpc2VsOEVYTWxhd2Z3cUFQSzhEOWMxVFFBeDhkZHpLZkNkZ1p5NVNlN3UySFU2eTNBaDE5NnpTN2lzZ3VtRG1lZnhVM3RFWkxEaXRwN3g2cnV6RnU4QXBB?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e577]:
+              - generic [ref=e578]:
+                - generic [ref=e581]: news.tvb.com
+                - generic [ref=e585]:
+                  - generic:
+                    - button "展开 - Iran, Israel trade blows as Trump threatens to obliterate Iranian power plants" [ref=e586] [cursor=pointer]:
+                      - img [ref=e588]
+                    - tooltip [ref=e590]: 展开
+              - link "Iran, Israel trade blows as Trump threatens to obliterate Iranian power plants - news.tvb.com - 3月22日" [ref=e591] [cursor=pointer]:
+                - /url: ./read/CBMi4gFBVV95cUxQZmdhMDVyWmpNbGV4UFZBZ0NwQ05DYS1DZG9ZUVJfV1Q4VzZlQTRaMWF2cHBqOFo3Z1lsWEU0aktNenlVTmZjYXBSSTRydmNWZHI0LURpRGJqNHptTFR3dGc2NjI4SGMwdEtrc3dwbDlHTHhfaGhsWGlyMWNiVmZseU9QLWFpNkt5NkNpc2VsOEVYTWxhd2Z3cUFQSzhEOWMxVFFBeDhkZHpLZkNkZ1p5NVNlN3UySFU2eTNBaDE5NnpTN2lzZ3VtRG1lZnhVM3RFWkxEaXRwN3g2cnV6RnU4QXBB?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Iran, Israel trade blows as Trump threatens to obliterate Iranian power plants
+            - figure [ref=e592]
+          - time [ref=e594]: 3月22日
+      - generic [ref=e595]:
+        - separator [ref=e597]
+        - generic [ref=e599]:
+          - generic [ref=e600]:
+            - link [ref=e602] [cursor=pointer]:
+              - /url: ./read/CBMizAFBVV95cUxON1RUdWhkYkotenV1SVB6a1U4RFFkUkJFQjlfRnZuYUNSWm5fUlNPbFFDTVRzQVFaLVJhYmNnVFZ4a01NSWNWcjA3Y1c4WDAya1V5SENOWHp2RjZ2T1FGSU52U3pFRHR1Wm9IejFJSWNTSWswTlVDUVpneFJWb25OTUhMcmVLUmRIVTNfa3UxUVlKejdhM2p1dHJFRFlPSGJHS1E0d1pDX2hpLUtKVzlwSjVPbWNXUFBMMnpoYUloSFVJTGs0ZE5RSHBRX2zSAc8BQVVfeXFMUHd1VjR0VWxicERkR25VNE10dHE5VF9PXy1Xd1NyTXZtdjB0UE5VQnU0ZDRDTjVXUUVxVHNibUpDSWhVNldtc3RrSXRCQmh5TXpjMWU4SlJydFRHX2w1MHBhMHJUQzZ6THBQRy1qaHlub3VtUUc1RjJlZWd0NTltUjBFeG0tOVpxOUJLOVZWYVZveEc2ZTBzNmZhRWtMeTY3NTRCZmhqYUZ1bFhzS2NMRlNBLWUxVXE2VHdIQXpnT1BEcWYxdV9zeENZZE1ndTN3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e604]:
+              - generic [ref=e605]:
+                - generic [ref=e608]: voachinese.com
+                - generic [ref=e612]:
+                  - generic:
+                    - button "展开 - 特朗普总统称希望美伊谈判在一个月内达成协议，呼吁伊朗政权迅速同意" [ref=e613] [cursor=pointer]:
+                      - img [ref=e615]
+                    - tooltip [ref=e617]: 展开
+              - link "特朗普总统称希望美伊谈判在一个月内达成协议，呼吁伊朗政权迅速同意 - voachinese.com - 2月13日 - 作者：迈克尔·利平" [ref=e618] [cursor=pointer]:
+                - /url: ./read/CBMizAFBVV95cUxON1RUdWhkYkotenV1SVB6a1U4RFFkUkJFQjlfRnZuYUNSWm5fUlNPbFFDTVRzQVFaLVJhYmNnVFZ4a01NSWNWcjA3Y1c4WDAya1V5SENOWHp2RjZ2T1FGSU52U3pFRHR1Wm9IejFJSWNTSWswTlVDUVpneFJWb25OTUhMcmVLUmRIVTNfa3UxUVlKejdhM2p1dHJFRFlPSGJHS1E0d1pDX2hpLUtKVzlwSjVPbWNXUFBMMnpoYUloSFVJTGs0ZE5RSHBRX2zSAc8BQVVfeXFMUHd1VjR0VWxicERkR25VNE10dHE5VF9PXy1Xd1NyTXZtdjB0UE5VQnU0ZDRDTjVXUUVxVHNibUpDSWhVNldtc3RrSXRCQmh5TXpjMWU4SlJydFRHX2w1MHBhMHJUQzZ6THBQRy1qaHlub3VtUUc1RjJlZWd0NTltUjBFeG0tOVpxOUJLOVZWYVZveEc2ZTBzNmZhRWtMeTY3NTRCZmhqYUZ1bFhzS2NMRlNBLWUxVXE2VHdIQXpnT1BEcWYxdV9zeENZZE1ndTN3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统称希望美伊谈判在一个月内达成协议，呼吁伊朗政权迅速同意
+            - figure [ref=e619]
+          - generic [ref=e620]:
+            - time [ref=e621]: 2月13日
+            - separator [ref=e622]
+            - generic [ref=e623]: 作者：迈克尔·利平
+      - generic [ref=e624]:
+        - separator [ref=e626]
+        - generic [ref=e628]:
+          - generic [ref=e629]:
+            - link [ref=e631] [cursor=pointer]:
+              - /url: ./read/CBMiqwFBVV95cUxNYjhPdlNWVzFiQm1aTFBhWHkzck9JaTJjX0VKZmFYYVcxdjhyMEs1QVNQeHA0YzhxdFR0NnNvUUhMUnRKZmgxaXhKUjUwZ0F3NDQtTGpnTjFzRXZCWUJtZmRSb0YtbXJQMjJjZEktSWN4T0xMMEJqMWY2bEtKajA1VUJkRHlzMWxWLXlJa25sejJWOS1HaWlQSUUxVFlhbUUxanVrNDFKc2lBTHPSAa4BQVVfeXFMUGVHTWhsQkdHVWlsa2lQeVZmNVd0N3lQXzhDRlQwY2gtZjhGR2pJZl9MRHZ4T3hKWXBuSXNfcnZBZTMtMmNHaHhIMzNRTUVOVmZfUFZLV0QxMVRpZDRSRjhUTmtsUWxJdkpXUDNXNEltWXFsU0dSNjRCTVNYRE5QY25EMkZpNXRtZ3RNQzV2SjgzeVNSMWFlS1RNUWlJak1KZmVWZTYyWmlMNUswN25B?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e633]:
+              - generic [ref=e634]:
+                - generic [ref=e637]: voachinese.com
+                - generic [ref=e641]:
+                  - generic:
+                    - button "展开 - 特朗普总统说“庞大舰队”正驶向伊朗" [ref=e642] [cursor=pointer]:
+                      - img [ref=e644]
+                    - tooltip [ref=e646]: 展开
+              - link "特朗普总统说“庞大舰队”正驶向伊朗 - voachinese.com - 1月24日" [ref=e647] [cursor=pointer]:
+                - /url: ./read/CBMiqwFBVV95cUxNYjhPdlNWVzFiQm1aTFBhWHkzck9JaTJjX0VKZmFYYVcxdjhyMEs1QVNQeHA0YzhxdFR0NnNvUUhMUnRKZmgxaXhKUjUwZ0F3NDQtTGpnTjFzRXZCWUJtZmRSb0YtbXJQMjJjZEktSWN4T0xMMEJqMWY2bEtKajA1VUJkRHlzMWxWLXlJa25sejJWOS1HaWlQSUUxVFlhbUUxanVrNDFKc2lBTHPSAa4BQVVfeXFMUGVHTWhsQkdHVWlsa2lQeVZmNVd0N3lQXzhDRlQwY2gtZjhGR2pJZl9MRHZ4T3hKWXBuSXNfcnZBZTMtMmNHaHhIMzNRTUVOVmZfUFZLV0QxMVRpZDRSRjhUTmtsUWxJdkpXUDNXNEltWXFsU0dSNjRCTVNYRE5QY25EMkZpNXRtZ3RNQzV2SjgzeVNSMWFlS1RNUWlJak1KZmVWZTYyWmlMNUswN25B?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统说“庞大舰队”正驶向伊朗
+            - figure [ref=e648]
+          - time [ref=e650]: 1月24日
+      - generic [ref=e651]:
+        - separator [ref=e653]
+        - generic [ref=e655]:
+          - generic [ref=e656]:
+            - link [ref=e658] [cursor=pointer]:
+              - /url: ./read/CBMivwFBVV95cUxQX0Q2Vmp1bUwwT3lvc3pVbVVreFZwWjZfbVlET3doUmZfQk1FUGtJa3VDZno0NnZtTjNJYjFobGU0NUJSVDg5RXYwVlRwSVFFUWwxNk85SzBCRnI4WTBMVXhhQjhEb2RPOENubjdoc0otV1lTdkVhaG1GYVpTd0JFRmNoVWs0THEzTVNvWkQxcmgxTWRKZnNkSVF1RV84SmhfQ19TWjUtUmdDN2FCTFUwR2hVelV1dmV2clp6ek8tUQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e660]:
+              - generic [ref=e661]:
+                - generic [ref=e664]: news.tvb.com
+                - generic [ref=e668]:
+                  - generic:
+                    - button "展开 - Trump says he prefers diplomacy in dealing with Iran" [ref=e669] [cursor=pointer]:
+                      - img [ref=e671]
+                    - tooltip [ref=e673]: 展开
+              - link "Trump says he prefers diplomacy in dealing with Iran - news.tvb.com - 2月25日" [ref=e674] [cursor=pointer]:
+                - /url: ./read/CBMivwFBVV95cUxQX0Q2Vmp1bUwwT3lvc3pVbVVreFZwWjZfbVlET3doUmZfQk1FUGtJa3VDZno0NnZtTjNJYjFobGU0NUJSVDg5RXYwVlRwSVFFUWwxNk85SzBCRnI4WTBMVXhhQjhEb2RPOENubjdoc0otV1lTdkVhaG1GYVpTd0JFRmNoVWs0THEzTVNvWkQxcmgxTWRKZnNkSVF1RV84SmhfQ19TWjUtUmdDN2FCTFUwR2hVelV1dmV2clp6ek8tUQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump says he prefers diplomacy in dealing with Iran
+            - figure [ref=e675]
+          - time [ref=e677]: 2月25日
+      - generic [ref=e678]:
+        - separator [ref=e680]
+        - generic [ref=e682]:
+          - generic [ref=e683]:
+            - link [ref=e685] [cursor=pointer]:
+              - /url: ./read/CBMiyAFBVV95cUxQemR0a2JGWkxPaGR6a3ZzZy1QRW9YN3lRVWFlbkJtQ25Ec3MxTWVHY3RLcFA3N1BrODdTY2NOZ0Z1RDNnQXBCemlqd08yOEZ5U0NHTWVBV0FyU0dhbHVQc3ZvUUc4TmRlazVPMjRRZ3JBejJxNmRSNXZRYjRtWUZ3dlZ0Vl9ES2RTTGpCX1dCWFp4Rms1dzVGS2F6WnhlUGlZa1oxTGRDSUxZZFBxY1h3VzdnNzVrejhTMHJIaTNvZ1BaU2N6eHBIRQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e687]:
+              - generic [ref=e688]:
+                - generic [ref=e691]: news.tvb.com
+                - generic [ref=e695]:
+                  - generic:
+                    - button "展开 - Trump says he will postpone his China visit due to Iran war" [ref=e696] [cursor=pointer]:
+                      - img [ref=e698]
+                    - tooltip [ref=e700]: 展开
+              - link "Trump says he will postpone his China visit due to Iran war - news.tvb.com - 3月18日" [ref=e701] [cursor=pointer]:
+                - /url: ./read/CBMiyAFBVV95cUxQemR0a2JGWkxPaGR6a3ZzZy1QRW9YN3lRVWFlbkJtQ25Ec3MxTWVHY3RLcFA3N1BrODdTY2NOZ0Z1RDNnQXBCemlqd08yOEZ5U0NHTWVBV0FyU0dhbHVQc3ZvUUc4TmRlazVPMjRRZ3JBejJxNmRSNXZRYjRtWUZ3dlZ0Vl9ES2RTTGpCX1dCWFp4Rms1dzVGS2F6WnhlUGlZa1oxTGRDSUxZZFBxY1h3VzdnNzVrejhTMHJIaTNvZ1BaU2N6eHBIRQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump says he will postpone his China visit due to Iran war
+            - figure [ref=e702]
+          - time [ref=e704]: 3月18日
+      - generic [ref=e705]:
+        - separator [ref=e707]
+        - generic [ref=e709]:
+          - generic [ref=e710]:
+            - link [ref=e712] [cursor=pointer]:
+              - /url: ./read/CBMizAFBVV95cUxPUlUxdXhPT21aLVBUeU5lVjlUOEhmVFB6WDEydnQwSWVkcDBhRHJ6TzV4QjJfQ0Q3dGZsT3BISEcyYUVyVmpwdkRnQXp1blNjb1JRX1RWMzhVY1Z0enNBeGdpSVR3ME4zU01qcXBoSkZBcVpGV2Rrd080b09KcU5KWXAxY2pVbEthbXprZnhVOC1MTFE2RmY1VDAwN00zalo3ZU9LZEZiV1Q2T2ZncS1QWVNCTHZEdklHOGRRUHBsYmtodGJJcW5xdnI1NEU?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - generic [ref=e718]: AL-Monitor
+                - generic [ref=e722]:
+                  - generic:
+                    - button "展开 - 随着抗议活动死亡人数不断攀升，特朗普拒绝与伊朗进行谈判。" [ref=e723] [cursor=pointer]:
+                      - img [ref=e725]
+                    - tooltip [ref=e727]: 展开
+              - link "随着抗议活动死亡人数不断攀升，特朗普拒绝与伊朗进行谈判。 - AL-Monitor - 1月11日 - 作者：伊丽莎白·哈格多恩" [ref=e728] [cursor=pointer]:
+                - /url: ./read/CBMizAFBVV95cUxPUlUxdXhPT21aLVBUeU5lVjlUOEhmVFB6WDEydnQwSWVkcDBhRHJ6TzV4QjJfQ0Q3dGZsT3BISEcyYUVyVmpwdkRnQXp1blNjb1JRX1RWMzhVY1Z0enNBeGdpSVR3ME4zU01qcXBoSkZBcVpGV2Rrd080b09KcU5KWXAxY2pVbEthbXprZnhVOC1MTFE2RmY1VDAwN00zalo3ZU9LZEZiV1Q2T2ZncS1QWVNCTHZEdklHOGRRUHBsYmtodGJJcW5xdnI1NEU?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 随着抗议活动死亡人数不断攀升，特朗普拒绝与伊朗进行谈判。
+            - figure [ref=e729]
+          - generic [ref=e730]:
+            - time [ref=e731]: 1月11日
+            - separator [ref=e732]
+            - generic [ref=e733]: 作者：伊丽莎白·哈格多恩
+      - generic [ref=e734]:
+        - separator [ref=e736]
+        - generic [ref=e738]:
+          - generic [ref=e739]:
+            - link [ref=e741] [cursor=pointer]:
+              - /url: ./read/CBMidkFVX3lxTE9Wclo5emhCdXdzMlR2LVhOdHpNX19obGZoeVFsOF9zQndPOWFOdVFPalJkdTJjb25IX3BnSGNSRUZWanVQRG9WZ2hweUNfUWpDR2lyeXg4T3hKQmhIMUpEa2NfcTVGeDdrR00zWHUzM1ZYZ09Eb0E?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e743]:
+              - generic [ref=e744]:
+                - generic [ref=e747]: 辟谣吧
+                - generic [ref=e751]:
+                  - generic:
+                    - button "展开 - 川普没有对世界说出他打伊朗的真正原因" [ref=e752] [cursor=pointer]:
+                      - img [ref=e754]
+                    - tooltip [ref=e756]: 展开
+              - link "川普没有对世界说出他打伊朗的真正原因 - 辟谣吧 - 3月3日" [ref=e757] [cursor=pointer]:
+                - /url: ./read/CBMidkFVX3lxTE9Wclo5emhCdXdzMlR2LVhOdHpNX19obGZoeVFsOF9zQndPOWFOdVFPalJkdTJjb25IX3BnSGNSRUZWanVQRG9WZ2hweUNfUWpDR2lyeXg4T3hKQmhIMUpEa2NfcTVGeDdrR00zWHUzM1ZYZ09Eb0E?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 川普没有对世界说出他打伊朗的真正原因
+            - figure [ref=e758]
+          - time [ref=e760]: 3月3日
+      - generic [ref=e761]:
+        - separator [ref=e763]
+        - generic [ref=e765]:
+          - generic [ref=e766]:
+            - link [ref=e768] [cursor=pointer]:
+              - /url: ./read/CBMiygFBVV95cUxORFZqZVQ1UWtpb0poNWswVUZWZmE0ZXFsMDFJMHhhdTZGODQ1NDZSQ1BLdzlWSHNQVEJLWVJTVE11aUFUYkRpbGhxRnlLX1Uzb1JwQjhNTTZ3VnNJNW56WjBpQktVVmF6ZXFiOFNOSEtScTQ2a2dBS2liQTBvN3pFUUlpZGdISVQxNFpWR2FKRE9fNjl1NENyNW1ueTgyanhORUFRejJDMTVXYXI2aFIxM0VxT1BMUzU0dTE1RUZqVDFLbXZfNjZyTE1R?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e770]:
+              - generic [ref=e771]:
+                - generic [ref=e774]: news.tvb.com
+                - generic [ref=e778]:
+                  - generic:
+                    - button "展开 - Trump says there might be an imminent end to the war in Iran" [ref=e779] [cursor=pointer]:
+                      - img [ref=e781]
+                    - tooltip [ref=e783]: 展开
+              - link "Trump says there might be an imminent end to the war in Iran - news.tvb.com - 8 小时前" [ref=e784] [cursor=pointer]:
+                - /url: ./read/CBMiygFBVV95cUxORFZqZVQ1UWtpb0poNWswVUZWZmE0ZXFsMDFJMHhhdTZGODQ1NDZSQ1BLdzlWSHNQVEJLWVJTVE11aUFUYkRpbGhxRnlLX1Uzb1JwQjhNTTZ3VnNJNW56WjBpQktVVmF6ZXFiOFNOSEtScTQ2a2dBS2liQTBvN3pFUUlpZGdISVQxNFpWR2FKRE9fNjl1NENyNW1ueTgyanhORUFRejJDMTVXYXI2aFIxM0VxT1BMUzU0dTE1RUZqVDFLbXZfNjZyTE1R?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump says there might be an imminent end to the war in Iran
+            - figure [ref=e785]
+          - time [ref=e787]: 8 小时前
+      - generic [ref=e788]:
+        - separator [ref=e790]
+        - generic [ref=e792]:
+          - generic [ref=e793]:
+            - link [ref=e795] [cursor=pointer]:
+              - /url: ./read/CBMiQ0FVX3lxTE9DZVlkWmhmTzhYVU90dmNlR1pSeDV2WmRWTk9HeXhlbDI0bndtX2lsMVJhdTg5dGFYTEt2Z1JzcG05WVHSAUJBVV95cUxQSUI4UTdqbDNBVlNDMGQ4N3JXMFB2V05WcmxkQUEyaEN6b1REY2k0ZVNQM0xGVTNuWk1LYW1CaXpQTFE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e797]:
+              - generic [ref=e798]:
+                - generic [ref=e801]: VOI.id
+                - generic [ref=e805]:
+                  - generic:
+                    - button "展开 - 特朗普不在乎伊朗国家队在2026年世界杯上比赛" [ref=e806] [cursor=pointer]:
+                      - img [ref=e808]
+                    - tooltip [ref=e810]: 展开
+              - link "特朗普不在乎伊朗国家队在2026年世界杯上比赛 - VOI.id - 3月4日" [ref=e811] [cursor=pointer]:
+                - /url: ./read/CBMiQ0FVX3lxTE9DZVlkWmhmTzhYVU90dmNlR1pSeDV2WmRWTk9HeXhlbDI0bndtX2lsMVJhdTg5dGFYTEt2Z1JzcG05WVHSAUJBVV95cUxQSUI4UTdqbDNBVlNDMGQ4N3JXMFB2V05WcmxkQUEyaEN6b1REY2k0ZVNQM0xGVTNuWk1LYW1CaXpQTFE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普不在乎伊朗国家队在2026年世界杯上比赛
+            - figure [ref=e812]
+          - time [ref=e814]: 3月4日
+      - generic [ref=e815]:
+        - separator [ref=e817]
+        - generic [ref=e819]:
+          - generic [ref=e820]:
+            - link [ref=e822] [cursor=pointer]:
+              - /url: ./read/CBMi4gFBVV95cUxOdWc0VzlQX0c0aUJxZkdJMjMxdlJtNVZZaGlzYlpMLUJmYmZNcXlvdzJXU0NHOFYzY1RmemJ3NlVGY2ZnWUwwcm5BMEJzMTVvVEhuNjA1dFUyd2pwSGItUmJtODdyV0w3UkZ0YVBrblVvTl8yajNjVnFhdDltZDJDTlJod2F1WU5EdUtkOVhZV25LQzVPNnZUZHlwZVAwdG5QdldXYU1WbUFjUGtXeTB1cWJINjltbnRSbG1oWFp3UDRSRzJHSDlpM291QlFndFcwWGxjNGVwYmdoR0ZZWFhTYVdR0gHkAUFVX3lxTE0xb281X1huYmF1SnhHdWhqd2JKUTV0aVRtUUFNSUttV2JpakhET3k1THZBaE1nYlRabm5va0IxZ2hDVkRhMGNVNU84RDhRajE3MVFFdzd6aEZPS0JZeEpqWXBvNUVKVVc4bnZVcjRPTlJyRmI2R2dEWWJTV0lXR0hLN0lXYUM2YlFDNEdxVGFrZURoTkxtbHAxZ0IzVVFmdU5aYTl1QXRnRzRWRkVwSWk4eVBwc1p0Y2doVEZQaGNwcW8zTExScE5XLXktQnA4OGdKYzJab2cyV3NSNUlRbkZCZ0JGSw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e824]:
+              - generic [ref=e825]:
+                - generic [ref=e828]: voachinese.com
+                - generic [ref=e832]:
+                  - generic:
+                    - 'button "展开 - 特朗普: 如果伊朗伊斯兰统治者继续杀害更多反政府示威者，他们将“付出惨痛代价”" [ref=e833] [cursor=pointer]':
+                      - img [ref=e835]
+                    - tooltip [ref=e837]: 展开
+              - 'link "特朗普: 如果伊朗伊斯兰统治者继续杀害更多反政府示威者，他们将“付出惨痛代价” - voachinese.com - 1月9日 - 作者：迈克尔·利平" [ref=e838] [cursor=pointer]':
+                - /url: ./read/CBMi4gFBVV95cUxOdWc0VzlQX0c0aUJxZkdJMjMxdlJtNVZZaGlzYlpMLUJmYmZNcXlvdzJXU0NHOFYzY1RmemJ3NlVGY2ZnWUwwcm5BMEJzMTVvVEhuNjA1dFUyd2pwSGItUmJtODdyV0w3UkZ0YVBrblVvTl8yajNjVnFhdDltZDJDTlJod2F1WU5EdUtkOVhZV25LQzVPNnZUZHlwZVAwdG5QdldXYU1WbUFjUGtXeTB1cWJINjltbnRSbG1oWFp3UDRSRzJHSDlpM291QlFndFcwWGxjNGVwYmdoR0ZZWFhTYVdR0gHkAUFVX3lxTE0xb281X1huYmF1SnhHdWhqd2JKUTV0aVRtUUFNSUttV2JpakhET3k1THZBaE1nYlRabm5va0IxZ2hDVkRhMGNVNU84RDhRajE3MVFFdzd6aEZPS0JZeEpqWXBvNUVKVVc4bnZVcjRPTlJyRmI2R2dEWWJTV0lXR0hLN0lXYUM2YlFDNEdxVGFrZURoTkxtbHAxZ0IzVVFmdU5aYTl1QXRnRzRWRkVwSWk4eVBwc1p0Y2doVEZQaGNwcW8zTExScE5XLXktQnA4OGdKYzJab2cyV3NSNUlRbkZCZ0JGSw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: "特朗普: 如果伊朗伊斯兰统治者继续杀害更多反政府示威者，他们将“付出惨痛代价”"
+            - figure [ref=e839]
+          - generic [ref=e840]:
+            - time [ref=e841]: 1月9日
+            - separator [ref=e842]
+            - generic [ref=e843]: 作者：迈克尔·利平
+      - generic [ref=e844]:
+        - separator [ref=e846]
+        - generic [ref=e848]:
+          - generic [ref=e849]:
+            - link [ref=e851] [cursor=pointer]:
+              - /url: ./read/CBMiygFBVV95cUxNamhidDA2QmJfMDFfb0NLWmplMmFWS2hHV3JwamdEeHBLRFZFc2xfbFoyOGxPbndWdF9FSUsteDVqM0VSQWYxMXZMazN0S3gwVF9ZenlnN0xIRjRtWUktc3k3RExVS0xZdE8tR2VsTXBPRjJrcnFoSnVZZGdMOG5uWllVMmdfNERIdlFxMHN3Zk9GYTI5ZUtqM2dvM2kyOXlqRWI3SkZKMk9WUURuWjRWZ0Y1OFF5cno1MDFZeDlLcWJlQmswaW1KR0x3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e853]:
+              - generic [ref=e854]:
+                - generic [ref=e857]: CoinDesk
+                - generic [ref=e861]:
+                  - generic:
+                    - button "展开 - 随着特朗普延长对伊朗的最后通牒但战争风险依旧，BTC、ETH、SOL、ADA下滑" [ref=e862] [cursor=pointer]:
+                      - img [ref=e864]
+                    - tooltip [ref=e866]: 展开
+              - link "随着特朗普延长对伊朗的最后通牒但战争风险依旧，BTC、ETH、SOL、ADA下滑 - CoinDesk - 6 天前 - 作者：Shaurya Malwa" [ref=e867] [cursor=pointer]:
+                - /url: ./read/CBMiygFBVV95cUxNamhidDA2QmJfMDFfb0NLWmplMmFWS2hHV3JwamdEeHBLRFZFc2xfbFoyOGxPbndWdF9FSUsteDVqM0VSQWYxMXZMazN0S3gwVF9ZenlnN0xIRjRtWUktc3k3RExVS0xZdE8tR2VsTXBPRjJrcnFoSnVZZGdMOG5uWllVMmdfNERIdlFxMHN3Zk9GYTI5ZUtqM2dvM2kyOXlqRWI3SkZKMk9WUURuWjRWZ0Y1OFF5cno1MDFZeDlLcWJlQmswaW1KR0x3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 随着特朗普延长对伊朗的最后通牒但战争风险依旧，BTC、ETH、SOL、ADA下滑
+            - figure [ref=e868]
+          - generic [ref=e869]:
+            - time [ref=e870]: 6 天前
+            - separator [ref=e871]
+            - generic [ref=e872]: 作者：Shaurya Malwa
+      - generic [ref=e873]:
+        - separator [ref=e875]
+        - generic [ref=e877]:
+          - generic [ref=e878]:
+            - link [ref=e880] [cursor=pointer]:
+              - /url: ./read/CBMi7AFBVV95cUxNTm5xcnBBU25nTjFQcFgtRFpSOExBWjc5eWFzZC16bnpVVkVJSnBKVDFtdENDZnc1dGwyMVdFb0RJNFBqRkRoS2c0MjlSSlo0QjVHOTVCNlJLSS1jdFdkUjNsU0tyT3NtY2x2Z2t3em5BTmVZNGxLN1BSZU1Md00wUUpTRkJ4a2EycE8tMlJVcjhjcWpOQ0dzMDNjQWhNcWhGbUdLTEZFTFpRRUdRUmtBZmpROVhkYkhQMWRVVmtCSkoxSVd6Q1RRQmZjWjAtU3NmRzBJM0R5MFRYZDV1dkxicU03bGlEaDY3ZHRBUNIB7wFBVV95cUxOV19HcHZodGJxcE8yVUdhSGtaNzVSWmk4TkIydXVfLW5hcGJfbEd3c3AzX0kyeHpoeTNmS3lPSTJMeGZnVE5LZEZMQ25IdFRHQUk1aDVSUklHTkpCdGJJZ0h5ZjFnekFuWTVuRDBjVUYxV281VWtONm9YT0d0SFoxa3ZidFJIaTRJdUNxT09KYjZqZTk3cmJEa2NURnFyLS16V2pxU1BHbTh1NFk4RHJVWGJiSjVqZHRTdkNtNlZaZFZkdTBXNm1ELTlCcnl6S2I2RV9iN1dCV2JmUGtINmVlclBoZWtwR3RobWR1U2RvYw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e882]:
+              - generic [ref=e883]:
+                - generic [ref=e886]: voachinese.com
+                - generic [ref=e890]:
+                  - generic:
+                    - button "展开 - 特朗普总统：伊朗最高领袖哈梅内伊在“史诗狂怒”行动首日身亡" [ref=e891] [cursor=pointer]:
+                      - img [ref=e893]
+                    - tooltip [ref=e895]: 展开
+              - link "特朗普总统：伊朗最高领袖哈梅内伊在“史诗狂怒”行动首日身亡 - voachinese.com - 3月1日" [ref=e896] [cursor=pointer]:
+                - /url: ./read/CBMi7AFBVV95cUxNTm5xcnBBU25nTjFQcFgtRFpSOExBWjc5eWFzZC16bnpVVkVJSnBKVDFtdENDZnc1dGwyMVdFb0RJNFBqRkRoS2c0MjlSSlo0QjVHOTVCNlJLSS1jdFdkUjNsU0tyT3NtY2x2Z2t3em5BTmVZNGxLN1BSZU1Md00wUUpTRkJ4a2EycE8tMlJVcjhjcWpOQ0dzMDNjQWhNcWhGbUdLTEZFTFpRRUdRUmtBZmpROVhkYkhQMWRVVmtCSkoxSVd6Q1RRQmZjWjAtU3NmRzBJM0R5MFRYZDV1dkxicU03bGlEaDY3ZHRBUNIB7wFBVV95cUxOV19HcHZodGJxcE8yVUdhSGtaNzVSWmk4TkIydXVfLW5hcGJfbEd3c3AzX0kyeHpoeTNmS3lPSTJMeGZnVE5LZEZMQ25IdFRHQUk1aDVSUklHTkpCdGJJZ0h5ZjFnekFuWTVuRDBjVUYxV281VWtONm9YT0d0SFoxa3ZidFJIaTRJdUNxT09KYjZqZTk3cmJEa2NURnFyLS16V2pxU1BHbTh1NFk4RHJVWGJiSjVqZHRTdkNtNlZaZFZkdTBXNm1ELTlCcnl6S2I2RV9iN1dCV2JmUGtINmVlclBoZWtwR3RobWR1U2RvYw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普总统：伊朗最高领袖哈梅内伊在“史诗狂怒”行动首日身亡
+            - figure [ref=e897]
+          - time [ref=e899]: 3月1日
+      - generic [ref=e900]:
+        - separator [ref=e902]
+        - generic [ref=e904]:
+          - generic [ref=e905]:
+            - link [ref=e907] [cursor=pointer]:
+              - /url: ./read/CBMi2AFBVV95cUxPOXl5Q1E5ZXNYWEx1YmVELWlLVk1PMDhGZFZtbHE3R3hMcnN1YWNKSGd6X1NYZEtuUWUwN1RZbjZIX3ZxN1ltM1NJWWZmQUVzVzNwZlY4aXFBOHdFbG9LNzRHQkU4OGp4Vmt3TWtVZV9MWDhIb0VLME5QM2l2X2NMcTBVRDREOGdUWWdhSE1KaUExRm55YTQwQk11aWoxYzVDd3dra3dRYUI1c2R3YU4xVzZmQ0VKQnZXSGVLaGczT09hUWZFMVhKS1NmcU1MdGFKNUtMV09yOGE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e909]:
+              - generic [ref=e910]:
+                - generic [ref=e913]: news.tvb.com
+                - generic [ref=e917]:
+                  - generic:
+                    - button "展开 - Trump expresses frustration over talks with Iran on its nuclear programme" [ref=e918] [cursor=pointer]:
+                      - img [ref=e920]
+                    - tooltip [ref=e922]: 展开
+              - link "Trump expresses frustration over talks with Iran on its nuclear programme - news.tvb.com - 2月28日" [ref=e923] [cursor=pointer]:
+                - /url: ./read/CBMi2AFBVV95cUxPOXl5Q1E5ZXNYWEx1YmVELWlLVk1PMDhGZFZtbHE3R3hMcnN1YWNKSGd6X1NYZEtuUWUwN1RZbjZIX3ZxN1ltM1NJWWZmQUVzVzNwZlY4aXFBOHdFbG9LNzRHQkU4OGp4Vmt3TWtVZV9MWDhIb0VLME5QM2l2X2NMcTBVRDREOGdUWWdhSE1KaUExRm55YTQwQk11aWoxYzVDd3dra3dRYUI1c2R3YU4xVzZmQ0VKQnZXSGVLaGczT09hUWZFMVhKS1NmcU1MdGFKNUtMV09yOGE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump expresses frustration over talks with Iran on its nuclear programme
+            - figure [ref=e924]
+          - time [ref=e926]: 2月28日
+      - generic [ref=e927]:
+        - separator [ref=e929]
+        - generic [ref=e931]:
+          - generic [ref=e932]:
+            - link [ref=e934] [cursor=pointer]:
+              - /url: ./read/CBMiX0FVX3lxTFBiREJYYXFfaUtNa0Q1UUd3VzJXRWtGSHdNYTFmZWdmZjJBOFdHWm5ldENweldiNFhUUnltT0RURFJSLW5vSV94enA5eUlwZ3dpaW5rOUZienJPNkNiTDBN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e936]:
+              - generic [ref=e937]:
+                - generic [ref=e940]: TDM
+                - generic [ref=e944]:
+                  - generic:
+                    - button "展开 - Trump rules out talks absent Iran’s ‘unconditional surrender’" [ref=e945] [cursor=pointer]:
+                      - img [ref=e947]
+                    - tooltip [ref=e949]: 展开
+              - link "Trump rules out talks absent Iran’s ‘unconditional surrender’ - TDM - 3月6日" [ref=e950] [cursor=pointer]:
+                - /url: ./read/CBMiX0FVX3lxTFBiREJYYXFfaUtNa0Q1UUd3VzJXRWtGSHdNYTFmZWdmZjJBOFdHWm5ldENweldiNFhUUnltT0RURFJSLW5vSV94enA5eUlwZ3dpaW5rOUZienJPNkNiTDBN?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump rules out talks absent Iran’s ‘unconditional surrender’
+          - time [ref=e952]: 3月6日
+      - generic [ref=e953]:
+        - separator [ref=e955]
+        - generic [ref=e957]:
+          - generic [ref=e958]:
+            - link [ref=e960] [cursor=pointer]:
+              - /url: ./read/CBMi6gFBVV95cUxOSWxCaEJXODF0ZFc2VWpRMG1zR3g3UFdUM1BZVmNWdGNBSzRMMnROS0NSejBtbmdZdGVRelE5SGMtVXA4TnB4T2ZJY29BeXRBekNkMGwwVVU2SThZV0c4aWpnbVU0aWY4ZUNfR1h6OUlQYlNIN1oyZjBlVlFjcC1EMUZFNmxQN2tCWEJ2RmxmUU5QMnRYT0Nac2dlRFpwY2xLMFI3THBSaEpONnFvZURYekdzdDJEUmdQVlZ2ZnRtMkVBWkxQV0NSaEU2TGEtSlVuRDd3NVhrTFFlVFNyWUxralYya3FBOVdKdkE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e962]:
+              - generic [ref=e963]:
+                - generic [ref=e966]: CoinDesk
+                - generic [ref=e970]:
+                  - generic:
+                    - button "展开 - 随着特朗普表示美国正与伊朗“新政权”进行谈判，若协议失败将威胁石油基础设施，BTC价格上涨" [ref=e971] [cursor=pointer]:
+                      - img [ref=e973]
+                    - tooltip [ref=e975]: 展开
+              - link "随着特朗普表示美国正与伊朗“新政权”进行谈判，若协议失败将威胁石油基础设施，BTC价格上涨 - CoinDesk - 3 天前 - 作者：Shaurya Malwa" [ref=e976] [cursor=pointer]:
+                - /url: ./read/CBMi6gFBVV95cUxOSWxCaEJXODF0ZFc2VWpRMG1zR3g3UFdUM1BZVmNWdGNBSzRMMnROS0NSejBtbmdZdGVRelE5SGMtVXA4TnB4T2ZJY29BeXRBekNkMGwwVVU2SThZV0c4aWpnbVU0aWY4ZUNfR1h6OUlQYlNIN1oyZjBlVlFjcC1EMUZFNmxQN2tCWEJ2RmxmUU5QMnRYT0Nac2dlRFpwY2xLMFI3THBSaEpONnFvZURYekdzdDJEUmdQVlZ2ZnRtMkVBWkxQV0NSaEU2TGEtSlVuRDd3NVhrTFFlVFNyWUxralYya3FBOVdKdkE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 随着特朗普表示美国正与伊朗“新政权”进行谈判，若协议失败将威胁石油基础设施，BTC价格上涨
+            - figure [ref=e977]
+          - generic [ref=e978]:
+            - time [ref=e979]: 3 天前
+            - separator [ref=e980]
+            - generic [ref=e981]: 作者：Shaurya Malwa
+      - generic [ref=e982]:
+        - separator [ref=e984]
+        - generic [ref=e986]:
+          - generic [ref=e987]:
+            - link [ref=e989] [cursor=pointer]:
+              - /url: ./read/CBMi_gFBVV95cUxNbmpkdkNMSVR5QjRtX2cxaWx6RGhNTXVPNmgxckdoamg0VUFDeDk0aktVT2dYN1pCQXFVUFpzN2NCRkM4a3pzdmxfSHpzUGFUcmR4amc3d3NwM1hWbmpSU0Vxa0JuSFdKb0RpVzV2R0JqRlBaclBVVHpxbVNDUFFyMXdOeldUcUZqUmphZGRua2k1Uk5wWHp4WVFjSXdkYzRiZnlhVWFzTFhRbXUwSlA2aEVKeFNMeVNaR0d6UnNuT1NNUGxrTjRpNTNBY0x0MUdVMUh6TVRVbzBhUUM0bDJ6YlZIRTF2Y0YtQzdRMnFpZE1VWjc0MWZxQ09XVUFpZ9IBgAJBVV95cUxQaGpNT2RPdEdfOEJfM1FmSGUtTk9UZmVCX0c4LW1uNjg0ZUkyRmJkZlpUQUdfS2dRVXMyaWdzY3hnMzE1TndEZTdzVXBmdGR5OVlPYTY1ekpkQklkUnFkNnljWHg4eWh3dGQ0QmdoTVJjMEUyT0dyU1cyY3M1T3hiMHp3b3Qtd3dfckpHT3plMmdqOFYtYmpITzJXT0FROC1xX01ZMmxrcmJqSlFJMlBYUmdya0dSYTFxdzc3Nm5FZG9qNEFaaHpxYXp6NXNodmoxTl9ET2R1cEM1cE11SmhWRVVKLUswSnRSc2JyLXNwZUE4bGRzcXlLSzlmeWdod3Na?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e991]:
+              - generic [ref=e992]:
+                - generic [ref=e995]: voachinese.com
+                - generic [ref=e999]:
+                  - generic:
+                    - button "展开 - 美国和以色列对伊朗发动代号“史诗狂怒”的重大军事打击，特朗普总统呼吁伊朗人“接管你们的政府”" [ref=e1000] [cursor=pointer]:
+                      - img [ref=e1002]
+                    - tooltip [ref=e1004]: 展开
+              - link "美国和以色列对伊朗发动代号“史诗狂怒”的重大军事打击，特朗普总统呼吁伊朗人“接管你们的政府” - voachinese.com - 2月28日" [ref=e1005] [cursor=pointer]:
+                - /url: ./read/CBMi_gFBVV95cUxNbmpkdkNMSVR5QjRtX2cxaWx6RGhNTXVPNmgxckdoamg0VUFDeDk0aktVT2dYN1pCQXFVUFpzN2NCRkM4a3pzdmxfSHpzUGFUcmR4amc3d3NwM1hWbmpSU0Vxa0JuSFdKb0RpVzV2R0JqRlBaclBVVHpxbVNDUFFyMXdOeldUcUZqUmphZGRua2k1Uk5wWHp4WVFjSXdkYzRiZnlhVWFzTFhRbXUwSlA2aEVKeFNMeVNaR0d6UnNuT1NNUGxrTjRpNTNBY0x0MUdVMUh6TVRVbzBhUUM0bDJ6YlZIRTF2Y0YtQzdRMnFpZE1VWjc0MWZxQ09XVUFpZ9IBgAJBVV95cUxQaGpNT2RPdEdfOEJfM1FmSGUtTk9UZmVCX0c4LW1uNjg0ZUkyRmJkZlpUQUdfS2dRVXMyaWdzY3hnMzE1TndEZTdzVXBmdGR5OVlPYTY1ekpkQklkUnFkNnljWHg4eWh3dGQ0QmdoTVJjMEUyT0dyU1cyY3M1T3hiMHp3b3Qtd3dfckpHT3plMmdqOFYtYmpITzJXT0FROC1xX01ZMmxrcmJqSlFJMlBYUmdya0dSYTFxdzc3Nm5FZG9qNEFaaHpxYXp6NXNodmoxTl9ET2R1cEM1cE11SmhWRVVKLUswSnRSc2JyLXNwZUE4bGRzcXlLSzlmeWdod3Na?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 美国和以色列对伊朗发动代号“史诗狂怒”的重大军事打击，特朗普总统呼吁伊朗人“接管你们的政府”
+            - figure [ref=e1006]
+          - time [ref=e1008]: 2月28日
+      - generic [ref=e1009]:
+        - separator [ref=e1011]
+        - generic [ref=e1013]:
+          - generic [ref=e1014]:
+            - link [ref=e1016] [cursor=pointer]:
+              - /url: ./read/CBMi0AFBVV95cUxNTVpkX2FHSEEtYWJsZnB4NjBUOGFwQkctRm5zN1hkUUhxbDhNVjlYYU5tYjJCSmtPUTFfSUItOGQ3MU1CZzRoVVlpaEw5VWZkVjJGbDV6ckJ3ODRqUkFHNGEyUW92cEhRRnp2SXBWRm1IWGlkTlp1WVFlYVhOZ3dQOWowWnVaYXI0bFVMUk9Vem1qbWdxYkZucjBTSGdRLXpZb1VCU3MxQURXbzZRLXRpT1p4T282Q0ppVTI1MGVBMEdWdmxidTJhRWp1NFVjcXA10gHTAUFVX3lxTFAzekZuZDB5ajhqalpsb3ZLLWZkV0tjZU9jTy1XR2d1NS1Lb19OZ2pINnN3RHp3bHVTRnczT2JhMTJlbXIwbmRIN1ptZjRweF9JWnRKLWdFc0UwS20tT1hnWmF3cFV1blNzQ2YwQU5GaEQxZUcxSlNzcEw5UW1LOU5XYm5lVjhldmlDcS1tUkE4aHA3a2JXdnRxSkVDVGh6VnMtS1ZJVkVOSTVZVnlQTnlPbndfV1ltMEZxZkpXb2NFZnYyQWl1ZlQxdHN5SnlVRkJUZlk?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1018]:
+              - generic [ref=e1019]:
+                - generic [ref=e1022]: voachinese.com
+                - generic [ref=e1026]:
+                  - generic:
+                    - button "展开 - 特朗普呼吁伊朗爱国者接管伊斯兰共和国政权机构" [ref=e1027] [cursor=pointer]:
+                      - img [ref=e1029]
+                    - tooltip [ref=e1031]: 展开
+              - link "特朗普呼吁伊朗爱国者接管伊斯兰共和国政权机构 - voachinese.com - 1月14日 - 作者：迈克尔·利平" [ref=e1032] [cursor=pointer]:
+                - /url: ./read/CBMi0AFBVV95cUxNTVpkX2FHSEEtYWJsZnB4NjBUOGFwQkctRm5zN1hkUUhxbDhNVjlYYU5tYjJCSmtPUTFfSUItOGQ3MU1CZzRoVVlpaEw5VWZkVjJGbDV6ckJ3ODRqUkFHNGEyUW92cEhRRnp2SXBWRm1IWGlkTlp1WVFlYVhOZ3dQOWowWnVaYXI0bFVMUk9Vem1qbWdxYkZucjBTSGdRLXpZb1VCU3MxQURXbzZRLXRpT1p4T282Q0ppVTI1MGVBMEdWdmxidTJhRWp1NFVjcXA10gHTAUFVX3lxTFAzekZuZDB5ajhqalpsb3ZLLWZkV0tjZU9jTy1XR2d1NS1Lb19OZ2pINnN3RHp3bHVTRnczT2JhMTJlbXIwbmRIN1ptZjRweF9JWnRKLWdFc0UwS20tT1hnWmF3cFV1blNzQ2YwQU5GaEQxZUcxSlNzcEw5UW1LOU5XYm5lVjhldmlDcS1tUkE4aHA3a2JXdnRxSkVDVGh6VnMtS1ZJVkVOSTVZVnlQTnlPbndfV1ltMEZxZkpXb2NFZnYyQWl1ZlQxdHN5SnlVRkJUZlk?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普呼吁伊朗爱国者接管伊斯兰共和国政权机构
+            - figure [ref=e1033]
+          - generic [ref=e1034]:
+            - time [ref=e1035]: 1月14日
+            - separator [ref=e1036]
+            - generic [ref=e1037]: 作者：迈克尔·利平
+      - generic [ref=e1038]:
+        - separator [ref=e1040]
+        - generic [ref=e1042]:
+          - generic [ref=e1043]:
+            - link [ref=e1045] [cursor=pointer]:
+              - /url: ./read/CBMi4AFBVV95cUxOdURLSzd5dUhiemdVTjJvU2VvQ1NBMmc2eTN6YjRzQ3h1MVNTbjNTTnAyeW9Ia0dZOHJyOHdaUEtYWWx1MWN3QTRMRHJFTGIwR2h6UGowVW5vcjF5ZllKazB3Y0pvamo0N3c2R1l6cm1BeDZzOU9fd1Z4VXJhUlJsWkVxWms2VzZSMUVTOTIyZmRETzlFb2FuMFFFS0pLV2JfVUtaaEZnUWhVWjNVUHd1UDFNTldzbXdXa0hrUkZra0Rlb2lUOUc1ZURBSXdCUXhkYWxVM0hQSlBiMVhVMjFNSQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1047]:
+              - generic [ref=e1048]:
+                - generic [ref=e1051]: news.tvb.com
+                - generic [ref=e1055]:
+                  - generic:
+                    - button "展开 - U.S. and Israel attack Iran as Trump says U.S. begins 'major combat operations'" [ref=e1056] [cursor=pointer]:
+                      - img [ref=e1058]
+                    - tooltip [ref=e1060]: 展开
+              - link "U.S. and Israel attack Iran as Trump says U.S. begins 'major combat operations' - news.tvb.com - 2月28日" [ref=e1061] [cursor=pointer]:
+                - /url: ./read/CBMi4AFBVV95cUxOdURLSzd5dUhiemdVTjJvU2VvQ1NBMmc2eTN6YjRzQ3h1MVNTbjNTTnAyeW9Ia0dZOHJyOHdaUEtYWWx1MWN3QTRMRHJFTGIwR2h6UGowVW5vcjF5ZllKazB3Y0pvamo0N3c2R1l6cm1BeDZzOU9fd1Z4VXJhUlJsWkVxWms2VzZSMUVTOTIyZmRETzlFb2FuMFFFS0pLV2JfVUtaaEZnUWhVWjNVUHd1UDFNTldzbXdXa0hrUkZra0Rlb2lUOUc1ZURBSXdCUXhkYWxVM0hQSlBiMVhVMjFNSQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: U.S. and Israel attack Iran as Trump says U.S. begins 'major combat operations'
+            - figure [ref=e1062]
+          - time [ref=e1064]: 2月28日
+      - generic [ref=e1065]:
+        - separator [ref=e1067]
+        - generic [ref=e1069]:
+          - generic [ref=e1070]:
+            - link [ref=e1072] [cursor=pointer]:
+              - /url: ./read/CBMi_AFBVV95cUxNb0I1Z3dvaEthUTdWS1dHNFJTOFZHZTBBemtrbHRUenEzaGxEdENQOXFaX05hZWdGMUtiRGJNUUxPNUQ2TTZWRkJadWtIdE9Ga2hRRU9veWpZMTZ4MFg5VVlQenJyaUpOMHBlNjVtTEtTX3JScHlXelFDVnpsenFyUTlzakVCOTIwek1ETklEbWczRG9faHVPX0VYYVViRmN2WWJjUXFYdWh6bXA4OFFwTGhGdkZfLXdNcnFoZGt3Qmk5RVltOVZzbm5QZmZQeUpLeWVtd2NsSEZUdkVaUTRXa2pRN1ZkLWJQdHRjeWhBZkdvVTdCTnI1clRqSmE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1074]:
+              - generic [ref=e1075]:
+                - generic [ref=e1078]: The Business Times
+                - generic [ref=e1082]:
+                  - generic:
+                    - button "展开 - 特朗普与伊朗威胁升级致亚洲市场下跌，海峡时报指数收跌2.2%，黄金抹去今年全部涨幅" [ref=e1083] [cursor=pointer]:
+                      - img [ref=e1085]
+                    - tooltip [ref=e1087]: 展开
+              - link "特朗普与伊朗威胁升级致亚洲市场下跌，海峡时报指数收跌2.2%，黄金抹去今年全部涨幅 - The Business Times - 3月23日" [ref=e1088] [cursor=pointer]:
+                - /url: ./read/CBMi_AFBVV95cUxNb0I1Z3dvaEthUTdWS1dHNFJTOFZHZTBBemtrbHRUenEzaGxEdENQOXFaX05hZWdGMUtiRGJNUUxPNUQ2TTZWRkJadWtIdE9Ga2hRRU9veWpZMTZ4MFg5VVlQenJyaUpOMHBlNjVtTEtTX3JScHlXelFDVnpsenFyUTlzakVCOTIwek1ETklEbWczRG9faHVPX0VYYVViRmN2WWJjUXFYdWh6bXA4OFFwTGhGdkZfLXdNcnFoZGt3Qmk5RVltOVZzbm5QZmZQeUpLeWVtd2NsSEZUdkVaUTRXa2pRN1ZkLWJQdHRjeWhBZkdvVTdCTnI1clRqSmE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 特朗普与伊朗威胁升级致亚洲市场下跌，海峡时报指数收跌2.2%，黄金抹去今年全部涨幅
+            - figure [ref=e1089]
+          - time [ref=e1091]: 3月23日
+      - generic [ref=e1092]:
+        - separator [ref=e1094]
+        - generic [ref=e1096]:
+          - generic [ref=e1097]:
+            - link [ref=e1099] [cursor=pointer]:
+              - /url: ./read/CBMi6wJBVV95cUxNODcyRVZRLS1UNXJNVzRsNjB4YnZZdDdzOWF3NVdDaW9kQXNTQzhoSXdfSk9OVlVjVnAzSXlaSWItZnl3RlNGVEVNUTFXTEtzNnZFNlFudXlKU3RBZjNCUXZlOURDQzYxTE5weVpkUF9uOGJ2S1A0aG1FcjY3T0QwV3lBcTN4cFZreHZmNGxIWnJsVjRMT0EyODhoUWYwR296M3NGa1lEME5DLWFyWmI0aVdMd2xNRGpPMDQyS3Y4ZlpNdkl4OFc5aDNqVkJCeEpsckt3NXI1VHl0MGlfekQwUVlxY3BwbTRWNzhkOUp2RW5MRmQxbm9zQzdQajFNejdSeXg2QmVfWTd1WUN3Z2k3dTRvUlNNbXVmWWFEVFRQWWs1SmFEWG5WaUpjWmt2dEQ1UldOSF9yQ29HQnQyTHk0MXUwOVdaT0t5WE1BT0hVSGtvbERBXzlVZElWd3hyM3FxdGFETmdfZlRNeGc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1101]:
+              - generic [ref=e1102]:
+                - generic [ref=e1105]: RFI
+                - generic [ref=e1109]:
+                  - generic:
+                    - button "展开 - 美伊24日将于日内瓦重启谈判 传伊朗愿就核计划让步" [ref=e1110] [cursor=pointer]:
+                      - img [ref=e1112]
+                    - tooltip [ref=e1114]: 展开
+              - link "美伊24日将于日内瓦重启谈判 传伊朗愿就核计划让步 - RFI - 2月22日" [ref=e1115] [cursor=pointer]:
+                - /url: ./read/CBMi6wJBVV95cUxNODcyRVZRLS1UNXJNVzRsNjB4YnZZdDdzOWF3NVdDaW9kQXNTQzhoSXdfSk9OVlVjVnAzSXlaSWItZnl3RlNGVEVNUTFXTEtzNnZFNlFudXlKU3RBZjNCUXZlOURDQzYxTE5weVpkUF9uOGJ2S1A0aG1FcjY3T0QwV3lBcTN4cFZreHZmNGxIWnJsVjRMT0EyODhoUWYwR296M3NGa1lEME5DLWFyWmI0aVdMd2xNRGpPMDQyS3Y4ZlpNdkl4OFc5aDNqVkJCeEpsckt3NXI1VHl0MGlfekQwUVlxY3BwbTRWNzhkOUp2RW5MRmQxbm9zQzdQajFNejdSeXg2QmVfWTd1WUN3Z2k3dTRvUlNNbXVmWWFEVFRQWWs1SmFEWG5WaUpjWmt2dEQ1UldOSF9yQ29HQnQyTHk0MXUwOVdaT0t5WE1BT0hVSGtvbERBXzlVZElWd3hyM3FxdGFETmdfZlRNeGc?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 美伊24日将于日内瓦重启谈判 传伊朗愿就核计划让步
+            - figure [ref=e1116]
+          - time [ref=e1118]: 2月22日
+      - generic [ref=e1119]:
+        - separator [ref=e1121]
+        - generic [ref=e1123]:
+          - generic [ref=e1124]:
+            - link [ref=e1126] [cursor=pointer]:
+              - /url: ./read/CBMimAFBVV95cUxPZ08zUkRYUW04Q3duLVJza2JTWTF6ckg3U3pBdDgzcEFSVllWTXptVDJvUlplMjNkekUtbWdYaFMxbkk1eDVxSjRBdjcta1pPRnlpRW41U0VKYkpwbURiMm9COVJYTk5GU180TzFsNmJWR2R1TTdSaXljYmNkRGdmYVlzcnJzcmtOOV9ramdPRlQ1M3AtMGw5Qg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1128]:
+              - generic [ref=e1129]:
+                - generic [ref=e1132]: TDM
+                - generic [ref=e1136]:
+                  - generic:
+                    - button "展开 - Trump's 'Board of Peace' members pledge $7 billion for Gaza" [ref=e1137] [cursor=pointer]:
+                      - img [ref=e1139]
+                    - tooltip [ref=e1141]: 展开
+              - link "Trump's 'Board of Peace' members pledge $7 billion for Gaza - TDM - 2月20日" [ref=e1142] [cursor=pointer]:
+                - /url: ./read/CBMimAFBVV95cUxPZ08zUkRYUW04Q3duLVJza2JTWTF6ckg3U3pBdDgzcEFSVllWTXptVDJvUlplMjNkekUtbWdYaFMxbkk1eDVxSjRBdjcta1pPRnlpRW41U0VKYkpwbURiMm9COVJYTk5GU180TzFsNmJWR2R1TTdSaXljYmNkRGdmYVlzcnJzcmtOOV9ramdPRlQ1M3AtMGw5Qg?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Trump's 'Board of Peace' members pledge $7 billion for Gaza
+            - figure [ref=e1143]
+          - time [ref=e1145]: 2月20日
+      - generic [ref=e1146]:
+        - separator [ref=e1148]
+        - generic [ref=e1150]:
+          - generic [ref=e1151]:
+            - link [ref=e1153] [cursor=pointer]:
+              - /url: ./read/CBMiRkFVX3lxTE5SSktMQ3NwWjh6cFhrTDNFNFdmQWZLUGU4RC04bDg1VGR4YUtFcTRFc0xDQ2dVSXZIeVV2QzBlS0E3QU9YY0E?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1155]:
+              - generic [ref=e1156]:
+                - generic [ref=e1159]: mexc.co
+                - generic [ref=e1163]:
+                  - generic:
+                    - 'button "展开 - Trump admin is about to make Iran''s ''escalation trap'' much more dangerous: expert" [ref=e1164] [cursor=pointer]':
+                      - img [ref=e1166]
+                    - tooltip [ref=e1168]: 展开
+              - 'link "Trump admin is about to make Iran''s ''escalation trap'' much more dangerous: expert - mexc.co - 3月21日" [ref=e1169] [cursor=pointer]':
+                - /url: ./read/CBMiRkFVX3lxTE5SSktMQ3NwWjh6cFhrTDNFNFdmQWZLUGU4RC04bDg1VGR4YUtFcTRFc0xDQ2dVSXZIeVV2QzBlS0E3QU9YY0E?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: "Trump admin is about to make Iran's 'escalation trap' much more dangerous: expert"
+          - time [ref=e1171]: 3月21日
+      - generic [ref=e1172]:
+        - separator [ref=e1174]
+        - generic [ref=e1176]:
+          - generic [ref=e1177]:
+            - link [ref=e1179] [cursor=pointer]:
+              - /url: ./read/CBMiRkFVX3lxTE1TX01aWG8yZklFckd5UkszQTM2MEFuT1htN2tZeUo4Z0tyNVRsenJxVkkwWURkSE4zMEozTFFLM2g2aUxraEE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1181]:
+              - generic [ref=e1182]:
+                - generic [ref=e1185]: mexc.co
+                - generic [ref=e1189]:
+                  - generic:
+                    - 'button "展开 - ''Whiplash is astonishing'': Shortsighted Trump hammered for letting ''ego'' lead world to war" [ref=e1190] [cursor=pointer]':
+                      - img [ref=e1192]
+                    - tooltip [ref=e1194]: 展开
+              - 'link "''Whiplash is astonishing'': Shortsighted Trump hammered for letting ''ego'' lead world to war - mexc.co - 3月16日" [ref=e1195] [cursor=pointer]':
+                - /url: ./read/CBMiRkFVX3lxTE1TX01aWG8yZklFckd5UkszQTM2MEFuT1htN2tZeUo4Z0tyNVRsenJxVkkwWURkSE4zMEozTFFLM2g2aUxraEE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: "'Whiplash is astonishing': Shortsighted Trump hammered for letting 'ego' lead world to war"
+          - time [ref=e1197]: 3月16日
+      - generic [ref=e1198]:
+        - separator [ref=e1200]
+        - generic [ref=e1202]:
+          - generic [ref=e1203]:
+            - link [ref=e1205] [cursor=pointer]:
+              - /url: ./read/CBMiTkFVX3lxTE9MaGlaUkF4T1pBWnZHQ09maHExOVBPczQ5SlcwZnBBdDdMUWM1bFlBUzQteVVRX0JzWFRURTVrMWpJWl9OemZPSGlaMW5tQQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1207]:
+              - generic [ref=e1208]:
+                - generic [ref=e1211]: mexc.co
+                - generic [ref=e1215]:
+                  - generic:
+                    - button "展开 - Crypto Market Crash To 6-Month Low Amid Rising Tensions Between Iran and The US" [ref=e1216] [cursor=pointer]:
+                      - img [ref=e1218]
+                    - tooltip [ref=e1220]: 展开
+              - link "Crypto Market Crash To 6-Month Low Amid Rising Tensions Between Iran and The US - mexc.co - 1月30日" [ref=e1221] [cursor=pointer]:
+                - /url: ./read/CBMiTkFVX3lxTE9MaGlaUkF4T1pBWnZHQ09maHExOVBPczQ5SlcwZnBBdDdMUWM1bFlBUzQteVVRX0JzWFRURTVrMWpJWl9OemZPSGlaMW5tQQ?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Crypto Market Crash To 6-Month Low Amid Rising Tensions Between Iran and The US
+            - figure [ref=e1222]
+          - time [ref=e1224]: 1月30日
+      - generic [ref=e1225]:
+        - separator [ref=e1227]
+        - generic [ref=e1229]:
+          - generic [ref=e1230]:
+            - link [ref=e1232] [cursor=pointer]:
+              - /url: ./read/CBMi1wFBVV95cUxPVU9hdzJ4dEY3QlZFMzBUQnJJUzRkZVJKZkgzbmlqaE94T0dlbVhMS1BQcTZJSmhvb3ZUQjRfVTVUZW40M3FqQVRPcktwUjQ4ZHZ5dENTNGllRFBIby1RMk9CNjUzUnMwOUdQaUxheHRfc3VhaEZhRG4xdFkyeW5RT3BycFctdUItTXRUNklsX1BmbkYtZ3BPSkNZUUZHY2dIYTVsbHRHQnEwUDNMQzJlX3lkeGV2RW9RcVZVbU5HM21HTnZVMll2ZVNnWHdKcHc4OVV4WXNPMA?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1234]:
+              - generic [ref=e1235]:
+                - generic [ref=e1238]: ekhbary.com
+                - generic [ref=e1242]:
+                  - generic:
+                    - 'button "展开 - Volte-face de Trump sur la participation de l''Iran à la Coupe du Monde 2026: Une controverse géopolitique" [ref=e1243] [cursor=pointer]':
+                      - img [ref=e1245]
+                    - tooltip [ref=e1247]: 展开
+              - 'link "Volte-face de Trump sur la participation de l''Iran à la Coupe du Monde 2026: Une controverse géopolitique - ekhbary.com - 3 天前" [ref=e1248] [cursor=pointer]':
+                - /url: ./read/CBMi1wFBVV95cUxPVU9hdzJ4dEY3QlZFMzBUQnJJUzRkZVJKZkgzbmlqaE94T0dlbVhMS1BQcTZJSmhvb3ZUQjRfVTVUZW40M3FqQVRPcktwUjQ4ZHZ5dENTNGllRFBIby1RMk9CNjUzUnMwOUdQaUxheHRfc3VhaEZhRG4xdFkyeW5RT3BycFctdUItTXRUNklsX1BmbkYtZ3BPSkNZUUZHY2dIYTVsbHRHQnEwUDNMQzJlX3lkeGV2RW9RcVZVbU5HM21HTnZVMll2ZVNnWHdKcHc4OVV4WXNPMA?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: "Volte-face de Trump sur la participation de l'Iran à la Coupe du Monde 2026: Une controverse géopolitique"
+          - time [ref=e1250]: 3 天前
+      - generic [ref=e1251]:
+        - separator [ref=e1253]
+        - generic [ref=e1255]:
+          - generic [ref=e1256]:
+            - link [ref=e1258] [cursor=pointer]:
+              - /url: ./read/CBMib0FVX3lxTE0zQU1RMnFwU0NyU3hxUnk4WEZVZTNNRE53VzhIaGxwTEVSeEZCS1cyR2ZOcE5uSEdicWJaTjRwZ2lyYkpEOHU2a0xLVUxycUxaU2JHVFJ0VkxBQ2xVRHZwT2ttQW1fbm5EcTJsSjN3MNIBdEFVX3lxTE9MR1BwWkt0SHdwei1QSUx2bWdYanhqZnlUZXQ5U2tIME1VY3pvMXVmdE1XaWcwVG02MVJUM2FTcFJhdG5uN29hd1I4V2lTWVVpVkZMQk9QdWdPM1Y4OXVPSlRoQnUydUsydG9MZmhqekh0dEZw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1260]:
+              - generic [ref=e1261]:
+                - generic [ref=e1264]: 禁闻网
+                - generic [ref=e1268]:
+                  - generic:
+                    - button "展开 - 【 伊朗总统泄密：谁是真正的领导者 ⋯】与川普政府谈判的人 ⋯ 是谁？（03/30/26） trump iran" [ref=e1269] [cursor=pointer]:
+                      - img [ref=e1271]
+                    - tooltip [ref=e1273]: 展开
+              - link "【 伊朗总统泄密：谁是真正的领导者 ⋯】与川普政府谈判的人 ⋯ 是谁？（03/30/26） trump iran - 禁闻网 - 昨天" [ref=e1274] [cursor=pointer]:
+                - /url: ./read/CBMib0FVX3lxTE0zQU1RMnFwU0NyU3hxUnk4WEZVZTNNRE53VzhIaGxwTEVSeEZCS1cyR2ZOcE5uSEdicWJaTjRwZ2lyYkpEOHU2a0xLVUxycUxaU2JHVFJ0VkxBQ2xVRHZwT2ttQW1fbm5EcTJsSjN3MNIBdEFVX3lxTE9MR1BwWkt0SHdwei1QSUx2bWdYanhqZnlUZXQ5U2tIME1VY3pvMXVmdE1XaWcwVG02MVJUM2FTcFJhdG5uN29hd1I4V2lTWVVpVkZMQk9QdWdPM1Y4OXVPSlRoQnUydUsydG9MZmhqekh0dEZw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 【 伊朗总统泄密：谁是真正的领导者 ⋯】与川普政府谈判的人 ⋯ 是谁？（03/30/26） trump iran
+            - figure [ref=e1275]
+          - time [ref=e1277]: 昨天
+      - generic [ref=e1278]:
+        - separator [ref=e1280]
+        - generic [ref=e1282]:
+          - generic [ref=e1283]:
+            - link [ref=e1285] [cursor=pointer]:
+              - /url: ./read/CBMib0FVX3lxTE9mVWh5d3dGekQ4WmRUeDkyU2FNVjY5Q0ttWTVnMDNKcVplblV5cDVGUmltYTJ6UXhrWjkySjludkxjZkxxZW5qRGdDamdiTUhXMUdicG9OLTFsOEdJR1U2SjFnSThmQW5sc1NUMkhvd9IBdEFVX3lxTE9OaWZKMWF5S3c5R2tvazJKS052SU90c1piV29KRUNKU0sta1lsekhET0d3NnpPQTR4OHh4ZnNJN3BLRGdVVGROMkNyd2pYcGF2Y3lCd3FlNzdpb2s5am9jVzNfYnE4NFNONm9uM29UQlhyZDRi?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1287]:
+              - generic [ref=e1288]:
+                - generic [ref=e1291]: 禁闻网
+                - generic [ref=e1295]:
+                  - generic:
+                    - button "展开 - 【 B52轰炸机从英国起飞 伊朗能源与饮水系统 ⋯？】阿拉伯国家推动 战争被无限扩大？ 石油价格开始脱缰 ⋯⋯？（03/30/26） trump iran" [ref=e1296] [cursor=pointer]:
+                      - img [ref=e1298]
+                    - tooltip [ref=e1300]: 展开
+              - link "【 B52轰炸机从英国起飞 伊朗能源与饮水系统 ⋯？】阿拉伯国家推动 战争被无限扩大？ 石油价格开始脱缰 ⋯⋯？（03/30/26） trump iran - 禁闻网 - 昨天" [ref=e1301] [cursor=pointer]:
+                - /url: ./read/CBMib0FVX3lxTE9mVWh5d3dGekQ4WmRUeDkyU2FNVjY5Q0ttWTVnMDNKcVplblV5cDVGUmltYTJ6UXhrWjkySjludkxjZkxxZW5qRGdDamdiTUhXMUdicG9OLTFsOEdJR1U2SjFnSThmQW5sc1NUMkhvd9IBdEFVX3lxTE9OaWZKMWF5S3c5R2tvazJKS052SU90c1piV29KRUNKU0sta1lsekhET0d3NnpPQTR4OHh4ZnNJN3BLRGdVVGROMkNyd2pYcGF2Y3lCd3FlNzdpb2s5am9jVzNfYnE4NFNONm9uM29UQlhyZDRi?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 【 B52轰炸机从英国起飞 伊朗能源与饮水系统 ⋯？】阿拉伯国家推动 战争被无限扩大？ 石油价格开始脱缰 ⋯⋯？（03/30/26） trump iran
+            - figure [ref=e1302]
+          - time [ref=e1304]: 昨天
+      - generic [ref=e1305]:
+        - separator [ref=e1307]
+        - generic [ref=e1309]:
+          - generic [ref=e1310]:
+            - link [ref=e1312] [cursor=pointer]:
+              - /url: ./read/CBMic0FVX3lxTFBLWDAwcmNmc3NyNWRPdDJ0RDFRMWQ1RGJWYTcxZnNaR1pENExONDUtNmlOWFhJMEJIRzl5QmxybEd1SnJMR2RhdjZjTjE4S2NlWEVsSkZHcTVjdDhWWkh6VG5RampVRWpVOWxkUE9rYWpKRkE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1314]:
+              - generic [ref=e1315]:
+                - generic [ref=e1318]: Polymarket
+                - generic [ref=e1322]:
+                  - generic:
+                    - button "展开 - Will China invade Taiwan by end of 2026? Trading Odds & Predictions" [ref=e1323] [cursor=pointer]:
+                      - img [ref=e1325]
+                    - tooltip [ref=e1327]: 展开
+              - link "Will China invade Taiwan by end of 2026? Trading Odds & Predictions - Polymarket - 2025年7月25日" [ref=e1328] [cursor=pointer]:
+                - /url: ./read/CBMic0FVX3lxTFBLWDAwcmNmc3NyNWRPdDJ0RDFRMWQ1RGJWYTcxZnNaR1pENExONDUtNmlOWFhJMEJIRzl5QmxybEd1SnJMR2RhdjZjTjE4S2NlWEVsSkZHcTVjdDhWWkh6VG5RampVRWpVOWxkUE9rYWpKRkE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: Will China invade Taiwan by end of 2026? Trading Odds & Predictions
+            - figure [ref=e1329]
+          - time [ref=e1331]: 2025年7月25日
+      - generic [ref=e1332]:
+        - separator [ref=e1334]
+        - generic [ref=e1336]:
+          - generic [ref=e1337]:
+            - link [ref=e1339] [cursor=pointer]:
+              - /url: ./read/CBMib0FVX3lxTFAxRnFYeG40MU5Gei02YUh6ampMNTAxQ3YwQzdvYzc5bEYxZUlQaWVwNEhsLU9ZX0Nva0U3eTc2Vy0tWWY1SDJUOUFWREZ6anlZT0JmTFotZjd5TGlJZ1NOTmRISnNoSGcxdXRFajRsd9IBdEFVX3lxTE53WEJaQVMzYXBncDRFRkRXdGhtY1phUXNycWJRbUh6WDMzNHFic2Qzc1FnQ3dYZlI4eVViU05xenJRMWxyT2otWFdyZzRPWEtaV0d2Qm5LNFZBTU02YWY2OUoyT1FCbm10MkhTZ1VxRm16UlY3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1341]:
+              - generic [ref=e1342]:
+                - generic [ref=e1345]: 禁闻网
+                - generic [ref=e1349]:
+                  - generic:
+                    - button "展开 - 【 定格：美国必定控制霍尔木兹海峡！】川普：与第三波伊朗领袖谈判 ⋯ 他们变化无常！埃及总统：请川普总统理解停战！（03/30/26） trump iran" [ref=e1350] [cursor=pointer]:
+                      - img [ref=e1352]
+                    - tooltip [ref=e1354]: 展开
+              - link "【 定格：美国必定控制霍尔木兹海峡！】川普：与第三波伊朗领袖谈判 ⋯ 他们变化无常！埃及总统：请川普总统理解停战！（03/30/26） trump iran - 禁闻网 - 昨天" [ref=e1355] [cursor=pointer]:
+                - /url: ./read/CBMib0FVX3lxTFAxRnFYeG40MU5Gei02YUh6ampMNTAxQ3YwQzdvYzc5bEYxZUlQaWVwNEhsLU9ZX0Nva0U3eTc2Vy0tWWY1SDJUOUFWREZ6anlZT0JmTFotZjd5TGlJZ1NOTmRISnNoSGcxdXRFajRsd9IBdEFVX3lxTE53WEJaQVMzYXBncDRFRkRXdGhtY1phUXNycWJRbUh6WDMzNHFic2Qzc1FnQ3dYZlI4eVViU05xenJRMWxyT2otWFdyZzRPWEtaV0d2Qm5LNFZBTU02YWY2OUoyT1FCbm10MkhTZ1VxRm16UlY3?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 【 定格：美国必定控制霍尔木兹海峡！】川普：与第三波伊朗领袖谈判 ⋯ 他们变化无常！埃及总统：请川普总统理解停战！（03/30/26） trump iran
+            - figure [ref=e1356]
+          - time [ref=e1358]: 昨天
+      - generic [ref=e1359]:
+        - separator [ref=e1361]
+        - generic [ref=e1363]:
+          - generic [ref=e1364]:
+            - link [ref=e1366] [cursor=pointer]:
+              - /url: ./read/CBMib0FVX3lxTFAxX3hHM2R5TDBJbU43eDZWeExCQTlyRDNZNHBwR1hYMUo2UWJWSlFTbm1OMXV6d0FCNzdKSUR5N0RlbTV5WVRrZEJ3aVVPZ3dFanhPX09KelFVNWdpUXBoMzMtTzVfTGNTMG5QenhVTdIBdEFVX3lxTFBTSThQTkFwWHA2QUYxdHpRZ3llMTIzVmRLV1E2dEo1ZzF6LWVFVWw3VGlXQ3lZbXAybEgzUzdJUWJ2cElUQjRSMU5OTmItYVc5bWJiaUpSbHRHRzVENUh3N2o5WUg0WGVKUUM2M2JRLXdZcFhE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1368]:
+              - generic [ref=e1369]:
+                - generic [ref=e1372]: 禁闻网
+                - generic [ref=e1376]:
+                  - generic:
+                    - button "展开 - 【 北约成员国阻止 美军行动！】霍尔木兹海峡只为中共获利？川普犹豫退出？本周出现结果？（03/31/26） trump iran" [ref=e1377] [cursor=pointer]:
+                      - img [ref=e1379]
+                    - tooltip [ref=e1381]: 展开
+              - link "【 北约成员国阻止 美军行动！】霍尔木兹海峡只为中共获利？川普犹豫退出？本周出现结果？（03/31/26） trump iran - 禁闻网 - 20 小时前" [ref=e1382] [cursor=pointer]:
+                - /url: ./read/CBMib0FVX3lxTFAxX3hHM2R5TDBJbU43eDZWeExCQTlyRDNZNHBwR1hYMUo2UWJWSlFTbm1OMXV6d0FCNzdKSUR5N0RlbTV5WVRrZEJ3aVVPZ3dFanhPX09KelFVNWdpUXBoMzMtTzVfTGNTMG5QenhVTdIBdEFVX3lxTFBTSThQTkFwWHA2QUYxdHpRZ3llMTIzVmRLV1E2dEo1ZzF6LWVFVWw3VGlXQ3lZbXAybEgzUzdJUWJ2cElUQjRSMU5OTmItYVc5bWJiaUpSbHRHRzVENUh3N2o5WUg0WGVKUUM2M2JRLXdZcFhE?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 【 北约成员国阻止 美军行动！】霍尔木兹海峡只为中共获利？川普犹豫退出？本周出现结果？（03/31/26） trump iran
+            - figure [ref=e1383]
+          - time [ref=e1385]: 20 小时前
+      - generic [ref=e1386]:
+        - separator [ref=e1388]
+        - generic [ref=e1390]:
+          - generic [ref=e1391]:
+            - link [ref=e1393] [cursor=pointer]:
+              - /url: ./read/CBMib0FVX3lxTE9LYU5rV05Ia21UNEtwZzMxR2x6V2x6Mk1zQ1ZwQTVkeG5CcWFpMkNPcEtFWHFVb2ZOODNhay03ZEFzNFJOTDdRWkxrSEEyb2RYV21UeHQ5MldNenJfaE1ER095OU0tS04tMTJPWFhyONIBdEFVX3lxTE02SGZSRXNpUkhVVjFjVk1SbS1mUXducHY1UmpjdXEwQlBmVFpOZ2JTZDVkOVZmN0pQaTB0elZSd1I2dTZLR1F6c1ZCSEpYendrSFBBNDA5UTVxVlpSZXFJa0xlT3VieklZQzMyOEhvV0h2MFcw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+            - generic [ref=e1395]:
+              - generic [ref=e1396]:
+                - generic [ref=e1399]: 禁闻网
+                - generic [ref=e1403]:
+                  - generic:
+                    - button "展开 - 【 查理柯克 是被另一颗子弹射杀的！？】弹道报告显示：子弹与抢手罗宾逊的百年老枪不符！⋯ 爆光时间点非常命运！（03/31/26） trump iran" [ref=e1404] [cursor=pointer]:
+                      - img [ref=e1406]
+                    - tooltip [ref=e1408]: 展开
+              - link "【 查理柯克 是被另一颗子弹射杀的！？】弹道报告显示：子弹与抢手罗宾逊的百年老枪不符！⋯ 爆光时间点非常命运！（03/31/26） trump iran - 禁闻网 - 19 小时前" [ref=e1409] [cursor=pointer]:
+                - /url: ./read/CBMib0FVX3lxTE9LYU5rV05Ia21UNEtwZzMxR2x6V2x6Mk1zQ1ZwQTVkeG5CcWFpMkNPcEtFWHFVb2ZOODNhay03ZEFzNFJOTDdRWkxrSEEyb2RYV21UeHQ5MldNenJfaE1ER095OU0tS04tMTJPWFhyONIBdEFVX3lxTE02SGZSRXNpUkhVVjFjVk1SbS1mUXducHY1UmpjdXEwQlBmVFpOZ2JTZDVkOVZmN0pQaTB0elZSd1I2dTZLR1F6c1ZCSEpYendrSFBBNDA5UTVxVlpSZXFJa0xlT3VieklZQzMyOEhvV0h2MFcw?hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans
+                - text: 【 查理柯克 是被另一颗子弹射杀的！？】弹道报告显示：子弹与抢手罗宾逊的百年老枪不符！⋯ 爆光时间点非常命运！（03/31/26） trump iran
+            - figure [ref=e1410]
+          - time [ref=e1412]: 19 小时前
+    - complementary [ref=e1413]

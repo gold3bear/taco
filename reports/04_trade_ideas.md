@@ -1,8 +1,8 @@
 # TACO Trade Ideas — Investment Strategist
 
-*Generated: 2026-04-01 20:48*
+*Generated: 2026-04-01 21:03*
 
-**Scenario Probabilities:** Base TACO 26% | Bullish TACO 14% | Bearish War 59%
+**Scenario Probabilities:** Base TACO 22% | Bullish TACO 12% | Bearish War 67%
 
 **Risk-Free Rate (US10Y):** 4.35%
 
@@ -10,7 +10,7 @@
 
 ## T1: LONG QQQ — Nasdaq 100 ETF
 
-**Rationale:** Primary TACO play. If Trump backs down on Iran (41% probability), tech/growth stocks historically lead recovery. Nasdaq has higher beta to TACO reversals than S&P.
+**Rationale:** Primary TACO play. If Trump backs down on Iran (33% probability), tech/growth stocks historically lead recovery. Nasdaq has higher beta to TACO reversals than S&P.
 
 | Parameter | Value |
 |---|---|
@@ -19,9 +19,9 @@
 | Stop-Loss Trigger | Military strike confirmed OR Iran closes Strait of Hormuz → exit immediately |
 | Position Size | 3-5% initial (pilot). Add 3% if VIX spikes >32 (pain point exceeded) |
 | Max Total | 8% total (within 10% cap) |
-| Expected Value (30d) | -3.80% |
+| Expected Value (30d) | -4.75% |
 | Risk/Reward | 0.6:1 (upside vs bear-case downside) |
-| Scenario-Weighted Sharpe | -2.22 |
+| Scenario-Weighted Sharpe | -2.78 |
 | Position Rule Check | CAUTION — R/R below 2:1 |
 
 **Scenario Performance (7d):**
@@ -33,7 +33,7 @@
 
 ## T2: SHORT XLE — Energy Sector ETF (short)
 
-**Rationale:** Energy/oil falls sharply on TACO resolution (41% prob). XLE tracks oil-sensitive equities. Historical TACO backdown = oil -9% on average. Short position profits if Iran deal removes war premium from oil.
+**Rationale:** Energy/oil falls sharply on TACO resolution (33% prob). XLE tracks oil-sensitive equities. Historical TACO backdown = oil -9% on average. Short position profits if Iran deal removes war premium from oil.
 
 | Parameter | Value |
 |---|---|
@@ -42,9 +42,9 @@
 | Stop-Loss Trigger | US military strike confirmed (oil spikes >20%) → cover immediately. Alternative: use puts with defined max loss = premium paid. |
 | Position Size | 2-3% (lower size due to war tail risk on short side) |
 | Max Total | 5% total |
-| Expected Value (30d) | -4.67% (short P&L) |
+| Expected Value (30d) | -6.01% (short P&L) |
 | Risk/Reward | 0.3:1 |
-| Scenario-Weighted Sharpe | -1.91 |
+| Scenario-Weighted Sharpe | -2.77 |
 | Position Rule Check | USE PUT OPTIONS — limits defined loss in war scenario |
 
 **Scenario Performance (7d):**
@@ -56,7 +56,7 @@
 
 ## T3: LONG GLD — Gold ETF (portfolio hedge)
 
-**Rationale:** All-weather hedge. Dips slightly (-1.5%) on TACO resolution (risk-on), but surges (+5-8%) if war escalates. Portfolio insurance: 59% war probability justifies holding gold.
+**Rationale:** All-weather hedge. Dips slightly (-1.5%) on TACO resolution (risk-on), but surges (+5-8%) if war escalates. Portfolio insurance: 67% war probability justifies holding gold.
 
 | Parameter | Value |
 |---|---|
@@ -65,9 +65,9 @@
 | Stop-Loss Trigger | No stop on hedge position. Reduce if TACO confirmed and gold rallies paradoxically. |
 | Position Size | 2% (hedge position — sized for insurance, not return) |
 | Max Total | 4% total |
-| Expected Value (30d) | 2.36% |
+| Expected Value (30d) | 2.84% |
 | Risk/Reward | Asymmetric hedge: small loss in upside, large gain in tail risk |
-| Scenario-Weighted Sharpe | 2.93 |
+| Scenario-Weighted Sharpe | 3.66 |
 | Position Rule Check | PASS — asymmetric payoff, small defined downside |
 
 **Scenario Performance (7d):**
@@ -83,14 +83,14 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | $69,108 (current). Only enter if VIX begins falling from peak. |
-| Target | $73,254 (+6.0%, 7-14 days) |
+| Entry | $68,347 (current). Only enter if VIX begins falling from peak. |
+| Target | $72,447 (+6.0%, 7-14 days) |
 | Stop-Loss Trigger | War signal confirmed. BTC falls >15% from entry on war scenario. |
 | Position Size | 1-2% only (high volatility asset) |
 | Max Total | 3% total |
-| Expected Value (30d) | -3.44% |
+| Expected Value (30d) | -4.62% |
 | Risk/Reward | 0.6:1 |
-| Scenario-Weighted Sharpe | -0.92 |
+| Scenario-Weighted Sharpe | -1.34 |
 | Position Rule Check | CAUTION — high vol, use small size |
 
 **Scenario Performance (7d):**

@@ -1,0 +1,37 @@
+{
+  "latest_statement_text": "Trump issues new threat to Iran's civilian infrastructure",
+  "source": "Google News (TDM) via news.google.com",
+  "published_date": "2026-04-01 (approximately 10 hours ago relative to 13:00 CST)",
+  "summary": "Most recent Trump statement on Iran threatens civilian infrastructure. This follows previous statements including 'good talks ongoing with Iran' (March 25) and 'good confidence of Iran deal'.",
+  "additional_statements": [
+    {
+      "text": "Trump says 'good talks ongoing with Iran'",
+      "source": "TDM / 澳廣視新聞",
+      "date": "2026-03-25",
+      "type": "Diplomatic/Negotiation"
+    },
+    {
+      "text": "Iran, Israel trade blows as Trump threatens to obliterate Iranian power plants",
+      "source": "news.tvb.com",
+      "date": "2026-03-22",
+      "type": "Military Threat"
+    },
+    {
+      "text": "First Houthi attack on Israel since start of Iran War",
+      "source": "news.tvb.com",
+      "date": "Approximately 4 days ago",
+      "type": "Military/Regional Escalation"
+    },
+    {
+      "text": "Trump says he prefers diplomacy in dealing with Iran",
+      "source": "news.tvb.com",
+      "date": "2026-02-25",
+      "type": "Diplomatic"
+    }
+  ],
+  "polymarket_data": {
+    "note": "Polymarket Iran page (polymarket.com/zh/iran) accessible but market data not easily extractable from snapshot",
+    "url": "https://polymarket.com/zh/iran"
+  },
+  "data_collection_timestamp": "2026-04-01T13:02:00 CST"
+}

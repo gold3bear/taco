@@ -1,0 +1,1808 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e5]:
+        - link "Polymarket Logo" [ref=e8] [cursor=pointer]:
+          - /url: /zh
+          - img "Polymarket" [ref=e9]
+        - generic [ref=e19]:
+          - link "热门" [ref=e20] [cursor=pointer]:
+            - /url: /zh
+            - img [ref=e21]
+            - generic [ref=e24]: 热门
+          - link "突发" [ref=e25] [cursor=pointer]:
+            - /url: /zh/breaking
+          - link "最新" [ref=e26] [cursor=pointer]:
+            - /url: /zh/new
+          - link "政治" [ref=e27] [cursor=pointer]:
+            - /url: /zh/politics
+          - link "体育" [ref=e28] [cursor=pointer]:
+            - /url: /zh/sports/live
+          - link "加密" [ref=e29] [cursor=pointer]:
+            - /url: /zh/crypto
+          - link "电竞" [ref=e30] [cursor=pointer]:
+            - /url: /zh/esports/live
+          - link "伊朗" [ref=e31] [cursor=pointer]:
+            - /url: /zh/iran
+          - link "财务" [ref=e32] [cursor=pointer]:
+            - /url: /zh/finance
+          - link "地缘政治" [ref=e33] [cursor=pointer]:
+            - /url: /zh/geopolitics
+          - link "科技" [ref=e34] [cursor=pointer]:
+            - /url: /zh/tech
+          - link "文化" [ref=e35] [cursor=pointer]:
+            - /url: /zh/pop-culture
+          - link "经济" [ref=e36] [cursor=pointer]:
+            - /url: /zh/economy
+          - link "天气" [ref=e37] [cursor=pointer]:
+            - /url: /zh/weather
+          - link "提及" [ref=e38] [cursor=pointer]:
+            - /url: /zh/mentions
+          - link "选举" [ref=e39] [cursor=pointer]:
+            - /url: /zh/elections
+      - generic [ref=e40]:
+        - main [ref=e43]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e51]:
+                  - textbox "搜索" [ref=e52]
+                  - generic:
+                    - img
+                - generic [ref=e53]:
+                  - button "Toggle filters" [ref=e54] [cursor=pointer]:
+                    - img "sliders" [ref=e56]
+                  - button "Toggle watchlist" [ref=e60] [cursor=pointer]
+              - generic [ref=e62]:
+                - heading "伊朗" [level=1] [ref=e63]
+                - navigation "Market tags" [ref=e67]:
+                  - link "全部" [ref=e68] [cursor=pointer]:
+                    - /url: /zh/iran
+                    - generic [ref=e69]: 全部
+                  - link "军事打击" [ref=e70] [cursor=pointer]:
+                    - /url: /zh/iran/military-strikes
+                  - link "油" [ref=e71] [cursor=pointer]:
+                    - /url: /zh/iran/oil
+                  - link "伊朗政权" [ref=e72] [cursor=pointer]:
+                    - /url: /zh/iran/iranian-leadership-regime
+                  - link "伊朗停火" [ref=e73] [cursor=pointer]:
+                    - /url: /zh/iran/diplomacy-ceasefire
+                  - link "霍尔木兹海峡" [ref=e74] [cursor=pointer]:
+                    - /url: /zh/iran/strait-of-hormuz
+                  - link "区域溢出效应" [ref=e75] [cursor=pointer]:
+                    - /url: /zh/iran/regional-spillover
+                  - link "美国x伊朗" [ref=e76] [cursor=pointer]:
+                    - /url: /zh/iran/trump-iran
+                  - link "伊朗进攻罢工" [ref=e77] [cursor=pointer]:
+                    - /url: /zh/iran/iran-offensive-actions
+                  - link "Reza Pahlavi" [ref=e78] [cursor=pointer]:
+                    - /url: /zh/iran/reza-pahlavi
+                  - link "黎巴嫩" [ref=e79] [cursor=pointer]:
+                    - /url: /zh/iran/lebanon
+                  - link "核能" [ref=e80] [cursor=pointer]:
+                    - /url: /zh/iran/nuclear
+                  - link "以色列x伊朗" [ref=e81] [cursor=pointer]:
+                    - /url: /zh/iran/israel-x-iran
+                  - link "库尔德人" [ref=e82] [cursor=pointer]:
+                    - /url: /zh/iran/kurds
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - img "美军进入伊朗的方式是.. ？ card icon" [ref=e90]
+                    - link "美军进入伊朗的方式是.. ？" [ref=e92] [cursor=pointer]:
+                      - /url: /zh/event/us-forces-enter-iran-by
+                      - heading "美军进入伊朗的方式是.. ？" [level=2] [ref=e94]
+                  - generic [ref=e95]:
+                    - generic [ref=e100]:
+                      - generic [ref=e103]:
+                        - link "12月31日" [ref=e105] [cursor=pointer]:
+                          - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262
+                          - paragraph [ref=e106]: 12月31日
+                        - generic [ref=e107]:
+                          - paragraph [ref=e108]: 66%
+                          - link "是. 66%" [ref=e109] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262&outcomeIndex=0
+                            - generic [ref=e110]: 是.
+                            - generic [ref=e111]: 66%
+                          - link "否. 34%" [ref=e112] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-december-31-573-642-385-371-179-425-262&outcomeIndex=1
+                            - generic [ref=e113]: 否.
+                            - generic [ref=e114]: 34%
+                      - generic [ref=e117]:
+                        - link "4月30日" [ref=e119] [cursor=pointer]:
+                          - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-april-30-899
+                          - paragraph [ref=e120]: 4月30日
+                        - generic [ref=e121]:
+                          - paragraph [ref=e122]: 56%
+                          - link "是. 56%" [ref=e123] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-april-30-899&outcomeIndex=0
+                            - generic [ref=e124]: 是.
+                            - generic [ref=e125]: 56%
+                          - link "否. 44%" [ref=e126] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-april-30-899&outcomeIndex=1
+                            - generic [ref=e127]: 否.
+                            - generic [ref=e128]: 44%
+                      - generic [ref=e131]:
+                        - link "3月31日" [ref=e133] [cursor=pointer]:
+                          - /url: /zh/event/us-forces-enter-iran-by/us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519
+                          - paragraph [ref=e134]: 3月31日
+                        - generic [ref=e135]:
+                          - paragraph [ref=e136]: 1%
+                          - link "是. 1%" [ref=e137] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519&outcomeIndex=0
+                            - generic [ref=e138]: 是.
+                            - generic [ref=e139]: 1%
+                          - link "否. 99%" [ref=e140] [cursor=pointer]:
+                            - /url: /zh/event/us-forces-enter-iran-by?marketSlug=us-forces-enter-iran-by-march-31-222-191-243-517-878-439-519&outcomeIndex=1
+                            - generic [ref=e141]: 否.
+                            - generic [ref=e142]: 99%
+                    - generic [ref=e144]:
+                      - paragraph [ref=e146]:
+                        - generic [ref=e147]: $75M
+                        - text: 交易量
+                      - generic [ref=e149]:
+                        - button "奖励" [ref=e151] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e152] [cursor=pointer]
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - img "美国x伊朗在……之前停火？ card icon" [ref=e158]
+                    - link "美国x伊朗在……之前停火？" [ref=e160] [cursor=pointer]:
+                      - /url: /zh/event/us-x-iran-ceasefire-by
+                      - heading "美国x伊朗在……之前停火？" [level=2] [ref=e162]
+                  - generic [ref=e163]:
+                    - generic [ref=e168]:
+                      - generic [ref=e171]:
+                        - link "12月31日" [ref=e173] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-december-31-969-392
+                          - paragraph [ref=e174]: 12月31日
+                        - generic [ref=e175]:
+                          - paragraph [ref=e176]: 74%
+                          - link "是. 74%" [ref=e177] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-december-31-969-392&outcomeIndex=0
+                            - generic [ref=e178]: 是.
+                            - generic [ref=e179]: 74%
+                          - link "否. 26%" [ref=e180] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-december-31-969-392&outcomeIndex=1
+                            - generic [ref=e181]: 否.
+                            - generic [ref=e182]: 26%
+                      - generic [ref=e185]:
+                        - link "6月30日" [ref=e187] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-june-30-752-741-257
+                          - paragraph [ref=e188]: 6月30日
+                        - generic [ref=e189]:
+                          - paragraph [ref=e190]: 65%
+                          - link "是. 65%" [ref=e191] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-june-30-752-741-257&outcomeIndex=0
+                            - generic [ref=e192]: 是.
+                            - generic [ref=e193]: 65%
+                          - link "否. 35%" [ref=e194] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-june-30-752-741-257&outcomeIndex=1
+                            - generic [ref=e195]: 否.
+                            - generic [ref=e196]: 35%
+                      - generic [ref=e199]:
+                        - link "5月31日" [ref=e201] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-may-31-313-373-916
+                          - paragraph [ref=e202]: 5月31日
+                        - generic [ref=e203]:
+                          - paragraph [ref=e204]: 54%
+                          - link "是. 54%" [ref=e205] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-may-31-313-373-916&outcomeIndex=0
+                            - generic [ref=e206]: 是.
+                            - generic [ref=e207]: 54%
+                          - link "否. 46%" [ref=e208] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-may-31-313-373-916&outcomeIndex=1
+                            - generic [ref=e209]: 否.
+                            - generic [ref=e210]: 46%
+                      - generic [ref=e213]:
+                        - link "4月30日" [ref=e215] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-april-30-194-679-389
+                          - paragraph [ref=e216]: 4月30日
+                        - generic [ref=e217]:
+                          - paragraph [ref=e218]: 36%
+                          - link "是. 36%" [ref=e219] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-30-194-679-389&outcomeIndex=0
+                            - generic [ref=e220]: 是.
+                            - generic [ref=e221]: 36%
+                          - link "否. 64%" [ref=e222] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-30-194-679-389&outcomeIndex=1
+                            - generic [ref=e223]: 否.
+                            - generic [ref=e224]: 64%
+                      - generic [ref=e227]:
+                        - link "4月15日" [ref=e229] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-april-15-182-528-637
+                          - paragraph [ref=e230]: 4月15日
+                        - generic [ref=e231]:
+                          - paragraph [ref=e232]: 19%
+                          - link "是. 19%" [ref=e233] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-15-182-528-637&outcomeIndex=0
+                            - generic [ref=e234]: 是.
+                            - generic [ref=e235]: 19%
+                          - link "否. 81%" [ref=e236] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-15-182-528-637&outcomeIndex=1
+                            - generic [ref=e237]: 否.
+                            - generic [ref=e238]: 81%
+                      - generic [ref=e241]:
+                        - link "4月7日" [ref=e243] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-ceasefire-by/us-x-iran-ceasefire-by-april-7-278
+                          - paragraph [ref=e244]: 4月7日
+                        - generic [ref=e245]:
+                          - paragraph [ref=e246]: 9%
+                          - link "是. 9%" [ref=e247] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-7-278&outcomeIndex=0
+                            - generic [ref=e248]: 是.
+                            - generic [ref=e249]: 9%
+                          - link "否. 91%" [ref=e250] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-ceasefire-by?marketSlug=us-x-iran-ceasefire-by-april-7-278&outcomeIndex=1
+                            - generic [ref=e251]: 否.
+                            - generic [ref=e252]: 91%
+                    - generic [ref=e254]:
+                      - paragraph [ref=e256]:
+                        - generic [ref=e257]: $74M
+                        - text: 交易量
+                      - generic [ref=e259]:
+                        - button "奖励" [ref=e261] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e262] [cursor=pointer]
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - img "伊朗政权会在4月30日前倒台吗？ card icon" [ref=e268]
+                    - generic [ref=e269]:
+                      - link "伊朗政权会在4月30日前倒台吗？" [ref=e270] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-april-30
+                        - heading "伊朗政权会在4月30日前倒台吗？" [level=2] [ref=e272]
+                      - generic [ref=e274]:
+                        - img [ref=e276]
+                        - generic [ref=e279]:
+                          - paragraph [ref=e280]: 3%
+                          - paragraph [ref=e281]: 是
+                  - generic [ref=e282]:
+                    - generic [ref=e283]:
+                      - link "是" [ref=e284] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-april-30?outcomeIndex=0
+                        - paragraph [ref=e285]: 是
+                      - link "否" [ref=e286] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-april-30?outcomeIndex=1
+                        - paragraph [ref=e287]: 否
+                    - generic [ref=e289]:
+                      - generic [ref=e290]:
+                        - paragraph [ref=e291]:
+                          - generic [ref=e292]: $17M
+                          - text: 交易量
+                        - generic [ref=e293]:
+                          - img [ref=e294]
+                          - generic [ref=e299]: 每月
+                      - generic [ref=e301]:
+                        - button "奖励" [ref=e303] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e304] [cursor=pointer]
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - img "伊朗x以色列/美国冲突结束于... ？ card icon" [ref=e310]
+                    - link "伊朗x以色列/美国冲突结束于... ？" [ref=e312] [cursor=pointer]:
+                      - /url: /zh/event/iran-x-israelus-conflict-ends-by
+                      - heading "伊朗x以色列/美国冲突结束于... ？" [level=2] [ref=e314]
+                  - generic [ref=e315]:
+                    - generic [ref=e320]:
+                      - generic [ref=e323]:
+                        - link "12月31日" [ref=e325] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-december-31-788-548
+                          - paragraph [ref=e326]: 12月31日
+                        - generic [ref=e327]:
+                          - paragraph [ref=e328]: 86%
+                          - link "是. 86%" [ref=e329] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-december-31-788-548&outcomeIndex=0
+                            - generic [ref=e330]: 是.
+                            - generic [ref=e331]: 86%
+                          - link "否. 14%" [ref=e332] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-december-31-788-548&outcomeIndex=1
+                            - generic [ref=e333]: 否.
+                            - generic [ref=e334]: 14%
+                      - generic [ref=e337]:
+                        - link "6月30日" [ref=e339] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-june-30-813-454-138-725
+                          - paragraph [ref=e340]: 6月30日
+                        - generic [ref=e341]:
+                          - paragraph [ref=e342]: 72%
+                          - link "是. 72%" [ref=e343] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-june-30-813-454-138-725&outcomeIndex=0
+                            - generic [ref=e344]: 是.
+                            - generic [ref=e345]: 72%
+                          - link "否. 28%" [ref=e346] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-june-30-813-454-138-725&outcomeIndex=1
+                            - generic [ref=e347]: 否.
+                            - generic [ref=e348]: 28%
+                      - generic [ref=e351]:
+                        - link "5月15日" [ref=e353] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-may-15-562-372-916-721-496
+                          - paragraph [ref=e354]: 5月15日
+                        - generic [ref=e355]:
+                          - paragraph [ref=e356]: 47%
+                          - link "是. 47%" [ref=e357] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-may-15-562-372-916-721-496&outcomeIndex=0
+                            - generic [ref=e358]: 是.
+                            - generic [ref=e359]: 47%
+                          - link "否. 53%" [ref=e360] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-may-15-562-372-916-721-496&outcomeIndex=1
+                            - generic [ref=e361]: 否.
+                            - generic [ref=e362]: 53%
+                      - generic [ref=e365]:
+                        - link "4月30日" [ref=e367] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-april-30-766-662-668-546
+                          - paragraph [ref=e368]: 4月30日
+                        - generic [ref=e369]:
+                          - paragraph [ref=e370]: 35%
+                          - link "是. 35%" [ref=e371] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-30-766-662-668-546&outcomeIndex=0
+                            - generic [ref=e372]: 是.
+                            - generic [ref=e373]: 35%
+                          - link "否. 65%" [ref=e374] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-30-766-662-668-546&outcomeIndex=1
+                            - generic [ref=e375]: 否.
+                            - generic [ref=e376]: 65%
+                      - generic [ref=e379]:
+                        - link "4月15日" [ref=e381] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-april-15-618-586-982
+                          - paragraph [ref=e382]: 4月15日
+                        - generic [ref=e383]:
+                          - paragraph [ref=e384]: 16%
+                          - link "是. 16%" [ref=e385] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-15-618-586-982&outcomeIndex=0
+                            - generic [ref=e386]: 是.
+                            - generic [ref=e387]: 16%
+                          - link "否. 84%" [ref=e388] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-15-618-586-982&outcomeIndex=1
+                            - generic [ref=e389]: 否.
+                            - generic [ref=e390]: 84%
+                      - generic [ref=e393]:
+                        - link "4月7日" [ref=e395] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-april-7-346
+                          - paragraph [ref=e396]: 4月7日
+                        - generic [ref=e397]:
+                          - paragraph [ref=e398]: 6%
+                          - link "是. 6%" [ref=e399] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-7-346&outcomeIndex=0
+                            - generic [ref=e400]: 是.
+                            - generic [ref=e401]: 6%
+                          - link "否. 94%" [ref=e402] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-april-7-346&outcomeIndex=1
+                            - generic [ref=e403]: 否.
+                            - generic [ref=e404]: 94%
+                      - generic [ref=e407]:
+                        - link "3月31日" [ref=e409] [cursor=pointer]:
+                          - /url: /zh/event/iran-x-israelus-conflict-ends-by/iran-x-israelus-conflict-ends-by-march-31
+                          - paragraph [ref=e410]: 3月31日
+                        - generic [ref=e411]:
+                          - paragraph [ref=e412]: <1%
+                          - link "是. <1%" [ref=e413] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-march-31&outcomeIndex=0
+                            - generic [ref=e414]: 是.
+                            - generic [ref=e415]: <1%
+                          - link "否. 100%" [ref=e416] [cursor=pointer]:
+                            - /url: /zh/event/iran-x-israelus-conflict-ends-by?marketSlug=iran-x-israelus-conflict-ends-by-march-31&outcomeIndex=1
+                            - generic [ref=e417]: 否.
+                            - generic [ref=e418]: 100%
+                    - generic [ref=e420]:
+                      - paragraph [ref=e422]:
+                        - generic [ref=e423]: $11M
+                        - text: 交易量
+                      - generic [ref=e425]:
+                        - button "奖励" [ref=e427] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e428] [cursor=pointer]
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - img "特朗普宣布结束对伊朗的军事行动 card icon" [ref=e434]
+                    - link "特朗普宣布结束对伊朗的军事行动" [ref=e436] [cursor=pointer]:
+                      - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by
+                      - heading "特朗普宣布结束对伊朗的军事行动" [level=2] [ref=e438]
+                  - generic [ref=e439]:
+                    - generic [ref=e444]:
+                      - generic [ref=e447]:
+                        - link "6月30日" [ref=e449] [cursor=pointer]:
+                          - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by/trump-announces-end-of-military-operations-against-iran-by-june-30th-566-326-653-781
+                          - paragraph [ref=e450]: 6月30日
+                        - generic [ref=e451]:
+                          - paragraph [ref=e452]: 79%
+                          - link "是. 79%" [ref=e453] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-june-30th-566-326-653-781&outcomeIndex=0
+                            - generic [ref=e454]: 是.
+                            - generic [ref=e455]: 79%
+                          - link "否. 21%" [ref=e456] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-june-30th-566-326-653-781&outcomeIndex=1
+                            - generic [ref=e457]: 否.
+                            - generic [ref=e458]: 21%
+                      - generic [ref=e461]:
+                        - link "4月30日" [ref=e463] [cursor=pointer]:
+                          - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by/trump-announces-end-of-military-operations-against-iran-by-april-30th-753-882-164-769
+                          - paragraph [ref=e464]: 4月30日
+                        - generic [ref=e465]:
+                          - paragraph [ref=e466]: 53%
+                          - link "是. 53%" [ref=e467] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-30th-753-882-164-769&outcomeIndex=0
+                            - generic [ref=e468]: 是.
+                            - generic [ref=e469]: 53%
+                          - link "否. 47%" [ref=e470] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-30th-753-882-164-769&outcomeIndex=1
+                            - generic [ref=e471]: 否.
+                            - generic [ref=e472]: 47%
+                      - generic [ref=e475]:
+                        - link "4月15日" [ref=e477] [cursor=pointer]:
+                          - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by/trump-announces-end-of-military-operations-against-iran-by-april-15th-962-364-677
+                          - paragraph [ref=e478]: 4月15日
+                        - generic [ref=e479]:
+                          - paragraph [ref=e480]: 24%
+                          - link "是. 24%" [ref=e481] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-15th-962-364-677&outcomeIndex=0
+                            - generic [ref=e482]: 是.
+                            - generic [ref=e483]: 24%
+                          - link "否. 76%" [ref=e484] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-15th-962-364-677&outcomeIndex=1
+                            - generic [ref=e485]: 否.
+                            - generic [ref=e486]: 76%
+                      - generic [ref=e489]:
+                        - link "4月7日" [ref=e491] [cursor=pointer]:
+                          - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by/trump-announces-end-of-military-operations-against-iran-by-april-7th-659
+                          - paragraph [ref=e492]: 4月7日
+                        - generic [ref=e493]:
+                          - paragraph [ref=e494]: 10%
+                          - link "是. 10%" [ref=e495] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-7th-659&outcomeIndex=0
+                            - generic [ref=e496]: 是.
+                            - generic [ref=e497]: 10%
+                          - link "否. 90%" [ref=e498] [cursor=pointer]:
+                            - /url: /zh/event/trump-announces-end-of-military-operations-against-iran-by?marketSlug=trump-announces-end-of-military-operations-against-iran-by-april-7th-659&outcomeIndex=1
+                            - generic [ref=e499]: 否.
+                            - generic [ref=e500]: 90%
+                    - generic [ref=e502]:
+                      - paragraph [ref=e504]:
+                        - generic [ref=e505]: $10M
+                        - text: 交易量
+                      - generic [ref=e507]:
+                        - button "奖励" [ref=e509] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e510] [cursor=pointer]
+                - generic [ref=e513]:
+                  - generic [ref=e514]:
+                    - img "伊朗政权会在6月30日之前倒台吗？ card icon" [ref=e516]
+                    - generic [ref=e517]:
+                      - link "伊朗政权会在6月30日前垮台吗？" [ref=e518] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-june-30
+                        - heading "伊朗政权会在6月30日前垮台吗？" [level=2] [ref=e520]
+                      - generic [ref=e522]:
+                        - img [ref=e524]
+                        - generic [ref=e527]:
+                          - paragraph [ref=e528]: 11%
+                          - paragraph [ref=e529]: 是
+                  - generic [ref=e530]:
+                    - generic [ref=e531]:
+                      - link "是" [ref=e532] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-june-30?outcomeIndex=0
+                        - paragraph [ref=e533]: 是
+                      - link "否" [ref=e534] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-june-30?outcomeIndex=1
+                        - paragraph [ref=e535]: 否
+                    - generic [ref=e537]:
+                      - generic [ref=e538]:
+                        - paragraph [ref=e539]:
+                          - generic [ref=e540]: $24M
+                          - text: 交易量
+                        - generic [ref=e541]:
+                          - img [ref=e542]
+                          - generic [ref=e547]: 每月
+                      - generic [ref=e549]:
+                        - button "奖励" [ref=e551] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e552] [cursor=pointer]
+                - generic [ref=e555]:
+                  - generic [ref=e556]:
+                    - img "哈格岛不再被伊朗控制…… ？ card icon" [ref=e558]
+                    - link "哈格岛不再被伊朗控制…… ？" [ref=e560] [cursor=pointer]:
+                      - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31
+                      - heading "哈格岛不再被伊朗控制…… ？" [level=2] [ref=e562]
+                  - generic [ref=e563]:
+                    - generic [ref=e568]:
+                      - generic [ref=e571]:
+                        - link "6月30日" [ref=e573] [cursor=pointer]:
+                          - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-june-30-561-854
+                          - paragraph [ref=e574]: 6月30日
+                        - generic [ref=e575]:
+                          - paragraph [ref=e576]: 32%
+                          - link "是. 32%" [ref=e577] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-june-30-561-854&outcomeIndex=0
+                            - generic [ref=e578]: 是.
+                            - generic [ref=e579]: 32%
+                          - link "否. 68%" [ref=e580] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-june-30-561-854&outcomeIndex=1
+                            - generic [ref=e581]: 否.
+                            - generic [ref=e582]: 68%
+                      - generic [ref=e585]:
+                        - link "5月31日" [ref=e587] [cursor=pointer]:
+                          - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-may-31-689
+                          - paragraph [ref=e588]: 5月31日
+                        - generic [ref=e589]:
+                          - paragraph [ref=e590]: 27%
+                          - link "是. 27%" [ref=e591] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-may-31-689&outcomeIndex=0
+                            - generic [ref=e592]: 是.
+                            - generic [ref=e593]: 27%
+                          - link "否. 73%" [ref=e594] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-may-31-689&outcomeIndex=1
+                            - generic [ref=e595]: 否.
+                            - generic [ref=e596]: 73%
+                      - generic [ref=e599]:
+                        - link "4月30日" [ref=e601] [cursor=pointer]:
+                          - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-april-30-912
+                          - paragraph [ref=e602]: 4月30日
+                        - generic [ref=e603]:
+                          - paragraph [ref=e604]: 22%
+                          - link "是. 22%" [ref=e605] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-30-912&outcomeIndex=0
+                            - generic [ref=e606]: 是.
+                            - generic [ref=e607]: 22%
+                          - link "否. 78%" [ref=e608] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-30-912&outcomeIndex=1
+                            - generic [ref=e609]: 否.
+                            - generic [ref=e610]: 78%
+                      - generic [ref=e613]:
+                        - link "4月15日" [ref=e615] [cursor=pointer]:
+                          - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31/kharg-island-no-longer-under-iranian-control-by-april-15
+                          - paragraph [ref=e616]: 4月15日
+                        - generic [ref=e617]:
+                          - paragraph [ref=e618]: 10%
+                          - link "是. 10%" [ref=e619] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-15&outcomeIndex=0
+                            - generic [ref=e620]: 是.
+                            - generic [ref=e621]: 10%
+                          - link "否. 90%" [ref=e622] [cursor=pointer]:
+                            - /url: /zh/event/kharg-island-no-longer-under-iranian-control-by-march-31?marketSlug=kharg-island-no-longer-under-iranian-control-by-april-15&outcomeIndex=1
+                            - generic [ref=e623]: 否.
+                            - generic [ref=e624]: 90%
+                    - generic [ref=e626]:
+                      - paragraph [ref=e628]:
+                        - generic [ref=e629]: $11M
+                        - text: 交易量
+                      - generic [ref=e631]:
+                        - button "奖励" [ref=e633] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e634] [cursor=pointer]
+                - generic [ref=e637]:
+                  - generic [ref=e638]:
+                    - img "2026年，以色列将罢工多少个不同的国家？ card icon" [ref=e640]
+                    - link "2026年，以色列将罢工多少个不同的国家？" [ref=e642] [cursor=pointer]:
+                      - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026
+                      - heading "2026年，以色列将罢工多少个不同的国家？" [level=2] [ref=e644]
+                  - generic [ref=e645]:
+                    - generic [ref=e650]:
+                      - generic [ref=e653]:
+                        - link "4" [ref=e655] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-4-countries-in-november-2025
+                          - paragraph [ref=e656]: "4"
+                        - generic [ref=e657]:
+                          - paragraph [ref=e658]: 36%
+                          - link "是. 36%" [ref=e659] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-4-countries-in-november-2025&outcomeIndex=0
+                            - generic [ref=e660]: 是.
+                            - generic [ref=e661]: 36%
+                          - link "否. 64%" [ref=e662] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-4-countries-in-november-2025&outcomeIndex=1
+                            - generic [ref=e663]: 否.
+                            - generic [ref=e664]: 64%
+                      - generic [ref=e667]:
+                        - link "5" [ref=e669] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-5-countries-in-november-2025
+                          - paragraph [ref=e670]: "5"
+                        - generic [ref=e671]:
+                          - paragraph [ref=e672]: 32%
+                          - link "是. 32%" [ref=e673] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-5-countries-in-november-2025&outcomeIndex=0
+                            - generic [ref=e674]: 是.
+                            - generic [ref=e675]: 32%
+                          - link "否. 68%" [ref=e676] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-5-countries-in-november-2025&outcomeIndex=1
+                            - generic [ref=e677]: 否.
+                            - generic [ref=e678]: 68%
+                      - generic [ref=e681]:
+                        - link "3" [ref=e683] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-3-countries-in-2026
+                          - paragraph [ref=e684]: "3"
+                        - generic [ref=e685]:
+                          - paragraph [ref=e686]: 14%
+                          - link "是. 14%" [ref=e687] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-3-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e688]: 是.
+                            - generic [ref=e689]: 14%
+                          - link "否. 86%" [ref=e690] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-3-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e691]: 否.
+                            - generic [ref=e692]: 86%
+                      - generic [ref=e695]:
+                        - link "6" [ref=e697] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-6-countries-in-2026
+                          - paragraph [ref=e698]: "6"
+                        - generic [ref=e699]:
+                          - paragraph [ref=e700]: 13%
+                          - link "是. 13%" [ref=e701] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-6-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e702]: 是.
+                            - generic [ref=e703]: 13%
+                          - link "否. 87%" [ref=e704] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-6-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e705]: 否.
+                            - generic [ref=e706]: 87%
+                      - generic [ref=e709]:
+                        - link "7" [ref=e711] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-7-countries-in-2026
+                          - paragraph [ref=e712]: "7"
+                        - generic [ref=e713]:
+                          - paragraph [ref=e714]: 2%
+                          - link "是. 2%" [ref=e715] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-7-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e716]: 是.
+                            - generic [ref=e717]: 2%
+                          - link "否. 98%" [ref=e718] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-7-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e719]: 否.
+                            - generic [ref=e720]: 98%
+                      - generic [ref=e723]:
+                        - link "8" [ref=e725] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-8-countries-in-2026
+                          - paragraph [ref=e726]: "8"
+                        - generic [ref=e727]:
+                          - paragraph [ref=e728]: 2%
+                          - link "是. 2%" [ref=e729] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-8-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e730]: 是.
+                            - generic [ref=e731]: 2%
+                          - link "否. 98%" [ref=e732] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-8-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e733]: 否.
+                            - generic [ref=e734]: 98%
+                      - generic [ref=e737]:
+                        - link "9" [ref=e739] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-9-countries-in-2026
+                          - paragraph [ref=e740]: "9"
+                        - generic [ref=e741]:
+                          - paragraph [ref=e742]: 2%
+                          - link "是. 2%" [ref=e743] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-9-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e744]: 是.
+                            - generic [ref=e745]: 2%
+                          - link "否. 98%" [ref=e746] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-9-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e747]: 否.
+                            - generic [ref=e748]: 98%
+                      - generic [ref=e751]:
+                        - link "10" [ref=e753] [cursor=pointer]:
+                          - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026/will-israel-strike-10-countries-in-2026
+                          - paragraph [ref=e754]: "10"
+                        - generic [ref=e755]:
+                          - paragraph [ref=e756]: 1%
+                          - link "是. 1%" [ref=e757] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-10-countries-in-2026&outcomeIndex=0
+                            - generic [ref=e758]: 是.
+                            - generic [ref=e759]: 1%
+                          - link "否. 99%" [ref=e760] [cursor=pointer]:
+                            - /url: /zh/event/how-many-different-countries-will-israel-strike-in-2026?marketSlug=will-israel-strike-10-countries-in-2026&outcomeIndex=1
+                            - generic [ref=e761]: 否.
+                            - generic [ref=e762]: 99%
+                    - generic [ref=e764]:
+                      - generic [ref=e765]:
+                        - paragraph [ref=e766]:
+                          - generic [ref=e767]: $6M
+                          - text: 交易量
+                        - generic [ref=e768]:
+                          - img [ref=e769]
+                          - generic [ref=e774]: 每天
+                      - generic [ref=e776]:
+                        - button "奖励" [ref=e778] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e779] [cursor=pointer]
+                - generic [ref=e782]:
+                  - generic [ref=e783]:
+                    - img "礼萨·巴列维是否会在……之前进入伊朗？ card icon" [ref=e785]
+                    - link "礼萨·巴列维是否会在……之前进入伊朗？" [ref=e787] [cursor=pointer]:
+                      - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30
+                      - heading "礼萨·巴列维是否会在……之前进入伊朗？" [level=2] [ref=e789]
+                  - generic [ref=e790]:
+                    - generic [ref=e795]:
+                      - generic [ref=e798]:
+                        - link "12月31日" [ref=e800] [cursor=pointer]:
+                          - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30/will-reza-pahlavi-enter-iran-by-december-31-898-927
+                          - paragraph [ref=e801]: 12月31日
+                        - generic [ref=e802]:
+                          - paragraph [ref=e803]: 18%
+                          - link "是. 18%" [ref=e804] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-december-31-898-927&outcomeIndex=0
+                            - generic [ref=e805]: 是.
+                            - generic [ref=e806]: 18%
+                          - link "否. 82%" [ref=e807] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-december-31-898-927&outcomeIndex=1
+                            - generic [ref=e808]: 否.
+                            - generic [ref=e809]: 82%
+                      - generic [ref=e812]:
+                        - link "6月30日" [ref=e814] [cursor=pointer]:
+                          - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30/will-reza-pahlavi-enter-iran-by-june-30-555-947-362-379-213
+                          - paragraph [ref=e815]: 6月30日
+                        - generic [ref=e816]:
+                          - paragraph [ref=e817]: 8%
+                          - link "是. 8%" [ref=e818] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-june-30-555-947-362-379-213&outcomeIndex=0
+                            - generic [ref=e819]: 是.
+                            - generic [ref=e820]: 8%
+                          - link "否. 92%" [ref=e821] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-june-30-555-947-362-379-213&outcomeIndex=1
+                            - generic [ref=e822]: 否.
+                            - generic [ref=e823]: 92%
+                      - generic [ref=e826]:
+                        - link "5月31日" [ref=e828] [cursor=pointer]:
+                          - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30/will-reza-pahlavi-enter-iran-by-may-31
+                          - paragraph [ref=e829]: 5月31日
+                        - generic [ref=e830]:
+                          - paragraph [ref=e831]: 4%
+                          - link "是. 4%" [ref=e832] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-may-31&outcomeIndex=0
+                            - generic [ref=e833]: 是.
+                            - generic [ref=e834]: 4%
+                          - link "否. 96%" [ref=e835] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-may-31&outcomeIndex=1
+                            - generic [ref=e836]: 否.
+                            - generic [ref=e837]: 96%
+                      - generic [ref=e840]:
+                        - link "4月30日" [ref=e842] [cursor=pointer]:
+                          - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30/will-reza-pahlavi-enter-iran-by-april-30
+                          - paragraph [ref=e843]: 4月30日
+                        - generic [ref=e844]:
+                          - paragraph [ref=e845]: 2%
+                          - link "是. 2%" [ref=e846] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e847]: 是.
+                            - generic [ref=e848]: 2%
+                          - link "否. 98%" [ref=e849] [cursor=pointer]:
+                            - /url: /zh/event/will-reza-pahlavi-enter-iran-by-june-30?marketSlug=will-reza-pahlavi-enter-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e850]: 否.
+                            - generic [ref=e851]: 98%
+                    - generic [ref=e853]:
+                      - paragraph [ref=e855]:
+                        - generic [ref=e856]: $13M
+                        - text: 交易量
+                      - generic [ref=e858]:
+                        - button "奖励" [ref=e860] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e861] [cursor=pointer]
+                - generic [ref=e864]:
+                  - generic [ref=e865]:
+                    - img "伊朗政权会在2027年之前倒台吗？ card icon" [ref=e867]
+                    - generic [ref=e868]:
+                      - link "伊朗政权会在2027年前垮台吗？" [ref=e869] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-the-end-of-2026
+                        - heading "伊朗政权会在2027年前垮台吗？" [level=2] [ref=e871]
+                      - generic [ref=e873]:
+                        - img [ref=e875]
+                        - generic [ref=e878]:
+                          - paragraph [ref=e879]: 22%
+                          - paragraph [ref=e880]: 是
+                  - generic [ref=e881]:
+                    - generic [ref=e882]:
+                      - link "是" [ref=e883] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-the-end-of-2026?outcomeIndex=0
+                        - paragraph [ref=e884]: 是
+                      - link "否" [ref=e885] [cursor=pointer]:
+                        - /url: /zh/event/will-the-iranian-regime-fall-by-the-end-of-2026?outcomeIndex=1
+                        - paragraph [ref=e886]: 否
+                    - generic [ref=e888]:
+                      - generic [ref=e889]:
+                        - paragraph [ref=e890]:
+                          - generic [ref=e891]: $13M
+                          - text: 交易量
+                        - generic [ref=e892]:
+                          - img [ref=e893]
+                          - generic [ref=e898]: 每月
+                      - generic [ref=e900]:
+                        - button "奖励" [ref=e902] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e903] [cursor=pointer]
+                - generic [ref=e906]:
+                  - generic [ref=e907]:
+                    - img "伊朗领导层的变化是…… ？ card icon" [ref=e909]
+                    - link "伊朗领导层的变化是…… ？" [ref=e911] [cursor=pointer]:
+                      - /url: /zh/event/iran-leadership-change-by
+                      - heading "伊朗领导层的变化是…… ？" [level=2] [ref=e913]
+                  - generic [ref=e914]:
+                    - generic [ref=e919]:
+                      - generic [ref=e922]:
+                        - link "12月31日" [ref=e924] [cursor=pointer]:
+                          - /url: /zh/event/iran-leadership-change-by/iran-leadership-change-by-december-31-974-976-658-482-568
+                          - paragraph [ref=e925]: 12月31日
+                        - generic [ref=e926]:
+                          - paragraph [ref=e927]: 34%
+                          - link "是. 34%" [ref=e928] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-december-31-974-976-658-482-568&outcomeIndex=0
+                            - generic [ref=e929]: 是.
+                            - generic [ref=e930]: 34%
+                          - link "否. 66%" [ref=e931] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-december-31-974-976-658-482-568&outcomeIndex=1
+                            - generic [ref=e932]: 否.
+                            - generic [ref=e933]: 66%
+                      - generic [ref=e936]:
+                        - link "6月30日" [ref=e938] [cursor=pointer]:
+                          - /url: /zh/event/iran-leadership-change-by/iran-leadership-change-by-june-30-689-922
+                          - paragraph [ref=e939]: 6月30日
+                        - generic [ref=e940]:
+                          - paragraph [ref=e941]: 19%
+                          - link "是. 19%" [ref=e942] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-june-30-689-922&outcomeIndex=0
+                            - generic [ref=e943]: 是.
+                            - generic [ref=e944]: 19%
+                          - link "否. 81%" [ref=e945] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-june-30-689-922&outcomeIndex=1
+                            - generic [ref=e946]: 否.
+                            - generic [ref=e947]: 81%
+                      - generic [ref=e950]:
+                        - link "5月31日" [ref=e952] [cursor=pointer]:
+                          - /url: /zh/event/iran-leadership-change-by/iran-leadership-change-by-may-31-593-194-829
+                          - paragraph [ref=e953]: 5月31日
+                        - generic [ref=e954]:
+                          - paragraph [ref=e955]: 15%
+                          - link "是. 15%" [ref=e956] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-may-31-593-194-829&outcomeIndex=0
+                            - generic [ref=e957]: 是.
+                            - generic [ref=e958]: 15%
+                          - link "否. 85%" [ref=e959] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-may-31-593-194-829&outcomeIndex=1
+                            - generic [ref=e960]: 否.
+                            - generic [ref=e961]: 85%
+                      - generic [ref=e964]:
+                        - link "4月30日" [ref=e966] [cursor=pointer]:
+                          - /url: /zh/event/iran-leadership-change-by/iran-leadership-change-by-april-30
+                          - paragraph [ref=e967]: 4月30日
+                        - generic [ref=e968]:
+                          - paragraph [ref=e969]: 11%
+                          - link "是. 11%" [ref=e970] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-april-30&outcomeIndex=0
+                            - generic [ref=e971]: 是.
+                            - generic [ref=e972]: 11%
+                          - link "否. 89%" [ref=e973] [cursor=pointer]:
+                            - /url: /zh/event/iran-leadership-change-by?marketSlug=iran-leadership-change-by-april-30&outcomeIndex=1
+                            - generic [ref=e974]: 否.
+                            - generic [ref=e975]: 89%
+                    - generic [ref=e977]:
+                      - paragraph [ref=e979]:
+                        - generic [ref=e980]: $6M
+                        - text: 交易量
+                      - generic [ref=e982]:
+                        - button "奖励" [ref=e984] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e985] [cursor=pointer]
+                - generic [ref=e988]:
+                  - generic [ref=e989]:
+                    - img "霍尔木兹海峡的交通在4月底恢复正常？ card icon" [ref=e991]
+                    - generic [ref=e992]:
+                      - link "霍尔木兹海峡航运将在四月底前恢复正常？" [ref=e993] [cursor=pointer]:
+                        - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30
+                        - heading "霍尔木兹海峡航运将在四月底前恢复正常？" [level=2] [ref=e995]
+                      - generic [ref=e997]:
+                        - img [ref=e999]
+                        - generic [ref=e1002]:
+                          - paragraph [ref=e1003]: 22%
+                          - paragraph [ref=e1004]: 是
+                  - generic [ref=e1005]:
+                    - generic [ref=e1006]:
+                      - link "是" [ref=e1007] [cursor=pointer]:
+                        - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30?outcomeIndex=0
+                        - paragraph [ref=e1008]: 是
+                      - link "否" [ref=e1009] [cursor=pointer]:
+                        - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-april-30?outcomeIndex=1
+                        - paragraph [ref=e1010]: 否
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]:
+                        - paragraph [ref=e1014]:
+                          - generic [ref=e1015]: $2M
+                          - text: 交易量
+                        - generic [ref=e1016]:
+                          - img [ref=e1017]
+                          - generic [ref=e1022]: 每月
+                      - generic [ref=e1024]:
+                        - button "奖励" [ref=e1026] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1027] [cursor=pointer]
+                - generic [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - img "美国会在2027年之前入侵伊朗吗？ card icon" [ref=e1033]
+                    - generic [ref=e1034]:
+                      - link "美国会在2027年前入侵伊朗吗？" [ref=e1035] [cursor=pointer]:
+                        - /url: /zh/event/will-the-us-invade-iran-before-2027
+                        - heading "美国会在2027年前入侵伊朗吗？" [level=2] [ref=e1037]
+                      - generic [ref=e1039]:
+                        - img [ref=e1041]
+                        - generic [ref=e1044]:
+                          - paragraph [ref=e1045]: 45%
+                          - paragraph [ref=e1046]: 是
+                  - generic [ref=e1047]:
+                    - generic [ref=e1048]:
+                      - link "是" [ref=e1049] [cursor=pointer]:
+                        - /url: /zh/event/will-the-us-invade-iran-before-2027?outcomeIndex=0
+                        - paragraph [ref=e1050]: 是
+                      - link "否" [ref=e1051] [cursor=pointer]:
+                        - /url: /zh/event/will-the-us-invade-iran-before-2027?outcomeIndex=1
+                        - paragraph [ref=e1052]: 否
+                    - generic [ref=e1054]:
+                      - generic [ref=e1055]:
+                        - paragraph [ref=e1056]:
+                          - generic [ref=e1057]: $2M
+                          - text: 交易量
+                        - generic [ref=e1058]:
+                          - img [ref=e1059]
+                          - generic [ref=e1064]: 每月
+                      - generic [ref=e1066]:
+                        - button "奖励" [ref=e1068] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1069] [cursor=pointer]
+                - generic [ref=e1072]:
+                  - generic [ref=e1073]:
+                    - img "美国护送商船通过霍尔木兹…… ？ card icon" [ref=e1075]
+                    - link "美国护送商船通过霍尔木兹…… ？" [ref=e1077] [cursor=pointer]:
+                      - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31
+                      - heading "美国护送商船通过霍尔木兹…… ？" [level=2] [ref=e1079]
+                  - generic [ref=e1080]:
+                    - generic [ref=e1085]:
+                      - generic [ref=e1088]:
+                        - link "4月30日" [ref=e1090] [cursor=pointer]:
+                          - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31/us-escorts-commercial-ship-through-hormuz-by-april-30-894
+                          - paragraph [ref=e1091]: 4月30日
+                        - generic [ref=e1092]:
+                          - paragraph [ref=e1093]: 20%
+                          - link "是. 20%" [ref=e1094] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-30-894&outcomeIndex=0
+                            - generic [ref=e1095]: 是.
+                            - generic [ref=e1096]: 20%
+                          - link "否. 80%" [ref=e1097] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-30-894&outcomeIndex=1
+                            - generic [ref=e1098]: 否.
+                            - generic [ref=e1099]: 80%
+                      - generic [ref=e1102]:
+                        - link "4月15日" [ref=e1104] [cursor=pointer]:
+                          - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31/us-escorts-commercial-ship-through-hormuz-by-april-15
+                          - paragraph [ref=e1105]: 4月15日
+                        - generic [ref=e1106]:
+                          - paragraph [ref=e1107]: 9%
+                          - link "是. 9%" [ref=e1108] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-15&outcomeIndex=0
+                            - generic [ref=e1109]: 是.
+                            - generic [ref=e1110]: 9%
+                          - link "否. 91%" [ref=e1111] [cursor=pointer]:
+                            - /url: /zh/event/us-escorts-commercial-ship-through-hormuz-by-march-31?marketSlug=us-escorts-commercial-ship-through-hormuz-by-april-15&outcomeIndex=1
+                            - generic [ref=e1112]: 否.
+                            - generic [ref=e1113]: 91%
+                    - generic [ref=e1115]:
+                      - paragraph [ref=e1117]:
+                        - generic [ref=e1118]: $3M
+                        - text: 交易量
+                      - generic [ref=e1120]:
+                        - button "奖励" [ref=e1122] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1123] [cursor=pointer]
+                - generic [ref=e1126]:
+                  - generic [ref=e1127]:
+                    - img "美国是否会在……之前正式向伊朗宣战？ card icon" [ref=e1129]
+                    - link "美国是否会在……之前正式向伊朗宣战？" [ref=e1131] [cursor=pointer]:
+                      - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by
+                      - heading "美国是否会在……之前正式向伊朗宣战？" [level=2] [ref=e1133]
+                  - generic [ref=e1134]:
+                    - generic [ref=e1139]:
+                      - generic [ref=e1142]:
+                        - link "12月31日" [ref=e1144] [cursor=pointer]:
+                          - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by/will-the-us-officially-declare-war-on-iran-by-december-31-2026-746
+                          - paragraph [ref=e1145]: 12月31日
+                        - generic [ref=e1146]:
+                          - paragraph [ref=e1147]: 9%
+                          - link "是. 9%" [ref=e1148] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by?marketSlug=will-the-us-officially-declare-war-on-iran-by-december-31-2026-746&outcomeIndex=0
+                            - generic [ref=e1149]: 是.
+                            - generic [ref=e1150]: 9%
+                          - link "否. 91%" [ref=e1151] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by?marketSlug=will-the-us-officially-declare-war-on-iran-by-december-31-2026-746&outcomeIndex=1
+                            - generic [ref=e1152]: 否.
+                            - generic [ref=e1153]: 91%
+                      - generic [ref=e1156]:
+                        - link "4月30日" [ref=e1158] [cursor=pointer]:
+                          - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by/will-the-us-officially-declare-war-on-iran-by-april-30-2026
+                          - paragraph [ref=e1159]: 4月30日
+                        - generic [ref=e1160]:
+                          - paragraph [ref=e1161]: 1%
+                          - link "是. 1%" [ref=e1162] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by?marketSlug=will-the-us-officially-declare-war-on-iran-by-april-30-2026&outcomeIndex=0
+                            - generic [ref=e1163]: 是.
+                            - generic [ref=e1164]: 1%
+                          - link "否. 99%" [ref=e1165] [cursor=pointer]:
+                            - /url: /zh/event/will-the-us-officially-declare-war-on-iran-by?marketSlug=will-the-us-officially-declare-war-on-iran-by-april-30-2026&outcomeIndex=1
+                            - generic [ref=e1166]: 否.
+                            - generic [ref=e1167]: 99%
+                    - generic [ref=e1169]:
+                      - generic [ref=e1170]:
+                        - paragraph [ref=e1171]:
+                          - generic [ref=e1172]: $5M
+                          - text: 交易量
+                        - generic [ref=e1173]:
+                          - img [ref=e1174]
+                          - generic [ref=e1179]: 每月
+                      - generic [ref=e1181]:
+                        - button "奖励" [ref=e1183] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1184] [cursor=pointer]
+                - generic [ref=e1187]:
+                  - generic [ref=e1188]:
+                    - img "胡塞武装通过……对以色列采取军事行动？ card icon" [ref=e1190]
+                    - link "胡塞武装通过……对以色列采取军事行动？" [ref=e1192] [cursor=pointer]:
+                      - /url: /zh/event/houthi-strike-on-israel-by-632
+                      - heading "胡塞武装通过……对以色列采取军事行动？" [level=2] [ref=e1194]
+                  - generic [ref=e1195]:
+                    - generic [ref=e1200]:
+                      - generic [ref=e1203]:
+                        - link "4月15日" [ref=e1205] [cursor=pointer]:
+                          - /url: /zh/event/houthi-strike-on-israel-by-632/houthi-strike-on-israel-by-april-15-2026
+                          - paragraph [ref=e1206]: 4月15日
+                        - generic [ref=e1207]:
+                          - paragraph [ref=e1208]: 29%
+                          - link "是. 29%" [ref=e1209] [cursor=pointer]:
+                            - /url: /zh/event/houthi-strike-on-israel-by-632?marketSlug=houthi-strike-on-israel-by-april-15-2026&outcomeIndex=0
+                            - generic [ref=e1210]: 是.
+                            - generic [ref=e1211]: 29%
+                          - link "否. 71%" [ref=e1212] [cursor=pointer]:
+                            - /url: /zh/event/houthi-strike-on-israel-by-632?marketSlug=houthi-strike-on-israel-by-april-15-2026&outcomeIndex=1
+                            - generic [ref=e1213]: 否.
+                            - generic [ref=e1214]: 71%
+                      - generic [ref=e1217]:
+                        - link "3月31日" [ref=e1219] [cursor=pointer]:
+                          - /url: /zh/event/houthi-strike-on-israel-by-632/houthi-strike-on-israel-by-march-31-2026
+                          - paragraph [ref=e1220]: 3月31日
+                        - generic [ref=e1221]:
+                          - paragraph [ref=e1222]: 1%
+                          - link "是. 1%" [ref=e1223] [cursor=pointer]:
+                            - /url: /zh/event/houthi-strike-on-israel-by-632?marketSlug=houthi-strike-on-israel-by-march-31-2026&outcomeIndex=0
+                            - generic [ref=e1224]: 是.
+                            - generic [ref=e1225]: 1%
+                          - link "否. 99%" [ref=e1226] [cursor=pointer]:
+                            - /url: /zh/event/houthi-strike-on-israel-by-632?marketSlug=houthi-strike-on-israel-by-march-31-2026&outcomeIndex=1
+                            - generic [ref=e1227]: 否.
+                            - generic [ref=e1228]: 99%
+                    - generic [ref=e1230]:
+                      - paragraph [ref=e1232]:
+                        - generic [ref=e1233]: $1M
+                        - text: 交易量
+                      - button "Add to favorites" [ref=e1236] [cursor=pointer]
+                - generic [ref=e1239]:
+                  - generic [ref=e1240]:
+                    - img "Which countries will conduct military action against Iran by April 30? card icon" [ref=e1242]
+                    - link "Which countries will conduct military action against Iran by April 30?" [ref=e1244] [cursor=pointer]:
+                      - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30
+                      - heading "Which countries will conduct military action against Iran by April 30?" [level=2] [ref=e1246]
+                  - generic [ref=e1247]:
+                    - generic [ref=e1252]:
+                      - generic [ref=e1255]:
+                        - link "UAE" [ref=e1257] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-uae-strike-iran-by-april-30
+                          - paragraph [ref=e1258]: UAE
+                        - generic [ref=e1259]:
+                          - paragraph [ref=e1260]: 15%
+                          - link "Yes 15%" [ref=e1261] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-uae-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1262]: "Yes"
+                            - generic [ref=e1263]: 15%
+                          - link "No 85%" [ref=e1264] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-uae-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1265]: "No"
+                            - generic [ref=e1266]: 85%
+                      - generic [ref=e1269]:
+                        - link "Saudi Arabia" [ref=e1271] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-saudi-arabia-strike-iran-by-april-30
+                          - paragraph [ref=e1272]: Saudi Arabia
+                        - generic [ref=e1273]:
+                          - paragraph [ref=e1274]: 14%
+                          - link "Yes 14%" [ref=e1275] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-saudi-arabia-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1276]: "Yes"
+                            - generic [ref=e1277]: 14%
+                          - link "No 86%" [ref=e1278] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-saudi-arabia-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1279]: "No"
+                            - generic [ref=e1280]: 86%
+                      - generic [ref=e1283]:
+                        - link "Jordan" [ref=e1285] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-jordan-strike-iran-by-april-30
+                          - paragraph [ref=e1286]: Jordan
+                        - generic [ref=e1287]:
+                          - paragraph [ref=e1288]: 5%
+                          - link "Yes 5%" [ref=e1289] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-jordan-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1290]: "Yes"
+                            - generic [ref=e1291]: 5%
+                          - link "No 95%" [ref=e1292] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-jordan-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1293]: "No"
+                            - generic [ref=e1294]: 95%
+                      - generic [ref=e1297]:
+                        - link "Bahrain" [ref=e1299] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-bahrain-strike-iran-by-april-30
+                          - paragraph [ref=e1300]: Bahrain
+                        - generic [ref=e1301]:
+                          - paragraph [ref=e1302]: 4%
+                          - link "Yes 4%" [ref=e1303] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-bahrain-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1304]: "Yes"
+                            - generic [ref=e1305]: 4%
+                          - link "No 96%" [ref=e1306] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-bahrain-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1307]: "No"
+                            - generic [ref=e1308]: 96%
+                      - generic [ref=e1311]:
+                        - link "Turkey" [ref=e1313] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-turkey-strike-iran-by-april-30
+                          - paragraph [ref=e1314]: Turkey
+                        - generic [ref=e1315]:
+                          - paragraph [ref=e1316]: 4%
+                          - link "Yes 4%" [ref=e1317] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-turkey-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1318]: "Yes"
+                            - generic [ref=e1319]: 4%
+                          - link "No 96%" [ref=e1320] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-turkey-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1321]: "No"
+                            - generic [ref=e1322]: 96%
+                      - generic [ref=e1325]:
+                        - link "Qatar" [ref=e1327] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-qatar-strike-iran-by-april-30
+                          - paragraph [ref=e1328]: Qatar
+                        - generic [ref=e1329]:
+                          - paragraph [ref=e1330]: 4%
+                          - link "Yes 4%" [ref=e1331] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-qatar-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1332]: "Yes"
+                            - generic [ref=e1333]: 4%
+                          - link "No 96%" [ref=e1334] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-qatar-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1335]: "No"
+                            - generic [ref=e1336]: 96%
+                      - generic [ref=e1339]:
+                        - link "Any E.U. Country" [ref=e1341] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-any-eu-country-strike-iran-by-april-30
+                          - paragraph [ref=e1342]: Any E.U. Country
+                        - generic [ref=e1343]:
+                          - paragraph [ref=e1344]: 4%
+                          - link "Yes 4%" [ref=e1345] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-any-eu-country-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1346]: "Yes"
+                            - generic [ref=e1347]: 4%
+                          - link "No 96%" [ref=e1348] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-any-eu-country-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1349]: "No"
+                            - generic [ref=e1350]: 96%
+                      - generic [ref=e1353]:
+                        - link "Oman" [ref=e1355] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30/will-oman-strike-iran-by-april-30
+                          - paragraph [ref=e1356]: Oman
+                        - generic [ref=e1357]:
+                          - paragraph [ref=e1358]: 4%
+                          - link "Yes 4%" [ref=e1359] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-oman-strike-iran-by-april-30&outcomeIndex=0
+                            - generic [ref=e1360]: "Yes"
+                            - generic [ref=e1361]: 4%
+                          - link "No 96%" [ref=e1362] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-conduct-military-action-against-iran-by-april-30?marketSlug=will-oman-strike-iran-by-april-30&outcomeIndex=1
+                            - generic [ref=e1363]: "No"
+                            - generic [ref=e1364]: 96%
+                    - generic [ref=e1366]:
+                      - generic [ref=e1367]:
+                        - paragraph [ref=e1368]:
+                          - generic [ref=e1369]: $612K
+                          - text: 交易量
+                        - generic [ref=e1370]:
+                          - img [ref=e1371]
+                          - generic [ref=e1376]: 每月
+                      - generic [ref=e1378]:
+                        - button "奖励" [ref=e1380] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1381] [cursor=pointer]
+                - generic [ref=e1384]:
+                  - generic [ref=e1385]:
+                    - img "2026年底伊朗领导人？ card icon" [ref=e1387]
+                    - link "2026年底伊朗领导人？" [ref=e1389] [cursor=pointer]:
+                      - /url: /zh/event/iran-leader-end-of-2026
+                      - heading "2026年底伊朗领导人？" [level=2] [ref=e1391]
+                  - generic [ref=e1392]:
+                    - generic [ref=e1397]:
+                      - generic [ref=e1400]:
+                        - link "莫吉塔巴·哈梅内伊" [ref=e1402] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1403]: 莫吉塔巴·哈梅内伊
+                        - generic [ref=e1404]:
+                          - paragraph [ref=e1405]: 64%
+                          - link "是. 64%" [ref=e1406] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1407]: 是.
+                            - generic [ref=e1408]: 64%
+                          - link "否. 36%" [ref=e1409] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1410]: 否.
+                            - generic [ref=e1411]: 36%
+                      - generic [ref=e1414]:
+                        - link "礼萨·巴列维" [ref=e1416] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-reza-pahlavi-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1417]: 礼萨·巴列维
+                        - generic [ref=e1418]:
+                          - paragraph [ref=e1419]: 11%
+                          - link "是. 11%" [ref=e1420] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-reza-pahlavi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1421]: 是.
+                            - generic [ref=e1422]: 11%
+                          - link "否. 89%" [ref=e1423] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-reza-pahlavi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1424]: 否.
+                            - generic [ref=e1425]: 89%
+                      - generic [ref=e1428]:
+                        - link "穆罕默德-巴盖尔·加利巴夫" [ref=e1430] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-mohammad-bagher-ghalibaf-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1431]: 穆罕默德-巴盖尔·加利巴夫
+                        - generic [ref=e1432]:
+                          - paragraph [ref=e1433]: 5%
+                          - link "是. 5%" [ref=e1434] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-mohammad-bagher-ghalibaf-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1435]: 是.
+                            - generic [ref=e1436]: 5%
+                          - link "否. 95%" [ref=e1437] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-mohammad-bagher-ghalibaf-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1438]: 否.
+                            - generic [ref=e1439]: 95%
+                      - generic [ref=e1442]:
+                        - link "没有国家元首" [ref=e1444] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-there-be-no-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1445]: 没有国家元首
+                        - generic [ref=e1446]:
+                          - paragraph [ref=e1447]: 3%
+                          - link "是. 3%" [ref=e1448] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-there-be-no-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1449]: 是.
+                            - generic [ref=e1450]: 3%
+                          - link "否. 97%" [ref=e1451] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-there-be-no-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1452]: 否.
+                            - generic [ref=e1453]: 97%
+                      - generic [ref=e1456]:
+                        - link "哈桑·鲁哈尼" [ref=e1458] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-hassan-rouhani-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1459]: 哈桑·鲁哈尼
+                        - generic [ref=e1460]:
+                          - paragraph [ref=e1461]: 3%
+                          - link "是. 3%" [ref=e1462] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-hassan-rouhani-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1463]: 是.
+                            - generic [ref=e1464]: 3%
+                          - link "否. 97%" [ref=e1465] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-hassan-rouhani-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1466]: 否.
+                            - generic [ref=e1467]: 97%
+                      - generic [ref=e1470]:
+                        - link "阿里雷扎·阿拉菲" [ref=e1472] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-alireza-arafi-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1473]: 阿里雷扎·阿拉菲
+                        - generic [ref=e1474]:
+                          - paragraph [ref=e1475]: 2%
+                          - link "是. 2%" [ref=e1476] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-alireza-arafi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1477]: 是.
+                            - generic [ref=e1478]: 2%
+                          - link "否. 98%" [ref=e1479] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-alireza-arafi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1480]: 否.
+                            - generic [ref=e1481]: 98%
+                      - generic [ref=e1484]:
+                        - link "阿巴斯·阿拉格奇" [ref=e1486] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-abbas-araghchi-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1487]: 阿巴斯·阿拉格奇
+                        - generic [ref=e1488]:
+                          - paragraph [ref=e1489]: 2%
+                          - link "是. 2%" [ref=e1490] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-abbas-araghchi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1491]: 是.
+                            - generic [ref=e1492]: 2%
+                          - link "否. 98%" [ref=e1493] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-abbas-araghchi-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1494]: 否.
+                            - generic [ref=e1495]: 98%
+                      - generic [ref=e1498]:
+                        - link "哈桑·霍梅尼" [ref=e1500] [cursor=pointer]:
+                          - /url: /zh/event/iran-leader-end-of-2026/will-hassan-khomeini-be-head-of-state-in-iran-end-of-2026
+                          - paragraph [ref=e1501]: 哈桑·霍梅尼
+                        - generic [ref=e1502]:
+                          - paragraph [ref=e1503]: 2%
+                          - link "是. 2%" [ref=e1504] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-hassan-khomeini-be-head-of-state-in-iran-end-of-2026&outcomeIndex=0
+                            - generic [ref=e1505]: 是.
+                            - generic [ref=e1506]: 2%
+                          - link "否. 98%" [ref=e1507] [cursor=pointer]:
+                            - /url: /zh/event/iran-leader-end-of-2026?marketSlug=will-hassan-khomeini-be-head-of-state-in-iran-end-of-2026&outcomeIndex=1
+                            - generic [ref=e1508]: 否.
+                            - generic [ref=e1509]: 98%
+                    - generic [ref=e1511]:
+                      - paragraph [ref=e1513]:
+                        - generic [ref=e1514]: $6M
+                        - text: 交易量
+                      - generic [ref=e1516]:
+                        - button "奖励" [ref=e1518] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1519] [cursor=pointer]
+                - generic [ref=e1522]:
+                  - generic [ref=e1523]:
+                    - img "美国与伊朗的外交会议在... ？ card icon" [ref=e1525]
+                    - link "美国与伊朗的外交会议在... ？" [ref=e1527] [cursor=pointer]:
+                      - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833
+                      - heading "美国与伊朗的外交会议在... ？" [level=2] [ref=e1529]
+                  - generic [ref=e1530]:
+                    - generic [ref=e1535]:
+                      - generic [ref=e1538]:
+                        - link "6月30日" [ref=e1540] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-june-30-2026-195-186
+                          - paragraph [ref=e1541]: 6月30日
+                        - generic [ref=e1542]:
+                          - paragraph [ref=e1543]: 67%
+                          - link "是. 67%" [ref=e1544] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-june-30-2026-195-186&outcomeIndex=0
+                            - generic [ref=e1545]: 是.
+                            - generic [ref=e1546]: 67%
+                          - link "否. 33%" [ref=e1547] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-june-30-2026-195-186&outcomeIndex=1
+                            - generic [ref=e1548]: 否.
+                            - generic [ref=e1549]: 33%
+                      - generic [ref=e1552]:
+                        - link "4月30日" [ref=e1554] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-april-30-2026-392-855
+                          - paragraph [ref=e1555]: 4月30日
+                        - generic [ref=e1556]:
+                          - paragraph [ref=e1557]: 32%
+                          - link "是. 32%" [ref=e1558] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-30-2026-392-855&outcomeIndex=0
+                            - generic [ref=e1559]: 是.
+                            - generic [ref=e1560]: 32%
+                          - link "否. 68%" [ref=e1561] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-30-2026-392-855&outcomeIndex=1
+                            - generic [ref=e1562]: 否.
+                            - generic [ref=e1563]: 68%
+                      - generic [ref=e1566]:
+                        - link "4月10日" [ref=e1568] [cursor=pointer]:
+                          - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833/us-x-iran-meeting-by-april-10-2026-895
+                          - paragraph [ref=e1569]: 4月10日
+                        - generic [ref=e1570]:
+                          - paragraph [ref=e1571]: 13%
+                          - link "是. 13%" [ref=e1572] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-10-2026-895&outcomeIndex=0
+                            - generic [ref=e1573]: 是.
+                            - generic [ref=e1574]: 13%
+                          - link "否. 87%" [ref=e1575] [cursor=pointer]:
+                            - /url: /zh/event/us-x-iran-diplomatic-meeting-by-833?marketSlug=us-x-iran-meeting-by-april-10-2026-895&outcomeIndex=1
+                            - generic [ref=e1576]: 否.
+                            - generic [ref=e1577]: 87%
+                    - generic [ref=e1579]:
+                      - generic [ref=e1580]:
+                        - paragraph [ref=e1581]:
+                          - generic [ref=e1582]: $1M
+                          - text: 交易量
+                        - generic [ref=e1583]:
+                          - img [ref=e1584]
+                          - generic [ref=e1589]: 每月
+                      - generic [ref=e1591]:
+                        - button "奖励" [ref=e1593] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1594] [cursor=pointer]
+                - generic [ref=e1597]:
+                  - generic [ref=e1598]:
+                    - img "伊朗在3月31日前对___采取军事行动？ card icon" [ref=e1600]
+                    - link "伊朗在3月31日前对___采取军事行动？" [ref=e1602] [cursor=pointer]:
+                      - /url: /zh/event/which-countries-will-iran-strike-in-march
+                      - heading "伊朗在3月31日前对___采取军事行动？" [level=2] [ref=e1604]
+                  - generic [ref=e1605]:
+                    - generic [ref=e1610]:
+                      - generic [ref=e1613]:
+                        - link "Bahrain" [ref=e1615] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-bahrain-again-in-march
+                          - paragraph [ref=e1616]: Bahrain
+                        - generic [ref=e1617]:
+                          - paragraph [ref=e1618]: 100%
+                          - link "Yes 100%" [ref=e1619] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-bahrain-again-in-march&outcomeIndex=0
+                            - generic [ref=e1620]: "Yes"
+                            - generic [ref=e1621]: 100%
+                          - link "No <1%" [ref=e1622] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-bahrain-again-in-march&outcomeIndex=1
+                            - generic [ref=e1623]: "No"
+                            - generic [ref=e1624]: <1%
+                      - generic [ref=e1627]:
+                        - link "UAE" [ref=e1629] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-uae-again-in-march
+                          - paragraph [ref=e1630]: UAE
+                        - generic [ref=e1631]:
+                          - paragraph [ref=e1632]: 78%
+                          - link "Yes 78%" [ref=e1633] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-uae-again-in-march&outcomeIndex=0
+                            - generic [ref=e1634]: "Yes"
+                            - generic [ref=e1635]: 78%
+                          - link "No 22%" [ref=e1636] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-uae-again-in-march&outcomeIndex=1
+                            - generic [ref=e1637]: "No"
+                            - generic [ref=e1638]: 22%
+                      - generic [ref=e1641]:
+                        - link "Oman" [ref=e1643] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-oman-again-in-march
+                          - paragraph [ref=e1644]: Oman
+                        - generic [ref=e1645]:
+                          - paragraph [ref=e1646]: 29%
+                          - link "Yes 29%" [ref=e1647] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-oman-again-in-march&outcomeIndex=0
+                            - generic [ref=e1648]: "Yes"
+                            - generic [ref=e1649]: 29%
+                          - link "No 71%" [ref=e1650] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-oman-again-in-march&outcomeIndex=1
+                            - generic [ref=e1651]: "No"
+                            - generic [ref=e1652]: 71%
+                      - generic [ref=e1655]:
+                        - link "Georgia" [ref=e1657] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-georgia-by-march-31
+                          - paragraph [ref=e1658]: Georgia
+                        - generic [ref=e1659]:
+                          - paragraph [ref=e1660]: 2%
+                          - link "Yes 2%" [ref=e1661] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-georgia-by-march-31&outcomeIndex=0
+                            - generic [ref=e1662]: "Yes"
+                            - generic [ref=e1663]: 2%
+                          - link "No 98%" [ref=e1664] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-georgia-by-march-31&outcomeIndex=1
+                            - generic [ref=e1665]: "No"
+                            - generic [ref=e1666]: 98%
+                      - generic [ref=e1669]:
+                        - link "Armenia" [ref=e1671] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-armenia-by-march-31
+                          - paragraph [ref=e1672]: Armenia
+                        - generic [ref=e1673]:
+                          - paragraph [ref=e1674]: 1%
+                          - link "Yes 1%" [ref=e1675] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-armenia-by-march-31&outcomeIndex=0
+                            - generic [ref=e1676]: "Yes"
+                            - generic [ref=e1677]: 1%
+                          - link "No 99%" [ref=e1678] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-armenia-by-march-31&outcomeIndex=1
+                            - generic [ref=e1679]: "No"
+                            - generic [ref=e1680]: 99%
+                      - generic [ref=e1683]:
+                        - link "印度" [ref=e1685] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-india-in-march
+                          - paragraph [ref=e1686]: 印度
+                        - generic [ref=e1687]:
+                          - paragraph [ref=e1688]: 1%
+                          - link "是. 1%" [ref=e1689] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-india-in-march&outcomeIndex=0
+                            - generic [ref=e1690]: 是.
+                            - generic [ref=e1691]: 1%
+                          - link "否. 99%" [ref=e1692] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-india-in-march&outcomeIndex=1
+                            - generic [ref=e1693]: 否.
+                            - generic [ref=e1694]: 99%
+                      - generic [ref=e1697]:
+                        - link "Hungary" [ref=e1699] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-hungary-by-march-31
+                          - paragraph [ref=e1700]: Hungary
+                        - generic [ref=e1701]:
+                          - paragraph [ref=e1702]: 1%
+                          - link "Yes 1%" [ref=e1703] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-hungary-by-march-31&outcomeIndex=0
+                            - generic [ref=e1704]: "Yes"
+                            - generic [ref=e1705]: 1%
+                          - link "No 99%" [ref=e1706] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-hungary-by-march-31&outcomeIndex=1
+                            - generic [ref=e1707]: "No"
+                            - generic [ref=e1708]: 99%
+                      - generic [ref=e1711]:
+                        - link "土耳其" [ref=e1713] [cursor=pointer]:
+                          - /url: /zh/event/which-countries-will-iran-strike-in-march/will-iran-strike-turkey-in-march
+                          - paragraph [ref=e1714]: 土耳其
+                        - generic [ref=e1715]:
+                          - paragraph [ref=e1716]: 1%
+                          - link "是. 1%" [ref=e1717] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-turkey-in-march&outcomeIndex=0
+                            - generic [ref=e1718]: 是.
+                            - generic [ref=e1719]: 1%
+                          - link "否. 99%" [ref=e1720] [cursor=pointer]:
+                            - /url: /zh/event/which-countries-will-iran-strike-in-march?marketSlug=will-iran-strike-turkey-in-march&outcomeIndex=1
+                            - generic [ref=e1721]: 否.
+                            - generic [ref=e1722]: 99%
+                    - generic [ref=e1724]:
+                      - generic [ref=e1725]:
+                        - paragraph [ref=e1726]:
+                          - generic [ref=e1727]: $4M
+                          - text: 交易量
+                        - generic [ref=e1728]:
+                          - img [ref=e1729]
+                          - generic [ref=e1734]: 每月
+                      - generic [ref=e1736]:
+                        - button "奖励" [ref=e1738] [cursor=pointer]:
+                          - img
+                        - button "Add to favorites" [ref=e1739] [cursor=pointer]
+              - button "显示更多盘口" [ref=e1742] [cursor=pointer]
+        - contentinfo [ref=e1743]:
+          - generic [ref=e1745]:
+            - generic [ref=e1746]:
+              - link "Polymarket" [ref=e1747] [cursor=pointer]:
+                - /url: /zh
+                - img "Polymarket" [ref=e1748]
+              - paragraph [ref=e1749]: 全球最大预测市场™
+            - generic [ref=e1750]:
+              - generic [ref=e1752]:
+                - heading "相关话题" [level=3] [ref=e1753]
+                - generic [ref=e1754]:
+                  - link "Israel 预测" [ref=e1755] [cursor=pointer]:
+                    - /url: /zh/predictions/israel
+                    - text: Israel
+                    - generic [ref=e1756]: 预测
+                  - link "Ali Khamenei 预测" [ref=e1757] [cursor=pointer]:
+                    - /url: /zh/predictions/ali-khamenei
+                    - text: Ali Khamenei
+                    - generic [ref=e1758]: 预测
+                  - link "Lebanon 预测" [ref=e1759] [cursor=pointer]:
+                    - /url: /zh/predictions/lebanon
+                    - text: Lebanon
+                    - generic [ref=e1760]: 预测
+                  - link "China 预测" [ref=e1761] [cursor=pointer]:
+                    - /url: /zh/predictions/china
+                    - text: China
+                    - generic [ref=e1762]: 预测
+                  - link "Strike 预测" [ref=e1763] [cursor=pointer]:
+                    - /url: /zh/predictions/strike
+                    - text: Strike
+                    - generic [ref=e1764]: 预测
+                  - link "France 预测" [ref=e1765] [cursor=pointer]:
+                    - /url: /zh/predictions/france
+                    - text: France
+                    - generic [ref=e1766]: 预测
+                  - link "Trump-Xi 预测" [ref=e1767] [cursor=pointer]:
+                    - /url: /zh/predictions/trump-xi
+                    - text: Trump-Xi
+                    - generic [ref=e1768]: 预测
+                  - link "Ukraine 预测" [ref=e1769] [cursor=pointer]:
+                    - /url: /zh/predictions/ukraine
+                    - text: Ukraine
+                    - generic [ref=e1770]: 预测
+                  - link "Russia 预测" [ref=e1771] [cursor=pointer]:
+                    - /url: /zh/predictions/russia
+                    - text: Russia
+                    - generic [ref=e1772]: 预测
+                  - link "Hezbollah 预测" [ref=e1773] [cursor=pointer]:
+                    - /url: /zh/predictions/hezbollah
+                    - text: Hezbollah
+                    - generic [ref=e1774]: 预测
+                  - generic [ref=e1775]:
+                    - generic [ref=e1777]:
+                      - link [ref=e1778] [cursor=pointer]:
+                        - /url: /zh/predictions/putin
+                        - text: Putin
+                        - generic [ref=e1779]: 预测
+                      - link [ref=e1780] [cursor=pointer]:
+                        - /url: /zh/predictions/us-iran
+                        - text: US-Iran
+                        - generic [ref=e1781]: 预测
+                      - link [ref=e1782] [cursor=pointer]:
+                        - /url: /zh/predictions/trump-zelenskyy
+                        - text: Trump-Zelenskyy
+                        - generic [ref=e1783]: 预测
+                      - link [ref=e1784] [cursor=pointer]:
+                        - /url: /zh/predictions/houthis
+                        - text: Houthis
+                        - generic [ref=e1785]: 预测
+                      - link [ref=e1786] [cursor=pointer]:
+                        - /url: /zh/predictions/shah
+                        - text: Shah
+                        - generic [ref=e1787]: 预测
+                      - link [ref=e1788] [cursor=pointer]:
+                        - /url: /zh/predictions/yemen
+                        - text: Yemen
+                        - generic [ref=e1789]: 预测
+                      - link [ref=e1790] [cursor=pointer]:
+                        - /url: /zh/predictions/nuclear
+                        - text: Nuclear
+                        - generic [ref=e1791]: 预测
+                      - link [ref=e1792] [cursor=pointer]:
+                        - /url: /zh/predictions/ayatollah
+                        - text: Ayatollah
+                        - generic [ref=e1793]: 预测
+                      - link [ref=e1794] [cursor=pointer]:
+                        - /url: /zh/predictions/mojtaba
+                        - text: Mojtaba
+                        - generic [ref=e1795]: 预测
+                    - button "查看更多" [ref=e1796] [cursor=pointer]:
+                      - generic [ref=e1797]: 查看更多
+                      - img [ref=e1798]
+              - generic [ref=e1801]:
+                - 'heading "{分类} 热门盘口" [level=3] [ref=e1802]'
+                - generic [ref=e1803]:
+                  - link "下一次美伊外交会晤将在哪里举行？" [ref=e1804] [cursor=pointer]:
+                    - /url: /zh/event/where-will-the-next-us-iran-diplomatic-meeting-happen-811
+                  - link "Will gas hit __ by end of April?" [ref=e1805] [cursor=pointer]:
+                    - /url: /zh/event/will-gas-hit-by-end-of-april
+                  - link "哈格岛石油码头会受到……的袭击吗？" [ref=e1806] [cursor=pointer]:
+                    - /url: /zh/event/will-the-kharg-island-oil-terminal-be-hit-by-march-31
+                  - link "Mojtaba Khamenei公开露面... ？" [ref=e1807] [cursor=pointer]:
+                    - /url: /zh/event/mojtaba-khamenei-public-appearance-by
+                  - link "在4月30日之前达成美伊核协议？" [ref=e1808] [cursor=pointer]:
+                    - /url: /zh/event/us-iran-nuclear-deal-by-april-30
+                  - link "Will another country conduct military action against Iran by...?" [ref=e1809] [cursor=pointer]:
+                    - /url: /zh/event/will-another-country-conduct-military-action-against-iran-by
+                  - link "Bab el-Mandeb海峡实际上是由……关闭的？" [ref=e1810] [cursor=pointer]:
+                    - /url: /zh/event/bab-el-mandeb-strait-effectively-closed-by
+                  - link "Military action against Iran ends on...?" [ref=e1811] [cursor=pointer]:
+                    - /url: /zh/event/military-action-against-iran-ends-on-127
+                  - link "JD Vance与伊朗的外交会晤在... ？" [ref=e1812] [cursor=pointer]:
+                    - /url: /zh/event/jd-vance-diplomatic-meeting-with-iran-by
+                  - link "到3月31日，美国/以色列将在伊朗瞄准什么？" [ref=e1813] [cursor=pointer]:
+                    - /url: /zh/event/what-will-the-usisrael-target-in-iran-by-march-31
+                  - generic [ref=e1814]:
+                    - generic [ref=e1816]:
+                      - link [ref=e1817] [cursor=pointer]:
+                        - /url: /zh/event/israel-x-hezbollah-ceasefire-by
+                        - text: 以色列x真主党停火…… ？
+                      - link [ref=e1818] [cursor=pointer]:
+                        - /url: /zh/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30
+                        - text: Which countries will send warships through the Strait of Hormuz by April 30?
+                      - link [ref=e1819] [cursor=pointer]:
+                        - /url: /zh/event/military-action-against-iran-ends-by
+                        - text: Military action against Iran ends by...?
+                      - link [ref=e1820] [cursor=pointer]:
+                        - /url: /zh/event/will-reza-pahlavi-lead-iran-in-2026
+                        - text: 礼萨·巴列维会在2026年领导伊朗吗？
+                      - link [ref=e1821] [cursor=pointer]:
+                        - /url: /zh/event/gulf-state-military-action-against-iran-by
+                        - text: Gulf State military action against Iran by...?
+                      - link [ref=e1822] [cursor=pointer]:
+                        - /url: /zh/event/iran-military-action-against-israel-on-628
+                        - text: Iran military action against Israel on...?
+                      - link [ref=e1823] [cursor=pointer]:
+                        - /url: /zh/event/israel-ground-operation-in-iran-confirmed-by
+                        - text: 以色列在伊朗的地面行动得到……的证实？
+                      - link [ref=e1824] [cursor=pointer]:
+                        - /url: /zh/event/houthi-military-action-against-israel-by
+                        - text: 胡塞武装通过……对以色列采取军事行动？
+                      - link [ref=e1825] [cursor=pointer]:
+                        - /url: /zh/event/iran-agrees-to-end-enrichment-of-uranium-by-april-30
+                        - text: 伊朗同意在4月30日前结束铀浓缩？
+                      - link [ref=e1826] [cursor=pointer]:
+                        - /url: /zh/event/iran-confirmed-not-to-participate-in-2026-fifa-world-cup-by-march-31
+                        - text: 伊朗退出FIFA世界杯的原因是…… ？
+                    - button "查看更多" [ref=e1827] [cursor=pointer]:
+                      - generic [ref=e1828]: 查看更多
+                      - img [ref=e1829]
+              - generic [ref=e1832]:
+                - 'heading "{分类} 新盘口" [level=3] [ref=e1833]'
+                - generic [ref=e1834]:
+                  - link "US obtains Iranian enriched uranium by May 31?" [ref=e1835] [cursor=pointer]:
+                    - /url: /zh/event/us-obtains-iranian-enriched-uranium-by-may-31
+                  - link "Strait of Hormuz traffic returns to normal by end of May?" [ref=e1836] [cursor=pointer]:
+                    - /url: /zh/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-may
+                  - link "Iran agrees to end enrichment of uranium by December 31?" [ref=e1837] [cursor=pointer]:
+                    - /url: /zh/event/iran-agrees-to-end-enrichment-of-uranium-by-december-31
+                  - link "Crude Oil all time high by April 30?" [ref=e1838] [cursor=pointer]:
+                    - /url: /zh/event/crude-oil-all-time-high-by-april-30
+                  - link "Will any country expel an Israeli ambassador by December 31?" [ref=e1839] [cursor=pointer]:
+                    - /url: /zh/event/will-any-country-expel-an-israeli-ambassador-by-december-31
+                  - link "Will any country expel a U.S. ambassador by December 31?" [ref=e1840] [cursor=pointer]:
+                    - /url: /zh/event/will-any-country-expel-a-us-ambassador-by-december-31
+                  - link "Will gas hit __ by end of April?" [ref=e1841] [cursor=pointer]:
+                    - /url: /zh/event/will-gas-hit-by-end-of-april
+                  - link "How many ships transit the Strait of Hormuz this week? (Mar 30-Apr 5)" [ref=e1842] [cursor=pointer]:
+                    - /url: /zh/event/how-many-ships-transit-the-strait-of-hormuz-this-week-mar-30-apr-5
+                  - link "Will USD hit ___ Iranian rials by April 30?" [ref=e1843] [cursor=pointer]:
+                    - /url: /zh/event/will-usd-hit-iranian-rials-by-april-30
+                  - link "标准普尔500指数本周打破连跌纪录？" [ref=e1844] [cursor=pointer]:
+                    - /url: /zh/event/sp-500-breaks-its-losing-streak-this-week
+                  - generic [ref=e1845]:
+                    - generic [ref=e1847]:
+                      - link [ref=e1848] [cursor=pointer]:
+                        - /url: /zh/event/how-many-different-countries-will-israel-strike-in-april
+                        - text: 4月份以色列将对多少国家采取军事行动？
+                      - link [ref=e1849] [cursor=pointer]:
+                        - /url: /zh/event/military-action-against-iran-ends-on-127
+                        - text: Military action against Iran ends on...?
+                      - link [ref=e1850] [cursor=pointer]:
+                        - /url: /zh/event/military-action-against-iran-ends-by-522
+                        - text: Military action against Iran ends by...?
+                      - link [ref=e1851] [cursor=pointer]:
+                        - /url: /zh/event/mohammed-bin-salman-out-as-leader-of-saudi-arabia-by
+                        - text: Mohammed bin Salman out as leader of Saudi Arabia by...?
+                      - link [ref=e1852] [cursor=pointer]:
+                        - /url: /zh/event/which-countries-will-send-warships-through-the-strait-of-hormuz-by-april-30
+                        - text: Which countries will send warships through the Strait of Hormuz by April 30?
+                      - link [ref=e1853] [cursor=pointer]:
+                        - /url: /zh/event/abbas-araghchi-out-as-minister-of-foreign-affairs-of-iran-by
+                        - text: Abbas Araghchi out as Minister of Foreign Affairs of Iran by...?
+                      - link [ref=e1854] [cursor=pointer]:
+                        - /url: /zh/event/gulf-state-military-action-against-iran-by
+                        - text: Gulf State military action against Iran by...?
+                      - link [ref=e1855] [cursor=pointer]:
+                        - /url: /zh/event/israel-military-action-against-iranian-power-plant-by-april-30
+                        - text: Israel military action against Iranian Power Plant by April 30?
+                      - link [ref=e1856] [cursor=pointer]:
+                        - /url: /zh/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by
+                        - text: Iran agrees to surrender enriched uranium stockpile by...?
+                      - link [ref=e1857] [cursor=pointer]:
+                        - /url: /zh/event/us-x-iran-ceasefire-before-oil-hits-120
+                        - text: 在石油价格触及120 $之前，美国x伊朗停火？
+                    - button "查看更多" [ref=e1858] [cursor=pointer]:
+                      - generic [ref=e1859]: 查看更多
+                      - img [ref=e1860]
+            - generic [ref=e1862]:
+              - generic [ref=e1863]:
+                - generic [ref=e1864]:
+                  - link "Email" [ref=e1865] [cursor=pointer]:
+                    - /url: mailto:hello@polymarket.com
+                    - img [ref=e1866]
+                  - link "X (Twitter)" [ref=e1870] [cursor=pointer]:
+                    - /url: https://x.com/Polymarket
+                    - img [ref=e1871]
+                  - link "Instagram" [ref=e1873] [cursor=pointer]:
+                    - /url: https://www.instagram.com/polymarket
+                    - img [ref=e1874]
+                  - link "Discord" [ref=e1879] [cursor=pointer]:
+                    - /url: https://discord.gg/Polymarket
+                    - img [ref=e1880]
+                  - link "TikTok" [ref=e1882] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@polymarket
+                    - img [ref=e1883]
+                - generic [ref=e1885]:
+                  - generic [ref=e1886]: Adventure One QSS Inc. © 2026
+                  - generic [ref=e1887]: ·
+                  - link "隐私" [ref=e1888] [cursor=pointer]:
+                    - /url: /zh/privacy
+                  - generic [ref=e1889]: ·
+                  - link "使用条款" [ref=e1890] [cursor=pointer]:
+                    - /url: https://polymarket.com/tos
+                  - generic [ref=e1891]: ·
+                  - link "市场诚信" [ref=e1892] [cursor=pointer]:
+                    - /url: /zh/market-integrity
+                  - generic [ref=e1893]: ·
+                  - link "帮助中心" [ref=e1894] [cursor=pointer]:
+                    - /url: https://help.polymarket.com
+                  - generic [ref=e1895]: ·
+                  - link "文档" [ref=e1896] [cursor=pointer]:
+                    - /url: https://docs.polymarket.com
+                - button "中文" [ref=e1897] [cursor=pointer]:
+                  - img [ref=e1898]
+                  - generic [ref=e1901]: 中文
+                  - img [ref=e1902]
+              - paragraph [ref=e1904]:
+                - text: Polymarket通过独立法律实体在全球运营。
+                - link "Polymarket US" [ref=e1905] [cursor=pointer]:
+                  - /url: https://polymarket.us/
+                - text: 由QCX LLC d/b/a Polymarket US运营，其为受CFTC监管的Designated Contract Market。本国际平台不受CFTC监管，并独立运营。交易存在重大亏损风险。请参阅我们的《
+                - link "服务条款" [ref=e1906] [cursor=pointer]:
+                  - /url: https://polymarket.com/tos
+                - text: 》和《
+                - link "隐私政策" [ref=e1907] [cursor=pointer]:
+                  - /url: https://polymarket.com/privacy
+                - text: 》。本翻译仅供参考。如英文文本与本翻译之间存在任何差异，以英文版本为准。
+    - navigation "Primary navigation" [ref=e1909]:
+      - generic [ref=e1911]:
+        - link "首页" [ref=e1913] [cursor=pointer]:
+          - /url: /zh
+          - generic [ref=e1914]:
+            - img [ref=e1915]
+            - paragraph [ref=e1917]: 首页
+        - button "Search" [ref=e1919]:
+          - img [ref=e1920]
+          - paragraph [ref=e1923]: 搜索
+        - link "突发" [ref=e1925] [cursor=pointer]:
+          - /url: /zh/breaking
+          - generic [ref=e1926]:
+            - img [ref=e1927]
+            - paragraph [ref=e1930]: 突发
+        - button "More menu" [ref=e1932]:
+          - img [ref=e1933]
+          - paragraph [ref=e1934]: 更多
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=e1935]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T20:59:00.518686",
+  "generated_at": "2026-04-01T21:03:16.059051",
   "n_simulations": 10000,
   "probability_methodology": "Five-Factor Model (unified with /analyze pipeline)",
   "scenario_probabilities": {
@@ -13,7 +13,7 @@
       "market_pain_factor": 1.0,
       "counterparty_signal": -0.3,
       "domestic_pressure": 0.0,
-      "polymarket_calibration": -0.01525,
+      "polymarket_calibration": -0.01475,
       "confidence": 0.7
     }
   },

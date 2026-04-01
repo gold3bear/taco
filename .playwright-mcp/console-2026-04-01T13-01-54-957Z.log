@@ -1,0 +1,1 @@
+[    4881ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3DTrump%2BIran%2Bnuclear%2Bstatement:0

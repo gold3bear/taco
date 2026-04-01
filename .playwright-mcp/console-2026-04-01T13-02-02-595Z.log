@@ -1,0 +1,8 @@
+[     189ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3DTrump%2BIran%2Bnuclear%2Bstatement:0
+[     189ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://accounts.google.com/gsi/client:81
+[     189ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3DTrump%2BIran%2Bnuclear%2Bstatement:0
+[     189ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3DTrump%2BIran%2Bnuclear%2Bstatement:0
+[     189ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://accounts.google.com/gsi/client:81
+[    2484ms] [WARNING] @next/third-parties: GA has not been initialized @ https://polymarket.com/_next/static/chunks/0mp-i~jor6d7k.js?dpl=dpl_ECanUmanTeVTwNhkA9EAfw7g5HgS:5
+[    3124ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://gamma-api.polymarket.com/is-logged-in:0
+[    4552ms] [INFO] [LaunchDarkly] LaunchDarkly client initialized @ https://auth.magic.link/_next/static/chunks/5225292341aa438b.js:0
