@@ -45,21 +45,21 @@
     },
     "BTC-USD": {
       "name": "Bitcoin",
-      "current_price": 68346.6719,
+      "current_price": 68161.6562,
       "prev_close": 68233.3125,
-      "day_change_pct": 0.166,
+      "day_change_pct": -0.105,
       "price_at_threat_date": 66691.4453,
-      "change_since_threat_pct": 2.482,
+      "change_since_threat_pct": 2.204,
       "high_30d": 75988.3984,
       "low_30d": 64971.707
     },
     "^VIX": {
       "name": "CBOE VIX",
-      "current_price": 24.83,
+      "current_price": 25.15,
       "prev_close": 25.25,
-      "day_change_pct": -1.663,
+      "day_change_pct": -0.396,
       "price_at_threat_date": 30.61,
-      "change_since_threat_pct": -18.883,
+      "change_since_threat_pct": -17.837,
       "high_30d": 35.3,
       "low_30d": 17.5
     },
@@ -105,11 +105,11 @@
     },
     "CL=F": {
       "name": "WTI Crude Oil Futures",
-      "current_price": 100.22,
+      "current_price": 100.57,
       "prev_close": 101.38,
-      "day_change_pct": -1.144,
+      "day_change_pct": -0.799,
       "price_at_threat_date": 102.88,
-      "change_since_threat_pct": -2.586,
+      "change_since_threat_pct": -2.245,
       "high_30d": 119.48,
       "low_30d": 63.6
     }

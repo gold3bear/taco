@@ -1,0 +1,114 @@
+{
+  "analysis_date": "2026-04-01",
+  "statement_type": "MILITARY",
+  "reversal_probability": 0.332,
+  "confidence": 0.70,
+  "factors": {
+    "factor_1_base_rate": {
+      "name": "base_rate",
+      "value": 0.38,
+      "details": {
+        "statement_type": "MILITARY",
+        "base_rate_source": "models/statement.py BASE_REVERSAL_RATES"
+      }
+    },
+    "factor_2_market_pain": {
+      "name": "market_pain",
+      "value": 1.0,
+      "weight": 0.25,
+      "details": {
+        "vix_current": 25.15,
+        "vix_threshold": ">20",
+        "pain_level": "maximum"
+      }
+    },
+    "factor_3_counterparty": {
+      "name": "counterparty",
+      "value": -0.30,
+      "details": {
+        "signal": "survival_stakes + hard_rejection",
+        "iran_signal_description": "IRGC/Supreme Leader stated 'no negotiations under threats'",
+        "signal_values": {
+          "survival_stakes": -0.30,
+          "hard_rejection": -0.25
+        }
+      }
+    },
+    "factor_4_domestic": {
+      "name": "domestic_pressure",
+      "value": 0.0,
+      "details": {
+        "gas_price": 2.40,
+        "midterm_months": 12,
+        "market_drawdown": 0.0,
+        "note": "Oil at $100.57/bbl translates to ~$2.40/gallon, below $4 threshold"
+      }
+    },
+    "factor_5_polymarket": {
+      "name": "polymarket_calibration",
+      "value": -0.01475,
+      "weight": 0.05,
+      "details": {
+        "polymarket_backdown_prob": 0.085,
+        "our_base_estimate": 0.38,
+        "divergence": 0.295,
+        "divergence_threshold": 0.25,
+        "large_divergence_flag": true,
+        "interpretation": "Polymarket shows only 8.5% backdown probability vs our 38% model estimate - significant disagreement"
+      }
+    }
+  },
+  "time_series": {
+    "day_0_threat": 0.380,
+    "day_2_current": 0.332,
+    "day_7": 0.357,
+    "day_14_peak": 0.432,
+    "day_21": 0.419,
+    "day_30": 0.406,
+    "formula_day_below_peak": "base_prob * (1 + 0.02 * day)",
+    "formula_day_above_peak": "base_prob * (0.97 ^ (day - 14))"
+  },
+  "desensitization": {
+    "multiplier": 1.0,
+    "nth_similar_threat": 1,
+    "note": "First significant Iran threat in this sequence"
+  },
+  "signals_to_watch": [
+    {
+      "signal": "iran_diplomatic_back_channel",
+      "description": "Any reported indirect talks between US/Iran intermediaries",
+      "weight": "+0.15 to Factor3"
+    },
+    {
+      "signal": "vix_decline_below_20",
+      "description": "VIX dropping below 20 threshold reduces Factor2 to 0.7",
+      "weight": "Reduces pressure for reversal"
+    },
+    {
+      "signal": "iran_oil_exports",
+      "description": "Any sanctions relief or export permits signal concession",
+      "weight": "+0.10 to Factor3"
+    },
+    {
+      "signal": "trump_diplomatic_language",
+      "description": "Trump using 'talking', 'negotiating', 'good progress' language",
+      "weight": "TACO signal - reversal probability increases"
+    },
+    {
+      "signal": "polymarket_backdown_above_15pct",
+      "description": "If Polymarket backdown probability rises above 15%, Factor5 recalibrates positive",
+      "weight": "Would increase reversal probability"
+    }
+  ],
+  "model_metadata": {
+    "model": "FiveFactorModel",
+    "formula": "P = Factor1 × (1 + 0.25×Factor2) × (1 + Factor3) × (1 + Factor4) × (1 + 0.05×Factor5)",
+    "source_file": "models/five_factor.py",
+    "calculation_notes": "Iran is military/nuclear threat with IRGC survival stakes. IRGC cannot accept face-saving exit - this structurally reduces TACO probability vs trade scenarios."
+  },
+  "contradiction_flags": [
+    "STRUCTURAL: Iran under IRGC cannot accept face-saving exit - TACO probability near zero despite model output",
+    "OIL INFLATION: Oil >$85/bbl gives Trump domestic energy pressure that historically reduces TACO rate",
+    "DUAL SIGNAL: Trump pushing 'uranium extraction' deal while threatening strikes - negotiation framework exists"
+  ]
+}

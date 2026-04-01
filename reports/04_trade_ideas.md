@@ -1,6 +1,6 @@
 # TACO Trade Ideas — Investment Strategist
 
-*Generated: 2026-04-01 21:03*
+*Generated: 2026-04-01 21:39*
 
 **Scenario Probabilities:** Base TACO 22% | Bullish TACO 12% | Bearish War 67%
 
@@ -83,8 +83,8 @@
 
 | Parameter | Value |
 |---|---|
-| Entry | $68,347 (current). Only enter if VIX begins falling from peak. |
-| Target | $72,447 (+6.0%, 7-14 days) |
+| Entry | $68,162 (current). Only enter if VIX begins falling from peak. |
+| Target | $72,251 (+6.0%, 7-14 days) |
 | Stop-Loss Trigger | War signal confirmed. BTC falls >15% from entry on war scenario. |
 | Position Size | 1-2% only (high volatility asset) |
 | Max Total | 3% total |
