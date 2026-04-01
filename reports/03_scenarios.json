@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-04-01T14:59:13.086280",
+  "generated_at": "2026-04-01T20:54:48.955797",
   "n_simulations": 10000,
-  "probability_methodology": "Bayesian: base_rate \u00d7 oil_adj \u00d7 military_penalty + 30% Polymarket weight",
+  "probability_methodology": "Five-Factor Model (unified with /analyze pipeline)",
   "scenario_probabilities": {
-    "base_taco": 0.264,
-    "bullish_taco": 0.142,
-    "bearish_war": 0.594,
-    "total_taco_prob": 0.406,
-    "methodology": "Bayesian: base_rate \u00d7 oil_adj \u00d7 military_penalty + 30% Polymarket weight"
+    "base_taco": 0.216,
+    "bullish_taco": 0.116,
+    "bearish_war": 0.668,
+    "total_taco_prob": 0.332,
+    "methodology": "Five-Factor Model (unified with /analyze pipeline)",
+    "five_factor_details": {
+      "base_rate": 0.38,
+      "market_pain_factor": 1.0,
+      "counterparty_signal": -0.3,
+      "domestic_pressure": 0.0,
+      "polymarket_calibration": -0.01525,
+      "confidence": 0.7
+    }
   },
   "scenarios": {
     "base_taco": {
       "name": "Base TACO",
-      "probability": 0.264,
+      "probability": 0.216,
       "description": "Trump backs down within 14 days. Deal/pause announced. Markets front-run recovery.",
       "trigger_note": "Medium-confidence TACO. Oil elevated reduces certainty vs pure trade TACOs.",
       "timeline_days": 14,
@@ -185,7 +193,7 @@
     },
     "bullish_taco": {
       "name": "Bullish TACO (Fast)",
-      "probability": 0.142,
+      "probability": 0.116,
       "description": "Trump backs down within 7 days due to market pain exceeding threshold. Rapid V-shaped recovery.",
       "trigger_note": "Faster resolution triggered by VIX spike or S&P crossing 5% drawdown.",
       "timeline_days": 7,
@@ -358,7 +366,7 @@
     },
     "bearish_war": {
       "name": "Bearish No-TACO (War)",
-      "probability": 0.594,
+      "probability": 0.668,
       "description": "Military escalation. Iran closes Hormuz or US strikes. No deal in 30-day window.",
       "trigger_note": "TACO failure case. Oil shock, equity bear market, recession risk.",
       "timeline_days": 45,

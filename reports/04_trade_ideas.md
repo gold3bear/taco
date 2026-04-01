@@ -1,6 +1,6 @@
 # TACO Trade Ideas — Investment Strategist
 
-*Generated: 2026-04-01 14:59*
+*Generated: 2026-04-01 20:48*
 
 **Scenario Probabilities:** Base TACO 26% | Bullish TACO 14% | Bearish War 59%
 
@@ -42,8 +42,8 @@
 | Stop-Loss Trigger | US military strike confirmed (oil spikes >20%) → cover immediately. Alternative: use puts with defined max loss = premium paid. |
 | Position Size | 2-3% (lower size due to war tail risk on short side) |
 | Max Total | 5% total |
-| Expected Value (30d) | -5.10% (short P&L) |
-| Risk/Reward | 0.4:1 |
+| Expected Value (30d) | -4.67% (short P&L) |
+| Risk/Reward | 0.3:1 |
 | Scenario-Weighted Sharpe | -1.91 |
 | Position Rule Check | USE PUT OPTIONS — limits defined loss in war scenario |
 

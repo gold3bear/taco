@@ -83,7 +83,7 @@ COUNTERPARTY_SIGNALS = {
     "TACO-004": "symbolic_concession",  # Mexico cooperation pledge
     "TACO-005": "neutral",  # Extension
     "TACO-007": "third_party_mediator",  # Panama gave assurances
-    "TACO-008": "hard_rejection",  # Greenland/Denmark firmly rejected
+    "TACO-008": "neutral",  # Greenland/Denmark rejected but Trump dropped without concession (unrealistic goal)
     "TACO-009": "counter_offer",  # EU negotiated
     "TACO-010": "counter_offer",  # Geneva deal
     "TACO-011": "survival_stakes",  # Iran - IRGC

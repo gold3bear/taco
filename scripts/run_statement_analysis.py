@@ -118,23 +118,34 @@ def run_five_factor_analysis(
     model = FiveFactorModel()
 
     # Extract polymarket probability if available
+    # IMPORTANT: FiveFactorModel expects BACKDOWN probability, not war probability
     polymarket_prob = None
     if polymarket_data:
-        # Try to find relevant probability
         entity = statement.target_entity.lower()
         if entity == "iran" and "iran_war_prob" in polymarket_data:
-            polymarket_prob = polymarket_data.get("iran_war_prob")
+            # Convert war_prob to backdown_prob
+            war_prob = polymarket_data.get("iran_war_prob", 0.925)
+            polymarket_prob = 1.0 - war_prob
         elif "trump_backdown_prob" in polymarket_data:
-            polymarket_prob = 1.0 - polymarket_data.get("iran_war_prob", 0.5)
+            polymarket_prob = polymarket_data.get("trump_backdown_prob")
+        elif "iran_war_prob" in polymarket_data:
+            war_prob = polymarket_data.get("iran_war_prob", 0.5)
+            polymarket_prob = 1.0 - war_prob
 
     # Get base return for desensitization
     base_return = get_market_reaction_estimate(statement)
+
+    # Determine counterparty signal based on target entity
+    # Iran is controlled by IRGC with survival stakes - cannot accept face-saving exit
+    counterparty_signal = market_context.get("counterparty_signal", "neutral")
+    if statement.target_entity.lower() == "iran":
+        counterparty_signal = "survival_stakes"
 
     # Run model
     result = model.calculate(
         statement_type=statement.statement_type,
         vix_current=market_context.get("vix", 20.0),
-        counterparty_signal=market_context.get("counterparty_signal", "neutral"),
+        counterparty_signal=counterparty_signal,
         gas_price=market_context.get("gas_price", 3.50),
         midterm_months=market_context.get("midterm_months", 18),
         market_drawdown=market_context.get("market_drawdown", 0.0),

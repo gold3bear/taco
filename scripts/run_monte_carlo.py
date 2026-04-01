@@ -29,6 +29,12 @@ REPORTS_DIR.mkdir(exist_ok=True)
 N_SIMULATIONS = 10_000
 RANDOM_SEED = 42
 
+# Five-Factor Model import for unified probability
+import sys
+sys.path.insert(0, str(BASE_DIR))
+from models.five_factor import FiveFactorModel
+from models.statement import StatementType
+
 
 # ---------------------------------------------------------------------------
 # Load Inputs
@@ -57,51 +63,56 @@ def load_inputs() -> tuple:
 
 
 # ---------------------------------------------------------------------------
-# Bayesian Probability Calculation
+# Five-Factor Model Probability (Unified with /analyze)
 # ---------------------------------------------------------------------------
-def compute_scenario_probs(bible: dict, context: dict) -> dict:
+def compute_scenario_probs(bible: dict, context: dict, snapshot: dict) -> dict:
     """
-    Compute scenario probabilities using Bayesian updating.
+    Compute scenario probabilities using Five-Factor Model.
 
-    Base rate: historical TACO success rate
-    Adjustments:
-      - VIX pain point hit → +15% (more market pain = more pressure to TACO)
-      - Oil above $85 → -33% (reduces TACO rate by ~33% historically)
-      - Military context → -18% (structural penalty vs trade TACOs)
-      - Polymarket TACO signal → directional adjustment
-      - Days since threat → increasing pressure on Base TACO, reduces Bullish
+    This unifies the /taco and /analyze pipelines by using the same
+    Five-Factor Model that powers the statement-driven architecture.
+
+    The old approach used 85.7% overall TACO base rate, but the correct
+    base rate for MILITARY type is 38% (Five-Factor Factor 1).
     """
-    base_rate = bible.get("taco_success_rate_overall", 0.857)
-    oil_above_85 = context.get("oil_above_85", False)
-    vix_pain = context.get("pain_point_vix_hit", False)
-    sp_pain = context.get("pain_point_sp_hit", False)
-    pm_backdown = context.get("polymarket_trump_backdown_prob", 0.62)
-    days = context.get("days_since_threat", 1)
+    model = FiveFactorModel()
 
-    # Start with base rate
-    p_taco = base_rate
+    # Extract market context
+    vix_current = 20.0
+    if "assets" in snapshot and "^VIX" in snapshot["assets"]:
+        vix_current = snapshot["assets"]["^VIX"].get("current_price", 20.0)
 
-    # Oil adjustment
-    if oil_above_85:
-        oil_ratio = bible.get("oil_conditional", {}).get("heuristic_taco_rate_oil_above_85", 0.55) / \
-                    bible.get("oil_conditional", {}).get("heuristic_taco_rate_oil_below_85", 0.88)
-        p_taco *= oil_ratio
+    sp500_current = 5000.0
+    if "assets" in snapshot and "SPY" in snapshot["assets"]:
+        sp500_current = snapshot["assets"]["SPY"].get("current_price", 5000.0)
 
-    # VIX/market pain → more likely to TACO faster
-    if vix_pain or sp_pain:
-        p_taco = min(0.92, p_taco * 1.15)
+    # Calculate market drawdown
+    sp_at_threat = snapshot.get("threat_date", {})
+    if isinstance(sp_at_threat, dict):
+        sp_change = 0.0
+    else:
+        sp_change = snapshot.get("sp500_since_threat_pct", 0.0)
+    market_drawdown = max(0.0, abs(sp_change))
 
-    # Military/nuclear context penalty
-    p_taco *= 0.82
+    # Polymarket probabilities (now correctly fallabck to 0.925/0.075)
+    pm_war = context.get("polymarket_iran_war_prob", 0.925)
+    pm_backdown = context.get("polymarket_trump_backdown_prob", 0.075)
 
-    # Polymarket Bayesian update (treat as independent signal, 30% weight)
-    p_taco = 0.70 * p_taco + 0.30 * pm_backdown
+    # For Five-Factor Model: polymarket_prob is backdown probability
+    # so we use pm_backdown directly
+    ff_result = model.calculate(
+        statement_type=StatementType.MILITARY,
+        vix_current=vix_current,
+        counterparty_signal="survival_stakes",  # Iran IRGC
+        gas_price=context.get("gas_price_usd_gallon", 3.50),
+        midterm_months=18,  # Assume midterm > 6 months
+        market_drawdown=market_drawdown,
+        polymarket_prob=pm_backdown,
+        nth_similar_threat=1,
+        base_return=-1.8,
+    )
 
-    # Days since threat: after 30 days, probability of fast TACO drops
-    if days > 30:
-        p_taco *= 0.85
-
-    p_taco = float(np.clip(p_taco, 0.20, 0.90))
+    p_taco = ff_result.probability
 
     # Split TACO probability between Base and Bullish
     # Bullish = TACO resolves fast (≤7 days) — about 35% of all TACOs historically
@@ -116,7 +127,15 @@ def compute_scenario_probs(bible: dict, context: dict) -> dict:
         "bullish_taco": round(p_bullish / total, 3),
         "bearish_war": round(p_war / total, 3),
         "total_taco_prob": round(p_taco, 3),
-        "methodology": "Bayesian: base_rate × oil_adj × military_penalty + 30% Polymarket weight"
+        "methodology": "Five-Factor Model (unified with /analyze pipeline)",
+        "five_factor_details": {
+            "base_rate": ff_result.factor_1.value,
+            "market_pain_factor": ff_result.factor_2.value,
+            "counterparty_signal": ff_result.factor_3.value,
+            "domestic_pressure": ff_result.factor_4.value,
+            "polymarket_calibration": ff_result.factor_5.value,
+            "confidence": ff_result.confidence,
+        }
     }
 
 
@@ -325,7 +344,7 @@ def main():
     bible, context, snapshot = load_inputs()
 
     print("\n[1/3] Computing scenario probabilities...")
-    probs = compute_scenario_probs(bible, context)
+    probs = compute_scenario_probs(bible, context, snapshot)
     print(f"  Base TACO:    {probs['base_taco']*100:.1f}%")
     print(f"  Bullish TACO: {probs['bullish_taco']*100:.1f}%")
     print(f"  Bearish War:  {probs['bearish_war']*100:.1f}%")
