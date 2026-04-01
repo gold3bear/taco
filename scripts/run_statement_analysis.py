@@ -62,9 +62,19 @@ def load_market_context() -> dict:
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Extract VIX from assets structure (NEW-004 fix)
+    vix = 20.0
+    if "assets" in data and "^VIX" in data["assets"]:
+        vix = data["assets"]["^VIX"].get("current_price", 20.0)
+
+    # Extract S&P500 from assets
+    sp500 = 5000.0
+    if "assets" in data and "SPY" in data["assets"]:
+        sp500 = data["assets"]["SPY"].get("current_price", 5000.0)
+
     return {
-        "vix": data.get("vix", 20.0),
-        "sp500": data.get("sp500", 5000.0),
+        "vix": vix,
+        "sp500": sp500,
         "oil_price": data.get("oil_price", 85.0),
         "gas_price": data.get("gas_price", 3.50),
         "midterm_months": data.get("midterm_months", 18),

@@ -194,12 +194,15 @@ def build_trade_ideas(scenarios: dict, prices: dict, context: dict) -> list:
     try:
         xle_base_r = float(xle_base_7d.replace("%", ""))
         xle_bear_r = float(xle_bear_7d.replace("%", ""))
+        xle_bull_7d = scenarios["scenarios"]["bullish_taco"]["summary"].get("XLE", {}).get("7d_mean", "-8.0")
+        xle_bull_r = float(xle_bull_7d.replace("%", ""))
     except Exception:
-        xle_base_r, xle_bear_r = -5.0, 12.0
+        xle_base_r, xle_bear_r, xle_bull_r = -5.0, 12.0, -8.0
 
-    # For short: profit when XLE falls
-    xle_ev_short = p_taco * abs(xle_base_r) - p_bear * xle_bear_r
-    xle_rr = abs(xle_base_r) / abs(xle_bear_r) if xle_bear_r != 0 else 0
+    # For short: profit when XLE falls (base + bull scenarios), loss when XLE rises (bear scenario)
+    # XLE returns: base ~-5%, bull ~-8%, bear ~+12%
+    xle_ev_short = p_base * abs(xle_base_r) + p_bull * abs(xle_bull_r) - p_bear * xle_bear_r
+    xle_rr = (p_base * abs(xle_base_r) + p_bull * abs(xle_bull_r)) / (p_bear * abs(xle_bear_r)) if xle_bear_r != 0 else 0
 
     trades.append({
         "trade_id": "T2",

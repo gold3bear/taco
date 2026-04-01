@@ -282,8 +282,8 @@ def fetch_polymarket_iran() -> dict:
         "source": "L4-estimated",
         "fetched_at": ANALYSIS_DATE,
         "markets": [],
-        "iran_war_prob": 0.18,
-        "trump_backdown_prob": 0.62,
+        "iran_war_prob": 0.925,
+        "trump_backdown_prob": 0.075,
         "note": "Polymarket API unavailable — estimates from KB"
     }
 
@@ -433,8 +433,8 @@ def build_iran_context(market_snapshot: dict, polymarket: dict, us10y: dict) -> 
         "oil_est_bbl": round(float(oil_est_bbl), 1),
         "btc_since_threat_pct": round(float(btc_since_threat), 3),
         "us10y_yield_pct": us10y.get("yield_pct", 4.35),
-        "polymarket_iran_war_prob": polymarket.get("iran_war_prob", 0.18),
-        "polymarket_trump_backdown_prob": polymarket.get("trump_backdown_prob", 0.62),
+        "polymarket_iran_war_prob": polymarket.get("iran_war_prob", 0.925),
+        "polymarket_trump_backdown_prob": polymarket.get("trump_backdown_prob", 0.075),
         "pain_point_vix_hit": vix_pain_hit,
         "pain_point_sp_hit": sp_pain_hit,
         "oil_above_85": oil_above_85,
