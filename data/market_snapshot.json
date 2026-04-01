@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-04-01",
+  "threat_date": "2026-03-30",
+  "days_since_threat": 2,
+  "assets": {
+    "SPY": {
+      "name": "S&P 500 ETF",
+      "current_price": 650.34,
+      "prev_close": 631.97,
+      "day_change_pct": 2.907,
+      "price_at_threat_date": 631.97,
+      "change_since_threat_pct": 2.907,
+      "high_30d": 691.7907,
+      "low_30d": 629.28
+    },
+    "QQQ": {
+      "name": "Nasdaq 100 ETF",
+      "current_price": 577.18,
+      "prev_close": 558.28,
+      "day_change_pct": 3.385,
+      "price_at_threat_date": 558.28,
+      "change_since_threat_pct": 3.385,
+      "high_30d": 616.0532,
+      "low_30d": 555.6
+    },
+    "USO": {
+      "name": "Oil ETF (WTI proxy)",
+      "current_price": 127.25,
+      "prev_close": 129.83,
+      "day_change_pct": -1.987,
+      "price_at_threat_date": 129.83,
+      "change_since_threat_pct": -1.987,
+      "high_30d": 130.93,
+      "low_30d": 77.85
+    },
+    "GLD": {
+      "name": "Gold ETF",
+      "current_price": 430.29,
+      "prev_close": 414.58,
+      "day_change_pct": 3.789,
+      "price_at_threat_date": 414.58,
+      "change_since_threat_pct": 3.789,
+      "high_30d": 492.15,
+      "low_30d": 399.2
+    },
+    "BTC-USD": {
+      "name": "Bitcoin",
+      "current_price": 68134.3438,
+      "prev_close": 66691.4453,
+      "day_change_pct": 2.164,
+      "price_at_threat_date": 66691.4453,
+      "change_since_threat_pct": 2.164,
+      "high_30d": 75988.3984,
+      "low_30d": 64971.707
+    },
+    "^VIX": {
+      "name": "CBOE VIX",
+      "current_price": 25.25,
+      "prev_close": 30.61,
+      "day_change_pct": -17.511,
+      "price_at_threat_date": 30.61,
+      "change_since_threat_pct": -17.511,
+      "high_30d": 35.3,
+      "low_30d": 17.5
+    },
+    "XLE": {
+      "name": "Energy Sector ETF",
+      "current_price": 61.26,
+      "prev_close": 61.96,
+      "day_change_pct": -1.13,
+      "price_at_threat_date": 61.96,
+      "change_since_threat_pct": -1.13,
+      "high_30d": 63.46,
+      "low_30d": 53.7687
+    },
+    "LMT": {
+      "name": "Lockheed Martin (defense)",
+      "current_price": 604.39,
+      "prev_close": 598.57,
+      "day_change_pct": 0.972,
+      "price_at_threat_date": 598.57,
+      "change_since_threat_pct": 0.972,
+      "high_30d": 692.0,
+      "low_30d": 593.88
+    },
+    "RTX": {
+      "name": "RTX Corp (defense)",
+      "current_price": 192.9,
+      "prev_close": 187.15,
+      "day_change_pct": 3.072,
+      "price_at_threat_date": 187.15,
+      "change_since_threat_pct": 3.072,
+      "high_30d": 214.5,
+      "low_30d": 185.57
+    },
+    "TLT": {
+      "name": "20Y Treasury Bond ETF",
+      "current_price": 86.69,
+      "prev_close": 86.78,
+      "day_change_pct": -0.104,
+      "price_at_threat_date": 86.78,
+      "change_since_threat_pct": -0.104,
+      "high_30d": 90.5589,
+      "low_30d": 85.45
+    },
+    "CL=F": {
+      "name": "WTI Crude Oil Futures",
+      "current_price": 102.32,
+      "prev_close": 102.88,
+      "day_change_pct": -0.544,
+      "price_at_threat_date": 102.88,
+      "change_since_threat_pct": -0.544,
+      "high_30d": 119.48,
+      "low_30d": 62.12
+    }
+  }
+}

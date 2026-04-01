@@ -1,0 +1,539 @@
+{
+  "generated_at": "2026-04-01T06:21:22.137772",
+  "n_simulations": 10000,
+  "probability_methodology": "Bayesian: base_rate \u00d7 oil_adj \u00d7 military_penalty + 30% Polymarket weight",
+  "scenario_probabilities": {
+    "base_taco": 0.266,
+    "bullish_taco": 0.143,
+    "bearish_war": 0.591,
+    "total_taco_prob": 0.409,
+    "methodology": "Bayesian: base_rate \u00d7 oil_adj \u00d7 military_penalty + 30% Polymarket weight"
+  },
+  "scenarios": {
+    "base_taco": {
+      "name": "Base TACO",
+      "probability": 0.266,
+      "description": "Trump backs down within 14 days. Deal/pause announced. Markets front-run recovery.",
+      "trigger_note": "Medium-confidence TACO. Oil elevated reduces certainty vs pure trade TACOs.",
+      "timeline_days": 14,
+      "monte_carlo": {
+        "SPY_7d": {
+          "mean": 2.109,
+          "median": 2.095,
+          "std": 4.886,
+          "p5": -5.969,
+          "p25": -1.129,
+          "p75": 5.315,
+          "p95": 10.135,
+          "prob_positive": 0.672
+        },
+        "SPY_30d": {
+          "mean": 5.716,
+          "median": 5.625,
+          "std": 8.115,
+          "p5": -7.526,
+          "p25": 0.19,
+          "p75": 11.179,
+          "p95": 19.301,
+          "prob_positive": 0.758
+        },
+        "QQQ_7d": {
+          "mean": 3.017,
+          "median": 3.041,
+          "std": 6.088,
+          "p5": -7.121,
+          "p25": -1.084,
+          "p75": 7.087,
+          "p95": 13.11,
+          "prob_positive": 0.693
+        },
+        "QQQ_30d": {
+          "mean": 6.716,
+          "median": 6.664,
+          "std": 10.17,
+          "p5": -10.057,
+          "p25": -0.055,
+          "p75": 13.519,
+          "p95": 23.427,
+          "prob_positive": 0.748
+        },
+        "USO_7d": {
+          "mean": -4.561,
+          "median": -4.587,
+          "std": 2.984,
+          "p5": -9.451,
+          "p25": -6.568,
+          "p75": -2.555,
+          "p95": 0.31,
+          "prob_positive": 0.061
+        },
+        "USO_30d": {
+          "mean": -9.023,
+          "median": -9.027,
+          "std": 5.0,
+          "p5": -17.283,
+          "p25": -12.34,
+          "p75": -5.709,
+          "p95": -0.71,
+          "prob_positive": 0.035
+        },
+        "GLD_7d": {
+          "mean": -1.488,
+          "median": -1.503,
+          "std": 2.018,
+          "p5": -4.813,
+          "p25": -2.85,
+          "p75": -0.128,
+          "p95": 1.796,
+          "prob_positive": 0.231
+        },
+        "GLD_30d": {
+          "mean": -2.045,
+          "median": -2.083,
+          "std": 3.002,
+          "p5": -6.976,
+          "p25": -4.042,
+          "p75": -0.03,
+          "p95": 2.861,
+          "prob_positive": 0.246
+        },
+        "BTC-USD_7d": {
+          "mean": 5.988,
+          "median": 5.968,
+          "std": 8.075,
+          "p5": -7.649,
+          "p25": 0.537,
+          "p75": 11.461,
+          "p95": 19.251,
+          "prob_positive": 0.771
+        },
+        "BTC-USD_30d": {
+          "mean": 11.634,
+          "median": 11.597,
+          "std": 15.071,
+          "p5": -12.694,
+          "p25": 1.303,
+          "p75": 21.93,
+          "p95": 36.285,
+          "prob_positive": 0.775
+        },
+        "XLE_7d": {
+          "mean": -5.02,
+          "median": -5.045,
+          "std": 3.51,
+          "p5": -10.76,
+          "p25": -7.368,
+          "p75": -2.669,
+          "p95": 0.873,
+          "prob_positive": 0.078
+        },
+        "XLE_30d": {
+          "mean": -9.984,
+          "median": -10.03,
+          "std": 6.03,
+          "p5": -19.811,
+          "p25": -14.059,
+          "p75": -5.94,
+          "p95": -0.013,
+          "prob_positive": 0.05
+        }
+      },
+      "summary": {
+        "SPY": {
+          "7d_range": "-1.1% to 5.3%",
+          "7d_mean": "2.1%",
+          "30d_range": "0.2% to 11.2%",
+          "30d_mean": "5.7%",
+          "prob_positive_30d": 0.758
+        },
+        "QQQ": {
+          "7d_range": "-1.1% to 7.1%",
+          "7d_mean": "3.0%",
+          "30d_range": "-0.1% to 13.5%",
+          "30d_mean": "6.7%",
+          "prob_positive_30d": 0.748
+        },
+        "USO": {
+          "7d_range": "-6.6% to -2.6%",
+          "7d_mean": "-4.6%",
+          "30d_range": "-12.3% to -5.7%",
+          "30d_mean": "-9.0%",
+          "prob_positive_30d": 0.035
+        },
+        "GLD": {
+          "7d_range": "-2.9% to -0.1%",
+          "7d_mean": "-1.5%",
+          "30d_range": "-4.0% to -0.0%",
+          "30d_mean": "-2.0%",
+          "prob_positive_30d": 0.246
+        },
+        "BTC-USD": {
+          "7d_range": "0.5% to 11.5%",
+          "7d_mean": "6.0%",
+          "30d_range": "1.3% to 21.9%",
+          "30d_mean": "11.6%",
+          "prob_positive_30d": 0.775
+        },
+        "XLE": {
+          "7d_range": "-7.4% to -2.7%",
+          "7d_mean": "-5.0%",
+          "30d_range": "-14.1% to -5.9%",
+          "30d_mean": "-10.0%",
+          "prob_positive_30d": 0.05
+        }
+      }
+    },
+    "bullish_taco": {
+      "name": "Bullish TACO (Fast)",
+      "probability": 0.143,
+      "description": "Trump backs down within 7 days due to market pain exceeding threshold. Rapid V-shaped recovery.",
+      "trigger_note": "Faster resolution triggered by VIX spike or S&P crossing 5% drawdown.",
+      "timeline_days": 7,
+      "monte_carlo": {
+        "SPY_7d": {
+          "mean": 3.968,
+          "median": 3.956,
+          "std": 4.071,
+          "p5": -2.764,
+          "p25": 1.269,
+          "p75": 6.639,
+          "p95": 10.656,
+          "prob_positive": 0.833
+        },
+        "SPY_30d": {
+          "mean": 7.859,
+          "median": 7.777,
+          "std": 7.304,
+          "p5": -4.059,
+          "p25": 2.885,
+          "p75": 12.775,
+          "p95": 20.085,
+          "prob_positive": 0.861
+        },
+        "QQQ_7d": {
+          "mean": 5.313,
+          "median": 5.332,
+          "std": 4.87,
+          "p5": -2.797,
+          "p25": 2.032,
+          "p75": 8.569,
+          "p95": 13.387,
+          "prob_positive": 0.862
+        },
+        "QQQ_30d": {
+          "mean": 9.197,
+          "median": 9.156,
+          "std": 8.136,
+          "p5": -4.221,
+          "p25": 3.78,
+          "p75": 14.64,
+          "p95": 22.566,
+          "prob_positive": 0.869
+        },
+        "USO_7d": {
+          "mean": -7.081,
+          "median": -7.115,
+          "std": 3.979,
+          "p5": -13.602,
+          "p25": -9.758,
+          "p75": -4.407,
+          "p95": -0.587,
+          "prob_positive": 0.04
+        },
+        "USO_30d": {
+          "mean": -14.028,
+          "median": -14.032,
+          "std": 6.0,
+          "p5": -23.939,
+          "p25": -18.007,
+          "p75": -10.05,
+          "p95": -4.052,
+          "prob_positive": 0.01
+        },
+        "GLD_7d": {
+          "mean": -2.488,
+          "median": -2.503,
+          "std": 2.018,
+          "p5": -5.813,
+          "p25": -3.85,
+          "p75": -1.128,
+          "p95": 0.796,
+          "prob_positive": 0.108
+        },
+        "GLD_30d": {
+          "mean": -4.052,
+          "median": -4.097,
+          "std": 3.502,
+          "p5": -9.805,
+          "p25": -6.383,
+          "p75": -1.701,
+          "p95": 1.671,
+          "prob_positive": 0.124
+        },
+        "BTC-USD_7d": {
+          "mean": 9.988,
+          "median": 9.968,
+          "std": 8.075,
+          "p5": -3.649,
+          "p25": 4.537,
+          "p75": 15.461,
+          "p95": 23.251,
+          "prob_positive": 0.892
+        },
+        "BTC-USD_30d": {
+          "mean": 19.561,
+          "median": 19.516,
+          "std": 18.085,
+          "p5": -9.632,
+          "p25": 7.163,
+          "p75": 31.916,
+          "p95": 49.142,
+          "prob_positive": 0.857
+        },
+        "XLE_7d": {
+          "mean": -8.022,
+          "median": -8.051,
+          "std": 4.012,
+          "p5": -14.583,
+          "p25": -10.706,
+          "p75": -5.336,
+          "p95": -1.288,
+          "prob_positive": 0.025
+        },
+        "XLE_30d": {
+          "mean": -14.981,
+          "median": -15.035,
+          "std": 7.035,
+          "p5": -26.446,
+          "p25": -19.735,
+          "p75": -10.263,
+          "p95": -3.349,
+          "prob_positive": 0.018
+        }
+      },
+      "summary": {
+        "SPY": {
+          "7d_range": "1.3% to 6.6%",
+          "7d_mean": "4.0%",
+          "30d_range": "2.9% to 12.8%",
+          "30d_mean": "7.9%",
+          "prob_positive_30d": 0.861
+        },
+        "QQQ": {
+          "7d_range": "2.0% to 8.6%",
+          "7d_mean": "5.3%",
+          "30d_range": "3.8% to 14.6%",
+          "30d_mean": "9.2%",
+          "prob_positive_30d": 0.869
+        },
+        "USO": {
+          "7d_range": "-9.8% to -4.4%",
+          "7d_mean": "-7.1%",
+          "30d_range": "-18.0% to -10.1%",
+          "30d_mean": "-14.0%",
+          "prob_positive_30d": 0.01
+        },
+        "GLD": {
+          "7d_range": "-3.9% to -1.1%",
+          "7d_mean": "-2.5%",
+          "30d_range": "-6.4% to -1.7%",
+          "30d_mean": "-4.1%",
+          "prob_positive_30d": 0.124
+        },
+        "BTC-USD": {
+          "7d_range": "4.5% to 15.5%",
+          "7d_mean": "10.0%",
+          "30d_range": "7.2% to 31.9%",
+          "30d_mean": "19.6%",
+          "prob_positive_30d": 0.857
+        },
+        "XLE": {
+          "7d_range": "-10.7% to -5.3%",
+          "7d_mean": "-8.0%",
+          "30d_range": "-19.7% to -10.3%",
+          "30d_mean": "-15.0%",
+          "prob_positive_30d": 0.018
+        }
+      }
+    },
+    "bearish_war": {
+      "name": "Bearish No-TACO (War)",
+      "probability": 0.591,
+      "description": "Military escalation. Iran closes Hormuz or US strikes. No deal in 30-day window.",
+      "trigger_note": "TACO failure case. Oil shock, equity bear market, recession risk.",
+      "timeline_days": 45,
+      "monte_carlo": {
+        "SPY_7d": {
+          "mean": -6.975,
+          "median": -6.989,
+          "std": 3.886,
+          "p5": -13.052,
+          "p25": -9.06,
+          "p75": -4.903,
+          "p95": -0.877,
+          "prob_positive": 0.035
+        },
+        "SPY_30d": {
+          "mean": -15.081,
+          "median": -15.159,
+          "std": 8.151,
+          "p5": -27.309,
+          "p25": -19.344,
+          "p75": -10.907,
+          "p95": -2.738,
+          "prob_positive": 0.029
+        },
+        "QQQ_7d": {
+          "mean": -8.982,
+          "median": -9.022,
+          "std": 4.998,
+          "p5": -16.3,
+          "p25": -11.664,
+          "p75": -6.388,
+          "p95": -1.512,
+          "prob_positive": 0.031
+        },
+        "QQQ_30d": {
+          "mean": -18.081,
+          "median": -18.109,
+          "std": 10.223,
+          "p5": -33.274,
+          "p25": -23.376,
+          "p75": -12.895,
+          "p95": -2.978,
+          "prob_positive": 0.033
+        },
+        "USO_7d": {
+          "mean": 14.947,
+          "median": 14.906,
+          "std": 5.924,
+          "p5": 6.071,
+          "p25": 11.864,
+          "p75": 18.046,
+          "p95": 24.103,
+          "prob_positive": 0.988
+        },
+        "USO_30d": {
+          "mean": 30.072,
+          "median": 30.033,
+          "std": 12.076,
+          "p5": 11.7,
+          "p25": 23.776,
+          "p75": 36.16,
+          "p95": 48.152,
+          "prob_positive": 0.988
+        },
+        "GLD_7d": {
+          "mean": 4.981,
+          "median": 4.996,
+          "std": 2.527,
+          "p5": 0.81,
+          "p25": 3.258,
+          "p75": 6.695,
+          "p95": 9.076,
+          "prob_positive": 0.975
+        },
+        "GLD_30d": {
+          "mean": 9.984,
+          "median": 10.041,
+          "std": 3.96,
+          "p5": 3.498,
+          "p25": 7.291,
+          "p75": 12.623,
+          "p95": 16.5,
+          "prob_positive": 0.994
+        },
+        "BTC-USD_7d": {
+          "mean": -9.914,
+          "median": -9.954,
+          "std": 10.063,
+          "p5": -24.676,
+          "p25": -15.214,
+          "p75": -4.77,
+          "p95": 5.253,
+          "prob_positive": 0.115
+        },
+        "BTC-USD_30d": {
+          "mean": -19.895,
+          "median": -19.902,
+          "std": 18.32,
+          "p5": -46.492,
+          "p25": -29.648,
+          "p75": -10.722,
+          "p95": 7.734,
+          "prob_positive": 0.096
+        },
+        "XLE_7d": {
+          "mean": 12.025,
+          "median": 11.952,
+          "std": 5.007,
+          "p5": 3.83,
+          "p25": 8.63,
+          "p75": 15.387,
+          "p95": 20.293,
+          "prob_positive": 0.99
+        },
+        "XLE_30d": {
+          "mean": 20.142,
+          "median": 20.175,
+          "std": 8.993,
+          "p5": 5.306,
+          "p25": 14.023,
+          "p75": 26.207,
+          "p95": 34.872,
+          "prob_positive": 0.988
+        }
+      },
+      "summary": {
+        "SPY": {
+          "7d_range": "-9.1% to -4.9%",
+          "7d_mean": "-7.0%",
+          "30d_range": "-19.3% to -10.9%",
+          "30d_mean": "-15.1%",
+          "prob_positive_30d": 0.029
+        },
+        "QQQ": {
+          "7d_range": "-11.7% to -6.4%",
+          "7d_mean": "-9.0%",
+          "30d_range": "-23.4% to -12.9%",
+          "30d_mean": "-18.1%",
+          "prob_positive_30d": 0.033
+        },
+        "USO": {
+          "7d_range": "11.9% to 18.0%",
+          "7d_mean": "14.9%",
+          "30d_range": "23.8% to 36.2%",
+          "30d_mean": "30.1%",
+          "prob_positive_30d": 0.988
+        },
+        "GLD": {
+          "7d_range": "3.3% to 6.7%",
+          "7d_mean": "5.0%",
+          "30d_range": "7.3% to 12.6%",
+          "30d_mean": "10.0%",
+          "prob_positive_30d": 0.994
+        },
+        "BTC-USD": {
+          "7d_range": "-15.2% to -4.8%",
+          "7d_mean": "-9.9%",
+          "30d_range": "-29.6% to -10.7%",
+          "30d_mean": "-19.9%",
+          "prob_positive_30d": 0.096
+        },
+        "XLE": {
+          "7d_range": "8.6% to 15.4%",
+          "7d_mean": "12.0%",
+          "30d_range": "14.0% to 26.2%",
+          "30d_mean": "20.1%",
+          "prob_positive_30d": 0.988
+        }
+      }
+    }
+  },
+  "key_watch_triggers": {
+    "fast_taco_signal": "VIX spikes above 32 OR S&P drops >5% intraday \u2192 Base TACO accelerates to Bullish",
+    "war_signal": "US military assets move to Gulf OR Iran closes Hormuz \u2192 Bearish scenario imminent",
+    "deal_signal": "Trump tweets 'great deal' or 'progress' with Iran \u2192 Bullish TACO confirmed",
+    "extended_risk": "No resolution after 30 days \u2192 Bearish probability increases by ~15pp"
+  }
+}

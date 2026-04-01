@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-04-01T06:20:57.417989",
+  "n_events_analyzed": 13,
+  "taco_success_rate_overall": 0.929,
+  "event_study": {
+    "threat_day": {
+      "sp500_ar_mean_pct": 0.008,
+      "sp500_ar_std_pct": 0.902,
+      "sp500_t_stat": 0.03,
+      "sp500_significant": false,
+      "nasdaq_ar_mean_pct": 0.12,
+      "oil_ar_mean_pct": 0.094,
+      "btc_ar_mean_pct": -0.479,
+      "vix_mean_change_pct": 0.483,
+      "n_events": 13
+    },
+    "backdown_day": {
+      "sp500_car_mean_pct": 2.228,
+      "sp500_car_std_pct": 4.046,
+      "sp500_t_stat": 1.99,
+      "sp500_significant": true,
+      "nasdaq_car_mean_pct": 2.408,
+      "oil_car_mean_pct": 1.26,
+      "btc_car_mean_pct": 1.755,
+      "n_events": 13
+    },
+    "duration": {
+      "mean_days": 22.8,
+      "median_days": 15.0,
+      "min_days": 1,
+      "max_days": 94,
+      "std_days": 26.3
+    }
+  },
+  "garch": {
+    "method": "GARCH(1,1)",
+    "alpha": 0.3363,
+    "beta": 0.4582,
+    "omega": 17.719063,
+    "persistence": 0.7945,
+    "half_life_days": 3.0,
+    "interpretation": "Volatility is moderately persistent (\u03b1+\u03b2=0.795)"
+  },
+  "pain_point": {
+    "method": "descriptive_regression",
+    "vix_pain_threshold": 4.2,
+    "sp500_drawdown_threshold_pct": -0.67,
+    "vix_duration_correlation": 0.436,
+    "sp500_duration_correlation": -0.453,
+    "fast_taco_count": 5,
+    "slow_taco_count": 8,
+    "fast_taco_avg_vix_spike": 0.1,
+    "slow_taco_avg_vix_spike": 0.73,
+    "interpretation": "VIX spike > 4.2% or S&P dip < -0.67% on threat day historically associated with faster TACO resolution (\u22647 days)"
+  },
+  "oil_conditional": {
+    "method": "conditional_duration",
+    "oil_rally_threshold_pct": 1.0,
+    "oil_rally_event_count": 6,
+    "oil_flat_event_count": 7,
+    "oil_rally_avg_duration_days": 25.0,
+    "oil_flat_avg_duration_days": 21.0,
+    "interpretation": "Oil rallying on threat day (>+1%) associated with longer TACO resolution \u2014 energy price inflation creates domestic political pressure that slows backdown",
+    "heuristic_taco_rate_oil_below_85": 0.88,
+    "heuristic_taco_rate_oil_above_85": 0.55,
+    "note": "High oil prices reduce TACO probability by raising domestic cost of perceived weakness"
+  },
+  "laws": [
+    {
+      "law_id": "LAW-1",
+      "title": "Threat Day Market Impact",
+      "formula": "AR(threat) = 0.01% \u00b1 0.90% (S&P), 0.12% (Nasdaq)",
+      "description": "On Trump threat announcement days, S&P 500 averages 0.01% abnormal return (n=13). T-stat = 0.03.",
+      "confidence": "high"
+    },
+    {
+      "law_id": "LAW-2",
+      "title": "Backdown Day Rebound (CAR)",
+      "formula": "CAR(backdown) = +2.23% \u00b1 4.05% (S&P)",
+      "description": "On TACO resolution day, S&P 500 averages +2.23% CAR (n=13). T-stat = 1.99.",
+      "confidence": "high"
+    },
+    {
+      "law_id": "LAW-3",
+      "title": "Historical TACO Backdown Rate",
+      "formula": "P(TACO | threat) = 93% (n=13 completed events)",
+      "description": "Of 14 identified Trump threat events, 13 resulted in measurable backdowns. Overall TACO rate \u2248 93%.",
+      "confidence": "medium"
+    },
+    {
+      "law_id": "LAW-4",
+      "title": "Pain Point Threshold",
+      "formula": "Fast TACO (<7 days) if VIX spike > 4.2% OR S&P dip < -0.67%",
+      "description": "VIX spike > 4.2% or S&P dip < -0.67% on threat day historically associated with faster TACO resolution (\u22647 days)",
+      "confidence": "medium"
+    },
+    {
+      "law_id": "LAW-5",
+      "title": "Volatility Persistence (GARCH)",
+      "formula": "VIX GARCH(1,1): \u03b1=0.3363, \u03b2=0.4582, persistence \u03b1+\u03b2=0.7945",
+      "description": "Post-threat VIX volatility is highly persistent (\u03b1+\u03b2\u22480.7945). Half-life \u2248 3.0 trading days. Even after TACO resolution, elevated volatility persists.",
+      "confidence": "high"
+    }
+  ],
+  "duration_stats": {
+    "mean_days": 22.8,
+    "median_days": 15.0,
+    "min_days": 1,
+    "max_days": 94,
+    "std_days": 26.3
+  },
+  "data_quality": "prices_fetched"
+}

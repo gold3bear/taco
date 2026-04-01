@@ -1,0 +1,38 @@
+{
+  "analysis_date": "2026-04-01",
+  "threat_date": "2026-03-30",
+  "days_since_threat": 2,
+  "vix_current": 25.25,
+  "sp500_since_threat_pct": 2.907,
+  "oil_est_bbl": 102.3,
+  "btc_since_threat_pct": 2.164,
+  "us10y_yield_pct": 4.35,
+  "polymarket_iran_war_prob": 0.915,
+  "polymarket_trump_backdown_prob": 0.085,
+  "pain_point_vix_hit": true,
+  "pain_point_sp_hit": false,
+  "oil_above_85": true,
+  "pattern_match_score": 16,
+  "score_breakdown": {
+    "vix_elevated": 20,
+    "polymarket_taco_signal": 1,
+    "oil_above_85_partial": 5,
+    "military_escalation_penalty": -10
+  },
+  "adjusted_taco_probability": 0.548,
+  "trump_latest_stance": "Trump has issued ultimatum to Iran: nuclear deal or military strikes within 60 days. Simultaneously pushing for uranium extraction rights from captured territories. [Source: KB (L4), verify with real-time data]",
+  "iran_latest_response": "Iran has rejected US ultimatum. Supreme Leader and IRGC have stated 'no negotiations under threats'. Iran military on elevated alert. Some back-channel diplomatic signals reported. [Source: KB (L4), verify with real-time data]",
+  "contradiction_flags": [
+    "CONTRADICTION: Oil >$85/bbl reduces historical TACO rate from 88% to 55%. Trump faces domestic energy inflation pressure that could delay backdown.",
+    "STRUCTURAL DIFFERENCE: Iran is military/nuclear threat, not trade. All prior high-confidence TACOs were trade tariffs. Military TACOs have longer cycles and lower base rates.",
+    "DUAL SIGNAL: Trump simultaneously pushing 'uranium extraction' deal terms while threatening strikes. Suggests negotiation framework exists \u2014 consistent with pre-TACO pattern."
+  ],
+  "historical_comparison": {
+    "most_analogous_event": "TACO-007 (Panama Canal) + TACO-010 (China tariffs)",
+    "key_difference": "Iran is nuclear/military \u2014 no direct historical TACO analog",
+    "avg_historical_duration_days": 15.7,
+    "current_duration_days": 2,
+    "avg_historical_sp500_dip": -2.1,
+    "current_sp500_dip": 2.91
+  }
+}
