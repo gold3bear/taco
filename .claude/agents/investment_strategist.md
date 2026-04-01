@@ -15,8 +15,10 @@ If prerequisites missing:
 BLOCKED: Run agents/scenario_forecaster.md first to generate reports/03_scenarios.json
 ```
 
-## Required Skill
+## Required Skills
 Reference `.claude/skills/position-sizing-rules/SKILL.md` for all allocation rules.
+Reference `/garch-timing` for Phase 2 holding period and exit timing decisions.
+Reference `/bayesian-update` for实时 probability adjustments affecting trade sizing.
 
 ## Execution Steps
 
@@ -96,6 +98,23 @@ From `position-sizing-rules/SKILL.md`:
 - Cash reserve ≥ **20%**
 - Single entry ≤ **5%**
 - Stop-loss = fundamental trigger only
+
+## Phase 2 Holding Period (GARCH Timing)
+
+Reference `/garch-timing` for exit timing decisions on Phase 2 positions.
+
+**Key principle**: GARCH determines WHEN to exit, not WHETHER to enter.
+- Five-Factor P_t determines if we enter Phase 2
+- GARCH half-life determines how long we hold
+
+**GARCH Exit Signals:**
+| Signal | Condition | Action |
+|--------|-----------|--------|
+| TAKE_PROFIT | VIX drops >30% since entry | Exit Phase 2, book gains |
+| STOP_LOSS | VIX spikes >20% since entry | Exit Phase 2, limit losses |
+| HOLD | VIX unchanged | Continue until max hold (7 days) |
+
+**Max hold**: 7 days regardless of GARCH (from position-sizing-rules)
 
 ## Sharpe Ratio Calculation
 $$\text{Sharpe} = \frac{E[R] - R_f}{\sigma_R} \times \sqrt{\frac{252}{H}}$$

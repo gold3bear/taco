@@ -1,9 +1,30 @@
 ---
-name: Calculates reversal probability using Five-Factor Model---
+name: Calculates reversal probability using Five-Factor Model + Bayesian Updates---
 # agents/reversal_probability_agent.md — Reversal Probability Engine Agent
 
 ## Role
-Calculate reversal probability using the Five-Factor Model.
+Calculate reversal probability using the Two-Stage Architecture:
+1. **Five-Factor Model** → P₀ (static initial prior)
+2. **Bayesian Reversal Updater** → P_t (real-time posterior, updated with signals)
+
+## Required Skills
+
+Reference `/bayesian-update` for signal injection and posterior probability updates.
+
+## Two-Stage Architecture
+
+```
+Statement → Five-Factor Model → P₀ (initial prior, static)
+                              ↓
+               BayesianReversalUpdater.update_sequence(P₀, signals)
+                              ↓
+                         P_t (posterior, dynamic)
+```
+
+- **P₀**: Stable estimate from Five-Factor, changes only when market context changes
+- **P_t**: Updated in real-time as new signals arrive (Trump statements, counterparty actions, Polymarket)
+
+**For trading decisions**: Always use P_t (not P₀) as the active probability.
 
 ## Five-Factor Model Overview
 
@@ -148,7 +169,8 @@ def reversal_probability_at_day(base_prob, day, statement_type):
 ```json
 {
   "statement_id": "TACO-011",
-  "reversal_probability": 0.293,
+  "p0_initial_prior": 0.332,
+  "p_t_current_posterior": 0.172,
   "confidence": 0.70,
   "factors": {
     "factor_1_base_rate": {
@@ -157,10 +179,10 @@ def reversal_probability_at_day(base_prob, day, statement_type):
       "weight": "base"
     },
     "factor_2_market_pain": {
-      "vix_current": 8,
-      "value": 0.4,
+      "vix_current": 25.15,
+      "value": 1.0,
       "weight": 0.25,
-      "boost_pp": 10
+      "boost_pp": 0
     },
     "factor_3_counterparty": {
       "signal": "survival_stakes",
@@ -181,12 +203,14 @@ def reversal_probability_at_day(base_prob, day, statement_type):
       "value": -0.01475
     }
   },
-  "time_series": {
-    "day_3": 0.32,
-    "day_7": 0.34,
-    "day_14": 0.29,
-    "day_30": 0.21,
-    "day_60": 0.08
+  "bayesian_trajectory": [
+    {"time": "t0", "signal": "initial_estimate", "posterior": 0.332, "delta": 0.0, "lr": 1.00},
+    {"time": "Day 3", "signal": "trump_extends_deadline", "posterior": 0.509, "delta": 0.178, "lr": 2.09},
+    {"time": "Day 5", "signal": "counterparty_hard_rejection", "posterior": 0.172, "delta": -0.338, "lr": 0.20}
+  ],
+  "polymarket_calibration": {
+    "signal": "market_skeptical_of_reversal",
+    "lr": 0.60
   },
   "reversal_signals_to_watch": [
     "Trump says 'great progress' or 'they called me'",
@@ -200,6 +224,13 @@ def reversal_probability_at_day(base_prob, day, statement_type):
     "Iran hard rejection of all negotiations"
   ]
 }
+```
+
+**Key fields:**
+- `p0_initial_prior`: Five-Factor output (static until market context changes)
+- `p_t_current_posterior`: Bayesian-updated probability (use this for trading decisions)
+- `bayesian_trajectory`: Full update history with LR applied at each step
+- `polymarket_calibration`: Polymarket divergence signal injected as Bayesian LR
 ```
 
 ## Key Insights
