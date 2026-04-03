@@ -17,93 +17,94 @@ Agent A's annotated statements with specific claims to verify.
 **CRITICAL**: Before assessing any claim, fetch real-time data using the **web-search-fallback** skill (6-level protocol).
 Use the Skill tool: `Skill("web-search-fallback")` for all searches.
 
-### 6-Level Fallback (in priority order)
+### 5-Level Fallback (in priority order)
 
 ```
 Level 1: MCP Playwright (Google/X.com) — HIGHEST PRIORITY
-Level 2: Brave Search API
-Level 3: minimax WebSearch
-Level 4: Alternative query reformulation
-Level 5: Knowledge Base fallback
-Level 6: Annotate "DATA INSUFFICIENT"
+Level 2: minimax WebSearch
+Level 3: Alternative query reformulation
+Level 4: Knowledge Base fallback
+Level 5: Annotate "DATA INSUFFICIENT"
 ```
 
-**Timeout**: L1 + L2 + L3 combined must complete within 5 minutes.
+**Timeout**: L1 + L2 combined must complete within 5 minutes.
 
-### Level 1: MCP Playwright (via agent tool calls)
+### Level 1: MCP Playwright — 直接执行 (HIGHEST PRIORITY)
 
-For each claim, use browser automation to search:
+**直接使用 browser_ 工具，不要用 bash/python 搜索。**
 
+对每个声明，按顺序执行：
+
+#### Step 1: Google 搜索
 ```javascript
-// Google search
-browser_navigate(url: "https://www.google.com/search?q={claim_keywords}")
-
-// X.com for real-time reactions
-browser_navigate(url: "https://x.com/search?q={claim_keywords}&f=live")
-
-// Google News for recent articles
-browser_navigate(url: "https://news.google.com/search?q={claim_keywords}&hl=en-US&gl=US&ceid=US%3Aen")
-
-// Take snapshot after navigation
-browser_snapshot(depth: 2)
+// 搜索声明关键词
+browser_navigate("https://www.google.com/search?q=TRUMP+IRAN+NAVY+DESTROYED+2026")
+browser_snapshot()
 ```
 
-**Failure conditions → switch to Level 2**:
-- Page returns 403/blocked
-- No relevant content found
-- Login wall encountered
-- Already attempted once
-
-### Level 2: Brave Search API
-
-```bash
-curl -H "Accept-Encoding: gzip" \
-     -H "X-Subscription-Token: ${BRAVE_SEARCH_API_KEY}" \
-     "https://api.search.brave.com/res/v1/web/search?q={claim_keywords}&count=10"
+#### Step 2: Google News (如需新闻)
+```javascript
+browser_navigate("https://news.google.com/search?q=Iran+navy+destruction+April+2026&hl=en-US&gl=US&ceid=US%3Aen")
+browser_snapshot()
 ```
 
-**Failure conditions → switch to Level 3**:
-- HTTP 401 (invalid API key)
-- HTTP 429 (rate limited)
-- Timeout >30 seconds
-- Empty results
+#### Step 3: X.com 搜索
+```javascript
+browser_navigate("https://x.com/search?q=Iran+navy+US+strike+from:realDonaldTrump&src=typed_query")
+browser_snapshot()
+```
 
-### Level 3: minimax WebSearch
+#### Step 4: 提取结果
+从 snapshot 中提取：
+- 标题 (title)
+- 来源 (source)
+- 日期 (date)
+- 关键事实 (key_facts)
 
+**成功标准**: 找到 2+ 相关结果
+
+**失败条件 → 立即切换 Level 2**:
+- 返回 403/blocked
+- 页面空白
+- 登录墙
+- 无相关结果
+- 已尝试 1 次
+
+**示例成功响应**:
+```json
+{
+  "source": "L1",
+  "source_detail": "MCP Playwright Google — confirmed by Reuters",
+  "results_found": 3,
+  "key_finding": "Pentagon confirms Iranian naval assets significantly degraded"
+}
+```
+
+### Level 2: minimax WebSearch (Brave 已移除)
+
+使用 minimax WebSearch：
 ```python
-WebSearch("claim keywords site:apnews.com OR site:cnbc.com OR site:politico.com")
+WebSearch("Trump Iran navy destruction 2026 site:apnews.com OR site:reuters.com")
 ```
 
-**Failure conditions → switch to Level 4**:
-- Returns 0 results
-- HTTP 403/429/500
-- Timeout >60 seconds
-- Already retried once
+或直接用 WebFetch:
+```python
+WebFetch("https://www.reuters.com/world/us/...", "Extract key facts about Iran naval damage")
+```
 
-**Failure conditions → switch to Level 3**:
-- Returns 0 results
-- HTTP 403/429/500
-- Timeout >60 seconds
+**失败条件 → 切换 Level 3**:
+- 0 结果
+- HTTP 403/429
+- 超时
 
 ### Level 3: Alternative Query Reformulation
 
-Try different terms and sources:
 ```python
-WebSearch("alternative keywords -site:reuters.com -site:bloomberg.com")
+WebSearch("Iran military damage assessment April 2026")
+WebSearch("US Iran strikes naval targets")
 ```
 
-Still 0 results → Level 4
-
-### Level 4: Alternative Query Reformulation
-
-Try different terms and sources:
-```python
-WebSearch("alternative keywords -site:reuters.com -site:bloomberg.com")
-```
-
-Still 0 results → Level 5
-
-### Level 5: Knowledge Base Fallback
+### Level 4: Knowledge Base Fallback
 
 Use training knowledge. **Annotate every L5 fact**:
 ```
@@ -128,10 +129,9 @@ For post-cutoff events:
 | Source | Tier |
 |--------|------|
 | MCP Playwright (real-time) | L1 |
-| Brave Search API | L2 |
-| minimax WebSearch confirmed | L3 |
-| minimax WebSearch unverified | L4 |
-| Training knowledge base | L5 |
+| minimax WebSearch confirmed | L2 |
+| minimax WebSearch unverified | L3 |
+| Training knowledge base | L4 |
 | Post-cutoff estimated | L4-estimated |
 
 ### Data Source Annotation
@@ -255,12 +255,11 @@ Mark internal contradictions:
     "contradicted": 2,
     "average_credibility": 58.3,
     "data_source_breakdown": {
-      "L1_MCP_Playwright": 4,
-      "L2_Brave_Search": 3,
-      "L3_minimax_WebSearch": 3,
-      "L4_alternative_query": 1,
-      "L5_KB_fallback": 3,
-      "L6_insufficient": 1
+      "L1_MCP_Playwright": 0,
+      "L2_minimax_WebSearch": 0,
+      "L3_alternative_query": 0,
+      "L4_KB_fallback": 8,
+      "L5_insufficient": 5
     }
   }
 }
