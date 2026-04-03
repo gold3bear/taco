@@ -1,0 +1,34 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "BRAVE_SEARCH_API_KEY": "YOUR_BRAVE_SEARCH_API_KEY_HERE",
+    "MINIMAX_CP_API_KEY": "YOUR_MINIMAX_API_KEY_HERE",
+    "MINIMAX_CP_BASE_URL": "https://api.minimaxi.com"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python scripts/fetch_iran_context.py)",
+      "Bash(python scripts/run_monte_carlo.py)",
+      "Bash(python scripts/calc_portfolio_strategy.py)",
+      "Bash(python scripts/generate_taco_charts.py)",
+      "Bash(python -c \":*\")",
+      "Bash(/tmp/consistency_check.md:*)",
+      "Read(//tmp/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(cd:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Skill(update-config)",
+      "Bash(curl:*)",
+      "Bash(npx playwright:*)",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(git push:*)"
+    ]
+  }
+}
