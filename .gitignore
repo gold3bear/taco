@@ -1,4 +1,6 @@
 .playwright-mcp/
 scripts/__pycache__/
 core/__pycache__/
-reports/.claude/settings.json
+reports/
+.claude/settings.json
+.claude/settings.local.json
